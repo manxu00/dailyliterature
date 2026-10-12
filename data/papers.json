@@ -1,11 +1,11 @@
 {
-  "brief_date": "2026 · 10 · 11",
-  "last_updated": "2026-10-11T13:59+02:00",
+  "brief_date": "2026 · 10 · 12",
+  "last_updated": "2026-10-12T16:13+02:00",
   "summary_mode": "English abstract extraction; no AI/API required",
   "journal_metric_snapshot": "2025 JIF / JCR quartile, curated 2026-09-30",
   "keyword_count": 38,
   "keyword_config_updated": "2026-09-30",
-  "match_score": 92,
+  "match_score": 89,
   "trackers": [
     {
       "name": "Ni electrocarboxylation",
@@ -25,6 +25,164 @@
     }
   ],
   "papers": [
+    {
+      "id": "W7221010617",
+      "doi": "https://doi.org/10.48550/arxiv.2610.10320",
+      "topic": "gde",
+      "badge": "Latest research",
+      "read_minutes": 6,
+      "title": "LLM-Assisted Generation of Transparent, Open-Source Multiphysics Models of Electrochemical Devices",
+      "journal": "arXiv (Cornell University)",
+      "journal_issn": [
+        "2331-8422"
+      ],
+      "year": 2026,
+      "publication_date": "2026-10-07",
+      "authors": [
+        "Sebastian Castro",
+        "Maya F. Schuchert",
+        "Spencer A. McCluskey",
+        "Eric W. Lees",
+        "Justin C. Bui"
+      ],
+      "summary_en": "Multiphysics continuum models are powerful tools for studying electrochemical devices, enabling in silico reactor design and resolution of local pH, potential, and concentration fields that govern device performance but are difficult to measure experimentally. Here, we show that frontier large language model agents can remove this implementation burden while keeping the underlying physics under researcher control.",
+      "methods_summary": "Using one-dimensional electrochemical CO2 reduction to CO in a porous gas diffusion electrode as a test case, we develop a machine-readable, human-specified modeling harness containing governing equations, parameters, numerical methods, logical build stages, and human-verifiable checkpoints. This framework establishes a more transparent approach to multiphysics modeling in which physical descriptions and governing equations, rather than specialized code, become the primary inputs for computational model developmen…",
+      "key_findings": "Here, we show that frontier large language model agents can remove this implementation burden while keeping the underlying physics under researcher control.",
+      "relevance_reason": "Matched gas diffusion electrode; relevant to GDE flooding/wetting, porous-electrode transport, or Micro-CT / tomography structure analysis.",
+      "abstract": "Multiphysics continuum models are powerful tools for studying electrochemical devices, enabling in silico reactor design and resolution of local pH, potential, and concentration fields that govern device performance but are difficult to measure experimentally. However, constructing such models requires substantial numerical expertise or reliance on proprietary software. Here, we show that frontier large language model agents can remove this implementation burden while keeping the underlying physics under researcher control. Using one-dimensional electrochemical CO2 reduction to CO in a porous gas diffusion electrode as a test case, we develop a machine-readable, human-specified modeling harness containing governing equations, parameters, numerical methods, logical build stages, and human-verifiable checkpoints. From this specification, the agent reproducibly constructs complete multiphysics models in open-source Julia. Independently built models, including fully autonomous agent-built models, agree with an equivalent COMSOL implementation to within 0.7% of the peak CO partial current density, and with one another to within 0.04%. Systematically planted errors demonstrate the importance of explicit specifications for reproducibility and reveal the agent's capabilities and limitations in debugging model physics. This framework establishes a more transparent approach to multiphysics modeling in which physical descriptions and governing equations, rather than specialized code, become the primary inputs for computational model development.",
+      "tags": [
+        "gas diffusion electrode"
+      ],
+      "score": 80,
+      "url": "https://doi.org/10.48550/arxiv.2610.10320",
+      "archive": false,
+      "discovery_source": "topic-search",
+      "summary_mode": "abstract-extraction",
+      "impact_factor": null,
+      "quartile": "JCR —",
+      "first_seen": "2026-10-12T16:13:55+02:00"
+    },
+    {
+      "id": "W7221340457",
+      "doi": "https://doi.org/10.1007/s44373-026-00178-3",
+      "topic": "analysis",
+      "badge": "Latest research",
+      "read_minutes": 7,
+      "title": "Ni-doped LSFC perovskite oxides for enhanced electrocatalytic performance toward oxygen evolution and oxygen reduction reaction",
+      "journal": "Discover Electrochemistry.",
+      "journal_issn": [
+        "3005-1215"
+      ],
+      "year": 2026,
+      "publication_date": "2026-10-10",
+      "authors": [
+        "Pappu Shriwas",
+        "Sameer Kumar Behera",
+        "Devendra Kumar Dewangan",
+        "Monika Singh",
+        "Kiran Thakur",
+        "Sarvesh Kumar Maurya",
+        "Dileep Singh",
+        "Kuldeep Verma"
+      ],
+      "summary_en": "This study systematically investigates the role of Ni doping on La 0.5 Sr 0.5 Fe 0.8 Cu 0.2 O 3 for electrochemical oxygen reactions by substituting Fe sites. The improved performance after Ni substitution is associated with reduced particle size (as per FESEM analysis), increased electrochemical surface area, and changes in the surface electronic environment.",
+      "methods_summary": "Electrocatalytic activity of La 0.5 Sr 0.5 Fe 1−x Ni x Cu 0.2 O 3 was investigated by linear sweep voltammetry, cyclic voltammetry and electrochemical impedance spectroscopy analysis in a 0.1 M KOH electrolyte. The synthesized materials were characterized using powder X-ray diffraction with Le Bail profile fitting to analyse phases.",
+      "key_findings": "The improved performance after Ni substitution is associated with reduced particle size (as per FESEM analysis), increased electrochemical surface area, and changes in the surface electronic environment. The results indicate that La 0.5 Sr 0.5 Fe 0.4 Ni 0.4 Cu 0.2 O 3 exhibits excellent oxygen evolution reaction performance (onset overpotential 346 mV and Tafel slope 69.47 mV/dec), and La 0.5 Sr 0.5 Fe 0.2 Ni 0.6 Cu 0.2 O 3 shows excellent oxygen reduction reaction (Tafel slope 185.68 mV/dec).",
+      "relevance_reason": "Matched cyclic voltammetry, kinetic, electrochemical impedance spectroscopy, impedance spectroscopy; relevant to CV, EIS, reference-electrode calibration, mass transport, selectivity, or electrochemical mechanism analysis.",
+      "abstract": "This study systematically investigates the role of Ni doping on La 0.5 Sr 0.5 Fe 0.8 Cu 0.2 O 3 for electrochemical oxygen reactions by substituting Fe sites. Glycine-assisted sol–gel method followed by annealing at 900 °C is used to synthesize La 0.5 Sr 0.5 Fe 1−x Ni x Cu 0.2 O 3 (where x = 0.0–0.8). Electrocatalytic activity of La 0.5 Sr 0.5 Fe 1−x Ni x Cu 0.2 O 3 was investigated by linear sweep voltammetry, cyclic voltammetry and electrochemical impedance spectroscopy analysis in a 0.1 M KOH electrolyte. The results indicate that La 0.5 Sr 0.5 Fe 0.4 Ni 0.4 Cu 0.2 O 3 exhibits excellent oxygen evolution reaction performance (onset overpotential 346 mV and Tafel slope 69.47 mV/dec), and La 0.5 Sr 0.5 Fe 0.2 Ni 0.6 Cu 0.2 O 3 shows excellent oxygen reduction reaction (Tafel slope 185.68 mV/dec). Lower values of Tafel slope as well as onset potential for La 0.5 Sr 0.5 Fe 0.4 Ni 0.4 Cu 0.2 O 3 compared to undoped La 0.5 Sr 0.5 Fe 0.8 Cu 0.2 O 3 signify enhanced reaction kinetics and higher charge transfer. La 0.5 Sr 0.5 Fe 0.4 Ni 0.4 Cu 0.2 O 3 catalyst maintained a nearly constant current throughout the 5 h chronoamperometric test, demonstrating good electrochemical stability. The synthesized materials were characterized using powder X-ray diffraction with Le Bail profile fitting to analyse phases. Size, surface morphology and elemental composition were analysed by Field-emission scanning electron microscopy coupled with energy-dispersive X-ray spectroscopy (FESEM) analysis. Among all compositions, La 0.5 Sr 0.5 Fe 0.4 Ni 0.4 Cu 0.2 O 3 shows the highest OER activity and La 0.5 Sr 0.5 Fe 0.2 Ni 0.6 Cu 0.2 O 3 shows good ORR activity. Further, La 0.5 Sr 0.5 Fe 0.4 Ni 0.4 Cu 0.2 O 3 was examined by X-ray photoelectron spectroscopy (XPS) and high-resolution transmission electron microscopy (HRTEM) to investigate its oxidation states and detailed morphology. The improved performance after Ni substitution is associated with reduced particle size (as per FESEM analysis), increased electrochemical surface area, and changes in the surface electronic environment.",
+      "tags": [
+        "cyclic voltammetry",
+        "kinetic",
+        "electrochemical impedance spectroscopy",
+        "impedance spectroscopy",
+        "tafel"
+      ],
+      "score": 99,
+      "url": "https://doi.org/10.1007/s44373-026-00178-3",
+      "archive": false,
+      "discovery_source": "topic-search",
+      "summary_mode": "abstract-extraction",
+      "impact_factor": null,
+      "quartile": "JCR —",
+      "first_seen": "2026-10-12T16:13:55+02:00"
+    },
+    {
+      "id": "W7221476355",
+      "doi": "https://doi.org/10.3389/fenrg.2026.1948765",
+      "topic": "analysis",
+      "badge": "Latest research",
+      "read_minutes": 6,
+      "title": "Nanocrystalline SrTi1-x Fex O3-δ perovskites as high-performance electrodes for intermediate-temperature symmetric SOFCs",
+      "journal": "Frontiers in Energy Research",
+      "journal_issn": [
+        "2296-598X"
+      ],
+      "year": 2026,
+      "publication_date": "2026-10-12",
+      "authors": [
+        "Esteban Asto-Ramos",
+        "María  Belén Arcentales-Vera",
+        "Loreto Troncoso",
+        "Faramarz S. Gard",
+        "Cristián Huck‐Iriart",
+        "Diego German Lamas"
+      ],
+      "summary_en": "Nanocrystalline SrTi 1 − x Fe x O 3 − δ perovskites (x = 0.20–0.50) represent a compositionally tunable platform for cobalt-free symmetric electrodes in intermediate-temperature solid oxide fuel cells. Synthesized via a gel-combustion route, all as-prepared compositions form single-phase cubic perovskites with nanometric domains, while the Fe/Ti ratio governs lattice contraction, mixed Fe + 3 / F e + 4 surface chemistry, and redox responsiveness.",
+      "methods_summary": "Electrochemical impedance spectroscopy reveals that Fe-rich materials (x = 0.35 and x = 0.50) exhibit markedly lower polarization resistances than the x = 0.20 composition under both oxidizing and reducing atmospheres.",
+      "key_findings": "These findings demonstrate the potential of Fe-rich titanate perovskites as next-generation cobalt-free electrodes for efficient and adaptable IT-SOFC architectures.",
+      "relevance_reason": "Matched kinetic, electrochemical impedance spectroscopy, impedance spectroscopy, distribution of relaxation times; relevant to CV, EIS, reference-electrode calibration, mass transport, selectivity, or electrochemical mechanism analysis.",
+      "abstract": "Nanocrystalline SrTi 1 − x Fe x O 3 − δ perovskites (x = 0.20–0.50) represent a compositionally tunable platform for cobalt-free symmetric electrodes in intermediate-temperature solid oxide fuel cells. Synthesized via a gel-combustion route, all as-prepared compositions form single-phase cubic perovskites with nanometric domains, while the Fe/Ti ratio governs lattice contraction, mixed Fe + 3 / F e + 4 surface chemistry, and redox responsiveness. Electrochemical impedance spectroscopy reveals that Fe-rich materials (x = 0.35 and x = 0.50) exhibit markedly lower polarization resistances than the x = 0.20 composition under both oxidizing and reducing atmospheres. Distribution of relaxation times analysis reveals that Fe incorporation markedly attenuates the polarization contributions across the intermediate- and high-frequency ranges, confirming accelerated charge-transfer and surface-reaction kinetics under both oxidizing and reducing conditions. Under reducing conditions, STF50 undergoes adaptive structural evolution, including Fe exsolution and the emergence of Ruddlesden–Popper-type domains, highlighting a dynamic interplay between high electrochemical activity and redox-induced restructuring. Preliminary button-cell tests confirm the functional viability of STF50 as a symmetric electrode within the intermediate-temperature range. Overall, nanocrystalline SrTi 1 − x Fe x O 3 − δ emerges as a promising and structurally adaptive electrode family, in which controlled Fe substitution modulates defect chemistry, redox behavior, and electrochemical performance. These findings demonstrate the potential of Fe-rich titanate perovskites as next-generation cobalt-free electrodes for efficient and adaptable IT-SOFC architectures.",
+      "tags": [
+        "kinetic",
+        "electrochemical impedance spectroscopy",
+        "impedance spectroscopy",
+        "distribution of relaxation times"
+      ],
+      "score": 97,
+      "url": "https://doi.org/10.3389/fenrg.2026.1948765",
+      "archive": false,
+      "discovery_source": "topic-search",
+      "summary_mode": "abstract-extraction",
+      "impact_factor": null,
+      "quartile": "JCR —",
+      "first_seen": "2026-10-12T16:13:55+02:00"
+    },
+    {
+      "id": "W7221187745",
+      "doi": "https://doi.org/10.1021/acscatal.6c03804",
+      "topic": "analysis",
+      "badge": "Latest research",
+      "read_minutes": 6,
+      "title": "Proton-Donor Identity Shapes Electrochemical Nitrate Reduction on Silver",
+      "journal": "ACS Catalysis",
+      "journal_issn": [
+        "2155-5435"
+      ],
+      "year": 2026,
+      "publication_date": "2026-10-09",
+      "authors": [
+        "Jaxiry Shamara Barroso Martínez",
+        "Gabriel F. Costa",
+        "María Escudero‐Escribano"
+      ],
+      "summary_en": "Abstract Electrocatalytic nitrate reduction is a key reaction in nitrogen cycling and water remediation, yet the mechanistic interpretation of its voltammetric response remains poorly understood. We show that the cathodic response changes from a single peak to two distinct features with increasing nitrate concentration when using phosphate buffer as a supporting electrolyte.",
+      "methods_summary": "Here, we combine cyclic voltammetry analysis with in situ product detection using scanning electrochemical microscopy (SECM), and hydrodynamic analysis using rotating disk electrode (RDE), to investigate nitrate-to-nitrite electroreduction on silver. We show that the cathodic response changes from a single peak to two distinct features with increasing nitrate concentration when using phosphate buffer as a supporting electrolyte.",
+      "key_findings": "We show that the cathodic response changes from a single peak to two distinct features with increasing nitrate concentration when using phosphate buffer as a supporting electrolyte. Analysis of concentration, scan rate, and pH dependencies, together with systematic variation of phosphate electrolyte composition, indicates that these features arise from distinct interfacial proton-transfer regimes associated with the availability of H2PO4– as a proton donor.",
+      "relevance_reason": "Matched cyclic voltammetry, voltammetric; relevant to CV, EIS, reference-electrode calibration, mass transport, selectivity, or electrochemical mechanism analysis.",
+      "abstract": "Abstract Electrocatalytic nitrate reduction is a key reaction in nitrogen cycling and water remediation, yet the mechanistic interpretation of its voltammetric response remains poorly understood. On silver electrodes, cyclic voltammograms often display multiple cathodic features assigned to different reaction steps, although a consistent mechanistic interpretation remains elusive. Here, we combine cyclic voltammetry analysis with in situ product detection using scanning electrochemical microscopy (SECM), and hydrodynamic analysis using rotating disk electrode (RDE), to investigate nitrate-to-nitrite electroreduction on silver. We show that the cathodic response changes from a single peak to two distinct features with increasing nitrate concentration when using phosphate buffer as a supporting electrolyte. Analysis of concentration, scan rate, and pH dependencies, together with systematic variation of phosphate electrolyte composition, indicates that these features arise from distinct interfacial proton-transfer regimes associated with the availability of H2PO4– as a proton donor. In addition, SECM enables the assignment of each feature to local nitrite formation, ruling out changes in product identity as the origin of each feature. These findings show that phosphate electrolyte modulates proton-donor availability, and, consequently, the voltammetric response of nitrate reduction on silver, providing a framework for interpreting the complex electrocatalytic behavior observed in this system.",
+      "tags": [
+        "cyclic voltammetry",
+        "voltammetric"
+      ],
+      "score": 81,
+      "url": "https://doi.org/10.1021/acscatal.6c03804",
+      "archive": false,
+      "discovery_source": "topic-search",
+      "summary_mode": "abstract-extraction",
+      "impact_factor": null,
+      "quartile": "JCR —",
+      "first_seen": "2026-10-12T16:13:55+02:00"
+    },
     {
       "id": "W7214760572",
       "doi": "https://doi.org/10.48550/arxiv.2609.34755",
@@ -56,7 +214,7 @@
       ],
       "score": 99,
       "url": "https://doi.org/10.48550/arxiv.2609.34755",
-      "archive": false,
+      "archive": true,
       "discovery_source": "topic-search",
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
@@ -99,7 +257,7 @@
       ],
       "score": 97,
       "url": "https://doi.org/10.1021/acs.nanolett.6c03300",
-      "archive": false,
+      "archive": true,
       "discovery_source": "topic-search",
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
@@ -141,7 +299,7 @@
       ],
       "score": 88,
       "url": "https://doi.org/10.1002/smll.76092",
-      "archive": false,
+      "archive": true,
       "discovery_source": "topic-search",
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
@@ -182,7 +340,7 @@
       ],
       "score": 83,
       "url": "https://doi.org/10.1007/s44373-026-00175-6",
-      "archive": false,
+      "archive": true,
       "discovery_source": "topic-search",
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
