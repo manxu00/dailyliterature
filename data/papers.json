@@ -1,11 +1,11 @@
 {
-  "brief_date": "2026 · 10 · 12",
-  "last_updated": "2026-10-12T16:13+02:00",
+  "brief_date": "2026 · 10 · 13",
+  "last_updated": "2026-10-13T15:24+02:00",
   "summary_mode": "English abstract extraction; no AI/API required",
   "journal_metric_snapshot": "2025 JIF / JCR quartile, curated 2026-09-30",
   "keyword_count": 38,
   "keyword_config_updated": "2026-09-30",
-  "match_score": 89,
+  "match_score": 99,
   "trackers": [
     {
       "name": "Ni electrocarboxylation",
@@ -25,6 +25,50 @@
     }
   ],
   "papers": [
+    {
+      "id": "W7221552036",
+      "doi": "https://doi.org/10.1016/j.est.2026.125087",
+      "topic": "analysis",
+      "badge": "Latest research",
+      "read_minutes": 6,
+      "title": "Rapid dynamic electrochemical impedance spectroscopy reconstruction of lithium-ion batteries using generative adversarial network",
+      "journal": "Journal of Energy Storage",
+      "journal_issn": [
+        "2352-152X",
+        "2352-1538"
+      ],
+      "year": 2026,
+      "publication_date": "2026-10-12",
+      "authors": [
+        "Yijing Li",
+        "Wenchao Liu",
+        "Zhipeng Yang",
+        "Yuhao Pan",
+        "Jinhao Meng",
+        "Zhengxiang Song",
+        "Anxiang Guo",
+        "Ruogu Wang"
+      ],
+      "summary_en": "As the global transition toward renewable energy accelerates, lithium-ion batteries have become indispensable for electric vehicles and grid-scale energy storage, driving urgent demand for reliable real-time battery diagnostics. Dynamic electrochemical impedance spectroscopy (DEIS) can acquire impedance during operation without interrupting the load, but full-spectrum measurement is still time-consuming, especially at low frequencies.",
+      "methods_summary": "Dynamic electrochemical impedance spectroscopy (DEIS) can acquire impedance during operation without interrupting the load, but full-spectrum measurement is still time-consuming, especially at low frequencies. The DRT analysis is first used to resolve the impedance response and identify electrochemically informative relaxation features in the mid-to-high frequency region.",
+      "key_findings": "The framework therefore provides an experimentally supported basis for rapid, condition-aware DEIS reconstruction under dynamic operating conditions.",
+      "relevance_reason": "Matched electrochemical impedance spectroscopy, impedance spectroscopy, equivalent circuit, distribution of relaxation times; relevant to CV, EIS, reference-electrode calibration, mass transport, selectivity, or electrochemical mechanism analysis.",
+      "abstract": "As the global transition toward renewable energy accelerates, lithium-ion batteries have become indispensable for electric vehicles and grid-scale energy storage, driving urgent demand for reliable real-time battery diagnostics. Dynamic electrochemical impedance spectroscopy (DEIS) can acquire impedance during operation without interrupting the load, but full-spectrum measurement is still time-consuming, especially at low frequencies. Sparse frequency sampling can shorten acquisition time, yet it often compromises the spectral completeness needed for equivalent circuit model (ECM) fitting and distribution of relaxation times (DRT) analysis. To address this challenge, this study develops a conditional Wasserstein generative adversarial network with gradient penalty (WGAN-GP) for fast and robust reconstruction of full-spectrum DEIS from sparse frequency measurements. The DRT analysis is first used to resolve the impedance response and identify electrochemically informative relaxation features in the mid-to-high frequency region. Based on these characteristic peaks, four representative frequency points are selected as compact model inputs, thereby substantially reducing the required measurement burden while retaining critical diagnostic information. The conditional WGAN-GP then learns the nonlinear mapping between the sparse-frequency inputs and the complete DEIS. On the cell 4 test set, the proposed framework achieves R 2 values of 0.999583 for real impedance component and 0.992254 for imaginary impedance component. ECM analysis further shows that several impedance-related descriptors remain comparatively well constrained, while weakly identifiable parameters are explicitly distinguished. The framework therefore provides an experimentally supported basis for rapid, condition-aware DEIS reconstruction under dynamic operating conditions.",
+      "tags": [
+        "electrochemical impedance spectroscopy",
+        "impedance spectroscopy",
+        "equivalent circuit",
+        "distribution of relaxation times"
+      ],
+      "score": 99,
+      "url": "https://doi.org/10.1016/j.est.2026.125087",
+      "archive": false,
+      "discovery_source": "topic-search",
+      "summary_mode": "abstract-extraction",
+      "impact_factor": null,
+      "quartile": "JCR —",
+      "first_seen": "2026-10-13T15:24:12+02:00"
+    },
     {
       "id": "W7221010617",
       "doi": "https://doi.org/10.48550/arxiv.2610.10320",
@@ -55,7 +99,7 @@
       ],
       "score": 80,
       "url": "https://doi.org/10.48550/arxiv.2610.10320",
-      "archive": false,
+      "archive": true,
       "discovery_source": "topic-search",
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
@@ -99,7 +143,7 @@
       ],
       "score": 99,
       "url": "https://doi.org/10.1007/s44373-026-00178-3",
-      "archive": false,
+      "archive": true,
       "discovery_source": "topic-search",
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
@@ -140,7 +184,7 @@
       ],
       "score": 97,
       "url": "https://doi.org/10.3389/fenrg.2026.1948765",
-      "archive": false,
+      "archive": true,
       "discovery_source": "topic-search",
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
@@ -176,7 +220,7 @@
       ],
       "score": 81,
       "url": "https://doi.org/10.1021/acscatal.6c03804",
-      "archive": false,
+      "archive": true,
       "discovery_source": "topic-search",
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
