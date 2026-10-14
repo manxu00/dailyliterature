@@ -1,11 +1,11 @@
 {
-  "brief_date": "2026 · 10 · 13",
-  "last_updated": "2026-10-13T15:24+02:00",
+  "brief_date": "2026 · 10 · 14",
+  "last_updated": "2026-10-14T13:02+02:00",
   "summary_mode": "English abstract extraction; no AI/API required",
   "journal_metric_snapshot": "2025 JIF / JCR quartile, curated 2026-09-30",
   "keyword_count": 38,
   "keyword_config_updated": "2026-09-30",
-  "match_score": 99,
+  "match_score": 85,
   "trackers": [
     {
       "name": "Ni electrocarboxylation",
@@ -25,6 +25,46 @@
     }
   ],
   "papers": [
+    {
+      "id": "W7214779801",
+      "doi": "https://doi.org/10.1016/j.jpowsour.2026.241626",
+      "topic": "gde",
+      "badge": "Recent research",
+      "read_minutes": 6,
+      "title": "Study on the performance evolution of PEMFCs stack under cold start based on DRT analysis: Identification of polarization process and gain effect analysis",
+      "journal": "Journal of Power Sources",
+      "journal_issn": [
+        "0378-7753",
+        "1873-2755"
+      ],
+      "year": 2026,
+      "publication_date": "2026-09-29",
+      "authors": [
+        "Weijie Wang",
+        "Hongwen Zhong",
+        "Ruili Sun",
+        "Guangjun Zhang",
+        "Ting Chen",
+        "Shaorong Wang"
+      ],
+      "summary_en": "The low-temperature performance, especially cold-start capability, is a critical challenge to large-scale application of proton exchange membrane fuel cells (PEMFCs). Despite advances, the performance evolution of PEMFC stacks during cold-start incompletely clarified.",
+      "methods_summary": "This work quantitatively characterizes the cold-start durability of a 60 kW PEMFC stack using electrochemical impedance spectroscopy (EIS) combined with distribution of relaxation times (DRT) analysis.",
+      "key_findings": "Overall, this work provides a quantitative EIS-DRT framework for evaluating the cold-start durability of high-power PEMFC stacks and highlights the key polarization and structural factors governing their cold-start performance.",
+      "relevance_reason": "Matched gas diffusion layer, catalyst layer; relevant to GDE flooding/wetting, porous-electrode transport, or Micro-CT / tomography structure analysis.",
+      "abstract": "The low-temperature performance, especially cold-start capability, is a critical challenge to large-scale application of proton exchange membrane fuel cells (PEMFCs). Despite advances, the performance evolution of PEMFC stacks during cold-start incompletely clarified. This work quantitatively characterizes the cold-start durability of a 60 kW PEMFC stack using electrochemical impedance spectroscopy (EIS) combined with distribution of relaxation times (DRT) analysis. The impacts of cold-start cycling on four distinct polarization processes (ohmic, charge transfer, proton transport, and mass transfer) are investigated at different current density (0.1 A/cm 2 and 1.4 A/cm 2 ). The overall polarization losses derived from DRT analysis are consistent with the measured voltage decay, verifying the reliability of this quantitative method. More importantly, changes in the pore structure of the cathode gas diffusion layer (GDL) and catalyst layer during cold-start cycling are found to predominantly affect mass-transfer polarization and charge-transfer polarization. These variations are identified as the main contributors to the performance fluctuations of the 60 kW PEMFC stacks and may lead to a performance gain. Overall, this work provides a quantitative EIS-DRT framework for evaluating the cold-start durability of high-power PEMFC stacks and highlights the key polarization and structural factors governing their cold-start performance.",
+      "tags": [
+        "gas diffusion layer",
+        "catalyst layer"
+      ],
+      "score": 85,
+      "url": "https://doi.org/10.1016/j.jpowsour.2026.241626",
+      "archive": false,
+      "discovery_source": "topic-search",
+      "summary_mode": "abstract-extraction",
+      "impact_factor": null,
+      "quartile": "JCR —",
+      "first_seen": "2026-10-14T13:02:24+02:00"
+    },
     {
       "id": "W7221552036",
       "doi": "https://doi.org/10.1016/j.est.2026.125087",
@@ -62,7 +102,7 @@
       ],
       "score": 99,
       "url": "https://doi.org/10.1016/j.est.2026.125087",
-      "archive": false,
+      "archive": true,
       "discovery_source": "topic-search",
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
