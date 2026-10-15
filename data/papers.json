@@ -1,11 +1,11 @@
 {
-  "brief_date": "2026 · 10 · 14",
-  "last_updated": "2026-10-14T13:02+02:00",
+  "brief_date": "2026 · 10 · 15",
+  "last_updated": "2026-10-15T09:56+02:00",
   "summary_mode": "English abstract extraction; no AI/API required",
   "journal_metric_snapshot": "2025 JIF / JCR quartile, curated 2026-09-30",
   "keyword_count": 38,
   "keyword_config_updated": "2026-09-30",
-  "match_score": 85,
+  "match_score": 86,
   "trackers": [
     {
       "name": "Ni electrocarboxylation",
@@ -25,6 +25,149 @@
     }
   ],
   "papers": [
+    {
+      "id": "W2409743990",
+      "doi": "https://doi.org/10.82444/warw.33719902",
+      "topic": "analysis",
+      "badge": "Recent research",
+      "read_minutes": 8,
+      "title": "Electron transfer on graphene and graphite : theoretical and experimental study",
+      "journal": "Warwick Research Archive Portal (University of Warwick)",
+      "journal_issn": [],
+      "year": 2026,
+      "publication_date": "2026-09-14",
+      "authors": [
+        "Anatolii S. Cuharuc"
+      ],
+      "summary_en": "The redox behaviour of several couples on highly oriented pyrolytic graphite (HOPG) and graphene has been studied using both micro- and macroscopic measurements supported by detailed analysis. Such a redox-selectivity correlates with the position of formal potentials of the three redox couples relative to the band structure of graphene, with Ru(NH3)6 3+/2+ being most close to the minimum in density of states (DOS) of undoped monolayer graphene.",
+      "methods_summary": "The redox behaviour of several couples on highly oriented pyrolytic graphite (HOPG) and graphene has been studied using both micro- and macroscopic measurements supported by detailed analysis. Based on macroscopic voltammetry, low grade HOPG, whose surface is abundant with step edges, was found not to be redox-selective in the sense described above, meaning that its “aged” surface was as good as fresh one.",
+      "key_findings": "Such a redox-selectivity correlates with the position of formal potentials of the three redox couples relative to the band structure of graphene, with Ru(NH3)6 3+/2+ being most close to the minimum in density of states (DOS) of undoped monolayer graphene. This suggests that basal planes of graphite have, though low, but sufficient DOS to perform ET at a rate comparable with that on some metals.",
+      "relevance_reason": "Matched cyclic voltammetry, voltammetric, kinetic, ferrocene; relevant to CV, EIS, reference-electrode calibration, mass transport, selectivity, or electrochemical mechanism analysis.",
+      "abstract": "The redox behaviour of several couples on highly oriented pyrolytic graphite (HOPG) and graphene has been studied using both micro- and macroscopic measurements supported by detailed analysis. The ET kinetics of Ru(NH3)6 3+/2+ , (ferrocenylmethyl)trimethylammonium (FcTMA2+/+ ), and ferrocenylcarboxylic acid (FcCOO-/0 ) was found fast, on the time-scale of voltammetric measurements, on a freshly cleaved HOPG surface, but on “aged” one, Ru(NH3)6 3+/2+ exhibited sluggish ET, showing quite unusual macroscopic cyclic voltammograms. The other two couples retained their fast response on an “aged” surface. The surface of “aged” HOPG is proposed to consist of graphene layers of different thicknesses, which, from graphite to monolayer graphene, have progressively diminishing capacity to support fast ET specifically for Ru(NH3)6 3+/2+ . Such a redox-selectivity correlates with the position of formal potentials of the three redox couples relative to the band structure of graphene, with Ru(NH3)6 3+/2+ being most close to the minimum in density of states (DOS) of undoped monolayer graphene. Based on macroscopic voltammetry, low grade HOPG, whose surface is abundant with step edges, was found not to be redox-selective in the sense described above, meaning that its “aged” surface was as good as fresh one. It is highly likely that step edges being a type of crystal lattice defects, retain their capacity for fast ET, which correlates with their elevated DOS, and, thus, secure fast voltammetric response of low grade HOPG in macroscopic experiments on these complex “aged” surfaces. IrCl6 2-/3- , Fe(CN)6 3-/4- and the three couples discussed above were all found to have fast electrochemistry on freshly cleaved surfaces of high grade HOPG. Estimated heterogeneous rate constants were > 0.1 cm s- 1 for Ru(NH3)6 3+/2+ and > 1.7 cm s- 1 for IrCl6 2-/3-and Fe(CN)6 3-/4 . This suggests that basal planes of graphite have, though low, but sufficient DOS to perform ET at a rate comparable with that on some metals. Furthermore, these results unarguably defy those opinions, that have been long circulating in the published literature, stating that basal plane of HOPG (and also sidewalls of carbon nanotubes) are nearly inert towards ET and that the defects were solely responsible for the observed electrochemical activity of this material. The study of adsorption of three ferrocene derivatives on HOPG revealed FcTMA+ and FcCOO- adsorb weakly and approximately equally whereas zero-charged FcCH2OH adsorbs notably more strongly. The adsorption was studied with cyclic voltammetry and quantitative information was extracted from the experimental data basing on a simple dedicated theory developed in this thesis. The “aged” surface of high grade HOPG exhibited enhanced adsorption as compared to fresh one, but low grade HOPG did not show the difference. It is suggested that the highly flat surface of high grade HOPG (large terraces widths) facilitates formation of airborne contaminating film made of hydrocarbons on, which serves as a “trap” for ferrocene derivatives owing to their largely non-polar ferrocene moieties.",
+      "tags": [
+        "cyclic voltammetry",
+        "voltammetric",
+        "kinetic",
+        "ferrocene"
+      ],
+      "score": 96,
+      "url": "https://doi.org/10.82444/warw.33719902",
+      "archive": false,
+      "discovery_source": "topic-search",
+      "summary_mode": "abstract-extraction",
+      "impact_factor": null,
+      "quartile": "JCR —",
+      "first_seen": "2026-10-15T09:56:21+02:00"
+    },
+    {
+      "id": "W7219608623",
+      "doi": "https://doi.org/10.1002/pssa.70556",
+      "topic": "analysis",
+      "badge": "Latest research",
+      "read_minutes": 6,
+      "title": "Rare‐Earth Engineering of Fe 3 O 4 Sustainable Nanoparticles for Enhanced Magnetic Hyperthermia and Potential Electrochemical Applications",
+      "journal": "physica status solidi (a)",
+      "journal_issn": [
+        "0031-8965",
+        "1521-396X",
+        "1862-6300",
+        "1862-6319"
+      ],
+      "year": 2026,
+      "publication_date": "2026-10-04",
+      "authors": [
+        "P. Vivek"
+      ],
+      "summary_en": "Controlled rare‐earth substitution offers a powerful pathway to engineer multifunctional nanospinel systems with tunable physicochemical properties. Powder X‐ray diffraction confirmed retention of the cubic inverse spinel structure without secondary phase formation, while XPS and EDS analyses verified successful substitutional incorporation of Lu 3+ and enhanced oxygen vacancy concentration.",
+      "methods_summary": "Electrochemical impedance spectroscopy demonstrated reduced charge–transfer resistance, while LSV and Tafel analysis confirmed accelerated reaction kinetics and improved electrocatalytic activity.",
+      "key_findings": "Powder X‐ray diffraction confirmed retention of the cubic inverse spinel structure without secondary phase formation, while XPS and EDS analyses verified successful substitutional incorporation of Lu 3+ and enhanced oxygen vacancy concentration. Magnetic measurements revealed preserved ferrimagnetic ordering with tuned coercivity and optimized anisotropy.",
+      "relevance_reason": "Matched kinetic, electrochemical impedance spectroscopy, impedance spectroscopy, tafel; relevant to CV, EIS, reference-electrode calibration, mass transport, selectivity, or electrochemical mechanism analysis.",
+      "abstract": "Controlled rare‐earth substitution offers a powerful pathway to engineer multifunctional nanospinel systems with tunable physicochemical properties. In this study, phase‐pure 5 mol% Lu 3+ ‐doped Fe 3 O 4 nanoparticles were synthesized via a defect‐regulated hydrothermal strategy to modulate structural, magnetic, optical, and electrochemical characteristics. Powder X‐ray diffraction confirmed retention of the cubic inverse spinel structure without secondary phase formation, while XPS and EDS analyses verified successful substitutional incorporation of Lu 3+ and enhanced oxygen vacancy concentration. Structural perturbation induced measurable lattice strain without compromising crystallinity. Magnetic measurements revealed preserved ferrimagnetic ordering with tuned coercivity and optimized anisotropy. Optical analysis indicated band structure modulation with a narrowed bandgap (~1.6 eV), promoting enhanced visible–light interaction. Electrochemical impedance spectroscopy demonstrated reduced charge–transfer resistance, while LSV and Tafel analysis confirmed accelerated reaction kinetics and improved electrocatalytic activity. Additionally, the doped system exhibited efficient magnetic hyperthermia performance under alternating magnetic fields. The results establish Lu incorporation as an effective defect‐engineering strategy to simultaneously tailor exchange interactions, carrier transport, and surface reactivity in Fe 3 O 4 nanospinels, enabling advanced multifunctional applications in catalysis, energy conversion, and biomedicine.",
+      "tags": [
+        "kinetic",
+        "electrochemical impedance spectroscopy",
+        "impedance spectroscopy",
+        "tafel"
+      ],
+      "score": 93,
+      "url": "https://doi.org/10.1002/pssa.70556",
+      "archive": false,
+      "discovery_source": "topic-search",
+      "summary_mode": "abstract-extraction",
+      "impact_factor": null,
+      "quartile": "JCR —",
+      "first_seen": "2026-10-15T09:56:21+02:00"
+    },
+    {
+      "id": "W7221517906",
+      "doi": "https://doi.org/10.5599/jese.3582",
+      "topic": "analysis",
+      "badge": "Latest research",
+      "read_minutes": 6,
+      "title": "Modification of screen-printed carbon electrodes by Sb2S3/MoS2 nanostructures to design and fabrication of a new electrochemical sensor for determination of epirubicin",
+      "journal": "Journal of Electrochemical Science and Engineering",
+      "journal_issn": [
+        "1847-9286"
+      ],
+      "year": 2026,
+      "publication_date": "2026-10-12",
+      "authors": [
+        "Tahereh Kondori",
+        "Azadeh Lohrasbi‐Nejad",
+        "Somayeh Tajik",
+        "Hadi Beitollahi"
+      ],
+      "summary_en": "In this work, a screen-printed carbon electrode (SPCE) modified with a new Sb₂S₃/MoS₂ nanocomposite was used to create a highly sensitive electrochemical sensor for the trace-level detection of epirubicin (EPI). Additionally, the sensor showed superb repeatability, high selectivity, and outstanding stability.",
+      "methods_summary": "Cyclic voltammetry and differential pulse voltammetry were used to thoroughly examine the electrochemical performance of the modified SPCE (Sb₂S₃/MoS₂/SPCE).",
+      "key_findings": "Additionally, the sensor showed superb repeatability, high selectivity, and outstanding stability.",
+      "relevance_reason": "Matched cyclic voltammetry, kinetic; relevant to CV, EIS, reference-electrode calibration, mass transport, selectivity, or electrochemical mechanism analysis.",
+      "abstract": "In this work, a screen-printed carbon electrode (SPCE) modified with a new Sb₂S₃/MoS₂ nanocomposite was used to create a highly sensitive electrochemical sensor for the trace-level detection of epirubicin (EPI). To improve the electron transport kinetics and electro­catalytic oxidation of EPI at the electrode surface, the Sb₂S₃/MoS₂ nanostructure was created. Cyclic voltammetry and differential pulse voltammetry were used to thoroughly examine the electrochemical performance of the modified SPCE (Sb₂S₃/MoS₂/SPCE). With a low limit of detection of 0.002 µM and a broad linear concentration range of 0.005 to 220.0 µM, the sensor demonstrated exceptional analytical performance for EPI detection under ideal experimental conditions. Additionally, the sensor showed superb repeatability, high selectivity, and outstanding stability. With recovery percentages ranging from 97.1 to 103.3 %, the practical utility of the Sb₂S₃/MoS₂/SPCE was validated by measuring EPI concentrations in pharmaceutical formulations and human urine samples. These findings demonstrate the Sb₂S₃/MoS₂ nanocomposite's potential as an excellent electrocatalytic platform, offering a reliable, affordable, and quick analytical tool for therapeutic drug monitoring and clinical diagnostics.",
+      "tags": [
+        "cyclic voltammetry",
+        "kinetic"
+      ],
+      "score": 78,
+      "url": "https://doi.org/10.5599/jese.3582",
+      "archive": false,
+      "discovery_source": "topic-search",
+      "summary_mode": "abstract-extraction",
+      "impact_factor": null,
+      "quartile": "JCR —",
+      "first_seen": "2026-10-15T09:56:21+02:00"
+    },
+    {
+      "id": "W2998898179",
+      "doi": "https://doi.org/10.82444/warw.33795994",
+      "topic": "analysis",
+      "badge": "Recent research",
+      "read_minutes": 8,
+      "title": "Electrochemical fundamentals and application of new carbon materials",
+      "journal": "Warwick Research Archive Portal (University of Warwick)",
+      "journal_issn": [],
+      "year": 2026,
+      "publication_date": "2026-09-15",
+      "authors": [
+        "Danqing Liu"
+      ],
+      "summary_en": "The work presented in this thesis focuses on studying the electrochemistry of nanomaterials using an innovative combination of state of the art small-scale electrochemical methods and complementary microscopy techniques. Importantly, the results suggest that the enhanced HER activity is associated with the interaction between the h-BN and the underlying metal substrate which promotes hydrogen adsorption on the h-BN surface.",
+      "methods_summary": "The work presented in this thesis focuses on studying the electrochemistry of nanomaterials using an innovative combination of state of the art small-scale electrochemical methods and complementary microscopy techniques. Three classes of material are considered: (i) the functionalization and electrocatalytic applications of sp2 carbon materials, with a focus on single-walled carbon nanotubes (SWNTs), with nickel hydroxide nanoparticles (Ni(OH)2 NPs) electrodeposited onto them through two different approaches; (ii)…",
+      "key_findings": "Importantly, the results suggest that the enhanced HER activity is associated with the interaction between the h-BN and the underlying metal substrate which promotes hydrogen adsorption on the h-BN surface. This work indicates that heterostructures formed by h-BN when supported on different metal substrates could be to modulate the electrocatalytic activity towards the HER.",
+      "relevance_reason": "Matched voltammetric, kinetic, tafel; relevant to CV, EIS, reference-electrode calibration, mass transport, selectivity, or electrochemical mechanism analysis.",
+      "abstract": "The work presented in this thesis focuses on studying the electrochemistry of nanomaterials using an innovative combination of state of the art small-scale electrochemical methods and complementary microscopy techniques. Three classes of material are considered: (i) the functionalization and electrocatalytic applications of sp2 carbon materials, with a focus on single-walled carbon nanotubes (SWNTs), with nickel hydroxide nanoparticles (Ni(OH)2 NPs) electrodeposited onto them through two different approaches; (ii) a fundamental electrochemical study of boron doped diamond (BDD) (sp3 carbon), in which the microscopic factors that determine the aqueous solvent window in chloride-containing salt solutions were examined by using scanning electrochemical cell microscopy (SECCM); (iii) a study of the electrochemical behaviour of sp2 carbon materials at the nanoscale by employing SECCM, focusing on the electron transfer (ET) kinetics of graphene on a Cu foil and the hydrogen evolution reaction (HER) electrocatalytic activities of graphene-like hexagonal boron nitride (h-BN) on different metal substrates (Cu and Au). Using a macroscale droplet method, functionalized SWNTs with nickel hydroxide, Ni(OH)2, nanoparticles (NPs) of different crystallographic orientations are formed by two approaches. The first involves the electrodeposition of Ni NPs that are converted to Ni(OH)2 through potential cycling in alkaline media to form ordered -phase Ni(OH)2 NPs (indirect approach). The second uses the electrochemical generation of a relative high concentration of OH-, in the presence of Ni2+, to lead to the formation of disordered -phase Ni(OH)2 NPs (direct approach). Ni(OH)2 NPs prepared by the direct approach show a remarkable electrocatalytic activity towards alcohol oxidation, with specific activities (SA) of ~2.8 kA g-1 for 0.5 M methanol and ~3.7 kA g-1 for 0.5 M ethanol. In contrast, SWNT-Ni(OH)2 produced by the indirect approach shows SA values about an order of magnitude lower. This work reveals the capability of electrochemistry for synthesizing different nanostructures and highlights the correlation of particle crystallography with electrocatalytic properties. Electrochemical studies can be extended to the microscale and nanoscale by using voltammetric SECCM. The solvent window of BDD, a sp3 carbon material, in aqueous potassium chloride solutions is investigated both for oxygen- and hydrogen-terminated surfaces. The solvent window is shown to be strongly linked to the local dopant concentrations, with lower dopant concentrations leading to a wider window. The surface termination is a particularly important factor, with the solvent window of the H-terminated surface being wider than for the O-terminated surface for similar boron dopant levels. Furthermore, the anodic potential window of the O-terminated surface is greatly diminished due to chloride electro-oxidation. This study provides new perspectives on the factors that control the solvent window of BDD at the level of a single facet for a complex heterogeneous electrode. Finally, the electrochemistry of graphene and graphene-like h-BN is explored, at nanoscale, as examples of very important 2D materials. High-resolution SECCM is employed to assess the ET kinetics for the Ru(NH3)63+/2+ couple across as-grown CVD graphene produced by chemical vapour deposition. A correlation between the ET kinetics and the number of graphene layers is found, indicating that monolayer graphene exhibits faster ET kinetics than that observed for the bi- and multilayer graphene. These differences in ET kinetics provide insight into how the electrochemical properties of graphene-based devices can be manipulated with wide-reaching applications including in sensors and energy storage. Furthermore, the electrocatalytic performances of as-grown CVD h-BN on a Cu foil (h-BN/Cu) and h-BN transferred to a Au substrate (h-BN/Au) toward the HER are studied by using single-barrel SECCM. The Tafel slopes are estimated to be 136 mV per decade and 108 mV per decade for h-BN/Cu and h-BN/Au, respectively and the exchange current densities are 4 × 10-8 A cm-2 and 1 × 10-6 A cm-2. Importantly, the results suggest that the enhanced HER activity is associated with the interaction between the h-BN and the underlying metal substrate which promotes hydrogen adsorption on the h-BN surface. This work indicates that heterostructures formed by h-BN when supported on different metal substrates could be to modulate the electrocatalytic activity towards the HER.",
+      "tags": [
+        "voltammetric",
+        "kinetic",
+        "tafel"
+      ],
+      "score": 78,
+      "url": "https://doi.org/10.82444/warw.33795994",
+      "archive": false,
+      "discovery_source": "topic-search",
+      "summary_mode": "abstract-extraction",
+      "impact_factor": null,
+      "quartile": "JCR —",
+      "first_seen": "2026-10-15T09:56:21+02:00"
+    },
     {
       "id": "W7214779801",
       "doi": "https://doi.org/10.1016/j.jpowsour.2026.241626",
@@ -58,7 +201,7 @@
       ],
       "score": 85,
       "url": "https://doi.org/10.1016/j.jpowsour.2026.241626",
-      "archive": false,
+      "archive": true,
       "discovery_source": "topic-search",
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
