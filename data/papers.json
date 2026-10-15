@@ -1,30 +1,326 @@
 {
+  "version": 4,
   "brief_date": "2026 · 10 · 15",
-  "last_updated": "2026-10-15T09:56+02:00",
-  "summary_mode": "English abstract extraction; no AI/API required",
-  "journal_metric_snapshot": "2025 JIF / JCR quartile, curated 2026-09-30",
-  "keyword_count": 38,
-  "keyword_config_updated": "2026-09-30",
-  "match_score": 86,
-  "trackers": [
-    {
-      "name": "Ni electrocarboxylation",
-      "rate": "持续追踪"
-    },
-    {
-      "name": "GDE flooding & wetting",
-      "rate": "持续追踪"
-    },
-    {
-      "name": "Micro-CT segmentation",
-      "rate": "持续追踪"
-    },
-    {
-      "name": "CV / EIS mechanism analysis",
-      "rate": "持续追踪"
-    }
-  ],
+  "last_updated": "2026-10-15 10:41 CEST",
+  "target_daily": 10,
+  "match_score": 89,
+  "search_state": {
+    "backfill_page": 1
+  },
   "papers": [
+    {
+      "id": "W7162317224",
+      "doi": "https://doi.org/10.1038/s41467-026-73629-5",
+      "title": "Photocatalytic reductive carboxylation of unactivated hydrazones with CO2",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "Nature Communications",
+      "journal_issn": [
+        "2041-1723"
+      ],
+      "impact_factor": "18.1",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-05-25",
+      "abstract": "Carboxylation with CO2 is one of the most sustainable strategies for synthesizing carboxylic acids. Particularly, the reductive carboxylation of carbonyl derivatives with CO2 offers a promising route to valuable α-hydroxy acids, α-amino acids and relatives. However, catalytic methods for this transformation remain underexplored and predominantly limited to carboxylation of activated carbonyl derivatives, which rely on the generation of stabilized organometallic intermediates or carbanions to react with CO2. In this study, we report a reductive carboxylation of unactivated hydrazones with CO2 via visible-light photocatalysis. Diverse unactivated hydrazones, such as dialkyl substituted ketone hydrazones, cyclic ketone hydrazones and alkyl aldehyde hydrazones, are all suitable for such a carboxylation. The process enables the efficient synthesis of diverse valuable α-hydrazino acids in good yields via selective cleavage of C = N π bond, distinguishing it from prior hydrazone carboxylation methods, which typically involve C = N double bond cleavage. Moreover, this protocol exhibits mild reaction conditions, good functional group tolerance, easy scale up and facile derivatization of products into α-amino acids. Mechanistic investigations and density functional theory (DFT) calculations support the radical addition of CO2 radical anion to C = N bonds, which represents a unique umpolung strategy for reductive carboxylation with CO2. Catalytic methods for the reductive carboxylation of carbonyl derivatives with CO2 remain underexplored and predominantly limited to carboxylation of activated carbonyl derivatives, which rely on the generation of stabilized organometallic intermediates or carbanions to react with CO2. In this study, the authors report a reductive carboxylation of unactivated hydrazones with CO2 via visible-light photocatalysis.",
+      "methods_summary": "Mechanistic investigations and density functional theory (DFT) calculations support the radical addition of CO2 radical anion to C = N bonds, which represents a unique umpolung strategy for reductive carboxylation with CO2.",
+      "key_findings": "However, catalytic methods for this transformation remain underexplored and predominantly limited to carboxylation of activated carbonyl derivatives, which rely on the generation of stabilized organometallic intermediates or carbanions to react with CO2. The process enables the efficient synthesis of diverse valuable α-hydrazino acids in good yields via selective cleavage of C = N π bond, distinguishing it from prior hydrazone carboxylation methods, which typically involve C = N double bond cleavage.",
+      "tags": [
+        "reductive carboxylation",
+        "co2",
+        "mechanistic",
+        "radical",
+        "intermediate",
+        "density functional theory",
+        "epr"
+      ],
+      "score": 99,
+      "url": "https://doi.org/10.1038/s41467-026-73629-5",
+      "archive": false,
+      "pushed_date": "2026-10-15"
+    },
+    {
+      "id": "W7134274452",
+      "doi": "https://doi.org/10.1002/cssc.202502631",
+      "title": "Zn‐Ag Nanocatalysts Enable Electrochemical Carboxylation of Carbonyl Compounds With CO 2 for α ‐Hydroxy Carboxylic Acids Synthesis",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "ChemSusChem",
+      "journal_issn": [
+        "1864-5631",
+        "1864-564X"
+      ],
+      "impact_factor": "5.9",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-03-08",
+      "abstract": "Current synthetic methodologies for α ‐hydroxy carboxylic acids are constrained by stringent reaction conditions and laborious product separation processes. To address these limitations, a Zn/Ag catalyst was prepared via a pH‐regulated electrodeposition strategy in this study. By leveraging the bimetallic synergistic effect, the catalyst modulates the adsorption and activation of substrates, thereby promoting the electrochemical carboxylation of carbonyl compounds with CO 2 . The results showed that the Zn/Ag catalyst achieved a high yield of 83% in the conversion of acetophenone to atrolactic acid. Infrared spectroscopy analyses verified that the reaction mechanism proceeds via a Zn‐Ag synergistic effect, which activates acetophenone to form a radical anion intermediate. This intermediate subsequently undergoes carboxylation with CO 2 , followed by an electron transfer step, to afford atrolactic acid with excellent selectivity. The catalyst facilitated the synthesis of 1.3 g of carboxylated product from acetophenone and enabled the extension of electrocarboxylation to diverse substrates, including aryl ketones, aryl aldehydes, and aliphatic ketones. This work not only provides an efficient and cost‐effective route for the synthesis of α ‐hydroxy carboxylic acids but also validates its potential for industrial‐scale application.",
+      "methods_summary": "Infrared spectroscopy analyses verified that the reaction mechanism proceeds via a Zn‐Ag synergistic effect, which activates acetophenone to form a radical anion intermediate.",
+      "key_findings": "The results showed that the Zn/Ag catalyst achieved a high yield of 83% in the conversion of acetophenone to atrolactic acid. Infrared spectroscopy analyses verified that the reaction mechanism proceeds via a Zn‐Ag synergistic effect, which activates acetophenone to form a radical anion intermediate.",
+      "tags": [
+        "electrocarboxylation",
+        "electrochemical carboxylation",
+        "reaction mechanism",
+        "mechanism",
+        "electron transfer",
+        "radical",
+        "intermediate"
+      ],
+      "score": 99,
+      "url": "https://doi.org/10.1002/cssc.202502631",
+      "archive": false,
+      "pushed_date": "2026-10-15"
+    },
+    {
+      "id": "W7130372439",
+      "doi": "https://doi.org/10.3390/catal16020191",
+      "title": "Electrochemistry Carboxylation of Bromothiazoles with CO2: An Environmentally Friendly Synthesis of Thiazole Carboxylic Acids",
+      "topic": "optimization",
+      "topic_label": "Condition optimization",
+      "journal": "Catalysts",
+      "journal_issn": [
+        "2073-4344"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-02-18",
+      "abstract": "Electrocarboxylation of aromatic halides with carbon dioxide (CO2) to high-value aromatic carboxylic acids under mild conditions offers a promising approach for CO2 resource utilization and the preparation of valuable aromatic carboxylic acids. However, studies on the electrocarboxylation of heterocyclic halides with CO2 remain relatively limited, and, in particular, the electrocarboxylation of thiazole halides with CO2 has not yet been reported in the literature. Herein, the electrocarboxylation of bromothiazoles (BTs) with CO2 was successfully achieved on a silver (Ag) cathode and a Magnesium (Mg) anode under mild conditions, yielding the corresponding thiazole carboxylic acids (TCAs). Using 4-bromothiazole (4-BT) as a model substrate, the effects of solvent, supporting electrolyte, electrode material, current density, charge passed (Q), and temperature on the yield of the target product 4-thiazolecarboxylic acid (4-TCA) were systematically investigated. Under optimized reaction conditions, this electrocarboxylation strategy proceeded smoothly to other BTs, providing synthetically useful TCAs with moderate to good yields and FEs. Additionally, the electrochemical behavior of bromothiazole on the Ag electrode was investigated using cyclic voltammetry, and a possible reaction mechanism for the formation of the carboxylated product was proposed based on the results.",
+      "methods_summary": "Additionally, the electrochemical behavior of bromothiazole on the Ag electrode was investigated using cyclic voltammetry, and a possible reaction mechanism for the formation of the carboxylated product was proposed based on the results.",
+      "key_findings": "Under optimized reaction conditions, this electrocarboxylation strategy proceeded smoothly to other BTs, providing synthetically useful TCAs with moderate to good yields and FEs. Herein, the electrocarboxylation of bromothiazoles (BTs) with CO2 was successfully achieved on a silver (Ag) cathode and a Magnesium (Mg) anode under mild conditions, yielding the corresponding thiazole carboxylic acids (TCAs).",
+      "tags": [
+        "electrocarboxylation",
+        "carbon dioxide",
+        "co2",
+        "reaction mechanism",
+        "mechanism",
+        "cyclic voltammetry",
+        "voltammetry"
+      ],
+      "score": 99,
+      "url": "https://doi.org/10.3390/catal16020191",
+      "archive": false,
+      "pushed_date": "2026-10-15"
+    },
+    {
+      "id": "W4416568181",
+      "doi": "https://doi.org/10.1149/ma2025-02251409mtgabs",
+      "title": "CO 2 Functionalization of Organic Halide Substrates via Electrochemical Carboxylation",
+      "topic": "core",
+      "topic_label": "Organic CO₂ electrosynthesis",
+      "journal": "ECS Meeting Abstracts",
+      "journal_issn": [
+        "1091-8213",
+        "2151-2035",
+        "2151-2043",
+        "2152-8365"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2025,
+      "publication_date": "2025-11-24",
+      "abstract": "To combat the threat of escalating anthropogenic climate change, it is critical to simultaneously decarbonize conventional chemical production and durably remove carbon dioxide (CO 2 ) from the atmosphere. We can advance this goal by leveraging captured CO 2 as a nontoxic, sustainable C 1 feedstock. Specifically, organic electrosynthesis powered by abundant renewable energy sources can displace toxic, energy-intensive reducing agents such as Grignard reagents with green electrons. Electrochemical carboxylation (EC) is one such reaction which produces myriad carboxylic acids from a variety of substrates such as alcohols, halides, olefins, and epoxides. Despite prior work on EC, the structure-reactivity relationships of the heterogeneous electrocatalyst as well as the impact of local reaction environments driven by electrolyte composition have not been thoroughly examined and are poorly understood. Furthermore, halohydrins are an underexplored substrate that are particularly well-suited to achieve high-value carboxylic acid products via EC and integrate recent advances in halogen-mediated electrooxidation of olefins. In this work, we present our investigation into CO 2 coupling with ethylene halohydrin substrates over a heterogeneous electrocatalyst in polar aprotic electrolytes. We use transition and post-transition metal electrocatalysts as pure foils to elucidate reactivity trends. We select metals based on (1) their activity for direct substrate reduction and (2) whether they favor CO 2 reduction (CO 2 R) towards CO/CO 3 2- (e.g., Ag, Cu) or oxalate (e.g., Pb, Pt) in aprotic media. In this way, we elucidate how the metal identity tunes the selectivity of EC vs. CO 2 R and substrate reduction without CO 2 coupling. We also confirm that the reduction potential of the halohydrin species is significantly modulated by halogen identity (i.e., Br, Cl) in aprotic media and that ethylene and CO are major electrolysis products over a Ag electrocatalyst, as shown in Figure 1. Figure 1: (a) Representative cyclic voltammograms (CVs) for Ar-purged electrolyte with and without 0.1 M halohydrin substrates (2-bromoethanol or 2-chloroethanol) added. (b) Gas product quantification in terms of Faradaic efficiency (FE) using gas chromatography (GC). Gas purge flow rate = 20 sccm. Figure 1",
+      "methods_summary": "We also confirm that the reduction potential of the halohydrin species is significantly modulated by halogen identity (i.e., Br, Cl) in aprotic media and that ethylene and CO are major electrolysis products over a Ag electrocatalyst, as shown in Figure 1. Figure 1: (a) Representative cyclic voltammograms (CVs) for Ar-purged electrolyte with and without 0.1 M halohydrin substrates (2-bromoethanol or 2-chloroethanol) added.",
+      "key_findings": "In this way, we elucidate how the metal identity tunes the selectivity of EC vs. (b) Gas product quantification in terms of Faradaic efficiency (FE) using gas chromatography (GC).",
+      "tags": [
+        "electrochemical carboxylation",
+        "organic electrosynthesis",
+        "carbon dioxide",
+        "epr",
+        "electrolyte",
+        "faradaic efficiency",
+        "selectivity"
+      ],
+      "score": 96,
+      "url": "https://doi.org/10.1149/ma2025-02251409mtgabs",
+      "archive": false,
+      "pushed_date": "2026-10-15"
+    },
+    {
+      "id": "W4417326850",
+      "doi": "https://doi.org/10.1038/s42004-025-01828-0",
+      "title": "Electrochemical selective hydrocarboxylation of acrylamides with carbon dioxide for precise control of α- and β-carboxylation",
+      "topic": "optimization",
+      "topic_label": "Condition optimization",
+      "journal": "Communications Chemistry",
+      "journal_issn": [
+        "2399-3669"
+      ],
+      "impact_factor": "6.9",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2025,
+      "publication_date": "2025-12-15",
+      "abstract": "The hydrocarboxylation of acrylate with carbon dioxide (CO2) have been achieved through metal-catalysis, photochemistry catalysis or electrochemistry catalysis in recent years. The hydrocarboxylation of acrylamide has rarely been studied so far, because of the electron cloud density of the carbon-carbon double bond in acrylamide molecules is lower than that of acrylates. Herein, we report an electrochemical selective hydrocarboxylation method of acrylamides with CO2. The α-carboxylation and β-carboxylation products can be obtained by adjusting the reaction conditions. The present protocol features mild conditions, good regioselectivity, broad substrare scope and high atom economy. Furthermore, detailed control experiments and DFT calculations results showed that the carboxylation at the α- and β- sites undergo different reaction processes. While hydrocarboxylation of acrylates with CO2 has been extensively explored, acrylamides remain under-investigated due to their lower electron cloud density. Here, the authors present an electrochemical method for selective hydrocarboxylation of acrylamides, achieving α- and β-carboxylation under mild conditions with high regioselectivity and broad substrate scope.",
+      "methods_summary": "Furthermore, detailed control experiments and DFT calculations results showed that the carboxylation at the α- and β- sites undergo different reaction processes.",
+      "key_findings": "The present protocol features mild conditions, good regioselectivity, broad substrare scope and high atom economy. Furthermore, detailed control experiments and DFT calculations results showed that the carboxylation at the α- and β- sites undergo different reaction processes.",
+      "tags": [
+        "hydrocarboxylation",
+        "carbon dioxide",
+        "co2",
+        "dft",
+        "reaction conditions",
+        "selectivity",
+        "substrate scope"
+      ],
+      "score": 93,
+      "url": "https://doi.org/10.1038/s42004-025-01828-0",
+      "archive": false,
+      "pushed_date": "2026-10-15"
+    },
+    {
+      "id": "W4415702816",
+      "doi": "https://doi.org/10.1002/slct.202504395",
+      "title": "Nickel‐Based Complexes Doped Silver Nanocomposites for Efficient Electrocarboxylation of Allylic Chloride",
+      "topic": "core",
+      "topic_label": "Organic CO₂ electrosynthesis",
+      "journal": "ChemistrySelect",
+      "journal_issn": [
+        "2365-6549"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2025,
+      "publication_date": "2025-10-30",
+      "abstract": "Abstract Various nickel‐based catalyst‐doped silver nanomaterials ([Ni]@Ag) were synthesized by chemical reduction in an aqueous phase. The surface topography and composition of the catalyst were verified using field‐emission scanning electron microscopy (FE‐SEM) and energy‐dispersive X‐ray spectroscopy (EDX). In the electrocarboxylation of allyl chloride with CO 2 , [Ni]@Ag served as the catalytic cathode, whereas Mg functioned as the sacrificial anode. Under normal CO 2 pressure at 0 °C, the yield of vinylacetic acid reached 95%. Notably, [Ni]@Ag demonstrated high reusability for CO 2 allylation, with no loss in catalytic efficiency. A preliminary reaction mechanism was also proposed.",
+      "methods_summary": "The surface topography and composition of the catalyst were verified using field‐emission scanning electron microscopy (FE‐SEM) and energy‐dispersive X‐ray spectroscopy (EDX).",
+      "key_findings": "Under normal CO 2 pressure at 0 °C, the yield of vinylacetic acid reached 95%. A preliminary reaction mechanism was also proposed.",
+      "tags": [
+        "electrocarboxylation",
+        "reaction mechanism",
+        "mechanism",
+        "yield"
+      ],
+      "score": 87,
+      "url": "https://doi.org/10.1002/slct.202504395",
+      "archive": false,
+      "pushed_date": "2026-10-15"
+    },
+    {
+      "id": "W7212690029",
+      "doi": "https://doi.org/10.1021/acs.accounts.6c00486",
+      "title": "Cross-Couplings via Electroreductive C–F, C–O, and C–S Bond Cleavage and Radical-Polar Crossover Mechanisms",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "Accounts of Chemical Research",
+      "journal_issn": [
+        "0001-4842",
+        "1520-4898"
+      ],
+      "impact_factor": "18.0",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-09-14",
+      "abstract": "Conspectus Electrochemical synthesis has emerged as a powerful platform for generating reactive intermediates under conditions that are difficult to achieve with conventional chemical reductants or oxidants. In particular, cathodic electron transfer to polarized C–X bonds can provide direct access to carbon-centered radicals, while a second electron transfer enables radical-polar crossover to carbanions that can be intercepted by suitable electrophiles. This umpolung sequence offers an attractive alternative to classical organometallic chemistry, allowing nucleophilic carbon intermediates to be generated without pyrophoric metals or strong bases. The apparent simplicity of this process, however, masks several selectivity challenges. Productive reactivity requires the substrate to be reduced and undergo mesolytic bond cleavage before the solvent, supporting electrolyte, electrophile, or product is consumed at the cathode. The resulting carbon-centered radical must thereafter accept a second electron faster than it undergoes hydrogen atom transfer, dimerization, or unproductive addition reactions. The resulting carbanion must subsequently be trapped within the same strongly reducing environment. Electrode materials, the anodic counter reaction, and concentration of the different species influence the kinetics and thermodynamics of electroreductive radical-polar crossover, requiring the matching of every component of the electrochemical setup rather than consideration of the substrate reduction potential alone. This Account describes our recent advances in addressing these challenges for electroreductive activation of C–F, C–O, and C–S bonds. In the context of C–F cleavage, trifluoromethyl arenes were converted into hydroxymethylated difluoromethyl arenes through selective monodefluorination followed by trapping with N,N-dimethylformamide. Mechanistic and electroanalytical studies revealed the privileged role of DMF and rationalized the high selectivity against over-reduction. In the context of C–O bond cleavage, deoxygenative strategies from alcohols and alcohol derivatives were explored. Under operationally simple galvanostatic conditions, benzylic and propargylic alcohols underwent hydrodeoxygenation and, in some cases, C–C bond formation with CO2 without prior derivatization. The reaction design was extended to deoxygenative C–Si bond formation in which hydrosilanes serve a dual function as activating agents and electrophilic reaction partners. Finally, aryl alkyl thioethers were developed as tunable alkyl radical precursors with the S-aryl group acting as an electroauxiliary that modulates the reduction potential and selectivity of bond cleavage. Depending on the reaction conditions and trapping partner, the resulting radical or carbanion intermediates provide access to C–H, C–D, C–C, and C–B bonds. For several of the protocols, borohydride oxidation was employed as an anodic counter reaction with a similar performance as the use of sacrificial metal anodes. Together, the highlighted studies show how electroreductive sequences with radical-polar crossover events can convert strong C–F, C–O, and C–S bonds into programmable synthetic handles. Future advances in mediators, electrocatalysts, and electrode design should further expand scope, improve chemoselectivity, and enable the construction of molecular complexity from abundant functional groups.",
+      "methods_summary": "Electrode materials, the anodic counter reaction, and concentration of the different species influence the kinetics and thermodynamics of electroreductive radical-polar crossover, requiring the matching of every component of the electrochemical setup rather than consideration of the substrate reduction potential alone.",
+      "key_findings": "Mechanistic and electroanalytical studies revealed the privileged role of DMF and rationalized the high selectivity against over-reduction. Conspectus Electrochemical synthesis has emerged as a powerful platform for generating reactive intermediates under conditions that are difficult to achieve with conventional chemical reductants or oxidants.",
+      "tags": [
+        "electrochemical synthesis",
+        "co2",
+        "mechanistic",
+        "mechanism",
+        "kinetic",
+        "electron transfer",
+        "radical"
+      ],
+      "score": 84,
+      "url": "https://doi.org/10.1021/acs.accounts.6c00486",
+      "archive": false,
+      "pushed_date": "2026-10-15"
+    },
+    {
+      "id": "W7221172182",
+      "doi": "https://doi.org/10.1039/d6fd00073h",
+      "title": "Competing pathways in electrocarboxylation on copper electrodes: defining reactivity regimes through substrate activation and CO 2 reduction",
+      "topic": "core",
+      "topic_label": "Organic CO₂ electrosynthesis",
+      "journal": "Faraday Discussions",
+      "journal_issn": [
+        "1359-6640",
+        "1364-5498"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-01-01",
+      "abstract": "Electrocarboxylation on Cu is governed by the balance between substrate activation and competing CO 2 reduction pathways.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "Electrocarboxylation on Cu is governed by the balance between substrate activation and competing CO 2 reduction pathways.",
+      "tags": [
+        "electrocarboxylation"
+      ],
+      "score": 83,
+      "url": "https://doi.org/10.1039/d6fd00073h",
+      "archive": false,
+      "pushed_date": "2026-10-15"
+    },
+    {
+      "id": "W7204995143",
+      "doi": "https://doi.org/10.1002/aoc.70645",
+      "title": "Design a Novel Recyclable Fe 3 O 4 @SiO 2 ‐TGDM@Ni MICOF Electrode for CO 2 Trap, Electrolyte, and Catalyst for Electro‐Carboxylation Reaction",
+      "topic": "core",
+      "topic_label": "Organic CO₂ electrosynthesis",
+      "journal": "Applied Organometallic Chemistry",
+      "journal_issn": [
+        "0268-2605",
+        "1099-0739"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-09-02",
+      "abstract": "ABSTRACT The design and development of high‐performance electrocatalytic systems featuring multiple functionalities, excellent recyclability, and reusability constitute a vital and essential advancement in the field of green chemistry. Such innovative approaches significantly mitigate environmental impacts by substantially reducing the discharge of toxic and hazardous pollutants into ecosystems, while concurrently lowering the operational and production costs associated with chemical processes. In alignment with this principle, a novel magnetic electrode based on Fe 3 O 4 @SiO 2 ‐TGDM@Ni was strategically designed and developed. Within this core‐shell architecture, the Fe 3 O 4 @SiO 2 component imparts strong magnetic properties that facilitate straightforward recovery and repeated use of the electrode through simple magnetic separation. The triaminoguanidine dimethoxybenzene (TGDM) layer simultaneously functions as an electrolyte mediator/support and a co‐catalytic promoter, enhancing overall system efficiency. Meanwhile, the Ni NPs serve as the primary electrocatalyst, and thanks to the integrated magnetic recoverability, the entire electrode can be easily retrieved, reused, and assessed for minimal metal leaching. The practical performance of this multifunctional electrode was rigorously evaluated in the electrocarboxylation reaction. The electrochemical synthesis of 2‐phenylpropanoic acid derivatives 3(a–l) was performed under remarkably mild conditions (room temperature, iPrOH) using a constant current of 7 mA for just 1 h. These optimized conditions afforded the products in excellent isolated yields between 90% and 97%. Impressively, it maintained robust catalytic activity and structural integrity across up to 10 consecutive recycling cycles with negligible performance degradation. The core‐shell structured Fe 3 O 4 @SiO 2 ‐TGDM@Ni material underwent comprehensive characterization using a wide array of techniques, including SEM, EDS, TEM, FT‐IR, BET, TGA, VSM, XPS, CV, ICP‐OES and mass spectrometry. Similarly, the resulting 2‐phenylpropanoic acids 3(a‐l) were fully identified and confirmed through melting point determination, 1 H NMR, 13 C NMR spectroscopy, and elemental analysis (CHN).",
+      "methods_summary": "Similarly, the resulting 2‐phenylpropanoic acids 3(a‐l) were fully identified and confirmed through melting point determination, 1 H NMR, 13 C NMR spectroscopy, and elemental analysis (CHN). The electrochemical synthesis of 2‐phenylpropanoic acid derivatives 3(a–l) was performed under remarkably mild conditions (room temperature, iPrOH) using a constant current of 7 mA for just 1 h.",
+      "key_findings": "These optimized conditions afforded the products in excellent isolated yields between 90% and 97%.",
+      "tags": [
+        "electrocarboxylation",
+        "electrochemical synthesis",
+        "electrolyte",
+        "constant current",
+        "temperature",
+        "yield"
+      ],
+      "score": 77,
+      "url": "https://doi.org/10.1002/aoc.70645",
+      "archive": false,
+      "pushed_date": "2026-10-15"
+    },
+    {
+      "id": "W7204196639",
+      "doi": "https://doi.org/10.1039/d6sc04813g",
+      "title": "Radical–carbanion relay enabled by earth-abundant titanium: carboxylation of 1°, 2°, and 3° benzyl chlorides with CO 2",
+      "topic": "core",
+      "topic_label": "Organic CO₂ electrosynthesis",
+      "journal": "Chemical Science",
+      "journal_issn": [
+        "2041-6520",
+        "2041-6539"
+      ],
+      "impact_factor": "8.1",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-01-01",
+      "abstract": "A Ti( iii )-catalyzed reductive carboxylation of 1°, 2°, and 3° benzyl chlorides with CO 2 proceeds via a radical-carbanion relay, enabling the additive-free synthesis of arylacetic acid drugs under O 2 -tolerant conditions without precious metals.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "A Ti( iii )-catalyzed reductive carboxylation of 1°, 2°, and 3° benzyl chlorides with CO 2 proceeds via a radical-carbanion relay, enabling the additive-free synthesis of arylacetic acid drugs under O 2 -tolerant conditions without precious metals.",
+      "tags": [
+        "reductive carboxylation",
+        "radical"
+      ],
+      "score": 71,
+      "url": "https://doi.org/10.1039/d6sc04813g",
+      "archive": false,
+      "pushed_date": "2026-10-15"
+    },
     {
       "id": "W2409743990",
       "doi": "https://doi.org/10.82444/warw.33719902",
@@ -52,12 +348,13 @@
       ],
       "score": 96,
       "url": "https://doi.org/10.82444/warw.33719902",
-      "archive": false,
+      "archive": true,
       "discovery_source": "topic-search",
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-15T09:56:21+02:00"
+      "first_seen": "2026-10-15T09:56:21+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7219608623",
@@ -91,12 +388,13 @@
       ],
       "score": 93,
       "url": "https://doi.org/10.1002/pssa.70556",
-      "archive": false,
+      "archive": true,
       "discovery_source": "topic-search",
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-15T09:56:21+02:00"
+      "first_seen": "2026-10-15T09:56:21+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7221517906",
@@ -128,12 +426,13 @@
       ],
       "score": 78,
       "url": "https://doi.org/10.5599/jese.3582",
-      "archive": false,
+      "archive": true,
       "discovery_source": "topic-search",
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-15T09:56:21+02:00"
+      "first_seen": "2026-10-15T09:56:21+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W2998898179",
@@ -161,12 +460,13 @@
       ],
       "score": 78,
       "url": "https://doi.org/10.82444/warw.33795994",
-      "archive": false,
+      "archive": true,
       "discovery_source": "topic-search",
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-15T09:56:21+02:00"
+      "first_seen": "2026-10-15T09:56:21+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7214779801",
@@ -204,9 +504,10 @@
       "archive": true,
       "discovery_source": "topic-search",
       "summary_mode": "abstract-extraction",
-      "impact_factor": null,
-      "quartile": "JCR —",
-      "first_seen": "2026-10-14T13:02:24+02:00"
+      "impact_factor": "8.4",
+      "quartile": "JCR Q1",
+      "first_seen": "2026-10-14T13:02:24+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7221552036",
@@ -250,7 +551,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-13T15:24:12+02:00"
+      "first_seen": "2026-10-13T15:24:12+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7221010617",
@@ -287,7 +589,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-12T16:13:55+02:00"
+      "first_seen": "2026-10-12T16:13:55+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7221340457",
@@ -331,7 +634,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-12T16:13:55+02:00"
+      "first_seen": "2026-10-12T16:13:55+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7221476355",
@@ -372,7 +676,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-12T16:13:55+02:00"
+      "first_seen": "2026-10-12T16:13:55+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7221187745",
@@ -406,9 +711,10 @@
       "archive": true,
       "discovery_source": "topic-search",
       "summary_mode": "abstract-extraction",
-      "impact_factor": null,
-      "quartile": "JCR —",
-      "first_seen": "2026-10-12T16:13:55+02:00"
+      "impact_factor": "13.6",
+      "quartile": "JCR Q1",
+      "first_seen": "2026-10-12T16:13:55+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7214760572",
@@ -446,7 +752,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-11T13:59:18+02:00"
+      "first_seen": "2026-10-11T13:59:18+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7220951902",
@@ -489,7 +796,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-11T13:59:18+02:00"
+      "first_seen": "2026-10-11T13:59:18+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7221086623",
@@ -529,9 +837,10 @@
       "archive": true,
       "discovery_source": "topic-search",
       "summary_mode": "abstract-extraction",
-      "impact_factor": null,
-      "quartile": "JCR —",
-      "first_seen": "2026-10-11T13:59:18+02:00"
+      "impact_factor": "11.8",
+      "quartile": "JCR Q1",
+      "first_seen": "2026-10-11T13:59:18+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7221188462",
@@ -572,7 +881,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-11T13:59:18+02:00"
+      "first_seen": "2026-10-11T13:59:18+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7167824864",
@@ -615,7 +925,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-10T13:47:09+02:00"
+      "first_seen": "2026-10-10T13:47:09+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7164845927",
@@ -657,7 +968,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-10T13:47:09+02:00"
+      "first_seen": "2026-10-10T13:47:09+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7220951541",
@@ -692,7 +1004,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-10T13:47:09+02:00"
+      "first_seen": "2026-10-10T13:47:09+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7161582603",
@@ -731,7 +1044,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-10T13:47:09+02:00"
+      "first_seen": "2026-10-10T13:47:09+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7167533029",
@@ -769,7 +1083,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-10T13:47:09+02:00"
+      "first_seen": "2026-10-10T13:47:09+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7221027144",
@@ -812,7 +1127,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-10T13:47:09+02:00"
+      "first_seen": "2026-10-10T13:47:09+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7221017273",
@@ -849,7 +1165,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-10T13:47:09+02:00"
+      "first_seen": "2026-10-10T13:47:09+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7165803750",
@@ -883,7 +1200,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-10T13:47:09+02:00"
+      "first_seen": "2026-10-10T13:47:09+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7163581897",
@@ -923,7 +1241,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-10T13:47:09+02:00"
+      "first_seen": "2026-10-10T13:47:09+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7220465806",
@@ -958,7 +1277,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-09T14:28:07+02:00"
+      "first_seen": "2026-10-09T14:28:07+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7216338150",
@@ -1000,7 +1320,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-09T14:28:07+02:00"
+      "first_seen": "2026-10-09T14:28:07+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7220700878",
@@ -1041,7 +1362,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-09T14:28:07+02:00"
+      "first_seen": "2026-10-09T14:28:07+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7220867835",
@@ -1081,9 +1403,10 @@
       "archive": true,
       "discovery_source": "topic-search",
       "summary_mode": "abstract-extraction",
-      "impact_factor": null,
-      "quartile": "JCR —",
-      "first_seen": "2026-10-09T14:28:07+02:00"
+      "impact_factor": "19.9",
+      "quartile": "JCR Q1",
+      "first_seen": "2026-10-09T14:28:07+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7213803826",
@@ -1116,7 +1439,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-09T14:28:07+02:00"
+      "first_seen": "2026-10-09T14:28:07+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7168804098",
@@ -1159,7 +1483,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-08T14:41:20+02:00"
+      "first_seen": "2026-10-08T14:41:20+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7168607980",
@@ -1204,7 +1529,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-08T14:41:20+02:00"
+      "first_seen": "2026-10-08T14:41:20+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7168954107",
@@ -1249,7 +1575,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-08T14:41:20+02:00"
+      "first_seen": "2026-10-08T14:41:20+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7154024698",
@@ -1289,9 +1616,10 @@
       "archive": true,
       "discovery_source": "topic-search",
       "summary_mode": "abstract-extraction",
-      "impact_factor": null,
-      "quartile": "JCR —",
-      "first_seen": "2026-10-08T14:41:20+02:00"
+      "impact_factor": "5.8",
+      "quartile": "JCR Q2",
+      "first_seen": "2026-10-08T14:41:20+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7201837680",
@@ -1333,7 +1661,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-08T14:41:20+02:00"
+      "first_seen": "2026-10-08T14:41:20+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7168919067",
@@ -1376,7 +1705,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-07T14:31:42+02:00"
+      "first_seen": "2026-10-07T14:31:42+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7167065101",
@@ -1412,7 +1742,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-07T14:31:42+02:00"
+      "first_seen": "2026-10-07T14:31:42+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7204261376",
@@ -1446,7 +1777,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-07T14:31:42+02:00"
+      "first_seen": "2026-10-07T14:31:42+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7154816917",
@@ -1482,7 +1814,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-07T14:31:42+02:00"
+      "first_seen": "2026-10-07T14:31:42+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7154735432",
@@ -1523,7 +1856,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-07T14:31:42+02:00"
+      "first_seen": "2026-10-07T14:31:42+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7168181748",
@@ -1567,7 +1901,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-06T14:38:24+02:00"
+      "first_seen": "2026-10-06T14:38:24+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7154056028",
@@ -1611,7 +1946,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-06T14:38:24+02:00"
+      "first_seen": "2026-10-06T14:38:24+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7214799000",
@@ -1651,7 +1987,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-06T14:38:24+02:00"
+      "first_seen": "2026-10-06T14:38:24+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7169787974",
@@ -1691,9 +2028,9 @@
       "archive": true,
       "discovery_source": "topic-search",
       "summary_mode": "abstract-extraction",
-      "impact_factor": "15.6",
+      "impact_factor": "16.6",
       "quartile": "JCR Q1",
-      "metric_year": "2025 JIF",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
       "first_seen": "2026-10-06T14:38:24+02:00"
     },
     {
@@ -1739,7 +2076,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-06T14:38:24+02:00"
+      "first_seen": "2026-10-06T14:38:24+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7203792896",
@@ -1775,7 +2113,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-06T14:38:24+02:00"
+      "first_seen": "2026-10-06T14:38:24+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7214658608",
@@ -1809,7 +2148,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-06T14:38:24+02:00"
+      "first_seen": "2026-10-06T14:38:24+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7204037768",
@@ -1852,7 +2192,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-06T14:38:24+02:00"
+      "first_seen": "2026-10-06T14:38:24+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7164543784",
@@ -1891,7 +2232,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-06T14:38:24+02:00"
+      "first_seen": "2026-10-06T14:38:24+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7155208113",
@@ -1931,9 +2273,10 @@
       "archive": true,
       "discovery_source": "topic-search",
       "summary_mode": "abstract-extraction",
-      "impact_factor": null,
-      "quartile": "JCR —",
-      "first_seen": "2026-10-06T14:38:24+02:00"
+      "impact_factor": "5.2",
+      "quartile": "JCR Q1",
+      "first_seen": "2026-10-06T14:38:24+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7214722002",
@@ -1971,7 +2314,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-04T13:41:34+02:00"
+      "first_seen": "2026-10-04T13:41:34+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7216310847",
@@ -2008,7 +2352,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-04T13:41:34+02:00"
+      "first_seen": "2026-10-04T13:41:34+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7216242715",
@@ -2053,7 +2398,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-04T13:41:34+02:00"
+      "first_seen": "2026-10-04T13:41:34+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7216563721",
@@ -2095,9 +2441,10 @@
       "archive": true,
       "discovery_source": "topic-search",
       "summary_mode": "abstract-extraction",
-      "impact_factor": null,
-      "quartile": "JCR —",
-      "first_seen": "2026-10-04T13:41:34+02:00"
+      "impact_factor": "17.6",
+      "quartile": "JCR Q1",
+      "first_seen": "2026-10-04T13:41:34+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7215110352",
@@ -2140,7 +2487,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-04T13:41:34+02:00"
+      "first_seen": "2026-10-04T13:41:34+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7215058888",
@@ -2181,7 +2529,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-04T13:41:34+02:00"
+      "first_seen": "2026-10-04T13:41:34+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W4415037525",
@@ -2223,7 +2572,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-03T12:59:52+02:00"
+      "first_seen": "2026-10-03T12:59:52+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7160872503",
@@ -2262,9 +2612,10 @@
       "archive": true,
       "discovery_source": "topic-search",
       "summary_mode": "abstract-extraction",
-      "impact_factor": null,
-      "quartile": "JCR —",
-      "first_seen": "2026-10-03T12:59:52+02:00"
+      "impact_factor": "8.4",
+      "quartile": "JCR Q1",
+      "first_seen": "2026-10-03T12:59:52+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7204486455",
@@ -2302,7 +2653,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-03T12:59:52+02:00"
+      "first_seen": "2026-10-03T12:59:52+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7207852025",
@@ -2339,9 +2691,10 @@
       "archive": true,
       "discovery_source": "topic-search",
       "summary_mode": "abstract-extraction",
-      "impact_factor": null,
-      "quartile": "JCR —",
-      "first_seen": "2026-10-03T12:59:52+02:00"
+      "impact_factor": "3.7",
+      "quartile": "JCR Q3",
+      "first_seen": "2026-10-03T12:59:52+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7154277480",
@@ -2378,7 +2731,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-02T13:46:30+02:00"
+      "first_seen": "2026-10-02T13:46:30+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7160505719",
@@ -2419,9 +2773,10 @@
       "archive": true,
       "discovery_source": "topic-search",
       "summary_mode": "abstract-extraction",
-      "impact_factor": null,
-      "quartile": "JCR —",
-      "first_seen": "2026-10-02T13:46:30+02:00"
+      "impact_factor": "8.6",
+      "quartile": "JCR Q1",
+      "first_seen": "2026-10-02T13:46:30+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7214586609",
@@ -2454,7 +2809,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-02T13:46:30+02:00"
+      "first_seen": "2026-10-02T13:46:30+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7171634556",
@@ -2495,7 +2851,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-02T13:46:30+02:00"
+      "first_seen": "2026-10-02T13:46:30+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7167739015",
@@ -2536,9 +2893,10 @@
       "archive": true,
       "discovery_source": "topic-search",
       "summary_mode": "abstract-extraction",
-      "impact_factor": null,
-      "quartile": "JCR —",
-      "first_seen": "2026-10-02T13:46:30+02:00"
+      "impact_factor": "7.8",
+      "quartile": "JCR Q1/Q2",
+      "first_seen": "2026-10-02T13:46:30+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7155154756",
@@ -2581,9 +2939,10 @@
       "archive": true,
       "discovery_source": "topic-search",
       "summary_mode": "abstract-extraction",
-      "impact_factor": null,
-      "quartile": "JCR —",
-      "first_seen": "2026-10-02T13:46:30+02:00"
+      "impact_factor": "17.5",
+      "quartile": "JCR Q1",
+      "first_seen": "2026-10-02T13:46:30+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7204254964",
@@ -2625,7 +2984,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-01T14:17:53+02:00"
+      "first_seen": "2026-10-01T14:17:53+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7214193328",
@@ -2668,7 +3028,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-01T14:17:53+02:00"
+      "first_seen": "2026-10-01T14:17:53+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7214970546",
@@ -2710,9 +3071,10 @@
       "archive": true,
       "discovery_source": "topic-search",
       "summary_mode": "abstract-extraction",
-      "impact_factor": null,
-      "quartile": "JCR —",
-      "first_seen": "2026-10-01T14:17:53+02:00"
+      "impact_factor": "7.8",
+      "quartile": "JCR Q1/Q2",
+      "first_seen": "2026-10-01T14:17:53+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7210286027",
@@ -2752,7 +3114,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-01T14:17:53+02:00"
+      "first_seen": "2026-10-01T14:17:53+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7214612546",
@@ -2789,7 +3152,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-01T14:17:53+02:00"
+      "first_seen": "2026-10-01T14:17:53+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7214292706",
@@ -2828,9 +3192,10 @@
       "archive": true,
       "discovery_source": "topic-search",
       "summary_mode": "abstract-extraction",
-      "impact_factor": null,
-      "quartile": "JCR —",
-      "first_seen": "2026-10-01T14:17:53+02:00"
+      "impact_factor": "12.5",
+      "quartile": "JCR Q1",
+      "first_seen": "2026-10-01T14:17:53+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7214889477",
@@ -2871,7 +3236,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-01T14:17:53+02:00"
+      "first_seen": "2026-10-01T14:17:53+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7212036907",
@@ -2912,7 +3278,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-01T14:17:53+02:00"
+      "first_seen": "2026-10-01T14:17:53+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7213919896",
@@ -2952,9 +3319,10 @@
       "archive": true,
       "discovery_source": "topic-search",
       "summary_mode": "abstract-extraction",
-      "impact_factor": null,
-      "quartile": "JCR —",
-      "first_seen": "2026-10-01T14:17:53+02:00"
+      "impact_factor": "5.9",
+      "quartile": "JCR Q1",
+      "first_seen": "2026-10-01T14:17:53+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7213456799",
@@ -2995,7 +3363,8 @@
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
       "quartile": "JCR —",
-      "first_seen": "2026-10-01T14:17:53+02:00"
+      "first_seen": "2026-10-01T14:17:53+02:00",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7212009378",
@@ -3029,11 +3398,12 @@
       "score": 84,
       "url": "https://doi.org/10.1002/smll.75713",
       "archive": true,
-      "impact_factor": null,
-      "quartile": "JCR —",
+      "impact_factor": "11.8",
+      "quartile": "JCR Q1",
       "first_seen": "2026-09-30T09:42:29+02:00",
       "summary_en": "ABSTRACT Hydrogen peroxide (H 2 O 2 ) is an important green oxidant, and its electrosynthesis via the two‐electron oxygen reduction reaction (2e − ORR) provides a sustainable alternative to the conventional anthraquinone process. However, H 2 O 2 production is governed not only by catalyst properties but also by the local dissolved oxygen (DO) distribution at the electrode–electrolyte interface, which remains difficult to resolve using conventional bulk measurements.",
-      "summary_mode": "abstract-extraction"
+      "summary_mode": "abstract-extraction",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7204895863",
@@ -3066,7 +3436,8 @@
       "quartile": "JCR —",
       "first_seen": "2026-09-30T09:42:29+02:00",
       "summary_en": "Electrocatalytic nitrate reduction is a key reaction in sustainable nitrogen cycling and water remediation, yet the mechanistic interpretation of its voltammetric response remains poorly understood. We show that the cathodic response changes from a single peak to two distinct features with increasing nitrate concentration when using phosphate buffer as supporting electrolyte.",
-      "summary_mode": "abstract-extraction"
+      "summary_mode": "abstract-extraction",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7213876650",
@@ -3100,7 +3471,8 @@
       "quartile": "JCR —",
       "first_seen": "2026-09-30T09:42:29+02:00",
       "summary_en": "Porous carbon components strongly influence transport, kinetics, and performance in electrochemical energy devices, like electrodes in redox flow batteries or gas diffusion layers in proton exchange membrane fuel cells. Yet quantitative links between industrial felt manufacturing and the resulting microstructure remain insufficiently understood.",
-      "summary_mode": "abstract-extraction"
+      "summary_mode": "abstract-extraction",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7214501293",
@@ -3135,7 +3507,8 @@
       "quartile": "JCR —",
       "first_seen": "2026-09-30T09:42:29+02:00",
       "summary_en": "Redox‐cycling at interdigitated microelectrode arrays provides amplified current signals for the detection of electroactive species. However, stable operation conventionally requires a reference electrode to control the electrolyte potential.",
-      "summary_mode": "abstract-extraction"
+      "summary_mode": "abstract-extraction",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7214352146",
@@ -3171,7 +3544,8 @@
       "quartile": "JCR —",
       "first_seen": "2026-09-30T09:42:29+02:00",
       "summary_en": "Background Efficient electrochemical reduction of hydrogen peroxide is important for catalytic, sensing, and energy-related electrochemical applications, while understanding the underlying electrode mechanism remains essential for the rational design of high-performance materials. Physico-chemical characterization confirmed the formation of SnO 2 nanostructures integrated with conductive multiwalled carbon nanotubes (MWCNTs), while Ag incorporation provided additional active sites and improved the electrode kinetics.",
-      "summary_mode": "abstract-extraction"
+      "summary_mode": "abstract-extraction",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7211875689",
@@ -3206,7 +3580,8 @@
       "quartile": "JCR —",
       "first_seen": "2026-09-30T09:32:23+02:00",
       "summary_en": "Electrochemical CO2 reduction reaction (ECO2RR) is a promising technology for converting rapidly rising atmospheric CO2—driven by fossil fuel consumption and industrial processes—into a circular carbon economy. In particular, ECO2RR is expected to enable renewable-based long-duration energy storage (LDES) systems through the highly efficient conversion of CO2 into high-value multi-carbon (C2+) compounds.",
-      "summary_mode": "abstract-extraction"
+      "summary_mode": "abstract-extraction",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7214645631",
@@ -3241,11 +3616,12 @@
       "score": 84,
       "url": "https://doi.org/10.1021/acsami.6c14371",
       "archive": true,
-      "impact_factor": null,
-      "quartile": "JCR —",
+      "impact_factor": "7.8",
+      "quartile": "JCR Q1/Q2",
       "first_seen": "2026-09-30T09:32:23+02:00",
       "summary_en": "Abstract Silicon (Si) is a highly promising anode for next-generation all-solid-state batteries (ASSBs) owing to its exceptional theoretical capacity and low propensity for dendrite formation. However, severe volume fluctuations during (de)lithiation induce chemomechanical degradation and progressive loss of solid–solid contact, drastically limiting long-term cycling stability.",
-      "summary_mode": "abstract-extraction"
+      "summary_mode": "abstract-extraction",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7212271305",
@@ -3279,7 +3655,8 @@
       "quartile": "JCR —",
       "first_seen": "2026-09-30T09:32:23+02:00",
       "summary_en": "Hypothesis Covalent grafting of linear hydrocarbon chains onto carbon surfaces can provide a controllable route to hydrophobic interfaces, in which chain length governs surface energetics and liquid repellency while improving coating robustness relative to non-covalent hydrophobization approaches. These results show that covalent hydrocarbon grafting offers a robust platform for engineering low-energy carbon interfaces and establish molecular chain length as a key parameter governing the macroscopic wetting behavior of porous carbon materials.",
-      "summary_mode": "abstract-extraction"
+      "summary_mode": "abstract-extraction",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7213275047",
@@ -3315,7 +3692,8 @@
       "quartile": "JCR —",
       "first_seen": "2026-09-30T09:32:23+02:00",
       "summary_en": "Molybdenum diselenide (MoSe 2 ) is known for its high intrinsic electrocatalytic activity; however, its practical performance is often limited by severe nanosheet agglomeration, which restricts the exposure of electrochemically active basal planes. Cyclic voltammetry reveals a 88% reduction in peak-to-peak potential (Epp), indicating enhanced charge-transfer kinetics, while Tafel analysis shows a 35% improvement in corrosion stability.",
-      "summary_mode": "abstract-extraction"
+      "summary_mode": "abstract-extraction",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7213759149",
@@ -3350,7 +3728,8 @@
       "quartile": "JCR —",
       "first_seen": "2026-09-30T09:32:23+02:00",
       "summary_en": "Quantitative interpretation of hydrodynamic electrochemical measurements commonly relies on analytical models that assume idealized device geometries. Yet, employing true (micro-CT-generated) geometries in three-dimensional multiphysics models of fluid flow and mass transport yielded currents in agreement with the channel flow electrode limiting current equation (based on flux equations formalized by Levich) for rectangular channels!",
-      "summary_mode": "abstract-extraction"
+      "summary_mode": "abstract-extraction",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7214521452",
@@ -3379,7 +3758,8 @@
       "quartile": "JCR —",
       "first_seen": "2026-09-30T09:32:23+02:00",
       "summary_en": "The corrosion inhibition and hydrogen permeation behavior of St3 carbon steel were investigated in aggressive environments containing H2S (400 ppm), CO2 (1 atm), and mixed H2S/CO2 media in a 3 wt.%NaCl solution using the AKB-1 organic inhibitor at concentrations of 5-15 ppm.Gravimetric measurements, electrochemical polarization, electrochemical impedance spectroscopy (EIS), and hydrogen permeation techniques were employed to evaluate the protective performance of the inhibitor.The results showed that AKB-1 significantly reduced the corrosion rate of St3…",
-      "summary_mode": "abstract-extraction"
+      "summary_mode": "abstract-extraction",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7212018207",
@@ -3412,7 +3792,8 @@
       "quartile": "JCR —",
       "first_seen": "2026-09-30T09:32:23+02:00",
       "summary_en": "Abstract Electrical impedance tomography (EIT) was assessed as a measurement approach for spatial conductivity mapping of electrochemical energy system materials such as polymer electrolyte membrane fuel cell components. Reproducibility studies on CCMs showed that measurement variability and sample remounting effects remained sufficiently low for consistent defect identification, with defect and background signals clearly separated for different confidence intervals.",
-      "summary_mode": "abstract-extraction"
+      "summary_mode": "abstract-extraction",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7204988593",
@@ -3450,7 +3831,8 @@
       "quartile": "JCR —",
       "first_seen": "2026-09-30T09:32:23+02:00",
       "summary_en": "Aqueous rechargeable Zn-based batteries are gaining attention for their sustainability, safety, and cost-effectiveness; however, no industrially viable solutions are yet available, due to the synergistic issues of passivation and shape change. Our findings contribute to paving the way for next-generation Zn flow batteries with improved efficiency and longevity.",
-      "summary_mode": "abstract-extraction"
+      "summary_mode": "abstract-extraction",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7213974616",
@@ -3483,11 +3865,12 @@
       "score": 99,
       "url": "https://doi.org/10.1021/acs.energyfuels.6c03182",
       "archive": true,
-      "impact_factor": null,
-      "quartile": "JCR —",
+      "impact_factor": "6.0",
+      "quartile": "JCR Q2/Q1",
       "first_seen": "2026-09-30T09:10:56+02:00",
       "summary_en": "Abstract The escalating global demand for renewable energy sources and chemicals necessitates sustainable and resource-conscious production protocols that address future demands with a minimal environmental impact. This tailored architecture leads to dual functionality, demonstrating enhanced performance in both electrocarboxylation and the OER, which has not been explored in similar systems.",
-      "summary_mode": "abstract-extraction"
+      "summary_mode": "abstract-extraction",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7213314465",
@@ -3524,11 +3907,12 @@
       "score": 99,
       "url": "https://doi.org/10.1002/celc.70303",
       "archive": true,
-      "impact_factor": null,
-      "quartile": "JCR —",
+      "impact_factor": "5.2",
+      "quartile": "JCR Q1",
       "first_seen": "2026-09-30T09:10:56+02:00",
       "summary_en": "Binders play a key role in fabricating efficient gas diffusion electrodes (GDEs), where catalyst layers are sprayed onto hydrophobic gas diffusion layers (GDLs). The results demonstrated that incorporation of the PIL significantly improved electrode performance for electrochemical CO 2 reduction (eCO 2 RR).",
-      "summary_mode": "abstract-extraction"
+      "summary_mode": "abstract-extraction",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7213562266",
@@ -3563,7 +3947,8 @@
       "quartile": "JCR —",
       "first_seen": "2026-09-30T09:10:56+02:00",
       "summary_en": "Four β-keto ester derivatives containing 1,2,4-triazole (A7 and A8) or 1,3,4-oxadiazole (A13 and A14) thioether units were synthesized by S-alkylation of the corresponding thiol/thione precursors with ethyl 4-chloro-3-oxobutanoate in ethanol using sodium acetate as a stoichiometric basic additive. UV/Vis spectra showed intense absorptions mainly in the ultraviolet region and weaker solvent- and concentration-sensitive features at longer wavelengths.",
-      "summary_mode": "abstract-extraction"
+      "summary_mode": "abstract-extraction",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7213913198",
@@ -3601,7 +3986,8 @@
       "quartile": "JCR —",
       "first_seen": "2026-09-30T09:10:56+02:00",
       "summary_en": "A magnetically recoverable Fe₃O₄@TpBD–Ni nanocomposite electrode was developed as a heterogeneous electrocatalyst for the electro-organic C–H carboxylation of aromatic substrates using CO₂ as a C1 feedstock. Comprehensive characterization by FT-IR, SEM, XRD, EDX, VSM, and TGA confirmed the formation, structural integrity, Ni incorporation, and magnetic stability of the composite.",
-      "summary_mode": "abstract-extraction"
+      "summary_mode": "abstract-extraction",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7212032188",
@@ -3632,11 +4018,12 @@
       "score": 99,
       "url": "https://doi.org/10.1021/acs.energyfuels.6c03732",
       "archive": true,
-      "impact_factor": null,
-      "quartile": "JCR —",
+      "impact_factor": "6.0",
+      "quartile": "JCR Q2/Q1",
       "first_seen": "2026-09-30T09:10:56+02:00",
       "summary_en": "Abstract CO2 electrolysis has progressed rapidly toward industrially relevant current densities, but its practical deployment is increasingly limited by reactor-level instabilities. Specifically, salt precipitation has emerged as a critical yet not well-understood challenge in high-rate CO2 electrolysis.",
-      "summary_mode": "abstract-extraction"
+      "summary_mode": "abstract-extraction",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7214465541",
@@ -3673,7 +4060,8 @@
       "quartile": "JCR —",
       "first_seen": "2026-09-30T09:10:56+02:00",
       "summary_en": "Potassium-selective organic electrochemical transistors (OECTs) provide a route for coupling ion recognition with amplified electronic readout in low-voltage sensing platforms. Transient measurements showed reversible and concentration-dependent switching, while cyclic voltammetry revealed increasing anodic and cathodic current magnitudes with increasing KCl concentration.",
-      "summary_mode": "abstract-extraction"
+      "summary_mode": "abstract-extraction",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7213221707",
@@ -3708,11 +4096,12 @@
       "score": 96,
       "url": "https://doi.org/10.1016/j.jcou.2026.103569",
       "archive": true,
-      "impact_factor": null,
-      "quartile": "JCR —",
+      "impact_factor": "8.6",
+      "quartile": "JCR Q1",
       "first_seen": "2026-09-30T09:10:56+02:00",
       "summary_en": "Electrochemical CO 2 reduction reaction (CO 2 RR) offers a highly sustainable pathway for converting carbon emissions into valuable chemicals; however, developing robust catalysts from secondary resources that can withstand electrolyte flooding in zero-gap membrane electrode assemblies (MEAs) remain a significant challenge. Most importantly, the flooding-resistant electrode exhibits unprecedented stability, operating continuously for over 600 h at 100 mA cm −2 and for 55 h at an industrially demanding 200 mA cm −2 with a stable CO Faradaic efficiency of…",
-      "summary_mode": "abstract-extraction"
+      "summary_mode": "abstract-extraction",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     },
     {
       "id": "W7214544279",
@@ -3742,7 +4131,8 @@
       "quartile": "JCR —",
       "first_seen": "2026-09-30T09:10:56+02:00",
       "summary_en": "In addition to previously published data on the corrosion resistance of reinforced concrete, the results of electrochemical impedance spectroscopy (EIS) measurements of samples with two modifications of the IFKhAN-78 inhibitor are presented: a migrating modification that includes surfactants, and its contact analogue without them.These measurements were performed regularly during 4-month exposure in 3% NaCl solution with the concrete samples completely immersed in the electrolyte.The results showed a significant difference in the impedance spectra betwe…",
-      "summary_mode": "abstract-extraction"
+      "summary_mode": "abstract-extraction",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot"
     }
   ]
 }
