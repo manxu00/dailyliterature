@@ -1,58 +1,43 @@
 {
-  "version": 1,
-  "updated_at": "2026-09-30",
+  "version": 2,
+  "updated_at": "2026-10-15",
   "topics": {
-    "organic": {
-      "label": "有机电催化 CO₂",
+    "core": {
+      "label": "Organic CO₂ electrosynthesis",
       "keywords": [
         "electrocarboxylation CO2",
-        "organic electrocarboxylation carbon dioxide",
-        "electrochemical carboxylation CO2",
+        "organic electrosynthesis carbon dioxide",
+        "electrochemical carboxylation CO2 organic synthesis",
         "reductive carboxylation carbon dioxide electrochemistry",
         "electrochemical CO2 fixation organic synthesis",
-        "electrochemical hydrocarboxylation carbon dioxide",
+        "electroreductive coupling CO2 organic",
         "carboxylative cyclization electrochemistry CO2",
-        "nickel electrosynthesis CO2 carboxylation",
-        "nickel mediated electrocarboxylation",
-        "diene electrocarboxylation",
-        "alkene electrocarboxylation",
-        "CO2 incorporation electrosynthesis",
-        "electrochemical carbon dioxide incorporation organic"
+        "hydrocarboxylation electrochemical CO2",
+        "CO2 incorporation electrosynthesis"
       ]
     },
-    "gde": {
-      "label": "GDE / Micro-CT",
+    "mechanism": {
+      "label": "Electroanalysis & mechanism",
       "keywords": [
-        "gas diffusion electrode CO2 electrolysis",
-        "gas diffusion layer CO2 electrolyzer",
-        "zero gap CO2 electrolyzer gas diffusion electrode",
-        "GDE flooding wetting CO2",
-        "cathode flooding gas diffusion electrode",
-        "operando gas diffusion electrode water management",
-        "X-ray tomography gas diffusion electrode",
-        "operando X-ray tomography electrolyzer electrode",
-        "micro CT porous electrode catalyst layer",
-        "microcomputed tomography electrochemical electrode",
-        "3D reconstruction porous electrode tomography",
-        "micro-CT segmentation gas diffusion electrode",
-        "porous transport layer tomography electrolysis"
+        "electrocarboxylation mechanism",
+        "cyclic voltammetry electrosynthesis mechanism",
+        "electrochemical reaction mechanism organic synthesis",
+        "radical intermediate electrocarboxylation",
+        "mechanistic study CO2 electrosynthesis",
+        "electrochemical kinetics organic electrosynthesis",
+        "in situ spectroscopy electrosynthesis mechanism"
       ]
     },
-    "analysis": {
-      "label": "电化学分析",
+    "optimization": {
+      "label": "Condition optimization",
       "keywords": [
-        "cyclic voltammetry coupled chemical reaction kinetics",
-        "cyclic voltammetry EC ECE mechanism",
-        "cyclic voltammetry reaction mechanism electrosynthesis",
-        "nonaqueous reference electrode ferrocene DMF",
-        "reference electrode calibration nonaqueous electrochemistry",
-        "electrochemical impedance spectroscopy porous electrode",
-        "EIS equivalent circuit porous electrode",
-        "distribution of relaxation times electrochemical impedance",
-        "rotating ring disk electrode selectivity mechanism",
-        "RRDE peroxide selectivity alkaline",
-        "electrochemical kinetics mass transport mechanism",
-        "Tafel transfer coefficient electrocatalysis"
+        "electrocarboxylation reaction optimization",
+        "supporting electrolyte organic electrosynthesis CO2",
+        "solvent effect electrocarboxylation",
+        "electrode potential electrocarboxylation",
+        "current density organic electrosynthesis CO2",
+        "CO2 pressure electrocarboxylation",
+        "cell configuration organic electrosynthesis"
       ]
     }
   }
