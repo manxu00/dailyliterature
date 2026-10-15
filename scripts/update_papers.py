@@ -5,8 +5,7 @@ import os
 import re
 import sys
 import time
-from dataclasses import dataclass
-from datetime import date, datetime, timedelta
+from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Iterable
 from zoneinfo import ZoneInfo
@@ -21,197 +20,170 @@ METRICS = ROOT / "data" / "journal_metrics.json"
 KEYWORDS = ROOT / "data" / "keywords.json"
 BERLIN = ZoneInfo("Europe/Berlin")
 
-# Search recent literature broadly, then rank locally.
-LOOKBACK_DAYS = 45
-FALLBACK_LOOKBACK_DAYS = 180
-MAX_DAILY = 10
-MAX_PER_TOPIC = 4
-MAX_ARCHIVE = 320
-MIN_SCORE = {"organic": 38, "gde": 33, "analysis": 34}
+TARGET_DAILY = 10
+MAX_ARCHIVE = 1200
+RECENT_DAYS = 365
+BACKFILL_YEARS = 12
+PER_PAGE = 100
+MAX_QUERY_PER_TOPIC = 2
+MIN_SCORE = 52
 
-# Keep the scheduled job fast and resilient when OpenAlex is degraded.
-OPENALEX_CONNECT_TIMEOUT = 4
-OPENALEX_READ_TIMEOUT = 12
-OPENALEX_MAX_CONSECUTIVE_FAILURES = 3
-OPENALEX_REQUEST_PAUSE = 0.15
-MAX_SEARCHES_PER_TOPIC = 3
-FALLBACK_SEARCHES_PER_TOPIC = 1
+OPENALEX_CONNECT_TIMEOUT = 5
+OPENALEX_READ_TIMEOUT = 15
+MAX_CONSECUTIVE_FAILURES = 3
+REQUEST_PAUSE = 0.18
 
-API_STATS = {
-    "ok": 0,
-    "failed": 0,
-    "consecutive_failed": 0,
-    "circuit_open": False,
-}
+API = {"ok": 0, "failed": 0, "consecutive_failed": 0, "circuit_open": False}
 
-
-class OpenAlexRequestFailed(RuntimeError):
-    pass
-
-
-class OpenAlexCircuitOpen(RuntimeError):
-    pass
-
-TOPICS = {
-    "organic": [
+DEFAULT_QUERIES = {
+    "core": [
         "electrocarboxylation CO2",
-        "organic electrocarboxylation carbon dioxide",
-        "electrochemical carboxylation CO2",
+        "organic electrosynthesis carbon dioxide",
+        "electrochemical carboxylation CO2 organic synthesis",
         "reductive carboxylation carbon dioxide electrochemistry",
         "electrochemical CO2 fixation organic synthesis",
-        "electrochemical hydrocarboxylation carbon dioxide",
-        "carboxylative cyclization electrochemistry CO2",
-        "nickel electrosynthesis CO2 carboxylation",
-        "nickel mediated electrocarboxylation",
-        "diene electrocarboxylation",
-        "alkene electrocarboxylation",
-        "CO2 incorporation electrosynthesis",
-        "electrochemical carbon dioxide incorporation organic",
     ],
-    "gde": [
-        "gas diffusion electrode CO2 electrolysis",
-        "gas diffusion layer CO2 electrolyzer",
-        "zero gap CO2 electrolyzer gas diffusion electrode",
-        "GDE flooding wetting CO2",
-        "cathode flooding gas diffusion electrode",
-        "operando gas diffusion electrode water management",
-        "X-ray tomography gas diffusion electrode",
-        "operando X-ray tomography electrolyzer electrode",
-        "micro CT porous electrode catalyst layer",
-        "microcomputed tomography electrochemical electrode",
-        "3D reconstruction porous electrode tomography",
-        "micro-CT segmentation gas diffusion electrode",
-        "porous transport layer tomography electrolysis",
+    "mechanism": [
+        "electrocarboxylation mechanism",
+        "cyclic voltammetry electrosynthesis mechanism",
+        "electrochemical reaction mechanism organic synthesis",
+        "radical intermediate electrocarboxylation",
     ],
-    "analysis": [
-        "cyclic voltammetry coupled chemical reaction kinetics",
-        "cyclic voltammetry EC ECE mechanism",
-        "cyclic voltammetry reaction mechanism electrosynthesis",
-        "nonaqueous reference electrode ferrocene DMF",
-        "reference electrode calibration nonaqueous electrochemistry",
-        "electrochemical impedance spectroscopy porous electrode",
-        "EIS equivalent circuit porous electrode",
-        "distribution of relaxation times electrochemical impedance",
-        "rotating ring disk electrode selectivity mechanism",
-        "RRDE peroxide selectivity alkaline",
-        "electrochemical kinetics mass transport mechanism",
-        "Tafel transfer coefficient electrocatalysis",
+    "optimization": [
+        "electrocarboxylation reaction optimization",
+        "supporting electrolyte organic electrosynthesis CO2",
+        "solvent effect electrocarboxylation",
+        "electrode potential electrocarboxylation",
     ],
 }
 
-WEIGHTS = {
-    "organic": {
-        "electrocarboxylation": 42,
-        "electrochemical carboxylation": 38,
-        "reductive carboxylation": 36,
-        "hydrocarboxylation": 30,
-        "carboxylative": 22,
-        "carboxylation": 17,
-        "co2 fixation": 18,
-        "carbon dioxide fixation": 18,
-        "co2 incorporation": 20,
-        "carbon dioxide incorporation": 20,
-        "carbon dioxide": 9,
-        " co2 ": 9,
-        "electrosynthesis": 11,
-        "electroreduction": 8,
-        "nickel": 8,
-        "diene": 8,
-        "alkene": 6,
-        "dmf": 5,
-    },
-    "gde": {
-        "gas diffusion electrode": 35,
-        "gas diffusion layer": 32,
-        " gde ": 28,
-        " gdl ": 25,
-        "zero-gap": 15,
-        "zero gap": 15,
-        "micro-ct": 32,
-        "micro ct": 32,
-        "microcomputed tomography": 32,
-        "x-ray tomography": 29,
-        "x ray tomography": 29,
-        "tomography": 15,
-        "3d reconstruction": 19,
-        "segmentation": 14,
-        "flooding": 18,
-        "wetting": 15,
-        "water management": 12,
-        "catalyst layer": 12,
-        "porous electrode": 12,
-        "porous transport layer": 15,
-        "co2 electrolysis": 15,
-        "electrolyzer": 8,
-        "microstructure": 9,
-        "operando": 5,
-    },
-    "analysis": {
-        "cyclic voltammetry": 24,
-        "voltammetric": 14,
-        "coupled chemical reaction": 22,
-        "ec mechanism": 25,
-        "ece mechanism": 25,
-        "reaction mechanism": 9,
-        "kinetic": 9,
-        "reference electrode": 27,
-        "ferrocene": 18,
-        "fc/fc+": 18,
-        "nonaqueous": 14,
-        "non-aqueous": 14,
-        "dmf": 7,
-        "electrochemical impedance spectroscopy": 23,
-        "impedance spectroscopy": 18,
-        "equivalent circuit": 12,
-        "distribution of relaxation times": 18,
-        "rotating ring-disk": 23,
-        "rotating ring disk": 23,
-        "rrde": 21,
-        "transfer coefficient": 15,
-        "mass transport": 9,
-        "tafel": 10,
-    },
+TOPIC_LABELS = {
+    "core": "Organic CO₂ electrosynthesis",
+    "mechanism": "Electroanalysis & mechanism",
+    "optimization": "Condition optimization",
 }
 
-# Strong penalties for recurring off-topic results. A paper can still survive if it
-# contains very strong topic-specific evidence, except for the analysis title gate.
-NEGATIVE_TERMS = {
-    "direct methanol fuel cell": 70,
-    " dmfc ": 70,
-    "proton exchange membrane fuel cell": 55,
-    "pem fuel cell": 55,
-    "lithium-ion battery": 48,
-    "lithium ion battery": 48,
-    "sodium-ion battery": 48,
-    "sodium ion battery": 48,
-    "supercapacitor": 48,
-    "photocatal": 24,
+CORE_WEIGHTS = {
+    "electrocarboxylation": 60,
+    "electrochemical carboxylation": 54,
+    "reductive carboxylation": 46,
+    "carboxylative cyclization": 40,
+    "hydrocarboxylation": 38,
+    "co2 incorporation": 28,
+    "carbon dioxide incorporation": 28,
+    "co2 fixation": 25,
+    "carbon dioxide fixation": 25,
+    "organic electrosynthesis": 28,
+    "electroorganic synthesis": 28,
+    "electroreductive coupling": 26,
+    "electrochemical synthesis": 12,
+    "carbon dioxide": 8,
+    " co2 ": 8,
 }
+
+MECHANISM_WEIGHTS = {
+    "reaction mechanism": 22,
+    "mechanistic": 22,
+    "mechanism": 12,
+    "cyclic voltammetry": 20,
+    "voltammetry": 12,
+    "kinetic": 14,
+    "electron transfer": 14,
+    "radical intermediate": 18,
+    "radical": 8,
+    "intermediate": 8,
+    "density functional theory": 10,
+    " dft ": 8,
+    "epr": 10,
+    "isotope": 10,
+    "in situ": 8,
+    "operando": 8,
+    "spectroelectrochem": 14,
+    "redox": 6,
+}
+
+OPTIMIZATION_WEIGHTS = {
+    "optimization": 20,
+    "optimisation": 20,
+    "reaction conditions": 16,
+    "supporting electrolyte": 16,
+    "electrolyte": 7,
+    "solvent effect": 14,
+    "solvent": 7,
+    "current density": 12,
+    "applied potential": 12,
+    "electrode potential": 12,
+    "constant current": 8,
+    "constant potential": 8,
+    "co2 pressure": 12,
+    "carbon dioxide pressure": 12,
+    "temperature": 6,
+    "concentration": 6,
+    "cell configuration": 12,
+    "divided cell": 8,
+    "undivided cell": 8,
+    "faradaic efficiency": 10,
+    "yield": 8,
+    "selectivity": 8,
+    "substrate scope": 10,
+}
+
+ORGANIC_SUBSTRATES = (
+    "alkene", "diene", "alkyne", "aryl halide", "organic halide", "benzyl halide",
+    "allyl", "styrene", "epoxide", "ketone", "aldehyde", "imine", "enone", "ester",
+    "amide", "substrate", "organic molecule", "organic compound", "cyclization", "coupling",
+)
+
+ELECTRO_TERMS = (
+    "electrochemical", "electrochemistry", "electrosynthesis", "electroreduct", "electrocarboxyl",
+    "cathod", "anod", "electrolysis", "current", "potential",
+)
+
+CO2_TERMS = (" co2 ", "carbon dioxide")
+
+HARD_EXCLUDE = (
+    "direct methanol fuel cell", " dmfc ", "pem fuel cell", "proton exchange membrane fuel cell",
+    "lithium-ion battery", "lithium ion battery", "sodium-ion battery", "sodium ion battery",
+    "supercapacitor", "oxygen reduction reaction", "oxygen evolution reaction", "water splitting",
+    "hydrogen evolution reaction",
+)
+
+CATALYST_DESIGN_TERMS = {
+    "catalyst design": 35,
+    "catalyst synthesis": 35,
+    "electrocatalyst": 20,
+    "nanoparticle": 18,
+    "nanocomposite": 20,
+    "single-atom": 24,
+    "single atom": 24,
+    "heterostructure": 20,
+    "doped": 14,
+    "alloy catalyst": 22,
+    "metal oxide catalyst": 22,
+    "active site": 16,
+    "catalyst surface": 12,
+    "catalytic activity": 12,
+}
+
+CO2RR_PRODUCT_TERMS = (
+    "carbon monoxide", "formate", "formic acid", "methanol", "ethylene", "ethanol", "syngas",
+)
 
 METHOD_HINTS = (
-    "using ", "we used", "we employ", "we employed", "we perform", "we performed",
-    "we measure", "we measured", "we characterize", "we characterized", "we investigate",
-    "we investigated", "we analyze", "we analysed", "was measured", "were measured",
-    "was characterized", "were characterized", "spectroscopy", "microscopy", "tomography",
-    "voltammetry", "impedance", "electrolysis", "chronoamper", "chronopotent", "chromatograph",
-    "hplc", "gc-ms", "gas chromatography", "mass spectrometry", "x-ray", "x ray", "simulation",
-    "density functional theory", "dft", "finite element", "modeling", "modelling",
+    "cyclic voltammetry", "voltammetry", "electrolysis", "chronoamper", "chronopotent",
+    "controlled-potential", "constant current", "constant potential", "gc-ms", "gas chromatography",
+    "hplc", "nmr", "mass spectrometry", "epr", "spectroscopy", "spectroelectrochem",
+    "density functional theory", "dft", "kinetic", "isotope", "radical trapping",
 )
+
 FINDING_HINTS = (
-    "we found", "we show", "we demonstrate", "we reveal", "results show", "results indicate",
-    "results demonstrate", "revealed", "showed", "found that", "increased", "decreased",
-    "improved", "enhanced", "selectivity", "yield", "conversion", "faradaic efficiency",
-    "stability", "suggests that", "indicates that", "achieved", "reached", "led to",
+    "we found", "we show", "we demonstrate", "results show", "results indicate", "revealed",
+    "yield", "selectivity", "faradaic efficiency", "conversion", "increased", "decreased",
+    "improved", "optimized", "optimised", "mechanism", "intermediate", "rate-determining",
 )
 
 
-@dataclass
-class Candidate:
-    paper: dict
-    rank: int
-
-
-def http_session() -> requests.Session:
+def session() -> requests.Session:
     retry = Retry(
         total=1,
         connect=1,
@@ -221,23 +193,20 @@ def http_session() -> requests.Session:
         allowed_methods=("GET",),
         respect_retry_after_header=False,
     )
-    session = requests.Session()
-    session.mount("https://", HTTPAdapter(max_retries=retry))
-    session.headers.update({"User-Agent": "e-CarbonScope-literature-radar/2.0"})
-    return session
+    s = requests.Session()
+    s.mount("https://", HTTPAdapter(max_retries=retry))
+    s.headers.update({"User-Agent": "organic-co2-literature-radar/4.0"})
+    return s
 
 
-SESSION = http_session()
+SESSION = session()
 
 
-def reconstruct_abstract(inv: dict | None) -> str:
-    if not inv:
-        return ""
-    words: list[tuple[int, str]] = []
-    for word, positions in inv.items():
-        for pos in positions:
-            words.append((pos, word))
-    return " ".join(word for _, word in sorted(words))
+def load_json(path: Path, default):
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return default
 
 
 def normalize(text: str) -> str:
@@ -247,670 +216,378 @@ def normalize(text: str) -> str:
     return f" {text.strip()} "
 
 
-def contains_any(text: str, terms: Iterable[str]) -> bool:
+def has_any(text: str, terms: Iterable[str]) -> bool:
     return any(term in text for term in terms)
+
+
+def reconstruct_abstract(inv: dict | None) -> str:
+    if not inv:
+        return ""
+    words = []
+    for word, positions in inv.items():
+        for pos in positions:
+            words.append((pos, word))
+    return " ".join(word for _, word in sorted(words))
 
 
 def sentence_split(text: str) -> list[str]:
     text = re.sub(r"\s+", " ", text or "").strip()
     if not text:
         return []
-    parts = re.split(r"(?<=[.!?])\s+(?=[A-Z0-9(])", text)
-    return [p.strip() for p in parts if len(p.strip()) >= 25]
+    return [x.strip() for x in re.split(r"(?<=[.!?])\s+(?=[A-Z0-9(])", text) if len(x.strip()) > 20]
 
 
-def select_sentences(abstract: str, hints: tuple[str, ...], limit: int = 2) -> list[str]:
-    sentences = sentence_split(abstract)
-    scored: list[tuple[int, int, str]] = []
-    for i, sentence in enumerate(sentences):
+def select_sentences(text: str, hints: tuple[str, ...], limit: int = 2) -> str:
+    scored = []
+    for idx, sentence in enumerate(sentence_split(text)):
         low = sentence.lower()
-        score = sum(1 for hint in hints if hint in low)
+        score = sum(1 for h in hints if h in low)
         if score:
-            scored.append((score, -i, sentence))
+            scored.append((score, -idx, sentence))
     scored.sort(reverse=True)
-    return [x[2] for x in scored[:limit]]
+    return " ".join(x[2] for x in scored[:limit])
 
 
-def truncate(text: str, limit: int = 680) -> str:
+def truncate(text: str, limit: int) -> str:
     text = re.sub(r"\s+", " ", text or "").strip()
     if len(text) <= limit:
         return text
     return text[: limit - 1].rstrip() + "…"
 
 
-def hard_gate(topic: str, title: str, abstract: str) -> bool:
+def strong_core(full: str) -> bool:
+    return has_any(full, (
+        "electrocarboxylation", "electrochemical carboxylation", "reductive carboxylation",
+        "hydrocarboxylation", "carboxylative cyclization", "co2 incorporation", "carbon dioxide incorporation",
+    ))
+
+
+def relevance(title: str, abstract: str) -> tuple[int, str, list[str]] | None:
     title_n = normalize(title)
     full = normalize(title + " " + abstract)
 
-    if topic == "organic":
-        if "electrocarboxylation" in full:
-            return True
-        carbox = contains_any(
-            full,
-            (
-                "electrochemical carboxylation", "reductive carboxylation", " carboxylation ",
-                "hydrocarboxylation", "carboxylative", "co2 fixation", "carbon dioxide fixation",
-                "co2 incorporation", "carbon dioxide incorporation",
-            ),
-        )
-        co2 = contains_any(full, (" co2 ", "carbon dioxide"))
-        electro = contains_any(full, ("electrochem", "electrosynth", "electroreduc", "cathod"))
-        return carbox and co2 and electro
+    if has_any(full, HARD_EXCLUDE):
+        return None
 
-    if topic == "gde":
-        gde = contains_any(full, ("gas diffusion electrode", "gas diffusion layer", " gde ", " gdl "))
-        imaging = contains_any(
-            full,
-            ("micro-ct", "micro ct", "microcomputed tomography", "x-ray tomography", "x ray tomography", "tomography"),
-        )
-        context = contains_any(
-            full,
-            ("co2", "electroly", "electrode", "catalyst layer", "porous", "flooding", "wetting", "microstructure", "water management"),
-        )
-        return (gde and context) or (imaging and context)
+    electro = has_any(full, ELECTRO_TERMS)
+    co2 = has_any(full, CO2_TERMS)
+    organic = has_any(full, ORGANIC_SUBSTRATES) or has_any(full, (
+        "organic synthesis", "organic electrosynthesis", "electroorganic", "carboxylation", "carboxylative",
+    ))
 
-    if topic == "analysis":
-        if contains_any(
-            title_n,
-            ("direct methanol fuel cell", " dmfc ", "pem fuel cell", "battery", "supercapacitor"),
-        ):
-            return False
-        method = contains_any(
-            full,
-            (
-                "cyclic voltammetry", "voltammetric", "reference electrode", "ferrocene", "fc/fc+",
-                "electrochemical impedance spectroscopy", "impedance spectroscopy", "equivalent circuit",
-                "distribution of relaxation times", "rotating ring-disk", "rotating ring disk", "rrde",
-                "transfer coefficient", "tafel",
-            ),
-        )
-        context = contains_any(
-            full,
-            (
-                "mechanism", "kinetic", "coupled chemical reaction", "calibration", "nonaqueous",
-                "non-aqueous", "equivalent circuit", "mass transport", "electrosynthesis",
-                "electrocatal", "porous electrode", "reference electrode", "selectivity",
-            ),
-        )
-        return method and context
+    if not strong_core(full) and not (electro and co2 and organic):
+        return None
 
-    return False
+    # Pure CO2RR catalyst papers are not the target unless an organic coupling/carboxylation signal is clear.
+    if has_any(full, CO2RR_PRODUCT_TERMS) and not strong_core(full) and not has_any(full, ("coupling", "organic substrate", "carboxylation")):
+        return None
 
+    core = 0
+    mech = 0
+    opt = 0
+    matched = []
 
-def raw_score(topic: str, title: str, abstract: str) -> tuple[int, list[str]]:
-    title_n = normalize(title)
-    full = normalize(title + " " + abstract)
-    score = 0
-    matched: list[str] = []
-
-    for term, weight in WEIGHTS[topic].items():
+    for term, w in CORE_WEIGHTS.items():
         if term in full:
-            score += weight
+            core += w
             matched.append(term.strip())
             if term in title_n:
-                score += max(4, round(weight * 0.45))
+                core += max(5, round(w * 0.35))
+    for term, w in MECHANISM_WEIGHTS.items():
+        if term in full:
+            mech += w
+            matched.append(term.strip())
+    for term, w in OPTIMIZATION_WEIGHTS.items():
+        if term in full:
+            opt += w
+            matched.append(term.strip())
 
-    if len(abstract) > 250:
-        score += 5
-    if contains_any(title_n, ("review", "perspective", "tutorial", "protocol")):
-        score += 4
+    catalyst_penalty = 0
+    for term, penalty in CATALYST_DESIGN_TERMS.items():
+        if term in full:
+            catalyst_penalty += penalty
 
-    if topic != "gde":
-        for term, penalty in NEGATIVE_TERMS.items():
-            if term in full:
-                score -= penalty
-
-    return max(0, score), list(dict.fromkeys(matched))
-
-
-def display_score(topic: str, raw: int) -> int:
-    threshold = MIN_SCORE[topic]
-    return min(99, 76 + max(0, round((raw - threshold) * 0.55)))
-
-
-def best_topic(title: str, abstract: str) -> tuple[str, int, list[str]] | None:
-    choices: list[tuple[int, str, list[str]]] = []
-    for topic in TOPICS:
-        if not hard_gate(topic, title, abstract):
-            continue
-        score, matched = raw_score(topic, title, abstract)
-        if score >= MIN_SCORE[topic]:
-            choices.append((score, topic, matched))
-    if not choices:
+    # Hard reject papers dominated by catalyst/material development and lacking mechanistic/optimization content.
+    if catalyst_penalty >= 35 and core < 45 and mech < 18 and opt < 18:
         return None
-    score, topic, matched = max(choices, key=lambda x: x[0])
-    return topic, score, matched
+
+    score = core + min(mech, 42) + min(opt, 38) - catalyst_penalty
+    if len(abstract) > 350:
+        score += 5
+    if has_any(title_n, ("mechanism", "mechanistic", "optimization", "optimisation", "electrocarboxylation")):
+        score += 8
+
+    if score < MIN_SCORE:
+        return None
+
+    if mech >= max(18, opt) and mech >= core * 0.45:
+        topic = "mechanism"
+    elif opt >= max(18, mech) and opt >= core * 0.42:
+        topic = "optimization"
+    else:
+        topic = "core"
+
+    return min(99, 70 + round((score - MIN_SCORE) * 0.34)), topic, list(dict.fromkeys(matched))[:8]
 
 
-def canonical_key(paper: dict) -> str:
-    doi = (paper.get("doi") or "").lower().strip()
+def canonical_key(p: dict) -> str:
+    doi = (p.get("doi") or "").lower().strip()
     if doi:
         return doi.replace("https://doi.org/", "").replace("http://doi.org/", "")
-    title = re.sub(r"\W+", " ", paper.get("title", "").lower()).strip()
-    return title[:220]
-
-
-def read_minutes(abstract: str) -> int:
-    words = len((abstract or "").split())
-    return max(6, min(18, round(words / 190) + 5)) if words else 8
-
-
-def get_primary_url(work: dict) -> str:
-    doi = work.get("doi") or ""
-    if doi:
-        return doi
-    primary = work.get("primary_location") or {}
-    return primary.get("landing_page_url") or work.get("id") or "#"
+    return re.sub(r"\W+", " ", p.get("title", "").lower()).strip()[:240]
 
 
 def source_info(work: dict) -> tuple[str, list[str]]:
-    primary = work.get("primary_location") or {}
-    source = primary.get("source") or {}
+    source = ((work.get("primary_location") or {}).get("source") or {})
     name = source.get("display_name") or "Unknown journal"
-    issns = source.get("issn") or []
+    issns = list(source.get("issn") or [])
     if source.get("issn_l") and source.get("issn_l") not in issns:
-        issns = [source.get("issn_l"), *issns]
+        issns.insert(0, source.get("issn_l"))
     return name, [x for x in issns if x]
 
 
-def build_paper(work: dict, topic: str, rank: int, matched: list[str], discovery_source: str) -> dict:
-    title = (work.get("title") or "").strip()
-    abstract = reconstruct_abstract(work.get("abstract_inverted_index"))
-    source, issns = source_info(work)
-    authors = [
-        ((a.get("author") or {}).get("display_name") or "").strip()
-        for a in work.get("authorships", [])[:8]
-    ]
-    authors = [a for a in authors if a]
-    doi = (work.get("doi") or "").strip()
-    wid = (work.get("id") or "").split("/")[-1]
-    if not wid:
-        wid = re.sub(r"\W+", "-", title.lower()).strip("-")[:70]
-
-    return {
-        "id": wid,
-        "doi": doi,
-        "topic": topic,
-        "badge": "Latest research",
-        "read_minutes": read_minutes(abstract),
-        "title": title,
-        "journal": source,
-        "journal_issn": issns,
-        "year": work.get("publication_year"),
-        "publication_date": work.get("publication_date") or "",
-        "authors": authors,
-        "summary_en": "",
-        "methods_summary": "",
-        "key_findings": "",
-        "relevance_reason": "",
-        "abstract": truncate(abstract, 6000),
-        "tags": matched[:6],
-        "score": display_score(topic, rank),
-        "url": get_primary_url(work),
-        "archive": False,
-        "discovery_source": discovery_source,
-        "_rank": rank,
-    }
+def primary_url(work: dict) -> str:
+    return work.get("doi") or (work.get("primary_location") or {}).get("landing_page_url") or work.get("id") or "#"
 
 
-def _short_error(exc: Exception) -> str:
-    text = re.sub(r"\s+", " ", str(exc)).strip()
-    # urllib3 errors can contain the full query URL; keep Actions logs readable.
-    if " with url:" in text:
-        text = text.split(" with url:", 1)[0]
-    return text[:240]
+def metric_lookup(journal: str, issns: list[str], metrics: dict) -> tuple[str | None, str | None, str | None]:
+    normalized_issn = {x.upper() for x in issns}
+    jlow = journal.lower().strip()
+    metric_year = (metrics.get("_metadata") or {}).get("metric_year")
+    for name, info in metrics.items():
+        if name.startswith("_") or not isinstance(info, dict):
+            continue
+        rec_issn = {str(x).upper() for x in info.get("issn", [])}
+        aliases = [name, *info.get("aliases", [])]
+        name_match = any(jlow == str(a).lower().strip() for a in aliases)
+        if normalized_issn.intersection(rec_issn) or name_match:
+            return info.get("impact_factor"), info.get("quartile"), metric_year
+    return None, None, metric_year
 
 
 def openalex_get(params: dict) -> dict:
-    if API_STATS["circuit_open"]:
-        raise OpenAlexCircuitOpen("OpenAlex circuit breaker is open for this run")
-
+    if API["circuit_open"]:
+        raise RuntimeError("OpenAlex circuit breaker is open")
     mailto = os.getenv("OPENALEX_MAILTO", "").strip()
     if mailto:
         params["mailto"] = mailto
-
     try:
-        response = SESSION.get(
-            "https://api.openalex.org/works",
-            params=params,
-            timeout=(OPENALEX_CONNECT_TIMEOUT, OPENALEX_READ_TIMEOUT),
-        )
-        response.raise_for_status()
-        API_STATS["ok"] += 1
-        API_STATS["consecutive_failed"] = 0
-        time.sleep(OPENALEX_REQUEST_PAUSE)
-        return response.json()
+        r = SESSION.get("https://api.openalex.org/works", params=params, timeout=(OPENALEX_CONNECT_TIMEOUT, OPENALEX_READ_TIMEOUT))
+        r.raise_for_status()
+        API["ok"] += 1
+        API["consecutive_failed"] = 0
+        time.sleep(REQUEST_PAUSE)
+        return r.json()
     except requests.RequestException as exc:
-        API_STATS["failed"] += 1
-        API_STATS["consecutive_failed"] += 1
-        if API_STATS["consecutive_failed"] >= OPENALEX_MAX_CONSECUTIVE_FAILURES:
-            API_STATS["circuit_open"] = True
-        raise OpenAlexRequestFailed(_short_error(exc)) from exc
+        API["failed"] += 1
+        API["consecutive_failed"] += 1
+        if API["consecutive_failed"] >= MAX_CONSECUTIVE_FAILURES:
+            API["circuit_open"] = True
+        msg = re.sub(r"\s+", " ", str(exc))[:260]
+        raise RuntimeError(msg) from exc
 
 
-def fetch_query(topic: str, query: str, date_from: str, date_to: str) -> list[Candidate]:
+def load_queries() -> dict[str, list[str]]:
+    raw = load_json(KEYWORDS, {})
+    out = {}
+    for topic, defaults in DEFAULT_QUERIES.items():
+        items = (((raw.get("topics") or {}).get(topic) or {}).get("keywords") or [])
+        cleaned = []
+        seen = set()
+        for item in items:
+            q = re.sub(r"\s+", " ", str(item or "")).strip()
+            if q and q.lower() not in seen:
+                cleaned.append(q)
+                seen.add(q.lower())
+        out[topic] = cleaned or defaults
+    return out
+
+
+def rotating_queries(topic: str, queries: list[str], day_ordinal: int) -> list[str]:
+    if not queries:
+        return []
+    # Always include the first (broadest) query, rotate the second slot daily.
+    picked = [queries[0]]
+    if len(queries) > 1 and MAX_QUERY_PER_TOPIC > 1:
+        idx = 1 + ((day_ordinal + {"core": 0, "mechanism": 3, "optimization": 7}[topic]) % (len(queries) - 1))
+        picked.append(queries[idx])
+    return picked[:MAX_QUERY_PER_TOPIC]
+
+
+def fetch(query: str, date_from: str, date_to: str, page: int = 1) -> list[dict]:
     params = {
         "search": query,
         "filter": f"from_publication_date:{date_from},to_publication_date:{date_to},is_paratext:false",
-        "sort": "publication_date:desc",
-        "per-page": 50,
+        "per-page": PER_PAGE,
+        "page": page,
     }
-    payload = openalex_get(params)
-    candidates: list[Candidate] = []
-
-    for work in payload.get("results", []):
-        title = (work.get("title") or "").strip()
-        if not title:
-            continue
-        abstract = reconstruct_abstract(work.get("abstract_inverted_index"))
-        if not hard_gate(topic, title, abstract):
-            continue
-        rank, matched = raw_score(topic, title, abstract)
-        if rank < MIN_SCORE[topic]:
-            continue
-        candidates.append(Candidate(build_paper(work, topic, rank, matched, "topic-search"), rank))
-    return candidates
+    return openalex_get(params).get("results", [])
 
 
-def metric_records(metrics: dict) -> list[tuple[str, dict]]:
-    return [(k, v) for k, v in metrics.items() if not k.startswith("_") and isinstance(v, dict)]
+def build_paper(work: dict, score: int, topic: str, tags: list[str], metrics: dict, pushed_date: str) -> dict:
+    abstract = reconstruct_abstract(work.get("abstract_inverted_index"))
+    journal, issns = source_info(work)
+    impact_factor, quartile, metric_year = metric_lookup(journal, issns, metrics)
+    wid = (work.get("id") or "").split("/")[-1]
+    title = (work.get("title") or "").strip()
+    if not wid:
+        wid = re.sub(r"\W+", "-", title.lower()).strip("-")[:80]
+
+    methods = select_sentences(abstract, METHOD_HINTS, 2)
+    findings = select_sentences(abstract, FINDING_HINTS, 2)
+    sentences = sentence_split(abstract)
+
+    if not methods:
+        methods = "The available abstract does not describe the experimental or electroanalytical methods in enough detail."
+    if not findings:
+        findings = sentences[-1] if sentences else "No reliable conclusion could be extracted from the available abstract."
+
+    return {
+        "id": wid,
+        "doi": work.get("doi") or "",
+        "title": title,
+        "topic": topic,
+        "topic_label": TOPIC_LABELS[topic],
+        "journal": journal,
+        "journal_issn": issns,
+        "impact_factor": impact_factor,
+        "quartile": quartile,
+        "metric_year": metric_year,
+        "year": work.get("publication_year"),
+        "publication_date": work.get("publication_date") or "",
+        "abstract": truncate(abstract, 7000),
+        "methods_summary": truncate(methods, 900),
+        "key_findings": truncate(findings, 1000),
+        "tags": tags[:7],
+        "score": score,
+        "url": primary_url(work),
+        "archive": False,
+        "pushed_date": pushed_date,
+    }
 
 
-def watched_issns(metrics: dict) -> list[str]:
-    values: list[str] = []
-    for _, info in metric_records(metrics):
-        if not info.get("watch", False):
-            continue
-        for issn in info.get("issn", []):
-            if issn and issn not in values:
-                values.append(issn)
-    return values
+def collect_unseen(queries: dict[str, list[str]], seen: set[str], metrics: dict, now: datetime, data: dict) -> tuple[list[dict], int]:
+    recent_from = (now.date() - timedelta(days=RECENT_DAYS)).isoformat()
+    today = now.date().isoformat()
+    candidates = {}
 
+    def ingest(works: list[dict]):
+        for work in works:
+            title = (work.get("title") or "").strip()
+            if not title:
+                continue
+            abstract = reconstruct_abstract(work.get("abstract_inverted_index"))
+            rel = relevance(title, abstract)
+            if not rel:
+                continue
+            score, topic, tags = rel
+            paper = build_paper(work, score, topic, tags, metrics, today)
+            key = canonical_key(paper)
+            if key in seen:
+                continue
+            existing = candidates.get(key)
+            if existing is None or paper["score"] > existing["score"]:
+                candidates[key] = paper
 
-def fetch_watchlist(metrics: dict, date_from: str, date_to: str) -> list[Candidate]:
-    """Scan a broad set of high-value journals, then apply the same relevance gates.
-
-    This is complementary to keyword search: it can recover papers whose abstract/title
-    uses unfamiliar terminology but appears in a closely watched journal.
-    """
-    issns = watched_issns(metrics)
-    candidates: list[Candidate] = []
-    batch_size = 30
-
-    for start in range(0, len(issns), batch_size):
-        batch = issns[start : start + batch_size]
-        try:
-            params = {
-                "filter": (
-                    f"from_publication_date:{date_from},to_publication_date:{date_to},"
-                    f"primary_location.source.issn:{'|'.join(batch)},is_paratext:false"
-                ),
-                "sort": "publication_date:desc",
-                "per-page": 100,
-            }
-            payload = openalex_get(params)
-            accepted = 0
-            for work in payload.get("results", []):
-                title = (work.get("title") or "").strip()
-                if not title:
-                    continue
-                abstract = reconstruct_abstract(work.get("abstract_inverted_index"))
-                choice = best_topic(title, abstract)
-                if not choice:
-                    continue
-                topic, rank, matched = choice
-                candidates.append(Candidate(build_paper(work, topic, rank, matched, "journal-watchlist"), rank))
-                accepted += 1
-            print(f"journal watchlist | batch {start // batch_size + 1} | {accepted:2d} accepted")
-        except OpenAlexCircuitOpen:
-            print("OpenAlex circuit breaker opened during journal watchlist; stopping remote requests.", file=sys.stderr)
-            break
-        except Exception as exc:
-            print(f"OpenAlex journal watchlist batch failed: {_short_error(exc)}", file=sys.stderr)
-            if API_STATS["circuit_open"]:
-                print("OpenAlex is repeatedly unavailable; skipping remaining watchlist batches.", file=sys.stderr)
-                break
-
-    return candidates
-
-
-def configured_searches(keyword_config: dict) -> dict[str, list[str]]:
-    """Return the editable search-query list from data/keywords.json.
-
-    The three topic keys remain fixed so scoring/gating stays predictable. If the
-    JSON is missing or malformed, the built-in TOPICS dictionary is used.
-    """
-    configured: dict[str, list[str]] = {}
-    topics = keyword_config.get("topics", {}) if isinstance(keyword_config, dict) else {}
-
-    for topic, fallback in TOPICS.items():
-        raw = (topics.get(topic) or {}).get("keywords", [])
-        if not isinstance(raw, list):
-            raw = []
-        seen: set[str] = set()
-        cleaned: list[str] = []
-        for item in raw:
-            value = re.sub(r"\s+", " ", str(item or "")).strip()
-            key = value.lower()
-            if value and key not in seen:
-                cleaned.append(value)
-                seen.add(key)
-        configured[topic] = cleaned if cleaned else list(fallback)
-
-    return configured
-
-
-def selected_queries_for_run(
-    topic: str, queries: list[str], now: datetime, *, fallback: bool = False
-) -> list[str]:
-    """Use a small rotating subset instead of hammering OpenAlex with every keyword.
-
-    User-added keywords (those not in the built-in default list) are searched first so
-    they take effect immediately. Remaining slots rotate through the configured list
-    across days, so the whole keyword library is still covered over time.
-    """
-    if not queries:
-        return []
-
-    limit = FALLBACK_SEARCHES_PER_TOPIC if fallback else MAX_SEARCHES_PER_TOPIC
-    defaults = {normalize(q).strip() for q in TOPICS.get(topic, [])}
-    custom = [q for q in queries if normalize(q).strip() not in defaults]
-
-    picked: list[str] = []
-    for q in custom:
-        if q not in picked:
-            picked.append(q)
-        if len(picked) >= limit:
-            return picked
-
-    remaining = [q for q in queries if q not in picked]
-    if not remaining:
-        return picked
-
-    # Stable daily rotation with a different offset per topic.
-    offsets = {"organic": 0, "gde": 7, "analysis": 13}
-    start = (now.date().toordinal() + offsets.get(topic, 0)) % len(remaining)
-    rotated = remaining[start:] + remaining[:start]
-    for q in rotated:
-        if q not in picked:
-            picked.append(q)
-        if len(picked) >= limit:
-            break
-    return picked
-
-
-def collect_candidates(
-    now: datetime,
-    days: int,
-    metrics: dict,
-    search_topics: dict[str, list[str]],
-    *,
-    fallback: bool = False,
-) -> list[dict]:
-    start = (now.date() - timedelta(days=days)).isoformat()
-    end = now.date().isoformat()
-    all_candidates: list[Candidate] = []
-
-    for topic, configured_queries in search_topics.items():
-        queries = selected_queries_for_run(topic, configured_queries, now, fallback=fallback)
-        for query in queries:
-            if API_STATS["circuit_open"]:
+    day_ordinal = now.date().toordinal()
+    for topic, qlist in queries.items():
+        for q in rotating_queries(topic, qlist, day_ordinal):
+            if API["circuit_open"]:
                 break
             try:
-                found = fetch_query(topic, query, start, end)
-                all_candidates.extend(found)
-                print(f"{topic:8s} | {query[:48]:48s} | {len(found):2d} accepted", flush=True)
-            except OpenAlexCircuitOpen:
-                break
+                works = fetch(q, recent_from, today, 1)
+                ingest(works)
+                print(f"recent | {topic:12s} | {q[:52]:52s} | total candidates={len(candidates)}", flush=True)
             except Exception as exc:
-                print(f"OpenAlex fetch failed [{topic}] {query}: {_short_error(exc)}", file=sys.stderr, flush=True)
-        if API_STATS["circuit_open"]:
-            print("OpenAlex circuit breaker open; stopping remaining keyword searches.", file=sys.stderr, flush=True)
+                print(f"OpenAlex recent fetch failed [{topic}] {q}: {exc}", file=sys.stderr, flush=True)
+        if API["circuit_open"]:
             break
 
-    # The expensive journal scan runs only on the normal window and only while the
-    # API is healthy. The wide fallback intentionally skips it.
-    if not fallback and not API_STATS["circuit_open"]:
-        all_candidates.extend(fetch_watchlist(metrics, start, end))
-
-    best: dict[str, Candidate] = {}
-    for candidate in all_candidates:
-        key = canonical_key(candidate.paper)
-        current = best.get(key)
-        if current is None or candidate.rank > current.rank:
-            best[key] = candidate
-
-    return [c.paper for c in best.values()]
-
-
-def select_balanced(candidates: list[dict], limit: int = MAX_DAILY) -> list[dict]:
-    grouped: dict[str, list[dict]] = {}
-    for topic in TOPICS:
-        grouped[topic] = sorted(
-            [p for p in candidates if p.get("topic") == topic],
-            key=lambda p: (p.get("_rank", 0), p.get("publication_date", "")),
-            reverse=True,
-        )
-
-    selected: list[dict] = []
-    counts = {topic: 0 for topic in TOPICS}
-
-    while len(selected) < limit:
-        added = False
-        for topic in TOPICS:
-            if len(selected) >= limit:
+    # If the newest literature does not fill ten slots, rotate through older pages.
+    page = int(((data.get("search_state") or {}).get("backfill_page") or 1))
+    if len(candidates) < TARGET_DAILY and not API["circuit_open"]:
+        old_from = (now.date() - timedelta(days=365 * BACKFILL_YEARS)).isoformat()
+        for round_idx in range(2):
+            for topic, qlist in queries.items():
+                if API["circuit_open"] or len(candidates) >= TARGET_DAILY * 3:
+                    break
+                q = qlist[0]
+                try:
+                    works = fetch(q, old_from, today, page + round_idx)
+                    ingest(works)
+                    print(f"backfill page {page + round_idx} | {topic:12s} | candidates={len(candidates)}", flush=True)
+                except Exception as exc:
+                    print(f"OpenAlex backfill failed [{topic}] page {page + round_idx}: {exc}", file=sys.stderr, flush=True)
+            if API["circuit_open"] or len(candidates) >= TARGET_DAILY * 3:
                 break
-            if counts[topic] >= MAX_PER_TOPIC or not grouped[topic]:
-                continue
-            selected.append(grouped[topic].pop(0))
-            counts[topic] += 1
-            added = True
-        if not added:
-            break
+        page += 2
+        if page > 80:
+            page = 1
 
-    if len(selected) < limit:
-        rest: list[dict] = []
-        for papers in grouped.values():
-            rest.extend(papers)
-        rest.sort(key=lambda p: (p.get("_rank", 0), p.get("publication_date", "")), reverse=True)
-        selected.extend(rest[: limit - len(selected)])
+    ranked = sorted(
+        candidates.values(),
+        key=lambda p: (int(p.get("score") or 0), p.get("publication_date") or ""),
+        reverse=True,
+    )
 
-    return selected[:limit]
+    # Prefer a mix: core synthesis first, then mechanism/optimization, then fill by score.
+    selected = []
+    quotas = {"core": 5, "mechanism": 3, "optimization": 2}
+    for topic, quota in quotas.items():
+        pool = [p for p in ranked if p["topic"] == topic and p not in selected]
+        selected.extend(pool[:quota])
+    if len(selected) < TARGET_DAILY:
+        selected.extend([p for p in ranked if p not in selected][: TARGET_DAILY - len(selected)])
 
-
-def make_english_digest(paper: dict) -> None:
-    """Create deterministic English summaries from the OpenAlex abstract only.
-
-    No language-model API is used. The wording remains close to the authors' abstract
-    so the page avoids inventing unsupported methods or conclusions.
-    """
-    abstract = paper.get("abstract", "")
-    sentences = sentence_split(abstract)
-    method_sentences = select_sentences(abstract, METHOD_HINTS, 2)
-    finding_sentences = select_sentences(abstract, FINDING_HINTS, 2)
-
-    if abstract:
-        overview: list[str] = []
-        if sentences:
-            overview.append(sentences[0])
-        for sentence in finding_sentences:
-            if sentence not in overview:
-                overview.append(sentence)
-            if len(overview) >= 2:
-                break
-        if len(overview) < 2 and len(sentences) > 1:
-            overview.append(sentences[1])
-
-        paper["summary_en"] = truncate(" ".join(overview), 560)
-        paper["methods_summary"] = (
-            truncate(" ".join(method_sentences), 520)
-            if method_sentences
-            else "The OpenAlex abstract does not state the experimental or analytical methods in enough detail."
-        )
-        paper["key_findings"] = (
-            truncate(" ".join(finding_sentences), 560)
-            if finding_sentences
-            else truncate(sentences[-1], 560) if sentences else "No reliable conclusion could be extracted from the available abstract."
-        )
-    else:
-        paper["summary_en"] = "No abstract was available from OpenAlex; open the original article for the full study summary."
-        paper["methods_summary"] = "Methods cannot be extracted reliably because the abstract is unavailable."
-        paper["key_findings"] = "Key findings cannot be extracted reliably because the abstract is unavailable."
-
-    tags = ", ".join(paper.get("tags", [])[:4]) or "topic keywords"
-    topic = paper.get("topic")
-    if topic == "organic":
-        paper["relevance_reason"] = f"Matched {tags}; directly relevant to CO2 electrocarboxylation, non-aqueous electrosynthesis, or Ni-mediated carbon incorporation."
-    elif topic == "gde":
-        paper["relevance_reason"] = f"Matched {tags}; relevant to GDE flooding/wetting, porous-electrode transport, or Micro-CT / tomography structure analysis."
-    else:
-        paper["relevance_reason"] = f"Matched {tags}; relevant to CV, EIS, reference-electrode calibration, mass transport, selectivity, or electrochemical mechanism analysis."
-    paper["summary_mode"] = "abstract-extraction"
-
-
-def load_json(path: Path, default: dict) -> dict:
-    try:
-        return json.loads(path.read_text(encoding="utf-8"))
-    except (FileNotFoundError, json.JSONDecodeError) as exc:
-        print(f"Warning: could not read {path}: {exc}", file=sys.stderr)
-        return default
-
-
-def metric_for(journal: str, issns: list[str], metrics: dict) -> dict:
-    norm_issns = {str(x).strip().upper() for x in (issns or []) if x}
-    journal_n = normalize(journal).strip()
-
-    # ISSN is the most reliable match because OpenAlex journal names can vary.
-    for _, info in metric_records(metrics):
-        metric_issns = {str(x).strip().upper() for x in info.get("issn", []) if x}
-        if norm_issns and norm_issns.intersection(metric_issns):
-            return info
-
-    # Then match the canonical title or an alias.
-    for title, info in metric_records(metrics):
-        names = [title, *info.get("aliases", [])]
-        for name in names:
-            if normalize(name).strip() == journal_n:
-                return info
-
-    # Finally allow conservative containment for publisher title variants.
-    if journal_n:
-        for title, info in metric_records(metrics):
-            for name in [title, *info.get("aliases", [])]:
-                candidate = normalize(name).strip()
-                if len(candidate) >= 8 and (candidate in journal_n or journal_n in candidate):
-                    return info
-    return {}
-
-
-def add_metrics(paper: dict, metrics: dict) -> None:
-    metric = metric_for(paper.get("journal", ""), paper.get("journal_issn", []), metrics)
-    paper["impact_factor"] = metric.get("impact_factor")
-    paper["quartile"] = metric.get("quartile", "JCR —")
-    if metric.get("impact_factor"):
-        paper["metric_year"] = "2025 JIF"
-    else:
-        paper.pop("metric_year", None)
-
-
-def recency_badge(publication_date: str, now: datetime) -> str:
-    try:
-        age = (now.date() - date.fromisoformat(publication_date)).days
-    except (TypeError, ValueError):
-        return "Selected research"
-    if age <= 14:
-        return "Latest research"
-    if age <= 60:
-        return "Recent research"
-    return "Recent pick"
+    selected = sorted(selected[:TARGET_DAILY], key=lambda p: (p["score"], p.get("publication_date") or ""), reverse=True)
+    return selected, page
 
 
 def main() -> None:
     now = datetime.now(BERLIN)
-    old = load_json(DATA, {"papers": [], "trackers": []})
+    data = load_json(DATA, {"papers": [], "search_state": {"backfill_page": 1}})
     metrics = load_json(METRICS, {})
-    keyword_config = load_json(KEYWORDS, {"topics": {}})
-    search_topics = configured_searches(keyword_config)
-    old_papers = old.get("papers") if isinstance(old.get("papers"), list) else []
+    queries = load_queries()
 
-    # Refresh metrics for the full archive whenever the local journal library changes.
-    for paper in old_papers:
-        paper["archive"] = True
-        add_metrics(paper, metrics)
-        # Convert legacy empty/fallback records into the API-free English format.
-        if paper.get("abstract") and not paper.get("summary_en"):
-            make_english_digest(paper)
+    existing = list(data.get("papers") or [])
+    seen = {canonical_key(p) for p in existing if canonical_key(p)}
 
-    old_keys = {canonical_key(p) for p in old_papers}
-    old_ids = {str(p.get("id", "")) for p in old_papers}
+    selected, next_page = collect_unseen(queries, seen, metrics, now, data)
 
-    candidates = collect_candidates(now, LOOKBACK_DAYS, metrics, search_topics, fallback=False)
-    unseen = [
-        p for p in candidates
-        if canonical_key(p) not in old_keys and str(p.get("id", "")) not in old_ids
-    ]
+    if API["ok"] == 0:
+        print("OpenAlex did not return any successful response. Existing papers.json is preserved.", file=sys.stderr)
+        sys.exit(0)
 
-    # OpenAlex indexing can lag. Broaden the window if today's strict scan is sparse.
-    if len(unseen) < 4:
-        wider = collect_candidates(now, FALLBACK_LOOKBACK_DAYS, metrics, search_topics, fallback=True)
-        merged: dict[str, dict] = {canonical_key(p): p for p in unseen}
-        for paper in wider:
-            key = canonical_key(paper)
-            if key not in old_keys and str(paper.get("id", "")) not in old_ids:
-                current = merged.get(key)
-                if current is None or paper.get("_rank", 0) > current.get("_rank", 0):
-                    merged[key] = paper
-        unseen = list(merged.values())
+    # Previously pushed papers become history before the new daily batch is inserted.
+    for p in existing:
+        p["archive"] = True
+        # Reapply journal metrics to old records where possible.
+        impact_factor, quartile, metric_year = metric_lookup(p.get("journal", ""), p.get("journal_issn", []) or [], metrics)
+        if impact_factor:
+            p["impact_factor"] = impact_factor
+        if quartile:
+            p["quartile"] = quartile
+        if metric_year:
+            p["metric_year"] = metric_year
 
-    attempts = API_STATS["ok"] + API_STATS["failed"]
-    failure_ratio = (API_STATS["failed"] / attempts) if attempts else 0.0
-    if API_STATS["circuit_open"] or (attempts >= 3 and failure_ratio > 0.50):
-        print(
-            "OpenAlex is currently unstable "
-            f"(ok={API_STATS['ok']}, failed={API_STATS['failed']}). "
-            "Preserving the existing papers.json instead of publishing an incomplete/empty digest.",
-            file=sys.stderr,
-            flush=True,
-        )
-        return
+    archive = existing[:MAX_ARCHIVE]
+    papers = selected + archive
+    match_score = round(sum(int(p.get("score") or 0) for p in selected) / len(selected)) if selected else 0
 
-    fresh = select_balanced(unseen, MAX_DAILY)
-
-    for paper in fresh:
-        make_english_digest(paper)
-        paper["badge"] = recency_badge(paper.get("publication_date", ""), now)
-        add_metrics(paper, metrics)
-        paper["first_seen"] = now.isoformat(timespec="seconds")
-        paper.pop("_rank", None)
-
-    fresh_keys = {canonical_key(p) for p in fresh}
-    archive = [p for p in old_papers if canonical_key(p) not in fresh_keys][:MAX_ARCHIVE]
-
-    match_score = round(sum(int(p.get("score", 0)) for p in fresh) / len(fresh)) if fresh else 0
-    high_count = sum(1 for p in fresh if int(p.get("score", 0)) >= 88)
-
-    payload = {
+    out = {
+        "version": 4,
         "brief_date": now.strftime("%Y · %m · %d"),
-        "last_updated": now.isoformat(timespec="minutes"),
-        "summary_mode": "English abstract extraction; no AI/API required",
-        "journal_metric_snapshot": "2025 JIF / JCR quartile, curated 2026-09-30",
-        "keyword_count": sum(len(v) for v in search_topics.values()),
-        "keyword_config_updated": keyword_config.get("updated_at", ""),
+        "last_updated": now.strftime("%Y-%m-%d %H:%M %Z"),
+        "target_daily": TARGET_DAILY,
         "match_score": match_score,
-        "trackers": old.get("trackers", []),
-        "papers": fresh + archive,
+        "search_state": {"backfill_page": next_page},
+        "papers": papers,
     }
-
-    DATA.parent.mkdir(parents=True, exist_ok=True)
-    DATA.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-
-    print(
-        f"Radar updated at {now.isoformat(timespec='minutes')} | "
-        f"fresh={len(fresh)} | high={high_count} | archive={len(archive)} | "
-        f"journal-library={len(metric_records(metrics))} | "
-        f"keywords={sum(len(v) for v in search_topics.values())} | "
-        f"openalex-ok={API_STATS['ok']} | openalex-failed={API_STATS['failed']}"
-    )
+    DATA.write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"Selected {len(selected)} unseen papers for today's digest; archived {len(archive)} previous papers.")
+    if len(selected) < TARGET_DAILY:
+        print(f"Only {len(selected)} sufficiently relevant unseen papers were available; the script will not pad with catalyst-design/off-topic papers.")
+    print(f"OpenAlex requests: ok={API['ok']} failed={API['failed']} circuit_open={API['circuit_open']}")
 
 
 if __name__ == "__main__":
