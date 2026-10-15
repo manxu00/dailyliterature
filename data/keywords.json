@@ -1,0 +1,44 @@
+{
+  "version": 2,
+  "updated_at": "2026-10-15",
+  "topics": {
+    "core": {
+      "label": "Organic CO₂ electrosynthesis",
+      "keywords": [
+        "electrocarboxylation CO2",
+        "organic electrosynthesis carbon dioxide",
+        "electrochemical carboxylation CO2 organic synthesis",
+        "reductive carboxylation carbon dioxide electrochemistry",
+        "electrochemical CO2 fixation organic synthesis",
+        "electroreductive coupling CO2 organic",
+        "carboxylative cyclization electrochemistry CO2",
+        "hydrocarboxylation electrochemical CO2",
+        "CO2 incorporation electrosynthesis"
+      ]
+    },
+    "mechanism": {
+      "label": "Electroanalysis & mechanism",
+      "keywords": [
+        "electrocarboxylation mechanism",
+        "cyclic voltammetry electrosynthesis mechanism",
+        "electrochemical reaction mechanism organic synthesis",
+        "radical intermediate electrocarboxylation",
+        "mechanistic study CO2 electrosynthesis",
+        "electrochemical kinetics organic electrosynthesis",
+        "in situ spectroscopy electrosynthesis mechanism"
+      ]
+    },
+    "optimization": {
+      "label": "Condition optimization",
+      "keywords": [
+        "electrocarboxylation reaction optimization",
+        "supporting electrolyte organic electrosynthesis CO2",
+        "solvent effect electrocarboxylation",
+        "electrode potential electrocarboxylation",
+        "current density organic electrosynthesis CO2",
+        "CO2 pressure electrocarboxylation",
+        "cell configuration organic electrosynthesis"
+      ]
+    }
+  }
+}

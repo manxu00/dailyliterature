@@ -1,0 +1,600 @@
+{
+  "_metadata": {
+    "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+    "checked": "2026-10-15",
+    "note": "Curated display table. Values are updated manually from publisher/JCR-facing journal pages; unknown journals are shown as IF — rather than guessed."
+  },
+  "Nature Catalysis": {
+    "impact_factor": "48.3",
+    "quartile": "JCR Q1",
+    "issn": [
+      "2520-1158"
+    ],
+    "aliases": [
+      "Nature Catalysis",
+      "Nat Catal"
+    ],
+    "watch": true
+  },
+  "Nature Energy": {
+    "impact_factor": "70.1",
+    "quartile": "JCR Q1",
+    "issn": [
+      "2058-7546"
+    ],
+    "aliases": [
+      "Nature Energy",
+      "Nat Energy"
+    ],
+    "watch": true
+  },
+  "Nature Communications": {
+    "impact_factor": "18.1",
+    "quartile": "JCR Q1",
+    "issn": [
+      "2041-1723"
+    ],
+    "aliases": [
+      "Nature Communications",
+      "Nat Commun"
+    ],
+    "watch": true
+  },
+  "Science Advances": {
+    "impact_factor": "13.9",
+    "quartile": "JCR Q1",
+    "issn": [
+      "2375-2548"
+    ],
+    "aliases": [
+      "Science Advances",
+      "Sci Adv"
+    ],
+    "watch": true
+  },
+  "Journal of the American Chemical Society": {
+    "impact_factor": "16.6",
+    "quartile": "JCR Q1",
+    "issn": [
+      "0002-7863",
+      "1520-5126"
+    ],
+    "aliases": [
+      "Journal of the American Chemical Society",
+      "J Am Chem Soc",
+      "JACS"
+    ],
+    "watch": true
+  },
+  "Angewandte Chemie International Edition": {
+    "impact_factor": "17.6",
+    "quartile": "JCR Q1",
+    "issn": [
+      "1433-7851",
+      "1521-3773"
+    ],
+    "aliases": [
+      "Angewandte Chemie International Edition",
+      "Angew Chem Int Ed"
+    ],
+    "watch": true
+  },
+  "Accounts of Chemical Research": {
+    "impact_factor": "18.0",
+    "quartile": "JCR Q1",
+    "issn": [
+      "0001-4842",
+      "1520-4898"
+    ],
+    "aliases": [
+      "Accounts of Chemical Research",
+      "Acc Chem Res"
+    ],
+    "watch": true
+  },
+  "Chemical Science": {
+    "impact_factor": "8.1",
+    "quartile": "JCR Q1",
+    "issn": [
+      "2041-6520",
+      "2041-6539"
+    ],
+    "aliases": [
+      "Chemical Science",
+      "Chem Sci"
+    ],
+    "watch": true
+  },
+  "Communications Chemistry": {
+    "impact_factor": "6.9",
+    "quartile": "JCR Q1",
+    "issn": [
+      "2399-3669"
+    ],
+    "aliases": [
+      "Communications Chemistry",
+      "Commun Chem"
+    ],
+    "watch": true
+  },
+  "Green Chemistry": {
+    "impact_factor": "10.6",
+    "quartile": "JCR Q1",
+    "issn": [
+      "1463-9262",
+      "1463-9270"
+    ],
+    "aliases": [
+      "Green Chemistry",
+      "Green Chem"
+    ],
+    "watch": true
+  },
+  "ACS Catalysis": {
+    "impact_factor": "13.6",
+    "quartile": "JCR Q1",
+    "issn": [
+      "2155-5435"
+    ],
+    "aliases": [
+      "ACS Catalysis",
+      "ACS Catal"
+    ],
+    "watch": true
+  },
+  "ACS Energy Letters": {
+    "impact_factor": "17.5",
+    "quartile": "JCR Q1",
+    "issn": [
+      "2380-8195"
+    ],
+    "aliases": [
+      "ACS Energy Letters",
+      "ACS Energy Lett"
+    ],
+    "watch": true
+  },
+  "ACS Sustainable Chemistry & Engineering": {
+    "impact_factor": "7.6",
+    "quartile": "JCR Q1",
+    "issn": [
+      "2168-0485"
+    ],
+    "aliases": [
+      "ACS Sustainable Chemistry & Engineering",
+      "ACS Sustain Chem Eng"
+    ],
+    "watch": true
+  },
+  "ACS Applied Materials & Interfaces": {
+    "impact_factor": "7.8",
+    "quartile": "JCR Q1/Q2",
+    "issn": [
+      "1944-8244",
+      "1944-8252"
+    ],
+    "aliases": [
+      "ACS Applied Materials & Interfaces",
+      "ACS Appl Mater Interfaces"
+    ],
+    "watch": true
+  },
+  "Analytical Chemistry": {
+    "impact_factor": "7.3",
+    "quartile": "JCR Q1",
+    "issn": [
+      "0003-2700",
+      "1520-6882"
+    ],
+    "aliases": [
+      "Analytical Chemistry",
+      "Anal Chem"
+    ],
+    "watch": true
+  },
+  "Energy & Environmental Science": {
+    "impact_factor": "30.5",
+    "quartile": "JCR Q1",
+    "issn": [
+      "1754-5692",
+      "1754-5706"
+    ],
+    "aliases": [
+      "Energy & Environmental Science",
+      "Energy Environ Sci"
+    ],
+    "watch": true
+  },
+  "Joule": {
+    "impact_factor": "35.4",
+    "quartile": "JCR Q1",
+    "issn": [
+      "2542-4351"
+    ],
+    "aliases": [
+      "Joule"
+    ],
+    "watch": true
+  },
+  "Advanced Energy Materials": {
+    "impact_factor": "25.5",
+    "quartile": "JCR Q1",
+    "issn": [
+      "1614-6832",
+      "1614-6840"
+    ],
+    "aliases": [
+      "Advanced Energy Materials",
+      "Adv Energy Mater"
+    ],
+    "watch": true
+  },
+  "Advanced Functional Materials": {
+    "impact_factor": "19.9",
+    "quartile": "JCR Q1",
+    "issn": [
+      "1616-301X",
+      "1616-3028"
+    ],
+    "aliases": [
+      "Advanced Functional Materials",
+      "Adv Funct Mater"
+    ],
+    "watch": true
+  },
+  "Advanced Science": {
+    "impact_factor": "14.1",
+    "quartile": "JCR Q1",
+    "issn": [
+      "2198-3844"
+    ],
+    "aliases": [
+      "Advanced Science",
+      "Adv Sci"
+    ],
+    "watch": true
+  },
+  "Small": {
+    "impact_factor": "11.8",
+    "quartile": "JCR Q1",
+    "issn": [
+      "1613-6810",
+      "1613-6829"
+    ],
+    "aliases": [
+      "Small"
+    ],
+    "watch": true
+  },
+  "Nano Energy": {
+    "impact_factor": "16.7",
+    "quartile": "JCR Q1",
+    "issn": [
+      "2211-2855"
+    ],
+    "aliases": [
+      "Nano Energy"
+    ],
+    "watch": true
+  },
+  "Energy Storage Materials": {
+    "impact_factor": "19.3",
+    "quartile": "JCR Q1",
+    "issn": [
+      "2405-8297"
+    ],
+    "aliases": [
+      "Energy Storage Materials",
+      "Energy Storage Mater"
+    ],
+    "watch": true
+  },
+  "Carbon Energy": {
+    "impact_factor": "21.4",
+    "quartile": "JCR Q1",
+    "issn": [
+      "2637-9368"
+    ],
+    "aliases": [
+      "Carbon Energy"
+    ],
+    "watch": true
+  },
+  "Applied Catalysis B: Environment and Energy": {
+    "impact_factor": "19.7",
+    "quartile": "JCR Q1",
+    "issn": [
+      "0926-3373",
+      "1873-3883"
+    ],
+    "aliases": [
+      "Applied Catalysis B: Environment and Energy",
+      "Applied Catalysis B: Environmental",
+      "Appl Catal B Environ"
+    ],
+    "watch": true
+  },
+  "Chemical Engineering Journal": {
+    "impact_factor": "12.5",
+    "quartile": "JCR Q1",
+    "issn": [
+      "1385-8947",
+      "1873-3212"
+    ],
+    "aliases": [
+      "Chemical Engineering Journal",
+      "Chem Eng J"
+    ],
+    "watch": true
+  },
+  "Journal of CO2 Utilization": {
+    "impact_factor": "8.6",
+    "quartile": "JCR Q1",
+    "issn": [
+      "2212-9820",
+      "2212-9839"
+    ],
+    "aliases": [
+      "Journal of CO2 Utilization",
+      "J CO2 Util"
+    ],
+    "watch": true
+  },
+  "Journal of Materials Chemistry A": {
+    "impact_factor": "9.2",
+    "quartile": "JCR Q1",
+    "issn": [
+      "2050-7488",
+      "2050-7496"
+    ],
+    "aliases": [
+      "Journal of Materials Chemistry A",
+      "J Mater Chem A"
+    ],
+    "watch": true
+  },
+  "Journal of Power Sources": {
+    "impact_factor": "8.4",
+    "quartile": "JCR Q1",
+    "issn": [
+      "0378-7753",
+      "1873-2755"
+    ],
+    "aliases": [
+      "Journal of Power Sources",
+      "J Power Sources"
+    ],
+    "watch": true
+  },
+  "Electrochimica Acta": {
+    "impact_factor": "5.8",
+    "quartile": "JCR Q2",
+    "issn": [
+      "0013-4686"
+    ],
+    "aliases": [
+      "Electrochimica Acta"
+    ],
+    "watch": true
+  },
+  "Journal of Electroanalytical Chemistry": {
+    "impact_factor": "4.6",
+    "quartile": "JCR Q2",
+    "issn": [
+      "0070-9778",
+      "1572-6657"
+    ],
+    "aliases": [
+      "Journal of Electroanalytical Chemistry",
+      "J Electroanal Chem"
+    ],
+    "watch": true
+  },
+  "Electrochemistry Communications": {
+    "impact_factor": "4.2",
+    "quartile": "JCR Q2",
+    "issn": [
+      "1388-2481"
+    ],
+    "aliases": [
+      "Electrochemistry Communications",
+      "Electrochem Commun"
+    ],
+    "watch": true
+  },
+  "Current Opinion in Electrochemistry": {
+    "impact_factor": "6.5",
+    "quartile": "JCR Q1 (Electrochem.)",
+    "issn": [
+      "2451-9103"
+    ],
+    "aliases": [
+      "Current Opinion in Electrochemistry",
+      "Curr Opin Electrochem"
+    ],
+    "watch": true
+  },
+  "Journal of Applied Electrochemistry": {
+    "impact_factor": "3.7",
+    "quartile": "JCR Q3",
+    "issn": [
+      "0021-891X",
+      "1572-8838"
+    ],
+    "aliases": [
+      "Journal of Applied Electrochemistry",
+      "J Appl Electrochem"
+    ],
+    "watch": true
+  },
+  "Chem Catalysis": {
+    "impact_factor": "10.7",
+    "quartile": "JCR Q1",
+    "issn": [
+      "2667-1093"
+    ],
+    "aliases": [
+      "Chem Catalysis"
+    ],
+    "watch": true
+  },
+  "ChemSusChem": {
+    "impact_factor": "5.9",
+    "quartile": "JCR Q1",
+    "issn": [
+      "1864-5631",
+      "1864-564X"
+    ],
+    "aliases": [
+      "ChemSusChem"
+    ],
+    "watch": true
+  },
+  "Cell Reports Physical Science": {
+    "impact_factor": "6.9",
+    "quartile": "JCR Q1/Q2",
+    "issn": [
+      "2666-3864"
+    ],
+    "aliases": [
+      "Cell Reports Physical Science",
+      "Cell Rep Phys Sci"
+    ],
+    "watch": true
+  },
+  "Applied Energy": {
+    "impact_factor": "12.2",
+    "quartile": "JCR Q1",
+    "issn": [
+      "0306-2619"
+    ],
+    "aliases": [
+      "Applied Energy",
+      "Appl Energy"
+    ],
+    "watch": true
+  },
+  "Energy & Fuels": {
+    "impact_factor": "6.0",
+    "quartile": "JCR Q2/Q1",
+    "issn": [
+      "0887-0624",
+      "1520-5029"
+    ],
+    "aliases": [
+      "Energy & Fuels",
+      "Energy Fuels"
+    ],
+    "watch": true
+  },
+  "Organic Letters": {
+    "impact_factor": "4.7",
+    "quartile": "JCR Q1",
+    "issn": [
+      "1523-7060",
+      "1523-7052"
+    ],
+    "aliases": [
+      "Organic Letters",
+      "Org. Lett.",
+      "Org Lett"
+    ],
+    "watch": true
+  },
+  "The Journal of Organic Chemistry": {
+    "impact_factor": "3.3",
+    "quartile": "JCR Q1/Q2",
+    "issn": [
+      "0022-3263",
+      "1520-6904"
+    ],
+    "aliases": [
+      "The Journal of Organic Chemistry",
+      "Journal of Organic Chemistry",
+      "J. Org. Chem.",
+      "J Org Chem"
+    ],
+    "watch": true
+  },
+  "Organic Process Research & Development": {
+    "impact_factor": "3.3",
+    "quartile": "JCR Q2/Q3",
+    "issn": [
+      "1083-6160",
+      "1520-586X"
+    ],
+    "aliases": [
+      "Organic Process Research & Development",
+      "Org. Process Res. Dev.",
+      "Org Process Res Dev"
+    ],
+    "watch": true
+  },
+  "ChemElectroChem": {
+    "impact_factor": "5.2",
+    "quartile": "JCR Q1",
+    "issn": [
+      "2196-0216"
+    ],
+    "aliases": [
+      "ChemElectroChem"
+    ],
+    "watch": true
+  },
+  "Advanced Synthesis & Catalysis": {
+    "impact_factor": "3.7",
+    "quartile": "JCR Q1",
+    "issn": [
+      "1615-4150",
+      "1615-4169"
+    ],
+    "aliases": [
+      "Advanced Synthesis & Catalysis",
+      "Adv Synth Catal"
+    ],
+    "watch": true
+  },
+  "Chemical Communications": {
+    "impact_factor": "4.3",
+    "quartile": "JCR Q2",
+    "issn": [
+      "1359-7345",
+      "1364-548X"
+    ],
+    "aliases": [
+      "Chemical Communications",
+      "Chem Commun",
+      "Chem. Commun."
+    ],
+    "watch": true
+  },
+  "European Journal of Organic Chemistry": {
+    "impact_factor": "2.7",
+    "quartile": "JCR Q2",
+    "issn": [
+      "1099-0690",
+      "1099-0690"
+    ],
+    "aliases": [
+      "European Journal of Organic Chemistry",
+      "Eur J Org Chem",
+      "Eur. J. Org. Chem."
+    ],
+    "watch": true
+  },
+  "Chemistry – A European Journal": {
+    "impact_factor": "3.6",
+    "quartile": "JCR Q2",
+    "issn": [
+      "0947-6539",
+      "1521-3765"
+    ],
+    "aliases": [
+      "Chemistry – A European Journal",
+      "Chemistry - A European Journal",
+      "Chemistry—A European Journal",
+      "Chem Eur J"
+    ],
+    "watch": true
+  }
+}
