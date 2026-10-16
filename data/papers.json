@@ -1,13 +1,324 @@
 {
   "version": 4,
-  "brief_date": "2026 · 10 · 15",
-  "last_updated": "2026-10-15 10:41 CEST",
+  "brief_date": "2026 · 10 · 16",
+  "last_updated": "2026-10-16 12:19 CEST",
   "target_daily": 10,
-  "match_score": 89,
+  "match_score": 87,
   "search_state": {
     "backfill_page": 1
   },
   "papers": [
+    {
+      "id": "W7130824915",
+      "doi": "https://doi.org/10.26599/pom.2026.9140126",
+      "title": "Polyoxometalate@copper catalyst for electrocatalytic coupling of halo-(hetero)aromatic hydrocarbons and carbon dioxide for synthesis of (hetero)aromatic acid",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "Polyoxometalates",
+      "journal_issn": [
+        "2957-9503",
+        "2957-9821"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-02-22",
+      "abstract": "Carbon dioxide (CO2) is an abundant, non-toxic C1 feedstock, while (hetero)aromatic carboxylic acids are crucial structural frameworks and synthetic precursors in organic, materials, and medicinal chemistry. Herein, we report a Polyoxometalate@Copper (SiW12@Cu NPs) catalyst deposited on copper foam (CF) via simple electrodeposition (potential range: 0.6 V to -0.8 V, scan rate: 50 mV·s⁻¹) for the electrocatalytic carboxylation of halo-(hetero)aromatic hydrocarbons with CO2. The composite electrode leverages the synergistic effects of SiW12 (redox stability, Lewis acidity) and Cu NPs (multivalent states, high conductivity), enhancing electron transfer and CO2 activation. Under mild reaction conditions (room temperature, 1 atm CO2, and no noble metals added), this system enables not only arenes but also electron-deficient (hetero)arenes such as halopyridines to undergo direct carboxylation with carbon dioxide, achieving a target product yield of over 65% in merely 40 minutes at a current density of 20 mA. Mechanistic studies confirm substrate electroreduction initiates the reaction, followed by CO2 fixation. This strategy simplifies drug intermediate modification, avoids structural damage to sensitive molecules, and optimizes drug properties via post-carboxylation, offering sustainable technical support for medicinal chemistry innovation.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "Under mild reaction conditions (room temperature, 1 atm CO2, and no noble metals added), this system enables not only arenes but also electron-deficient (hetero)arenes such as halopyridines to undergo direct carboxylation with carbon dioxide, achieving a target product yield of over 65% in merely 40 minutes at a current density of 20 mA. This strategy simplifies drug intermediate modification, avoids structural damage to sensitive molecules, and optimizes drug properties via post-carboxylation, offering sustainable technical support for medicinal chemistry innovation.",
+      "tags": [
+        "co2 fixation",
+        "carbon dioxide",
+        "co2",
+        "mechanistic",
+        "electron transfer",
+        "intermediate",
+        "redox"
+      ],
+      "score": 97,
+      "url": "https://doi.org/10.26599/pom.2026.9140126",
+      "archive": false,
+      "pushed_date": "2026-10-16"
+    },
+    {
+      "id": "W7151281126",
+      "doi": "https://doi.org/10.26434/chemrxiv.15001679/v1",
+      "title": "Visible-Light-Driven Divergent Carboxylation of Alkenes with CO2 via Single Photocatalyst",
+      "topic": "core",
+      "topic_label": "Organic CO₂ electrosynthesis",
+      "journal": "ChemRxiv",
+      "journal_issn": [
+        "2573-2293"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-04-06",
+      "abstract": "Photoredox carboxylation of alkenes with CO2 has been largely confined to reductive carboxylation, whereas keeping C=C double bond remains elusive. Herein we report the first visible-light-driven formal C(sp2)–H carboxylation of alkenes under atmospheric CO2 condition. The key to success is a single binaphthol photocatalyst not only serves as a strong reductant to form alkenes radical anion, a nucleophile to activate CO2, but also forms an O-centred radical that couples with the generated C-centred radical in situ. This radicalradical coupling/E2-elimination sequence (RCEs) furnishes the E-cinnamate with exclusive stereoselectivity. Further introduction of B2pin2 switches the manifold to 1,2-dicarboxylation, accomplishing succinates with good to excellent yields. This divergent platform establishes a reliable route for π-conserving CO2 fixation, providing modular access to two distinct carboxylic acid architectures from a single photocatalytic system..",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "This radicalradical coupling/E2-elimination sequence (RCEs) furnishes the E-cinnamate with exclusive stereoselectivity. Further introduction of B2pin2 switches the manifold to 1,2-dicarboxylation, accomplishing succinates with good to excellent yields.",
+      "tags": [
+        "reductive carboxylation",
+        "co2 fixation",
+        "co2",
+        "radical",
+        "in situ",
+        "redox",
+        "yield"
+      ],
+      "score": 96,
+      "url": "https://doi.org/10.26434/chemrxiv.15001679/v1",
+      "archive": false,
+      "pushed_date": "2026-10-16"
+    },
+    {
+      "id": "W7213774004",
+      "doi": "https://doi.org/10.70401/cc.2026.0038",
+      "title": "Catalytic asymmetric synthesis of chiral carboxylic acids and heterocycles with CO2",
+      "topic": "core",
+      "topic_label": "Organic CO₂ electrosynthesis",
+      "journal": "Chiral Chemistry",
+      "journal_issn": [
+        "3106-8405"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-01-01",
+      "abstract": "The development of asymmetric catalytic methods using CO2 as a C1 synthon is an important strategy for constructing chiral carboxylic acids and heterocyclic compounds. In recent years, through the design of innovative catalytic systems, efficient and highly selective syntheses of chiral carboxylic acids, spanning central to axial chirality, have been achieved from diverse substrates, including alkenes, alkynes, and organic electrophiles. Concurrently, significant progress has also been made in the synthesis of chiral heterocycles, particularly 2-oxazolidinones and cyclic carbonates. This review systematically summarizes key advances in this field from 2021 to mid-2026. Organized by target product structure, the discussion first addresses chiral carboxylic acids, categorized by substrate type (carbon-carbon unsaturated bonds and organic electrophiles). Key strategies, including carbo-carboxylation, boracarboxylation, hydrocarboxylation, dicarboxylation, and electroreductive carboxylation, are elaborated in detail, along with their stereoselectivity control mechanisms. The discussion then covers chiral heterocycles, summarizing the catalytic asymmetric construction of chiral 2-oxazolidinones and chiral cyclic carbonates. Finally, the major challenges and future directions in this field are discussed.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "Key strategies, including carbo-carboxylation, boracarboxylation, hydrocarboxylation, dicarboxylation, and electroreductive carboxylation, are elaborated in detail, along with their stereoselectivity control mechanisms.",
+      "tags": [
+        "reductive carboxylation",
+        "hydrocarboxylation",
+        "co2",
+        "mechanism",
+        "selectivity"
+      ],
+      "score": 94,
+      "url": "https://doi.org/10.70401/cc.2026.0038",
+      "archive": false,
+      "pushed_date": "2026-10-16"
+    },
+    {
+      "id": "W4416389685",
+      "doi": "https://doi.org/10.1021/acselectrochem.5c00342",
+      "title": "Greening Organic Electrochemistry: Harnessing Electrogenerated Bases (EGBs) for Sustainable Organic Transformations",
+      "topic": "optimization",
+      "topic_label": "Condition optimization",
+      "journal": "ACS electrochemistry.",
+      "journal_issn": [
+        "2997-0571"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2025,
+      "publication_date": "2025-11-19",
+      "abstract": "High Resolution Image Download MS PowerPoint Slide Electrogenerated bases (EGBs) are emerging as powerful and sustainable tools in synthetic chemistry, offering cleaner and more efficient alternatives to traditional stoichiometric bases. This Review outlines the fundamental principles of EGB formation and explores their expanding role in enabling diverse and selective organic transformations, including alkylations, trifluoromethylations, Stevens rearrangements, Wittig reactions, esterifications, additions, anionic chain reactions, macrolide formation, polymerizations, C–H deprotonations and functionalizations, condensation reactions, and electrocarboxylation. EGBs efficiently activate substrates bearing labile protons, facilitating the generation of reactive intermediates for key bond-forming steps. These methods enable access to heterocycles, fluorinated compounds, and valuable intermediates relevant to pharmaceutical and materials science. Beyond expanding the synthetic scope, EGBs enhance regio- and stereoselectivity, contributing to greater reaction precision. While batch electrolysis has been widely used, advances in flow electrochemistry offer improved control, safety, and scalability. Innovations such as “ex-cell” reactor designs, where oxidation and reduction steps are spatially separated, further improve efficiency and minimize side reactions. The use of environmentally benign materials─such as electrodes (e.g., magnesium), green solvents, and sustainable electrolytes─significantly influences both performance and sustainability. Despite these advantages, challenges remain including limited substrate tolerance, sensitivity to reaction conditions, and the requirement for specialized electrochemical equipment.",
+      "methods_summary": "This Review outlines the fundamental principles of EGB formation and explores their expanding role in enabling diverse and selective organic transformations, including alkylations, trifluoromethylations, Stevens rearrangements, Wittig reactions, esterifications, additions, anionic chain reactions, macrolide formation, polymerizations, C–H deprotonations and functionalizations, condensation reactions, and electrocarboxylation. While batch electrolysis has been widely used, advances in flow electrochemistry offer improved control, safety, and scalability.",
+      "key_findings": "EGBs efficiently activate substrates bearing labile protons, facilitating the generation of reactive intermediates for key bond-forming steps. These methods enable access to heterocycles, fluorinated compounds, and valuable intermediates relevant to pharmaceutical and materials science.",
+      "tags": [
+        "electrocarboxylation",
+        "intermediate",
+        "epr",
+        "reaction conditions",
+        "electrolyte",
+        "solvent",
+        "selectivity"
+      ],
+      "score": 93,
+      "url": "https://doi.org/10.1021/acselectrochem.5c00342",
+      "archive": false,
+      "pushed_date": "2026-10-16"
+    },
+    {
+      "id": "W7122588156",
+      "doi": "https://doi.org/10.1021/jacs.5c21208",
+      "title": "Photolysis of CO 2 Carbamate for Hydrocarboxylation Reactions",
+      "topic": "optimization",
+      "topic_label": "Condition optimization",
+      "journal": "Journal of the American Chemical Society",
+      "journal_issn": [
+        "0002-7863",
+        "1520-5126",
+        "1943-2984"
+      ],
+      "impact_factor": "16.6",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-01-12",
+      "abstract": "High Resolution Image Download MS PowerPoint Slide The conversion of carbon dioxide into value-added products has emerged as an alternative method to achieve net-zero emissions. While technologies that transform CO 2 into fuels and chemical feedstocks have made great strides, the direct use of CO 2 as a C1 synthon for the formation of new carbon–carbon bonds remains a critical challenge. Herein, we present a new catalytic CO 2 activation mode for hydrocarboxylation reactions. Key to this methodology is the formation of a CO 2 carbamate with a phenothiazine catalyst, which sets the required trigonal geometry for the release of CO 2 •– via photolysis upon absorption of visible light. The polarity-reversed CO 2 •– is employed in the hydrocarboxylation reactions of alkenes and heterocycles. This protocol is distinguished by its mild reaction conditions, wide substrate scope and broad applicability, even in the context of pharmaceutical cores. Our chemistry can also be utilized for the synthesis of carbon-13 labeled spirolactones using 13 CO 2 . Mechanistic experiments support the photolysis of the CO 2 carbamate as the main productive pathway under our optimized reaction conditions.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "High Resolution Image Download MS PowerPoint Slide The conversion of carbon dioxide into value-added products has emerged as an alternative method to achieve net-zero emissions. Mechanistic experiments support the photolysis of the CO 2 carbamate as the main productive pathway under our optimized reaction conditions.",
+      "tags": [
+        "hydrocarboxylation",
+        "carbon dioxide",
+        "mechanistic",
+        "reaction conditions",
+        "substrate scope"
+      ],
+      "score": 90,
+      "url": "https://doi.org/10.1021/jacs.5c21208",
+      "archive": false,
+      "pushed_date": "2026-10-16"
+    },
+    {
+      "id": "W7167963779",
+      "doi": "https://doi.org/10.1038/s42004-026-02112-5",
+      "title": "Photocatalytic halogen atom transfer enables general dicarbofunctionalization of alkenes with organic halides and CO2",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "Communications Chemistry",
+      "journal_issn": [
+        "2399-3669"
+      ],
+      "impact_factor": "6.9",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-07-10",
+      "abstract": "The dicarbofunctionalization of alkenes using organic halides and CO₂ provides a valuable platform for synthesizing carboxylic acids through two C–C bond-forming steps, motifs widely found in pharmaceuticals, agrochemicals, and functional materials. Existing strategies predominantly rely on sequential single-electron transfer (SET) events for substrate activation and carbanion generation, restricting their scope to readily reducible halides. Consequently, many organic halides with highly negative reduction potentials and strong C–X bonds, including electron-rich aryl bromides, aryl chlorides, and alkyl chlorides, remain largely unreactive. Here, we report a visible-light-driven photocatalytic strategy that combines halogen-atom transfer (XAT) and SET processes, where XAT enables generation of carbon-centered radicals from challenging halides, and SET promotes efficient carbanion formation for CO₂ incorporation. This approach enables three-component dicarbofunctionalization of alkenes with a broad range of aryl and alkyl halides, affording carboxylated products in yields of up to 94% across more than fifty examples. The dicarbofunctionalization of alkenes with organic halides and CO₂ is limited by the need for sequential single-electron transfer (SET), restricting the use of many halides. Here, the authors introduce a photocatalytic method combining halogen-atom transfer and SET processes to overcome the conventional redox barriers and bond fragmentation kinetics associated with strong carbon–halogen bonds, enabling efficient synthesis with a broad range of halide substrates.",
+      "methods_summary": "Here, the authors introduce a photocatalytic method combining halogen-atom transfer and SET processes to overcome the conventional redox barriers and bond fragmentation kinetics associated with strong carbon–halogen bonds, enabling efficient synthesis with a broad range of halide substrates.",
+      "key_findings": "This approach enables three-component dicarbofunctionalization of alkenes with a broad range of aryl and alkyl halides, affording carboxylated products in yields of up to 94% across more than fifty examples.",
+      "tags": [
+        "co2 incorporation",
+        "co2",
+        "kinetic",
+        "electron transfer",
+        "radical",
+        "redox",
+        "yield"
+      ],
+      "score": 85,
+      "url": "https://doi.org/10.1038/s42004-026-02112-5",
+      "archive": false,
+      "pushed_date": "2026-10-16"
+    },
+    {
+      "id": "W7165397698",
+      "doi": "https://doi.org/10.69997/sct.137213",
+      "title": "Decarbonizing API Manufacturing: Conceptual Design and Scale-up Analysis of Continuous-Flow Electrosynthesis for Ibuprofen Production",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "Systems and Control Transactions",
+      "journal_issn": [
+        "2818-4734"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-06-19",
+      "abstract": "The decarbonization of pharmaceutical manufacturing is critical for achieving the industry’s net-zero targets, and electrochemistry is emerging as a promising green technology that could play a key role in this transition. This work evaluates a continuous-flow electrochemical route for ibuprofen synthesis through electrochemical carboxylation of 1-chloro-(4-isobutylphenyl) ethane as a low-carbon alternative that can be directly coupled with renewable electricity. Experimental studies have demonstrated the selective formation of ibuprofen using a silver cathode in the ionic liquid N-methyl-N-propylpiperidinium bis(trifluoromethanesulfonyl)imide (PP13 TFSI). While the reaction mechanism is based on laboratory-scale, batch experiments, this study develops a conceptual design and scale-up methodology for the continuous route to provide an evaluation of the industrial feasibility of this electrochemical pathway through a rigorous plant-wide simulation in AVEVA® Process Simulation. Global sensitivity analysis is employed to identify key operating variables and evaluate their impact on reactor and process performance, energy consumption, and ionic liquid recovery. These insights provide a robust foundation for informed decision-making in process intensification, demonstrating the technical viability and scalability of continuous flow electrosynthesis as a sustainable alternative to conventional API manufacturing.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "While the reaction mechanism is based on laboratory-scale, batch experiments, this study develops a conceptual design and scale-up methodology for the continuous route to provide an evaluation of the industrial feasibility of this electrochemical pathway through a rigorous plant-wide simulation in AVEVA® Process Simulation.",
+      "tags": [
+        "electrochemical carboxylation",
+        "reaction mechanism",
+        "mechanism"
+      ],
+      "score": 84,
+      "url": "https://doi.org/10.69997/sct.137213",
+      "archive": false,
+      "pushed_date": "2026-10-16"
+    },
+    {
+      "id": "W7127565293",
+      "doi": "https://doi.org/10.1002/ajoc.70320",
+      "title": "Effect of Water on Electrochemical β‐Hydrocarboxylation of Vinylphenol Derivatives With CO 2",
+      "topic": "optimization",
+      "topic_label": "Condition optimization",
+      "journal": "Asian Journal of Organic Chemistry",
+      "journal_issn": [
+        "2193-5807",
+        "2193-5815"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-02-01",
+      "abstract": "ABSTRACT This paper reports the development of a method for synthesizing carboxylic acids via the electrochemical hydrocarboxylation of vinylphenol derivatives. The electrolysis was conducted in an undivided cell under a CO 2 flow in galvanostatic mode, using graphite electrodes as both cathode and anode. Optimization of the reaction conditions revealed that employing tetraethylammonium p ‐toluenesulfonate (Et 4 NOTs) as the electrolyte, adding 5.0 equiv of water, and applying a current density of 4.7 mA/cm 2 with a total charge of 4 F/mol afforded the desired carboxylic acid in up to 71% yield. This method demonstrates the highest yield among approaches for introducing CO 2 into vinylphenol derivatives to produce carboxylic acids.",
+      "methods_summary": "The electrolysis was conducted in an undivided cell under a CO 2 flow in galvanostatic mode, using graphite electrodes as both cathode and anode.",
+      "key_findings": "Optimization of the reaction conditions revealed that employing tetraethylammonium p ‐toluenesulfonate (Et 4 NOTs) as the electrolyte, adding 5.0 equiv of water, and applying a current density of 4.7 mA/cm 2 with a total charge of 4 F/mol afforded the desired carboxylic acid in up to 71% yield. This method demonstrates the highest yield among approaches for introducing CO 2 into vinylphenol derivatives to produce carboxylic acids.",
+      "tags": [
+        "hydrocarboxylation",
+        "optimization",
+        "reaction conditions",
+        "electrolyte",
+        "current density",
+        "divided cell",
+        "undivided cell"
+      ],
+      "score": 84,
+      "url": "https://doi.org/10.1002/ajoc.70320",
+      "archive": false,
+      "pushed_date": "2026-10-16"
+    },
+    {
+      "id": "W7214015576",
+      "doi": "https://doi.org/10.1016/j.biotechadv.2026.109052",
+      "title": "Enterobacteriaceae for succinic acid biomanufacturing: metabolic blueprints, systems-level engineering and future perspectives",
+      "topic": "core",
+      "topic_label": "Organic CO₂ electrosynthesis",
+      "journal": "Biotechnology Advances",
+      "journal_issn": [
+        "0734-9750",
+        "1873-1899"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-09-22",
+      "abstract": "Succinic acid (SA) is a key C4 platform molecule with wide industrial relevance, including bio-based polymers and solvents. Current reviews largely emphasize traditional producers (e.g., Actinobacillus, Mannheimia, and Basfia) and rarely synthesize progress in Enterobacteriaceae. Here, we close this gap by providing a systems-level review of SA biomanufacturing in Enterobacteriaceae, focusing on non-model genera (Enterobacter, Klebsiella, Citrobacter) that combine fast growth, facultative anaerobiosis, broad feedstock utilization, and high engineering amenability. We outline the metabolic blueprint underpinning SA formation, highlighting the reductive TCA branch, anaplerotic CO₂ fixation (PEPC/PEPCK), the glyoxylate shunt, and redox constraints that govern carbon partitioning. We then summarize recent advances in strain development, including pathway rewiring, stronger carboxylation, adaptive laboratory evolution, and dynamic control, that increase SA titers, yields, and productivities. Finally, we discuss downstream processing and techno-economic bottlenecks, biosafety and regulatory considerations, and emerging directions including division-of-labour consortia and circular-carbon integration for scalable, carbon-efficient SA biorefineries.",
+      "methods_summary": "We outline the metabolic blueprint underpinning SA formation, highlighting the reductive TCA branch, anaplerotic CO₂ fixation (PEPC/PEPCK), the glyoxylate shunt, and redox constraints that govern carbon partitioning.",
+      "key_findings": "We then summarize recent advances in strain development, including pathway rewiring, stronger carboxylation, adaptive laboratory evolution, and dynamic control, that increase SA titers, yields, and productivities.",
+      "tags": [
+        "co2 fixation",
+        "co2",
+        "epr",
+        "redox",
+        "solvent",
+        "yield"
+      ],
+      "score": 76,
+      "url": "https://doi.org/10.1016/j.biotechadv.2026.109052",
+      "archive": false,
+      "pushed_date": "2026-10-16"
+    },
+    {
+      "id": "W3008787510",
+      "doi": "https://doi.org/10.82444/warw.33797428",
+      "title": "Autotrophy in iron-oxidizing, acidophilic bacteria",
+      "topic": "core",
+      "topic_label": "Organic CO₂ electrosynthesis",
+      "journal": "Warwick Research Archive Portal (University of Warwick)",
+      "journal_issn": [],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-09-15",
+      "abstract": "Gram positive, moderately thermophilic, acidophilic bacteria which can oxidize mineral sulphides are likely to be used industrially in mineral processing. In comparison with the Gram negative Thiobacillus ferrooxidans which is currently used commercially, the best- characterized moderate thermophiles were shown to require enhanced concentrations of CO2 in air (i.e. greater than 0.033% (v/v)) for optimal growth. The influence of the supplied CO2 concentration was examined with growth of moderate thermophile strain BC1 and of T. ferrooxidans with ferrous iron as the substrate. Various aspects of CO2 utilization by these bacteria were examined with a view to explaining the requirement of the Gram positive thermophiles for a higher CO2 concentration. During autotrophic growth under C02~limitation (i.e. aeration with air, 0.033% (v/v) COo), strain BC1 and T. ferrooxidans both showed an approximate three-fold increase in RuBisCO synthesis and were capable of similar maximum RuBisCO and PRK activities. RuBisCO substrate affinities (A^,) for strain BC1 were 43.5 pM (CO2) and 67.5 pM (RuBP) and for T. ferrooxidans were 47 pM (CO2) and 85 pM (RuBP), again apparently indicating no major differences in the activity of these Calvin cycle enzymes. Both types also appeared to possess only the form I RuBisCO (LgSg). T. ferrooxidans was shown to induce a high affinity CO2 uptake system following growth under C02-limitation, which allowed the bacteria to show a maximum rate of CO2 uptake from air (0.03% (v/v) C02). The moderate thermophile strains BC1 and ALV did not induce a high affinity system under CO2 limitation, and required 0.1% (v/v) CO2 in air for the maximum rate of C02 uptake, which was a similar maximum rate to that of T. ferrooxidans. After harvesting and resuspension, strains BC1 and ALV, but not T. ferrooxidans had an obligate requirement for a \"regeneration\" period in the presence of an energy source (ferrous iron) before CO2 uptake could be demonstrated. This period may have been necessary for de novo protein synthesis. The presence of some unfixed carbon in the strain BC1 cytoplasm possibly indicated a less efficient utilization of accumulated CO2 in comparison with T. ferrooxidans. The presence of carboxysomes in T. ferrooxidans could have contributed to the efficient CO2 utilization; they were not observed in the Gram positive moderate thermophiles. Three membrane polypeptides (approximate molecular weight 93, 62 and 35 kDa) and two apparently soluble and potentially acid-stable polypeptides appeared to increase in concentration in T. ferrooxidans following growth under COo-limiting conditions. A recently obtained enrichment culture of moderate thermophiles from an Icelandic hot spring was found to be capable of relatively efficient growth on ferrous iron under air, in comparison with strain BC1. Electron microscopy revealed that attempts to isolate a pure culture which was capable of such growth had left a culture which comprised two types of bacteria. One of these bacteria appeared to be morphologically similar to strain BC1 whereas the other appeared to be a previously undescribed organism. A harvested and resuspended mixture of these two types (from growth under C02-limitation) possessed a high affinity CO2 uptake system (kinetically equivalent to that of T. ferrooxidans). The relative contribution of these two types to the efficient CO2 utilization awaits their separation. The correlation of good growth under air with the presence of high affinity transport systems, rather than with different \"efficiencies\" of CO2 fixation in the Calvin cycle, nevertheless appears established for the iron- oxidizing acidophiles.",
+      "methods_summary": "A harvested and resuspended mixture of these two types (from growth under C02-limitation) possessed a high affinity CO2 uptake system (kinetically equivalent to that of T. ferrooxidans).",
+      "key_findings": "Electron microscopy revealed that attempts to isolate a pure culture which was capable of such growth had left a culture which comprised two types of bacteria.",
+      "tags": [
+        "co2 fixation",
+        "co2",
+        "kinetic",
+        "concentration"
+      ],
+      "score": 72,
+      "url": "https://doi.org/10.82444/warw.33797428",
+      "archive": false,
+      "pushed_date": "2026-10-16"
+    },
     {
       "id": "W7162317224",
       "doi": "https://doi.org/10.1038/s41467-026-73629-5",
@@ -37,7 +348,7 @@
       ],
       "score": 99,
       "url": "https://doi.org/10.1038/s41467-026-73629-5",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-15"
     },
     {
@@ -70,7 +381,7 @@
       ],
       "score": 99,
       "url": "https://doi.org/10.1002/cssc.202502631",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-15"
     },
     {
@@ -102,7 +413,7 @@
       ],
       "score": 99,
       "url": "https://doi.org/10.3390/catal16020191",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-15"
     },
     {
@@ -137,7 +448,7 @@
       ],
       "score": 96,
       "url": "https://doi.org/10.1149/ma2025-02251409mtgabs",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-15"
     },
     {
@@ -169,7 +480,7 @@
       ],
       "score": 93,
       "url": "https://doi.org/10.1038/s42004-025-01828-0",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-15"
     },
     {
@@ -198,7 +509,7 @@
       ],
       "score": 87,
       "url": "https://doi.org/10.1002/slct.202504395",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-15"
     },
     {
@@ -231,7 +542,7 @@
       ],
       "score": 84,
       "url": "https://doi.org/10.1021/acs.accounts.6c00486",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-15"
     },
     {
@@ -258,7 +569,7 @@
       ],
       "score": 83,
       "url": "https://doi.org/10.1039/d6fd00073h",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-15"
     },
     {
@@ -290,7 +601,7 @@
       ],
       "score": 77,
       "url": "https://doi.org/10.1002/aoc.70645",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-15"
     },
     {
@@ -318,7 +629,7 @@
       ],
       "score": 71,
       "url": "https://doi.org/10.1039/d6sc04813g",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-15"
     },
     {
