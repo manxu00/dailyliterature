@@ -1,13 +1,331 @@
 {
   "version": 4,
   "brief_date": "2026 · 10 · 16",
-  "last_updated": "2026-10-16 12:19 CEST",
+  "last_updated": "2026-10-16 14:12 CEST",
   "target_daily": 10,
-  "match_score": 87,
+  "match_score": 99,
   "search_state": {
-    "backfill_page": 1
+    "backfill_page": 3
   },
   "papers": [
+    {
+      "id": "W4412660068",
+      "doi": "https://doi.org/10.1021/acs.orglett.5c02243",
+      "title": "Electrochemical Ni-Catalyzed α-Selective Hydrocarboxylation of Styrenes with CO2",
+      "topic": "core",
+      "topic_label": "Organic CO₂ electrosynthesis",
+      "journal": "Organic Letters",
+      "journal_issn": [
+        "1523-7052",
+        "1523-7060"
+      ],
+      "impact_factor": "4.7",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2025,
+      "publication_date": "2025-07-26",
+      "abstract": "Herein, an α-selective electrocarboxylation of styrene enabled by Ni–H utilizing water as the hydride source under a CO 2 atmosphere is described. This approach features high regioselectivity and good functional-group compatibility. A series of anti-inflammatory drug molecules (ibuprofen, naproxen, flurbiprofen, and fenoprofen) were obtained in a direct and rapid way. Moreover, mechanistic studies have been conducted and provide support for the proposed mechanism.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "This approach features high regioselectivity and good functional-group compatibility. Moreover, mechanistic studies have been conducted and provide support for the proposed mechanism.",
+      "tags": [
+        "electrocarboxylation",
+        "hydrocarboxylation",
+        "co2",
+        "mechanistic",
+        "mechanism",
+        "selectivity"
+      ],
+      "score": 99,
+      "url": "https://doi.org/10.1021/acs.orglett.5c02243",
+      "archive": false,
+      "pushed_date": "2026-10-16"
+    },
+    {
+      "id": "W4411177122",
+      "doi": "https://doi.org/10.1021/acselectrochem.5c00094",
+      "title": "Kinetics of Dissociative Electron Transfer in Electrocarboxylation of Benzyl Chloride",
+      "topic": "core",
+      "topic_label": "Organic CO₂ electrosynthesis",
+      "journal": "ACS electrochemistry.",
+      "journal_issn": [
+        "2997-0571"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2025,
+      "publication_date": "2025-06-10",
+      "abstract": "High Resolution Image Download MS PowerPoint Slide In this paper, we introduce a method for calculating potential-dependent electron transfer barriers and illustrate its utilization with the electrochemical carboxylation of benzyl chloride (BnCl) as a relevant showcase reaction. We applied density functional theory (DFT) to provide a comprehensive analysis of the free energy landscape for the benzyl chloride electrocarboxylation reaction on an inert electrode as influenced by an applied bias. By incorporating elements of Marcus theory, our model enables the calculation of the kinetic barriers of electron transfer. This approach allows for distinguishing between thermodynamic and kinetic contributions to the overpotential in the benzyl chloride electrocarboxylation reaction, offering a molecular-level understanding of electrochemical processes in aprotic environments.",
+      "methods_summary": "We applied density functional theory (DFT) to provide a comprehensive analysis of the free energy landscape for the benzyl chloride electrocarboxylation reaction on an inert electrode as influenced by an applied bias. By incorporating elements of Marcus theory, our model enables the calculation of the kinetic barriers of electron transfer.",
+      "key_findings": "This approach allows for distinguishing between thermodynamic and kinetic contributions to the overpotential in the benzyl chloride electrocarboxylation reaction, offering a molecular-level understanding of electrochemical processes in aprotic environments.",
+      "tags": [
+        "electrocarboxylation",
+        "electrochemical carboxylation",
+        "kinetic",
+        "electron transfer",
+        "density functional theory"
+      ],
+      "score": 99,
+      "url": "https://doi.org/10.1021/acselectrochem.5c00094",
+      "archive": false,
+      "pushed_date": "2026-10-16"
+    },
+    {
+      "id": "W4406847686",
+      "doi": "https://doi.org/10.1002/celc.202400580",
+      "title": "Tailoring Electrocarboxylation Pathways on Lead Cathodes: Insights into Electrolysis Mode",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "ChemElectroChem",
+      "journal_issn": [
+        "2196-0216"
+      ],
+      "impact_factor": "5.2",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2025,
+      "publication_date": "2025-01-27",
+      "abstract": "Abstract Electrocarboxylation, the electrochemical addition of CO2 to organic substrates using renewable energy, offers a promising approach for carbon capture and utilization. However, commercial viability remains limited due to poor product selectivity and yields. In this work, we investigate how the electrolysis mode – chronoamperometry (CA) versus chronopotentiometry (CP) – influences the electrocarboxylation mechanisms of phenyl‐activated substrates, Benzaldehyde, Styrene, and Benzylbromide, on Lead electrodes. By employing cyclic voltammetry (CV), in situ FTIR, and bulk electrolysis, we explore how these modes affect product selectivity and reaction efficiency. Our results show that substrate‐activated mechanisms, such as those observed for Benzaldehyde and Benzylbromide, achieve higher selectivity and reduced side‐product formation under CA conditions, while CP leads to increased side reactions. In contrast, Styrene exhibits more complex behavior, with CP favoring di‐carboxylation, while CA enhances mono‐carboxylation. These findings highlight the significant impact of electrolysis mode on controlling electrocarboxylation pathways, providing valuable insights for optimizing selective and efficient synthesis processes.",
+      "methods_summary": "In this work, we investigate how the electrolysis mode – chronoamperometry (CA) versus chronopotentiometry (CP) – influences the electrocarboxylation mechanisms of phenyl‐activated substrates, Benzaldehyde, Styrene, and Benzylbromide, on Lead electrodes. By employing cyclic voltammetry (CV), in situ FTIR, and bulk electrolysis, we explore how these modes affect product selectivity and reaction efficiency.",
+      "key_findings": "Our results show that substrate‐activated mechanisms, such as those observed for Benzaldehyde and Benzylbromide, achieve higher selectivity and reduced side‐product formation under CA conditions, while CP leads to increased side reactions. However, commercial viability remains limited due to poor product selectivity and yields.",
+      "tags": [
+        "electrocarboxylation",
+        "co2",
+        "mechanism",
+        "cyclic voltammetry",
+        "voltammetry",
+        "in situ",
+        "yield"
+      ],
+      "score": 99,
+      "url": "https://doi.org/10.1002/celc.202400580",
+      "archive": false,
+      "pushed_date": "2026-10-16"
+    },
+    {
+      "id": "W4405110494",
+      "doi": "https://doi.org/10.1021/acscatal.4c06490",
+      "title": "Nanocrystalline High-Dimensional Nb2O5 for Efficient Electroreductive Dicarboxylation of CO2 with Cycloalkane",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "ACS Catalysis",
+      "journal_issn": [
+        "2155-5435"
+      ],
+      "impact_factor": "13.6",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2024,
+      "publication_date": "2024-12-06",
+      "abstract": "The electrocarboxylation of C–C single bonds using CO 2 under ambient conditions is a promising strategy for synthesizing diacids, which have significant applications in polymer and biomedical sectors. In this study, we present the development of nanocrystalline Nb 2 O 5 featuring a high-dimensional structure (Nb 2 O 5 –HD) that enables the efficient dicarboxylation of CO 2 with cycloalkanes under mild conditions. Utilizing commercially available, unactivated diethyl cyclopropane-1,2-dicarboxylate as a model substrate, we achieved an impressive average yield of approximately 94%, with an 88% yield demonstrated in a gram-scale experiment. Notably, Nb 2 O 5 –HD maintained its structure and performance after 100 h of continuous operation, highlighting its long-term stability. In situ mechanistic investigations elucidated the reaction pathway, revealing that the CO 2 radical anion (CO 2 •– ) serves as an essential intermediate driving the reaction rather than cycloalkane adsorption onto the cathode. Besides, the high-dimensional structure and abundant crystal defects of Nb 2 O 5 –HD exhibit a greater number of acid sites, which is advantageous for the generation and stabilization of the CO 2 •– . These findings underscore the potential of Nb 2 O 5 –HD as a robust catalyst for CO 2 conversion, paving the way for advancements in organic electrosynthesis.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "Utilizing commercially available, unactivated diethyl cyclopropane-1,2-dicarboxylate as a model substrate, we achieved an impressive average yield of approximately 94%, with an 88% yield demonstrated in a gram-scale experiment. In situ mechanistic investigations elucidated the reaction pathway, revealing that the CO 2 radical anion (CO 2 •– ) serves as an essential intermediate driving the reaction rather than cycloalkane adsorption onto the cathode.",
+      "tags": [
+        "electrocarboxylation",
+        "organic electrosynthesis",
+        "co2",
+        "mechanistic",
+        "radical",
+        "intermediate",
+        "in situ"
+      ],
+      "score": 99,
+      "url": "https://doi.org/10.1021/acscatal.4c06490",
+      "archive": false,
+      "pushed_date": "2026-10-16"
+    },
+    {
+      "id": "W4406863583",
+      "doi": "https://doi.org/10.1134/s1070428024110010",
+      "title": "Electrochemical Carboxylation with CO2 (A Review)",
+      "topic": "core",
+      "topic_label": "Organic CO₂ electrosynthesis",
+      "journal": "Russian Journal of Organic Chemistry",
+      "journal_issn": [
+        "0022-3271",
+        "1070-4280",
+        "1608-3393",
+        "3034-6304"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2024,
+      "publication_date": "2024-11-01",
+      "abstract": "Abstract Carbon dioxide (CO2) is a widespread, inexpensive, and renewable source of C1 carbon and the main component of greenhouse gases. Therefore, studies on its efficient conversion into useful products, corresponding to the principles of sustainable development, have received considerable attention in recent years. Electrochemical organic synthesis, as an environmentally friendly, mild, and selective approach, is considered an ideal tool for the utilization of CO2 and its use as a reagent. This review summarizes recent advances in the field of electrocarboxylation involving CO2 as a precursor in reactions of various types, which reveal a high potential of such transformations in the synthesis of green organics. Special attention is given to processes at the late stage of functionalization of complex molecules that are promising for use in pharmaceutical chemistry.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "Therefore, studies on its efficient conversion into useful products, corresponding to the principles of sustainable development, have received considerable attention in recent years.",
+      "tags": [
+        "electrocarboxylation",
+        "electrochemical carboxylation",
+        "carbon dioxide",
+        "co2"
+      ],
+      "score": 99,
+      "url": "https://doi.org/10.1134/s1070428024110010",
+      "archive": false,
+      "pushed_date": "2026-10-16"
+    },
+    {
+      "id": "W4401352999",
+      "doi": "https://doi.org/10.1021/acssuschemeng.4c02435",
+      "title": "Utilization of CO2 for Electrocarboxylation of Benzophenone Using MXene-Based Electrodes: A Sustainable Approach",
+      "topic": "core",
+      "topic_label": "Organic CO₂ electrosynthesis",
+      "journal": "ACS Sustainable Chemistry & Engineering",
+      "journal_issn": [
+        "2168-0485"
+      ],
+      "impact_factor": "7.6",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2024,
+      "publication_date": "2024-08-06",
+      "abstract": "The significant rise in atmospheric carbon dioxide (CO 2 ) levels has prompted the need to develop efficient methods for CO 2 conversion and fixation methods. Electrocarboxylation reaction is a highly efficient and sustainable method for activating and utilizing CO 2, yielding essential carboxylic acids and their analogues, which are important intermediates in the pharmaceutical and fuel industries. This research demonstrates the efficiency of 2D Ti 3 C 2 T x and Ta 2 CT x MXene-modified carbon fiber paper electrodes (Ti 3 C 2 T x /CFP and Ta 2 CT x /CFP) for CO 2 fixation with benzophenone in a tetrabutylammonium bromide/acetonitrile (TBABr/CH 3 CN) medium, yielding benzilic acid. Ti 3 C 2 T x /CFP exhibited superior electrocatalytic activity with a lower reduction potential for benzophenone at −1.0 V and achieved a 72% yield of benzilic acid at an optimum current density of 50 mA cm –2 . In comparison, Ta 2 CT x /CFP exhibited a cathodic peak at −1.08 V, producing a 66% yield at 70 mA cm –2 . The electron paramagnetic resonance spectrum substantiates the generation of reactive radical intermediates during the reaction. Ti 3 C 2 T x /CFP showed robust structural stability with ∼88% Faradaic efficiency and a turnover frequency of 1.90444 × 10 –5 s –1, indicating its potential for CO 2 fixation.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "Electrocarboxylation reaction is a highly efficient and sustainable method for activating and utilizing CO 2, yielding essential carboxylic acids and their analogues, which are important intermediates in the pharmaceutical and fuel industries. The significant rise in atmospheric carbon dioxide (CO 2 ) levels has prompted the need to develop efficient methods for CO 2 conversion and fixation methods.",
+      "tags": [
+        "electrocarboxylation",
+        "carbon dioxide",
+        "co2",
+        "radical intermediate",
+        "radical",
+        "intermediate",
+        "current density"
+      ],
+      "score": 99,
+      "url": "https://doi.org/10.1021/acssuschemeng.4c02435",
+      "archive": false,
+      "pushed_date": "2026-10-16"
+    },
+    {
+      "id": "W4393078464",
+      "doi": "https://doi.org/10.1038/s41467-024-46820-9",
+      "title": "Efficient palladium-catalyzed electrocarboxylation enables late-stage carbon isotope labelling",
+      "topic": "core",
+      "topic_label": "Organic CO₂ electrosynthesis",
+      "journal": "Nature Communications",
+      "journal_issn": [
+        "2041-1723"
+      ],
+      "impact_factor": "18.1",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2024,
+      "publication_date": "2024-03-22",
+      "abstract": "Abstract Carbon isotope labelling of bioactive molecules is essential for accessing the pharmacokinetic and pharmacodynamic properties of new drug entities. Aryl carboxylic acids represent an important class of structural motifs ubiquitous in pharmaceutically active molecules and are ideal targets for the installation of a radioactive tag employing isotopically labelled CO 2 . However, direct isotope incorporation via the reported catalytic reductive carboxylation (CRC) of aryl electrophiles relies on excess CO 2 , which is incompatible with carbon-14 isotope incorporation. Furthermore, the application of some CRC reactions for late-stage carboxylation is limited because of the low tolerance of molecular complexity by the catalysts. Herein, we report the development of a practical and affordable Pd-catalysed electrocarboxylation setup. This approach enables the use of near-stoichiometric 14 CO 2 generated from the primary carbon-14 source Ba 14 CO 3 , facilitating late-stage and single-step carbon-14 labelling of pharmaceuticals and representative precursors. The proposed isotope-labelling protocol holds significant promise for immediate impact on drug development programmes.",
+      "methods_summary": "Abstract Carbon isotope labelling of bioactive molecules is essential for accessing the pharmacokinetic and pharmacodynamic properties of new drug entities. Aryl carboxylic acids represent an important class of structural motifs ubiquitous in pharmaceutically active molecules and are ideal targets for the installation of a radioactive tag employing isotopically labelled CO 2 .",
+      "key_findings": "The proposed isotope-labelling protocol holds significant promise for immediate impact on drug development programmes.",
+      "tags": [
+        "electrocarboxylation",
+        "reductive carboxylation",
+        "kinetic",
+        "epr",
+        "isotope"
+      ],
+      "score": 99,
+      "url": "https://doi.org/10.1038/s41467-024-46820-9",
+      "archive": false,
+      "pushed_date": "2026-10-16"
+    },
+    {
+      "id": "W4229368082",
+      "doi": "https://doi.org/10.1021/acs.orglett.2c01267",
+      "title": "Electrocarboxylation of N -Acylimines with Carbon Dioxide: Access to Substituted α-Amino Acids",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "Organic Letters",
+      "journal_issn": [
+        "1523-7052",
+        "1523-7060"
+      ],
+      "impact_factor": "4.7",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2022,
+      "publication_date": "2022-05-09",
+      "abstract": "Direct electrocarboxylation of various N -acylimines with atmospheric CO 2 is achieved in an undivided cell under mild conditions, affording substituted α-amino acids in yields of 62–95%. This reaction is conducted with high efficiency using triethanolamine as an external reductant under nonsacrificial anode conditions, and can be facilely performed on gram scale. Preliminary mechanistic studies including cyclic voltammetry and control experiments support N -radical carbanion as the key intermediate.",
+      "methods_summary": "Preliminary mechanistic studies including cyclic voltammetry and control experiments support N -radical carbanion as the key intermediate.",
+      "key_findings": "Direct electrocarboxylation of various N -acylimines with atmospheric CO 2 is achieved in an undivided cell under mild conditions, affording substituted α-amino acids in yields of 62–95%. Preliminary mechanistic studies including cyclic voltammetry and control experiments support N -radical carbanion as the key intermediate.",
+      "tags": [
+        "electrocarboxylation",
+        "carbon dioxide",
+        "mechanistic",
+        "cyclic voltammetry",
+        "voltammetry",
+        "radical",
+        "intermediate"
+      ],
+      "score": 99,
+      "url": "https://doi.org/10.1021/acs.orglett.2c01267",
+      "archive": false,
+      "pushed_date": "2026-10-16"
+    },
+    {
+      "id": "W3136846619",
+      "doi": "https://doi.org/10.14233/ajchem.2021.23090",
+      "title": "Synthesis of α-Hydroxycarboxylic Acids from Various Aldehydes and Ketones by Direct Electrocarboxylation: A Facile, Efficient and Atom Economy Protocol",
+      "topic": "optimization",
+      "topic_label": "Condition optimization",
+      "journal": "Asian Journal of Chemistry",
+      "journal_issn": [
+        "0970-7077",
+        "0975-427X"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2021,
+      "publication_date": "2021-03-20",
+      "abstract": "In present work, the formation of α-hydroxycarboxylic acids have been described from various aromatic aldehydes and ketones via direct electrocarboxylation method with 80-92% of yield without any side product and can be purified by simple recrystallization using sacrificial Mg anode and Pt cathode in an undivided cell, CO2 at (1 atm) was continuously bubbled in the cell throughout the reaction using tetrapropyl-ammonium chloride as a supporting electrolyte in acetonitrile. The synthesized compounds obtained in fair to excellent yield with a high level of purity. The characterization of electrocarboxylated compounds was done with spectroscopic techniques like IR, NMR (1H & 13C), mass and elemental analysis.",
+      "methods_summary": "The characterization of electrocarboxylated compounds was done with spectroscopic techniques like IR, NMR (1H & 13C), mass and elemental analysis.",
+      "key_findings": "In present work, the formation of α-hydroxycarboxylic acids have been described from various aromatic aldehydes and ketones via direct electrocarboxylation method with 80-92% of yield without any side product and can be purified by simple recrystallization using sacrificial Mg anode and Pt cathode in an undivided cell, CO2 at (1 atm) was continuously bubbled in the cell throughout the reaction using tetrapropyl-ammonium chloride as a supporting electrolyte in acetonitrile. The synthesized compounds obtained in fair to excellent yield with a high level of purity.",
+      "tags": [
+        "electrocarboxylation",
+        "co2",
+        "supporting electrolyte",
+        "electrolyte",
+        "divided cell",
+        "undivided cell",
+        "yield"
+      ],
+      "score": 99,
+      "url": "https://doi.org/10.14233/ajchem.2021.23090",
+      "archive": false,
+      "pushed_date": "2026-10-16"
+    },
+    {
+      "id": "W2754903891",
+      "doi": "https://doi.org/10.3390/catal7090274",
+      "title": "Electrocarboxylation of Dichlorobenzenes on a Silver Electrode in DMF",
+      "topic": "optimization",
+      "topic_label": "Condition optimization",
+      "journal": "Catalysts",
+      "journal_issn": [
+        "2073-4344"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2017,
+      "publication_date": "2017-09-15",
+      "abstract": "Carbon dioxide (CO2) is the largest contributor to the greenhouse effect, and fixing and using this greenhouse gas in a facile manner is crucial. This work investigates the electrocarboxylation of dichlorobenzenes with the atmospheric pressure of CO2 in an undivided cell with an Ag cathode and an Mg sacrificial anode. The corresponding carboxylic acids and their derivatives, which are important industrial and fine chemicals, are obtained. To deeply understand this reaction, we investigate the influence of various reaction conditions, such as supporting electrolyte, current density, electric charge, and reaction temperature, on the electrocarboxylation yield by using 1,4-dichlorobenzene as the model compound. The electrochemical behavior of dichlorobenzenes is studied through cyclic voltammetry. The relation among the distinct electronic effects of dichlorobenzenes, the electrochemical characteristics of their reduction, and the distribution law of target products is also established.",
+      "methods_summary": "The electrochemical behavior of dichlorobenzenes is studied through cyclic voltammetry.",
+      "key_findings": "To deeply understand this reaction, we investigate the influence of various reaction conditions, such as supporting electrolyte, current density, electric charge, and reaction temperature, on the electrocarboxylation yield by using 1,4-dichlorobenzene as the model compound.",
+      "tags": [
+        "electrocarboxylation",
+        "carbon dioxide",
+        "co2",
+        "cyclic voltammetry",
+        "voltammetry",
+        "reaction conditions",
+        "supporting electrolyte"
+      ],
+      "score": 99,
+      "url": "https://doi.org/10.3390/catal7090274",
+      "archive": false,
+      "pushed_date": "2026-10-16"
+    },
     {
       "id": "W7130824915",
       "doi": "https://doi.org/10.26599/pom.2026.9140126",
@@ -38,7 +356,7 @@
       ],
       "score": 97,
       "url": "https://doi.org/10.26599/pom.2026.9140126",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-16"
     },
     {
@@ -70,7 +388,7 @@
       ],
       "score": 96,
       "url": "https://doi.org/10.26434/chemrxiv.15001679/v1",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-16"
     },
     {
@@ -100,7 +418,7 @@
       ],
       "score": 94,
       "url": "https://doi.org/10.70401/cc.2026.0038",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-16"
     },
     {
@@ -132,7 +450,7 @@
       ],
       "score": 93,
       "url": "https://doi.org/10.1021/acselectrochem.5c00342",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-16"
     },
     {
@@ -164,7 +482,7 @@
       ],
       "score": 90,
       "url": "https://doi.org/10.1021/jacs.5c21208",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-16"
     },
     {
@@ -196,7 +514,7 @@
       ],
       "score": 85,
       "url": "https://doi.org/10.1038/s42004-026-02112-5",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-16"
     },
     {
@@ -224,7 +542,7 @@
       ],
       "score": 84,
       "url": "https://doi.org/10.69997/sct.137213",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-16"
     },
     {
@@ -257,7 +575,7 @@
       ],
       "score": 84,
       "url": "https://doi.org/10.1002/ajoc.70320",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-16"
     },
     {
@@ -289,7 +607,7 @@
       ],
       "score": 76,
       "url": "https://doi.org/10.1016/j.biotechadv.2026.109052",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-16"
     },
     {
@@ -316,7 +634,7 @@
       ],
       "score": 72,
       "url": "https://doi.org/10.82444/warw.33797428",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-16"
     },
     {
