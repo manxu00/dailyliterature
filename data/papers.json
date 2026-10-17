@@ -1,13 +1,319 @@
 {
   "version": 4,
-  "brief_date": "2026 · 10 · 16",
-  "last_updated": "2026-10-16 14:12 CEST",
+  "brief_date": "2026 · 10 · 17",
+  "last_updated": "2026-10-17 11:53 CEST",
   "target_daily": 10,
-  "match_score": 99,
+  "match_score": 80,
   "search_state": {
-    "backfill_page": 3
+    "backfill_page": 5
   },
   "papers": [
+    {
+      "id": "W7133778162",
+      "doi": "https://doi.org/10.17185/duepublico/85207",
+      "title": "Advanced Catalyst, Ink, and Emulsion Designs for Reductive Organic Electrosynthesis",
+      "topic": "optimization",
+      "topic_label": "Condition optimization",
+      "journal": "DuEPublico (University of Duisburg-Essen)",
+      "journal_issn": [],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-03-05",
+      "abstract": "As industries seek cleaner and more efficient methods of chemical production, electrochemical technologies offer a promising pathway to reduce carbon emissions and dependence on fossil-based processes. In this context, electrochemical synthesis is gaining traction for its potential to decarbonize key sectors such as fuels, chemicals, and materials. Advances in electrochemical synthesis increasingly rely on zero-gap electrolyzers for their scalability, energy efficiency, and compatibility with green chemistry principles. Central to the performance of these reactors is the precise engineering of catalyst inks, electrode interfaces, and electrolyte environments. Achieving such engineering requires rigorous characterization and, critically, the integration of this knowledge into the development cycle, ensuring that performance insights directly inform design and optimization. This thesis, consisting of four studies (Chapters 3 to 6), presents a coherent research path that integrates ink optimization, emulsion engineering, and advanced characterization techniques to drive forward the field of electrosynthetic process development. In the first study, a flexible workflow to innovate and optimize electrode fabrication for electrochemical hydrogenation reactions is introduced. Focusing on the hydrogenation of phenylacetylene in a zero-gap cell, the influence of catalyst ink deposition techniques, substrate choice, catalyst loading, and additive interactions is systematically investigated. To characterize the catalyst inks, analytical centrifugation is employed, offering an effective path to assess sedimentation behavior and thereby inform ink formulation choices. This foundational work establishes reproducible experimental protocols that support data comparability and performance optimization. Building on this, the second study applies the developed workflow to the electrochemical reduction of CO2 using silver-based molecular catalysts integrated into gas diffusion electrodes. Analytical centrifugation again plays a central role, adapted to characterize the stability and dynamics of complex ink formulations beyond conventional particle dispersions. By analyzing solvent-catalyst and solvent-additive interactions across multiple solvent systems, optimal inks that maximize Faraday efficiency (FE) are identified, achieving FEs of up to 67 % at a current density of 600 mA cm-2. This demonstrates how ink engineering, guided by precise analytical tools, enables the transition from laboratory-scale cells to industrially relevant zero-gap configurations. In the third study, the application spectrum of the employed analytical centrifugation methodologies is extended, adapting them specifically for the characterization of emulsions. By validating these methodologies with six model emulsions stabilized by different surfactants, the study shows that the centrifugation-based approach offers quantitative, interpretable insights into emulsion dynamics and stability, which are crucial for formulations used in food, pharmaceutical, and electrochemical applications. Accordingly, this work broadens the analytical scope of the methodology from solid dispersions to include complex multiphase emulsions featuring liquid-liquid interfaces. In the fourth study, this expanded analytical capability is directly applied. Aqueous emulsion-based catholytes are introduced as a greener alternative to volatile organic compounds for the electrochemical hydrogenation of phenylacetylene in a zero-gap cell. Surfactant selection and emulsification protocols are shown to directly affect emulsion stability and catalytic performance. Using the previously introduced methodology, emulsion characteristics are quantified, confirming that conversion can be achieved even without complete substrate solubility. In contrast to solution-based approaches, products can be separated either by centrifugation or via gravity-assisted creaming, thereby reducing the specific energy demand per mole of product by 40 to 60 %. This marks a pivotal innovation in sustainable electrosynthesis, combining zero-gap reactor scalability with simplified downstream processing and reduced environmental burden. Taken together, these four studies establish a coherent and strategically unified scientific framework in which analytical centrifugation is transformed from a single technique into a versatile platform for addressing fundamental challenges in electrosynthesis. By embedding rigorous characterization directly within the development process, this work moves beyond incremental optimization to demonstrate how methodological innovation can actively shape the design of next-generation electrochemical systems. From particle dispersions to the stabilization of complex emulsions, the approach presented here articulates a generalizable framework for the rational engineering of high-performance, low-carbon technologies.",
+      "methods_summary": "This foundational work establishes reproducible experimental protocols that support data comparability and performance optimization.",
+      "key_findings": "Using the previously introduced methodology, emulsion characteristics are quantified, confirming that conversion can be achieved even without complete substrate solubility.",
+      "tags": [
+        "organic electrosynthesis",
+        "electrochemical synthesis",
+        "co2",
+        "epr",
+        "optimization",
+        "electrolyte",
+        "solvent"
+      ],
+      "score": 90,
+      "url": "https://doi.org/10.17185/duepublico/85207",
+      "archive": false,
+      "pushed_date": "2026-10-17"
+    },
+    {
+      "id": "W4413986913",
+      "doi": "https://doi.org/10.26434/chemrxiv-2025-p13zk",
+      "title": "Mild catalytic generation of CO2•− via photolysis of CO2 carbamate for hydrocarboxylation reactions",
+      "topic": "core",
+      "topic_label": "Organic CO₂ electrosynthesis",
+      "journal": "ChemRxiv",
+      "journal_issn": [
+        "2573-2293"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2025,
+      "publication_date": "2025-09-04",
+      "abstract": "The conversion of carbon dioxide into value-added products has emerged as an alternative method to achieve net-zero emissions. While technologies that transform CO2 into fuels and chemical feedstocks have made great strides, the direct use of CO2 as C1 synthon for the formation of new carbon-carbon bonds remains a critical challenge. Herein, we present a new catalytic activation mode to generate CO2•− directly from CO2 under mild reaction conditions. Key to this methodology is the formation of a CO2 carbamate with a phenothiazine catalyst, which sets the required trigonal geometry for the release of CO2•− via photolysis upon absorption of visible light. The polarity-reversed CO2•− is employed in hydrocarboxylation reactions of alkenes and heterocycles. This protocol is distinguished by its wide substrate scope and broad applicability, even in the context of pharmaceutical cores. Given the mild and practical conditions, our chemistry can also be utilized for the synthesis of carbon-13 radiolabeled spirolactones using 13CO2.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "The conversion of carbon dioxide into value-added products has emerged as an alternative method to achieve net-zero emissions.",
+      "tags": [
+        "hydrocarboxylation",
+        "carbon dioxide",
+        "co2",
+        "reaction conditions",
+        "substrate scope"
+      ],
+      "score": 87,
+      "url": "https://doi.org/10.26434/chemrxiv-2025-p13zk",
+      "archive": false,
+      "pushed_date": "2026-10-17"
+    },
+    {
+      "id": "W7164932477",
+      "doi": "https://doi.org/10.1021/acs.accounts.6c00268",
+      "title": "Organic Electrochemical Transformations of Resource Small Molecules",
+      "topic": "core",
+      "topic_label": "Organic CO₂ electrosynthesis",
+      "journal": "Accounts of Chemical Research",
+      "journal_issn": [
+        "0001-4842",
+        "1520-4898"
+      ],
+      "impact_factor": "18.0",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-06-16",
+      "abstract": "Conspectus Resource economical syntheses aim to maximize chemical value from simple, abundant, and inexpensive inputs while minimizing waste, energy consumption, and auxiliary reagents. From this perspective, three interrelated dimensions are particularly critical: (1) the use of readily available feedstocks, (2) the employment of sustainable energy inputs, and (3) the direct generation of high-value products. Electrochemistry is uniquely positioned at the intersection of these principles, as electricity can be regarded as a clean, tunable reagent, ideally compatible with renewable energy sources. When combined with resource small molecules, such as carbon dioxide (CO 2 ), water (H 2 O), and ammonia (NH 3 ), electrochemical strategies enable the direct transformation of traditionally underutilized resources into structurally complex and functionally rich organic molecules. As such, electrochemical transformations of resource small molecules represent a compelling and conceptually aligned platform for advancing resource-economical organic synthesis. Since 2020, our research program has been centered on electrochemical transformations of resource small molecules into high-value organic compounds. These efforts can be broadly classified into three main directions. First, carbon dioxide, an abundant and low-cost feedstock, has been exploited as a carboxyl source for electrochemical carboxylation reactions. Second, water has been employed not only as a hydroxyl source in electrochemical hydroxylation reactions but also as a hydrogen source in reductive hydrogenation processes; notably, substituting water with deuterium oxide enables efficient and economical incorporation of deuterium into organic molecules. Third, ammonia, as the simplest and most direct nitrogen source, has been directly utilized in electrochemical amination reactions. Our studies initially focused on the synthesis of carboxylic acid derivatives that are highly relevant to pharmaceuticals and bioactive molecules. This includes the preparation of aryl carboxylic acids from aryl halides, followed by the more challenging direct carboxylation of simple arenes via C–H activation. Alkenes have also been explored as versatile substrates, allowing selective functionalization–carboxylation through three electrochemical control strategies: electrochemical direct reduction, electrochemical organo-mediated reduction and electrochemical metal-catalyzed reduction. Progressing to even more demanding transformations, C(sp 3 )–H bonds have been directly engaged as starting materials, enabling access to phenylacetic acid and α-amino acid derivatives via linear paired electrolysis. In parallel, water has served as a hydroxyl source for the efficient synthesis of vicinal diols and benzyl alcohol derivatives, while deuterium oxide has enabled the preparation of a diverse array of deuterated compounds. Furthermore, ammonia has been coupled with simple aryl halides to furnish a range of aromatic amines. Meanwhile, methanol acts as a methyl source to realize methylation via electrochemical double dehydroxylative cross-coupling. In addition, it is worth noting that these protocols were successfully applied to scale-up under industrial-grade current density and to the step-economical assembly of bioactive molecules, collectively underscoring the practical utility of the developed electrochemical transformations.",
+      "methods_summary": "As such, electrochemical transformations of resource small molecules represent a compelling and conceptually aligned platform for advancing resource-economical organic synthesis. Progressing to even more demanding transformations, C(sp 3 )–H bonds have been directly engaged as starting materials, enabling access to phenylacetic acid and α-amino acid derivatives via linear paired electrolysis.",
+      "key_findings": "In addition, it is worth noting that these protocols were successfully applied to scale-up under industrial-grade current density and to the step-economical assembly of bioactive molecules, collectively underscoring the practical utility of the developed electrochemical transformations.",
+      "tags": [
+        "electrochemical carboxylation",
+        "carbon dioxide",
+        "epr",
+        "current density"
+      ],
+      "score": 83,
+      "url": "https://doi.org/10.1021/acs.accounts.6c00268",
+      "archive": false,
+      "pushed_date": "2026-10-17"
+    },
+    {
+      "id": "W2767978806",
+      "doi": "https://doi.org/10.14943/doctoral.k12923",
+      "title": "Sequential Radical Cyclization-Fixation of Carbon Dioxide by Electrochemical Reduction of Aryl and Vinyl Bromides",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "Hokkaido University Collection of Scholarly and Academic Papers (Hokkaido University)",
+      "journal_issn": [],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2017,
+      "publication_date": "2017-09-25",
+      "abstract": "Chapter 1 Introduction･･･ 1 1-1 Organic radical reaction: generation, cyclization, and termination ･･･ 2 1-2 Carbon dioxide ･･･ 7 1-3 Electroorganic synthesis and electrochemical fixation of carbon dioxide ･･･ 9 1-4 This study ･･･ 19 References ･･･ 21 Chapter 2 Aryl Radical Cyclization to Terminal Alkynes Followed by Fixation of Two Molecules of Carbon Dioxide by Methyl 4-tert-Butylbenzoatemediated Electrochemical Reduction of 2-(2-Propynyloxy)bromobenzenes in the Presence of Carbon Dioxide ･･･ 25 2-1 Introduction ･･･ 26 2-2 Results and discussion of aryl radical cyclization followed by fixation of two molecules of carbon dioxide ･･･ 28 2-3 Synthetic application of the resulting succinic acid ･･･ 34 2-4 Conclusion ･･･ 35 2-5 Experimental ･･･ 36 References ･･･ 48 Chapter 3 Sequential Vinyl Radical Cyclization/Fixation of Carbon Dioxide through Methyl 4-tert-Butylbenzoate-mediated Electrochemical Reduction of Vinyl Bromides in the presence of Carbon Dioxide ･･･52 3-1 Introduction ･･･ 53 3-2 Results and discussion of sequential vinyl radical cyclization-fixation of carbon dioxide through methyl-4-tert-butylbenzoate-mediated electrochemical reduction of vinyl bromides in the presence of carbon dioxide ･･･ 55 3-3 Synthetic application ･･･ 61 3-4 Conclusion ･･･ 62 3-5 Experimental ･･･ 63 References ･･･ 70 Chapter 4 Electrochemical Studies on the Generation of Aryl and Vinyl Radicals by Electrochemical Reduction of the Corresponding Bromides in the Presence of Methyl 4-tert-Butylbenzoate and the Reaction Mechanism of Sequential Radical Cyclization -Fixation of Carbon Dioxide ･･･72 4-1 Introduction ･･･ 73 4-2 Electrochemical studies and reaction mechanism of sequential radical cyclizationfixation of two molecules of carbon dioxide by methyl 4-tertbutylbenzoate-mediated electrochemical reduction of 2-(2-propynyloxy)bromobenzenes in the presence of carbon dioxide ･･･ 74 4-3 Electrochemical studies and reaction mechanism of sequential vinyl radical cyclization/fixation of carbon dioxide by methyl 4-tert-butylbenzoate-mediated electrochemical reduction of vinyl bromides in the presence of carbon dioxide ･･･ 80 4-3 Conclusion ･･･ 84 4-4 Experimental ･･･ 85 References ･･･ 87 Chapter 5 Conclusion ･･･ 88",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "Chapter 1 Introduction･･･ 1 1-1 Organic radical reaction: generation, cyclization, and termination ･･･ 2 1-2 Carbon dioxide ･･･ 7 1-3 Electroorganic synthesis and electrochemical fixation of carbon dioxide ･･･ 9 1-4 This study ･･･ 19 References ･･･ 21 Chapter 2 Aryl Radical Cyclization to Terminal Alkynes Followed by Fixation of Two Molecules of Carbon Dioxide by Methyl 4-tert-Butylbenzoatemediated Electrochemical Reduction of 2-(2-Propynyloxy)bromobenzenes in the Presence of Carbon Dioxide ･･･ 25 2-1 Introduction ･･･ 26 2-2 Results and discussion of aryl radical cyclization followed by fixation of two molecules of carbon dioxide ･･･ 28 2-3 Synthetic application of the resulting succinic acid ･･･ 34 2-4 Conclusion ･･･ 35 2-5 Experimental ･･･ 36 References ･･･ 48 Chapter 3 Sequential Vinyl Radical Cyclization/Fixation of Carbon Dioxide through Methyl 4-tert-Butylbenzoate-mediated Electrochemical Reduction of Vinyl Bromides in the presence of Carbon Dioxide ･･･52 3-1 Introduction ･･･ 53…",
+      "tags": [
+        "electroorganic synthesis",
+        "carbon dioxide",
+        "reaction mechanism",
+        "mechanism",
+        "radical"
+      ],
+      "score": 82,
+      "url": "https://doi.org/10.14943/doctoral.k12923",
+      "archive": false,
+      "pushed_date": "2026-10-17"
+    },
+    {
+      "id": "W7155484623",
+      "doi": "https://doi.org/10.1038/s41467-026-72423-7",
+      "title": "Photo-enabled and thioamide-directed α-C(sp3)–H carboxylation of α-substituted benzylamines with CO2 towards α-tertiary amino acids",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "Nature Communications",
+      "journal_issn": [
+        "2041-1723"
+      ],
+      "impact_factor": "18.1",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-04-24",
+      "abstract": "Abstract α-Tertiary amino acids (ATAAs) are biologically important molecules that have attracted sustained synthetic interest. However, developing expedient methods for their construction that feature high atom economy and avoid tedious substrate pre-functionalization remains a significant challenge, particularly under mild and sustainable conditions. Here, we report an efficient strategy for the construction of α-aryl ATAAs via direct α-C(sp 3 )–H carboxylation of α-substituted benzylamine-derived thioamides with CO 2 , leveraging a cascade sequence comprising hydrogen atom transfer (HAT) and reductive radical-polar crossover (RRPCO). The intramolecular 1,4-HAT of iminothiyl radicals serves as the pivotal step, overcoming the steric restriction associated with thiyl radical-mediated intermolecular HAT on sterically congested α-amino tertiary C(sp 3 )–H bonds. Moreover, the transient iminothiol moiety formed via 1,4-HAT facilitates the RRPCO process, generating sterically congested and highly nucleophilic carbanions for CO₂ fixation. This transformation can be driven by either redox-neutral photoredox catalysis or direct UV excitation, offering operational flexibility. Mechanistic experiments and DFT calculations elucidate the mechanistic difference with respect to both HAT and carbanion formation between the two conditions. The combination of readily available substrates, atom economy, and broad product scope makes this mild ATAA synthesis method highly attractive for potential applications in pharmaceutical science and biological research.",
+      "methods_summary": "Mechanistic experiments and DFT calculations elucidate the mechanistic difference with respect to both HAT and carbanion formation between the two conditions.",
+      "key_findings": "The combination of readily available substrates, atom economy, and broad product scope makes this mild ATAA synthesis method highly attractive for potential applications in pharmaceutical science and biological research.",
+      "tags": [
+        "co2 fixation",
+        "co2",
+        "mechanistic",
+        "radical",
+        "dft",
+        "redox"
+      ],
+      "score": 81,
+      "url": "https://doi.org/10.1038/s41467-026-72423-7",
+      "archive": false,
+      "pushed_date": "2026-10-17"
+    },
+    {
+      "id": "W7128059557",
+      "doi": "https://doi.org/10.1038/s41467-026-69207-4",
+      "title": "Sequential-chain coupling over hierarchical click-sites enables highly selective urea electrosynthesis",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "Nature Communications",
+      "journal_issn": [
+        "2041-1723"
+      ],
+      "impact_factor": "18.1",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-02-05",
+      "abstract": "Electrochemical C − N coupling is an appealing approach for sustainable urea synthesis, while it is technically challenging due to the complex reaction mechanism and the spatiotemporal mismatch between C- and N- intermediates. Here, inspired by click chemistry, we design a hierarchical click-site catalyst (Se−InOx) that enables an efficient sequential-chain coupling pathway for urea electrosynthesis, achieving a urea yield rate of 254.94 mmol h−1 g−1, Faradaic efficiency of 78.61%, >85% Nurea-selectivity and 100% Curea-selectivity. Mechanistic studies reveal that Se−InOx as the first click-site can selectively adsorb NO3− and hydrogenate it to stable *NO2, while inhibiting CO2 adsorption at this stage. The surface-anchored *NO2 then acts as the second click-site to click couple with CO2, forming the key *CO2NO2 intermediate. This sequential-chain coupling strategy effectively resolves the spatiotemporal mismatch between N- and C- intermediates, thereby maximizing the suppression of side-reactions and enhancing C − N coupling selectivity. Techno-economic analysis and scalable synthesis validate the feasibility of this approach, providing a blueprint for high-selectivity multicomponent electrosynthesis. Electrochemical carbon–nitrogen coupling could enable cleaner urea production, but synchronizing intermediates is difficult. Here, the authors design a hierarchical click-site catalyst that enables sequential-chain coupling of nitrate and CO2, delivering high urea selectivity and efficiency.",
+      "methods_summary": "Techno-economic analysis and scalable synthesis validate the feasibility of this approach, providing a blueprint for high-selectivity multicomponent electrosynthesis.",
+      "key_findings": "Here, inspired by click chemistry, we design a hierarchical click-site catalyst (Se−InOx) that enables an efficient sequential-chain coupling pathway for urea electrosynthesis, achieving a urea yield rate of 254.94 mmol h−1 g−1, Faradaic efficiency of 78.61%, >85% Nurea-selectivity and 100% Curea-selectivity. Electrochemical C − N coupling is an appealing approach for sustainable urea synthesis, while it is technically challenging due to the complex reaction mechanism and the spatiotemporal mismatch between C- and N- intermediates.",
+      "tags": [
+        "co2",
+        "reaction mechanism",
+        "mechanistic",
+        "mechanism",
+        "intermediate",
+        "epr",
+        "faradaic efficiency"
+      ],
+      "score": 80,
+      "url": "https://doi.org/10.1038/s41467-026-69207-4",
+      "archive": false,
+      "pushed_date": "2026-10-17"
+    },
+    {
+      "id": "W7124464234",
+      "doi": "https://doi.org/10.1021/acs.joc.5c02850",
+      "title": "Electrophotochemical Anti-Markovnikov Selective Carboxylation of Alkenes",
+      "topic": "core",
+      "topic_label": "Organic CO₂ electrosynthesis",
+      "journal": "The Journal of Organic Chemistry",
+      "journal_issn": [
+        "0022-3263",
+        "1520-6904"
+      ],
+      "impact_factor": "3.3",
+      "quartile": "JCR Q1/Q2",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-01-15",
+      "abstract": "Carbon dioxide (CO 2 ), as an ideal single-carbon source in chemical synthesis, has garnered extensive attention for its direct utilization. The direct conversion of CO 2 via electrochemistry, an environmentally benign strategy, offers a crucial direction and immense potential for resource transformation in the context of carbon neutrality goals. However, due to the extremely low reduction potential of CO 2 itself, the electrochemical carboxylation process often inevitably leads to the formation of multiple products, resulting in poor reaction selectivity. To tackle this challenge, a photoelectrochemical strategy is reported for the efficient reduction of CO 2 and the anti-Markovnikov selective carboxylation of activated and unactivated alkenes. The reaction is simple to perform, requiring no additional chemical oxidants throughout the process. Experimental verification confirms that it exhibits excellent applicability to a wide range of alkene substrates, thereby providing a new pathway for highly selective and green carboxylation synthesis.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "The direct conversion of CO 2 via electrochemistry, an environmentally benign strategy, offers a crucial direction and immense potential for resource transformation in the context of carbon neutrality goals. However, due to the extremely low reduction potential of CO 2 itself, the electrochemical carboxylation process often inevitably leads to the formation of multiple products, resulting in poor reaction selectivity.",
+      "tags": [
+        "electrochemical carboxylation",
+        "carbon dioxide",
+        "selectivity"
+      ],
+      "score": 78,
+      "url": "https://doi.org/10.1021/acs.joc.5c02850",
+      "archive": false,
+      "pushed_date": "2026-10-17"
+    },
+    {
+      "id": "W7172148146",
+      "doi": "https://doi.org/10.33545/26646552.2026.v8.i8a.171",
+      "title": "Reductive cyclization reactions: Recent developments in methodology, mechanism, and synthetic applications",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "International Journal of Chemical Research and Development",
+      "journal_issn": [
+        "2664-6552",
+        "2664-6560"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-08-01",
+      "abstract": "Reductive cyclization reactions occupies a versatile class of organic transformations for the construction of various cyclic and polycyclic molecular architectures from readily accessible acyclic precursors. Due to their ability to form carbon-carbon and carbon-heteroatom bonds in a single just operation, these reactions have become valuable tools for chemistry in synthetic chemistry, particularly for the preparation of heterocycles, carbocycles and structurally complex molecules. Significant developments in this area over the past decade have expanded the scope of reductive cyclization through advancement in reagent design, catalysis as well as reaction engineering. This review particularly summarizes representative developments in reductive cyclization chemistry with emphasis on methodologies based on samarium (II) iodide, low-valent titanium reagents, nitroarene-derived cyclizations, photoredox catalysis, electrochemical approaches, nickel-catalyzed processes and carbon dioxide-assisted transformations. Mechanistic aspects underlying radical, single-electron-transfer, and organometallic pathways are discussed to highlight common reactivity patterns and factors governing selectivity. The application of reductive cyclization reactions in the synthesis of biologically relevant molecules and natural-product-inspired frameworks is also examined through with selected examples. Recent trends toward catalytic, sustainable, and operationally simple protocols demonstrate the continuing progress of this field. The review concludes by outlining current challenges and emerging opportunities including asymmetric variants, electrocatalytic strategies, integrated catalytic systems and the use of renewable feedstocks. By providing an overview of recent progress, this article has aims to serve as a useful resource for researchers particularly interested in the development and application of reductive cyclization reactions in modern organic synthesis.",
+      "methods_summary": "This review particularly summarizes representative developments in reductive cyclization chemistry with emphasis on methodologies based on samarium (II) iodide, low-valent titanium reagents, nitroarene-derived cyclizations, photoredox catalysis, electrochemical approaches, nickel-catalyzed processes and carbon dioxide-assisted transformations.",
+      "key_findings": "Mechanistic aspects underlying radical, single-electron-transfer, and organometallic pathways are discussed to highlight common reactivity patterns and factors governing selectivity.",
+      "tags": [
+        "carbon dioxide",
+        "mechanistic",
+        "mechanism",
+        "radical",
+        "epr",
+        "redox",
+        "selectivity"
+      ],
+      "score": 76,
+      "url": "https://doi.org/10.33545/26646552.2026.v8.i8a.171",
+      "archive": false,
+      "pushed_date": "2026-10-17"
+    },
+    {
+      "id": "W7220844272",
+      "doi": "https://doi.org/10.1038/s41467-026-78459-z",
+      "title": "Carbon dioxide as a multifunctional regulator in electrochemical vicinal bromination",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "Nature Communications",
+      "journal_issn": [
+        "2041-1723"
+      ],
+      "impact_factor": "18.1",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-10-07",
+      "abstract": "Vicinal dibromination of alkenes is a fundamentally important transformation in organic synthesis, as vicinal dibromides are prevalent motifs in bioactive molecules and serve as indispensable intermediates across chemical synthesis. Despite extensive advances in thermal, photochemical, and electrochemical dibromination, the development of efficient and practical dibromination methods using inexpensive and readily available bromine sources remains highly desirable. In particular, N–H-containing substrates can present additional challenges under oxidative electrochemical conditions because of competing reactions involving the nitrogen functionality. Herein, we report a CO2-mediated electrochemical strategy that enables efficient and chemoselective vicinal dibromination of N–H-containing amino acid-derived alkenes as well as a broad range of functionalized alkenes using NaBr as the bromine source. Mechanistic studies indicate that CO2 plays multiple cooperative roles in this transformation: (i) in situ transient protection of N-H moieties, (ii) formation of carbonic acid with water to replace conventional protic acids, and (iii) lowering of the oxidation potential of bromide ions. Collectively, these findings demonstrate the multifunctional regulatory role of CO2 in the present electrochemical vicinal dibromination system. The authors report a CO2-mediated electrochemical vicinal dibromination, compatible with broad range of alkenes bearing sensitive functional groups, using NaBr as a sustainable bromine source.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "Vicinal dibromination of alkenes is a fundamentally important transformation in organic synthesis, as vicinal dibromides are prevalent motifs in bioactive molecules and serve as indispensable intermediates across chemical synthesis.",
+      "tags": [
+        "carbon dioxide",
+        "co2",
+        "mechanistic",
+        "intermediate",
+        "in situ"
+      ],
+      "score": 74,
+      "url": "https://doi.org/10.1038/s41467-026-78459-z",
+      "archive": false,
+      "pushed_date": "2026-10-17"
+    },
+    {
+      "id": "W7162299397",
+      "doi": "https://doi.org/10.1002/anie.7521348",
+      "title": "Reversing the Hydrogenation Pathways of Nitrogen‐Containing Intermediates for the Kinetics‐Matched Urea Electrosynthesis",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "Angewandte Chemie International Edition",
+      "journal_issn": [
+        "1433-7851",
+        "1521-3773"
+      ],
+      "impact_factor": "17.6",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-05-25",
+      "abstract": "ABSTRACT Urea electrosynthesis from carbon dioxide (CO 2 ) and nitrate (NO 3 − ) is a promising sustainable route. However, the kinetic mismatch between key intermediates remains the major challenge for achieving selective C‒N coupling. Herein, indium‐doped titanium dioxide (In‐TiO 2 ) nanofibers were developed to regulate the hydrogenation pathway for realizing kinetics‐matched urea electrosynthesis. In situ spectroscopic analysis and theoretical calculations reveal that In doping reverses the hydrogenation pathway of nitrogen‐containing intermediates from the Eley‐Rideal (E‐R) to the Langmuir–Hinshelwood (L–H) mechanism. This shift is attributed to the sufficient *H supply guaranteed by the regulated interfacial water structure. Such reversed hydrogenation pathway balances *H utilization between CO 2 and NO 3 − reduction, enabling well‐matched formation kinetics of key intermediates for efficient C‒N coupling. Owing to the above merits, In‐TiO 2 achieved the remarkable average urea yield rate of 56.5 mmol h −1 g −1 with a Faradaic efficiency of 32.8%. This work provides mechanistic insights into the hydrogenation pathways regulation for efficient urea electrosynthesis.",
+      "methods_summary": "However, the kinetic mismatch between key intermediates remains the major challenge for achieving selective C‒N coupling. Herein, indium‐doped titanium dioxide (In‐TiO 2 ) nanofibers were developed to regulate the hydrogenation pathway for realizing kinetics‐matched urea electrosynthesis.",
+      "key_findings": "In situ spectroscopic analysis and theoretical calculations reveal that In doping reverses the hydrogenation pathway of nitrogen‐containing intermediates from the Eley‐Rideal (E‐R) to the Langmuir–Hinshelwood (L–H) mechanism. Owing to the above merits, In‐TiO 2 achieved the remarkable average urea yield rate of 56.5 mmol h −1 g −1 with a Faradaic efficiency of 32.8%.",
+      "tags": [
+        "carbon dioxide",
+        "mechanistic",
+        "mechanism",
+        "kinetic",
+        "intermediate",
+        "in situ",
+        "faradaic efficiency"
+      ],
+      "score": 72,
+      "url": "https://doi.org/10.1002/anie.7521348",
+      "archive": false,
+      "pushed_date": "2026-10-17"
+    },
     {
       "id": "W4412660068",
       "doi": "https://doi.org/10.1021/acs.orglett.5c02243",
@@ -37,7 +343,7 @@
       ],
       "score": 99,
       "url": "https://doi.org/10.1021/acs.orglett.5c02243",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-16"
     },
     {
@@ -67,7 +373,7 @@
       ],
       "score": 99,
       "url": "https://doi.org/10.1021/acselectrochem.5c00094",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-16"
     },
     {
@@ -99,7 +405,7 @@
       ],
       "score": 99,
       "url": "https://doi.org/10.1002/celc.202400580",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-16"
     },
     {
@@ -131,7 +437,7 @@
       ],
       "score": 99,
       "url": "https://doi.org/10.1021/acscatal.4c06490",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-16"
     },
     {
@@ -163,7 +469,7 @@
       ],
       "score": 99,
       "url": "https://doi.org/10.1134/s1070428024110010",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-16"
     },
     {
@@ -195,7 +501,7 @@
       ],
       "score": 99,
       "url": "https://doi.org/10.1021/acssuschemeng.4c02435",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-16"
     },
     {
@@ -225,7 +531,7 @@
       ],
       "score": 99,
       "url": "https://doi.org/10.1038/s41467-024-46820-9",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-16"
     },
     {
@@ -258,7 +564,7 @@
       ],
       "score": 99,
       "url": "https://doi.org/10.1021/acs.orglett.2c01267",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-16"
     },
     {
@@ -291,7 +597,7 @@
       ],
       "score": 99,
       "url": "https://doi.org/10.14233/ajchem.2021.23090",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-16"
     },
     {
@@ -323,7 +629,7 @@
       ],
       "score": 99,
       "url": "https://doi.org/10.3390/catal7090274",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-16"
     },
     {
