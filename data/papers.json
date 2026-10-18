@@ -1,13 +1,327 @@
 {
   "version": 4,
-  "brief_date": "2026 · 10 · 17",
-  "last_updated": "2026-10-17 11:53 CEST",
+  "brief_date": "2026 · 10 · 18",
+  "last_updated": "2026-10-18 12:04 CEST",
   "target_daily": 10,
   "match_score": 80,
   "search_state": {
     "backfill_page": 5
   },
   "papers": [
+    {
+      "id": "W4416897485",
+      "doi": "https://doi.org/10.1002/anie.202518160",
+      "title": "Electrocatalytic Migratory Carboxylation of Unactivated Olefins or Halides with CO 2",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "Angewandte Chemie International Edition",
+      "journal_issn": [
+        "1433-7851",
+        "1521-3773"
+      ],
+      "impact_factor": "17.6",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2025,
+      "publication_date": "2025-12-01",
+      "abstract": "Abstract Coupling carbon dioxide (CO 2 ) with organic molecules through the electrocarboxylation reaction constitutes a promising approach for generating value‐added carboxylic acids. Up to now, activated substrates (such as styrene and butadiene derivatives) have been predominantly focused on due to their high activity. In contrast, the unactivated substrates, with low reductive potentials and unstable radical intermediates but more abundant in nature and industry, have rarely been employed. Herein, we proposed a nickel‐electrocatalytic system for the regioconvergent carboxylation of unactivated olefins or halides. Various carboxylic acids were obtained by the remote hydro‐ or di‐carboxylation under mild reaction conditions with inexpensive catalysts and electrodes. It was noteworthy that readily available alkanes could also be utilized as starting substrates for the site‐selective electrocarboxylation process by the unified catalytic strategy. This method expands the scope of organic molecules coupled with CO 2 , and demonstrates the possibility of ectopic and remote C─H carboxylation. Mechanistic investigations indicated that the Ni─H species generated in the Ni‐electrocatalytic system play a key role for promoting chain walking to efficiently produce activated olefin intermediates, which subsequently undergo radical addition with CO 2 radical anion and further transform into the desired products.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "In contrast, the unactivated substrates, with low reductive potentials and unstable radical intermediates but more abundant in nature and industry, have rarely been employed. Mechanistic investigations indicated that the Ni─H species generated in the Ni‐electrocatalytic system play a key role for promoting chain walking to efficiently produce activated olefin intermediates, which subsequently undergo radical addition with CO 2 radical anion and further transform into the desired products.",
+      "tags": [
+        "electrocarboxylation",
+        "carbon dioxide",
+        "mechanistic",
+        "radical intermediate",
+        "radical",
+        "intermediate",
+        "reaction conditions"
+      ],
+      "score": 97,
+      "url": "https://doi.org/10.1002/anie.202518160",
+      "archive": false,
+      "pushed_date": "2026-10-18"
+    },
+    {
+      "id": "W4416897457",
+      "doi": "https://doi.org/10.1002/ange.202518160",
+      "title": "Electrocatalytic Migratory Carboxylation of Unactivated Olefins or Halides with CO 2",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "Angewandte Chemie",
+      "journal_issn": [
+        "0044-8249",
+        "0932-2140",
+        "1521-3757"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2025,
+      "publication_date": "2025-12-01",
+      "abstract": "Abstract Coupling carbon dioxide (CO 2 ) with organic molecules through the electrocarboxylation reaction constitutes a promising approach for generating value‐added carboxylic acids. Up to now, activated substrates (such as styrene and butadiene derivatives) have been predominantly focused on due to their high activity. In contrast, the unactivated substrates, with low reductive potentials and unstable radical intermediates but more abundant in nature and industry, have rarely been employed. Herein, we proposed a nickel‐electrocatalytic system for the regioconvergent carboxylation of unactivated olefins or halides. Various carboxylic acids were obtained by the remote hydro‐ or di‐carboxylation under mild reaction conditions with inexpensive catalysts and electrodes. It was noteworthy that readily available alkanes could also be utilized as starting substrates for the site‐selective electrocarboxylation process by the unified catalytic strategy. This method expands the scope of organic molecules coupled with CO 2 , and demonstrates the possibility of ectopic and remote C─H carboxylation. Mechanistic investigations indicated that the Ni─H species generated in the Ni‐electrocatalytic system play a key role for promoting chain walking to efficiently produce activated olefin intermediates, which subsequently undergo radical addition with CO 2 radical anion and further transform into the desired products.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "In contrast, the unactivated substrates, with low reductive potentials and unstable radical intermediates but more abundant in nature and industry, have rarely been employed. Mechanistic investigations indicated that the Ni─H species generated in the Ni‐electrocatalytic system play a key role for promoting chain walking to efficiently produce activated olefin intermediates, which subsequently undergo radical addition with CO 2 radical anion and further transform into the desired products.",
+      "tags": [
+        "electrocarboxylation",
+        "carbon dioxide",
+        "mechanistic",
+        "radical intermediate",
+        "radical",
+        "intermediate",
+        "reaction conditions"
+      ],
+      "score": 97,
+      "url": "https://doi.org/10.1002/ange.202518160",
+      "archive": false,
+      "pushed_date": "2026-10-18"
+    },
+    {
+      "id": "W7221155756",
+      "doi": "https://doi.org/10.1002/adfm.78950",
+      "title": "Breaking Scaling Relations to Achieve an Electrochemical Potential Window Strategy for Highly Selective Urea Electrosynthesis From N 2 and CO 2",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "Advanced Functional Materials",
+      "journal_issn": [
+        "1616-301X",
+        "1616-3028"
+      ],
+      "impact_factor": "19.9",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-10-08",
+      "abstract": "ABSTRACT Electrochemical co‐reduction of nitrogen (N 2 ) and carbon dioxide (CO 2 ) under ambient conditions offers a sustainable route for urea synthesis, while this desirable pathway suffers from selectivity challenge because of an inferior competition with numerous parallel reactions. Available strategy to selectively boost urea electrosynthesis and suppress the competitive reactions is absent, because they share the same intermediates which are limited by the well‐established scaling relations. Herein, we design a multi‐site NbCo 3 intermetallic compound, which imposes a dynamic strain effect on intermediates to break the scaling relations, achieving to gather radical intermediates to participate in C−N coupling while preventing their further protonation. Based on constant potential density functional theory (CP‐DFT) computations, an electrochemical potential window is evolved that NbCo 3 (001) obtains a prior selectivity toward urea electrosynthesis when the electrode potential is below −0.25 V versus the reversible hydrogen electrode (RHE). This work provides an available strategy to improve the catalytic selectivity of urea electrosynthesis, which accelerates the development of highly efficient catalysts.",
+      "methods_summary": "Based on constant potential density functional theory (CP‐DFT) computations, an electrochemical potential window is evolved that NbCo 3 (001) obtains a prior selectivity toward urea electrosynthesis when the electrode potential is below −0.25 V versus the reversible hydrogen electrode (RHE).",
+      "key_findings": "ABSTRACT Electrochemical co‐reduction of nitrogen (N 2 ) and carbon dioxide (CO 2 ) under ambient conditions offers a sustainable route for urea synthesis, while this desirable pathway suffers from selectivity challenge because of an inferior competition with numerous parallel reactions. Available strategy to selectively boost urea electrosynthesis and suppress the competitive reactions is absent, because they share the same intermediates which are limited by the well‐established scaling relations.",
+      "tags": [
+        "carbon dioxide",
+        "radical intermediate",
+        "radical",
+        "intermediate",
+        "density functional theory",
+        "electrode potential",
+        "constant potential"
+      ],
+      "score": 81,
+      "url": "https://doi.org/10.1002/adfm.78950",
+      "archive": false,
+      "pushed_date": "2026-10-18"
+    },
+    {
+      "id": "W7212263704",
+      "doi": "https://doi.org/10.1016/j.jcou.2026.103562",
+      "title": "Tungsten-dependent formate dehydrogenase of Cupriavidus necator as an O2-tolerant biocatalyst for cofactor regeneration and CO2 fixation",
+      "topic": "core",
+      "topic_label": "Organic CO₂ electrosynthesis",
+      "journal": "Journal of CO2 Utilization",
+      "journal_issn": [
+        "2212-9820",
+        "2212-9839"
+      ],
+      "impact_factor": "8.6",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-09-11",
+      "abstract": "Cupriavidus necator’s tungsten-dependent NAD + -reducing formate dehydrogenase ( Cn FDW) has strong potential as a cofactor-recycling biocatalyst, as it remains active under ambient air (∼21% O 2 ) and elevated O 2 levels (up to 50%). Using formate as a clean reductant, Cn FDW enables efficient NADH regeneration for diverse oxidoreductases and oxygenases under aerobic conditions, achieving complete conversion of representative substrates within 8 h and retaining high product yields (92–87%) upon a 10-fold increase in reaction volume and higher substrate concentrations. In reverse reaction, coupling of Cn FDW to the O 2 -tolerant NAD + -reducing hydrogenase of C. necator ( Cn SH) enables H 2 -driven CO 2 reduction to formate. In anaerobic conditions, concentrations of up to 64 mM formate were achieved, when using methyl viologen instead of NAD + /H as electron mediator. Overall, these results establish Cn FDW as an O 2 tolerant biocatalyst for both, aerobic cofactor recycling and sustainable H 2 -driven CO 2 valorisation to formate.",
+      "methods_summary": "Using formate as a clean reductant, Cn FDW enables efficient NADH regeneration for diverse oxidoreductases and oxygenases under aerobic conditions, achieving complete conversion of representative substrates within 8 h and retaining high product yields (92–87%) upon a 10-fold increase in reaction volume and higher substrate concentrations.",
+      "key_findings": "Using formate as a clean reductant, Cn FDW enables efficient NADH regeneration for diverse oxidoreductases and oxygenases under aerobic conditions, achieving complete conversion of representative substrates within 8 h and retaining high product yields (92–87%) upon a 10-fold increase in reaction volume and higher substrate concentrations.",
+      "tags": [
+        "co2 fixation",
+        "co2",
+        "epr",
+        "concentration",
+        "yield"
+      ],
+      "score": 78,
+      "url": "https://doi.org/10.1016/j.jcou.2026.103562",
+      "archive": false,
+      "pushed_date": "2026-10-18"
+    },
+    {
+      "id": "W7169539633",
+      "doi": "https://doi.org/10.1021/acscentsci.5c02358",
+      "title": "Cascade Catalysis for CO2 Upgrading to Long-Chain Products",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "ACS Central Science",
+      "journal_issn": [
+        "2374-7943",
+        "2374-7951"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-07-17",
+      "abstract": "Abstract Cascade catalytic conversion of CO2 has recently emerged as a transformative strategy for multilevel CO2 valorization. By integration of electrocatalytic CO2 reduction with thermocatalytic and/or biocatalytic processes, this approach enables stepwise construction of complex products from simple carbon feedstocks. The electrocatalytic stage supplies key intermediates or upstream products such as CO, formate, formaldehyde, or ethanol, which can be further converted into value-added multicarbon products including sugars, polymers, and other fine chemicals through downstream coupling. Recent demonstrations, ranging from CO2-to-sugar and CO2-to-polyketone conversions to artificial CO2-to-polymer biocatalytic pathways, have demonstrated the great potential of cascade strategies in bridging electro-, thermo-, and biochemistry. This Outlook discusses recent progress in electrochemical cascade CO2 conversion and outlines the key design goals for this field, including full-cascade performances, coupled catalyst-reaction optimizations, mechanistic understanding across complex interfaces, and integrated reactor architectures.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "Abstract Cascade catalytic conversion of CO2 has recently emerged as a transformative strategy for multilevel CO2 valorization. The electrocatalytic stage supplies key intermediates or upstream products such as CO, formate, formaldehyde, or ethanol, which can be further converted into value-added multicarbon products including sugars, polymers, and other fine chemicals through downstream coupling.",
+      "tags": [
+        "co2",
+        "mechanistic",
+        "intermediate",
+        "optimization"
+      ],
+      "score": 75,
+      "url": "https://doi.org/10.1021/acscentsci.5c02358",
+      "archive": false,
+      "pushed_date": "2026-10-18"
+    },
+    {
+      "id": "W7127722723",
+      "doi": "https://doi.org/10.1038/s41467-026-68739-z",
+      "title": "Ampere-level CO2 electroreduction to multi-carbon oxygenates in acidic electrolyte through surface microenvironment reconstruction",
+      "topic": "optimization",
+      "topic_label": "Condition optimization",
+      "journal": "Nature Communications",
+      "journal_issn": [
+        "2041-1723"
+      ],
+      "impact_factor": "18.1",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-02-04",
+      "abstract": "Efficient CO2 electroreduction to multi-carbon (C2+) oxygenates in acidic electrolytes remains a great challenge, especially under high current density conditions. In this study, we prepare an ionic liquid (IL)-modified Cu electrode (IL@Cu), which achieve a Faradaic efficiency (FE) of 82.7% toward C2+ products at a current density of 2.0 A cm−2 in 0.5 M K2SO4 (pH = 1, adjusted with H2SO4), with a single-pass carbon efficiency reaching 78.5%. Under the same conditions, the partial current density for C2+ oxygenates and ethanol exceed 1.2 A cm−2 and 1.0 A cm−2, respectively, over IL@Cu. Mechanism study has shown that K+ cations are repelled by the IL cations during the reaction, allowing water molecules to access the electrode surface. The displacement of K+ enhances C–C coupling, while the proximity of water to the electrode surface facilitates the incorporation of oxygen-containing intermediates into the hydrogen bond network, thereby promoting the formation of C2+ oxygenates. The electroreduction of CO2 to C2+ oxygenates at industrial current density in acidic media is highly significant yet remains a challenge. Here, the authors report an ionic liquid-modified Cu electrode that enables efficient and stable production of C2+ oxygenates at ampere-level current densities.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "In this study, we prepare an ionic liquid (IL)-modified Cu electrode (IL@Cu), which achieve a Faradaic efficiency (FE) of 82.7% toward C2+ products at a current density of 2.0 A cm−2 in 0.5 M K2SO4 (pH = 1, adjusted with H2SO4), with a single-pass carbon efficiency reaching 78.5%. Mechanism study has shown that K+ cations are repelled by the IL cations during the reaction, allowing water molecules to access the electrode surface.",
+      "tags": [
+        "co2",
+        "mechanism",
+        "intermediate",
+        "electrolyte",
+        "current density",
+        "faradaic efficiency"
+      ],
+      "score": 75,
+      "url": "https://doi.org/10.1038/s41467-026-68739-z",
+      "archive": false,
+      "pushed_date": "2026-10-18"
+    },
+    {
+      "id": "W4416031885",
+      "doi": "https://doi.org/10.1016/j.nxener.2025.100476",
+      "title": "Advancements in carbon capture and utilization technologies: Transforming CO2 into valuable resources for a sustainable carbon economy",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "Next Energy",
+      "journal_issn": [
+        "2949-821X"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2025,
+      "publication_date": "2025-11-08",
+      "abstract": "The escalating atmospheric CO₂ concentration arising from fossil fuel combustion and industrial activities necessitates immediate mitigation strategies to address global warming and environmental degradation. Carbon Capture and Utilization (CCU) technologies have emerged as a pivotal approach to transforming CO₂ from a greenhouse gas into a valuable feedstock for fuels and chemicals. This review critically examines recent advancements in CO₂ capture techniques—including absorption, adsorption, membrane separation, and mineral carbonation—and their integration with various conversion routes such as thermocatalytic hydrogenation, electrochemical and photocatalytic reduction, and biological fixation. Particular emphasis is placed on the synthesis of methanol, ethanol, methane, syngas, cyclic carbonates, and biofuels, discussing their catalytic systems (Cu-, Ni-, and Ti-based catalysts, metal–organic frameworks, and nanostructured semiconductors), reaction mechanisms, and process efficiencies. The review also evaluates techno-economic feasibility, energy input–output ratios, and net CO₂ reduction potentials, highlighting strategies for coupling renewable hydrogen and solar-driven systems to improve sustainability. Finally, it outlines the current technology readiness levels (TRLs), life-cycle assessment (LCA) outcomes, and research priorities needed to accelerate the industrial implementation of CCU technologies toward a low and circular carbon economy. This review article explores the state-of-the-art advancements in CO 2 capture and its conversion into useful products, with a focus on products like ethanol, acetaldehyde, methane gas, methanol, biofuel, Syngas, and cyclic carbonates. CO 2 capture and conversion into useful products like ethanol, biofuel, acetaldehyde, cyclic carbonates, methanol, and methane represent a promising approach to mitigating climate change, reducing CO 2 emissions, and transitioning toward a sustainable and circular carbon economy. • Explores the state-of-the-art advancements in CO 2 capture and its conversion. • Conversion of CO 2 in ethanol, acetaldehyde, CH 4 , biofuel, Syngas, etc. • Explores different CO 2 capture, storage, and its conversion into useful products. • Contribute towards a sustainable and circular carbon economy.",
+      "methods_summary": "CO 2 capture and conversion into useful products like ethanol, biofuel, acetaldehyde, cyclic carbonates, methanol, and methane represent a promising approach to mitigating climate change, reducing CO 2 emissions, and transitioning toward a sustainable and circular carbon economy. • Explores the state-of-the-art advancements in CO 2 capture and its conversion. • Conversion of CO 2 in ethanol, acetaldehyde, CH 4 , biofuel, Syngas, etc. • Explores different CO 2 capture, storage, and its conversion into useful products. • Contribute towards a sustainable and circular carbon economy.",
+      "key_findings": "This review critically examines recent advancements in CO₂ capture techniques—including absorption, adsorption, membrane separation, and mineral carbonation—and their integration with various conversion routes such as thermocatalytic hydrogenation, electrochemical and photocatalytic reduction, and biological fixation. Particular emphasis is placed on the synthesis of methanol, ethanol, methane, syngas, cyclic carbonates, and biofuels, discussing their catalytic systems (Cu-, Ni-, and Ti-based catalysts, metal–organic frameworks, and nanostructured semiconductors), reaction mechanisms, and process efficiencies.",
+      "tags": [
+        "co2",
+        "reaction mechanism",
+        "mechanism",
+        "epr",
+        "concentration"
+      ],
+      "score": 75,
+      "url": "https://doi.org/10.1016/j.nxener.2025.100476",
+      "archive": false,
+      "pushed_date": "2026-10-18"
+    },
+    {
+      "id": "W7164483016",
+      "doi": "https://doi.org/10.1016/j.seppur.2026.138881",
+      "title": "Continuous electrocatalytic conversion of CO2 to ethanol with high selectivity using advanced MOF-based electrodes",
+      "topic": "optimization",
+      "topic_label": "Condition optimization",
+      "journal": "Separation and Purification Technology",
+      "journal_issn": [
+        "1383-5866",
+        "1873-3794"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-06-13",
+      "abstract": "The current climate emergency has intensified interest in technologies aimed at mitigating greenhouse gas emissions, particularly carbon dioxide (CO 2 ). Among these, CO 2 capture, storage, and utilization (CCUS) technologies are gaining increasing importance. This work focuses on the electrochemical conversion of CO 2 into value-added products, particularly alcohols, due to their economic relevance, exploring metal-organic frameworks (MOFs) as catalytic cathode materials. Cu-MOF-74, Cu-BTC MOF, Mg-MOF-74, and Ni-MOF-74 were evaluated as cathodic catalysts for the electrocatalytic reduction of CO 2 using 0.5 M KHCO 3 as the electrolyte. Ni-MOF-74 showed the best performance toward CH 3 OH, achieving a Faradaic Efficiency (FE) of 15.31% at −1.5 V vs. Ag/AgCl and an Energy Consumption (EC) of 2.35·10 3 kWh·kmol −1 . C 2 H 5 OH was also obtained simultaneously, reaching a FE of 31.12% and an EC of 4.63·10 3 kWh·kmol −1 at −1.3 V vs. Ag/AgCl. Subsequent experiments evaluated system efficiency by coupling these MOFs with a non-precious metal-based anode, a Ni Fe foam. Mg-MOF-74 and Ni-MOF-74 were used in paired experiments, as they showed higher activity than the Cu-based MOFs toward alcohol production. The highest CH 3 OH FE (9.77%) was achieved using Ni-MOF-74 at −1.3 V, reaching a promising FE of 84.55% and an EC of 512.91 kWh·kmol −1 . Although overall EC decreased in the full-cell configuration, a shift in selectivity from CH 3 OH to C 2 H 5 OH was observed.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "Although overall EC decreased in the full-cell configuration, a shift in selectivity from CH 3 OH to C 2 H 5 OH was observed. This work focuses on the electrochemical conversion of CO 2 into value-added products, particularly alcohols, due to their economic relevance, exploring metal-organic frameworks (MOFs) as catalytic cathode materials.",
+      "tags": [
+        "carbon dioxide",
+        "co2",
+        "electrolyte",
+        "cell configuration",
+        "faradaic efficiency",
+        "selectivity"
+      ],
+      "score": 74,
+      "url": "https://doi.org/10.1016/j.seppur.2026.138881",
+      "archive": false,
+      "pushed_date": "2026-10-18"
+    },
+    {
+      "id": "W7212073352",
+      "doi": "https://doi.org/10.1021/acscatal.6c05384",
+      "title": "Adaptive Photocatalytic Regimes Enabled by CO2 ·– and Two-Photon Excitation Synergy: Cyclization-Carboxylation of Aryl Halides with CO2",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "ACS Catalysis",
+      "journal_issn": [
+        "2155-5435"
+      ],
+      "impact_factor": "13.6",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-09-09",
+      "abstract": "Abstract Activation of aryl halides across a broad reactivity spectrum remains a central challenge in photoredox catalysis, particularly due to the kinetic barriers associated with C–Cl bond reduction. Herein, we report on a photocatalytic platform that enables substrate-dependent access to distinct reductive regimes through the synergistic integration of formate-derived CO2·– and excitation pathways. Under the developed conditions, aryl bromides and chlorides, despite exhibiting demanding reduction potentials, display markedly different reactivity, governed by kinetic factors specific to the substrate and catalytic system. CO2·– mediates thermodynamically matched reduction of aryl bromides, whereas more recalcitrant aryl chlorides are activated via a two-photon reductive manifold, consistent with either a ConPET-type mechanism or solvated electron involvement. Notably, formate serves as both the precursor to CO2·– and the electron donor enabling a two-photon, strongly reductive manifold, obviating the need for sacrificial amines. This adaptive system facilitates a variety of transformations, including the efficient cyclization-carboxylation of (2-halophenoxy)allenes with CO2 under mild conditions. Mechanistic studies, including kinetic analysis, competition experiments, isotopic labelling, spectroscopic studies, and DFT calculations, support a dual-regime mechanism governed by substrate-dependent activation barriers. This work establishes a framework for kinetically gated control of reductive strength in photoredox catalysis by harnessing CO2·– as a reductant.",
+      "methods_summary": "Mechanistic studies, including kinetic analysis, competition experiments, isotopic labelling, spectroscopic studies, and DFT calculations, support a dual-regime mechanism governed by substrate-dependent activation barriers. Abstract Activation of aryl halides across a broad reactivity spectrum remains a central challenge in photoredox catalysis, particularly due to the kinetic barriers associated with C–Cl bond reduction.",
+      "key_findings": "CO2·– mediates thermodynamically matched reduction of aryl bromides, whereas more recalcitrant aryl chlorides are activated via a two-photon reductive manifold, consistent with either a ConPET-type mechanism or solvated electron involvement. Mechanistic studies, including kinetic analysis, competition experiments, isotopic labelling, spectroscopic studies, and DFT calculations, support a dual-regime mechanism governed by substrate-dependent activation barriers.",
+      "tags": [
+        "co2",
+        "mechanistic",
+        "mechanism",
+        "kinetic",
+        "dft",
+        "redox"
+      ],
+      "score": 73,
+      "url": "https://doi.org/10.1021/acscatal.6c05384",
+      "archive": false,
+      "pushed_date": "2026-10-18"
+    },
+    {
+      "id": "W4416216459",
+      "doi": "https://doi.org/10.17615/fb1t-ac74",
+      "title": "Acetamide Electrosynthesis from CO2 and Nitrite in Water",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "Carolina Digital Repository (University of North Carolina at Chapel Hill)",
+      "journal_issn": [],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2025,
+      "publication_date": "2025-10-28",
+      "abstract": "Renewable electricity driven electrocatalytic CO2 reduction reaction (CO2 RR) is a promising solution to carbon neutralization, which mainly generate simple carbon products. It is of great importance to produce more valuable C-N chemicals from CO2 and nitrogen species. However, it is challenging to co-reduce CO2 and NO3 - /NO2 - to generate aldoxime an important intermediate in the electrocatalytic C-N coupling process. Herein, we report the successful electrochemical conversion of CO2 and NO2 - to acetamide for the first time over copper catalysts under alkaline condition through a gas diffusion electrode. Operando spectroelectrochemical characterizations and DFT calculations, suggest acetaldehyde and hydroxylamine identified as key intermediates undergo a nucleophilic addition reaction to produce acetaldoxime, which is then dehydrated to acetonitrile and followed by hydrolysis to give acetamide under highly local alkaline environment and electric field. Moreover, the above mechanism was successfully extended to the formation of phenylacetamide. This study provides a new strategy to synthesize highly valued amides from CO2 and wastewater.",
+      "methods_summary": "Operando spectroelectrochemical characterizations and DFT calculations, suggest acetaldehyde and hydroxylamine identified as key intermediates undergo a nucleophilic addition reaction to produce acetaldoxime, which is then dehydrated to acetonitrile and followed by hydrolysis to give acetamide under highly local alkaline environment and electric field.",
+      "key_findings": "However, it is challenging to co-reduce CO2 and NO3 - /NO2 - to generate aldoxime an important intermediate in the electrocatalytic C-N coupling process. Herein, we report the successful electrochemical conversion of CO2 and NO2 - to acetamide for the first time over copper catalysts under alkaline condition through a gas diffusion electrode.",
+      "tags": [
+        "co2",
+        "mechanism",
+        "intermediate",
+        "dft",
+        "operando",
+        "spectroelectrochem"
+      ],
+      "score": 73,
+      "url": "https://doi.org/10.17615/fb1t-ac74",
+      "archive": false,
+      "pushed_date": "2026-10-18"
+    },
     {
       "id": "W7133778162",
       "doi": "https://doi.org/10.17185/duepublico/85207",
@@ -35,7 +349,7 @@
       ],
       "score": 90,
       "url": "https://doi.org/10.17185/duepublico/85207",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-17"
     },
     {
@@ -65,7 +379,7 @@
       ],
       "score": 87,
       "url": "https://doi.org/10.26434/chemrxiv-2025-p13zk",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-17"
     },
     {
@@ -95,7 +409,7 @@
       ],
       "score": 83,
       "url": "https://doi.org/10.1021/acs.accounts.6c00268",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-17"
     },
     {
@@ -123,7 +437,7 @@
       ],
       "score": 82,
       "url": "https://doi.org/10.14943/doctoral.k12923",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-17"
     },
     {
@@ -154,7 +468,7 @@
       ],
       "score": 81,
       "url": "https://doi.org/10.1038/s41467-026-72423-7",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-17"
     },
     {
@@ -186,7 +500,7 @@
       ],
       "score": 80,
       "url": "https://doi.org/10.1038/s41467-026-69207-4",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-17"
     },
     {
@@ -215,7 +529,7 @@
       ],
       "score": 78,
       "url": "https://doi.org/10.1021/acs.joc.5c02850",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-17"
     },
     {
@@ -248,7 +562,7 @@
       ],
       "score": 76,
       "url": "https://doi.org/10.33545/26646552.2026.v8.i8a.171",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-17"
     },
     {
@@ -278,7 +592,7 @@
       ],
       "score": 74,
       "url": "https://doi.org/10.1038/s41467-026-78459-z",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-17"
     },
     {
@@ -311,7 +625,7 @@
       ],
       "score": 72,
       "url": "https://doi.org/10.1002/anie.7521348",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-17"
     },
     {
