@@ -1,13 +1,167 @@
 {
   "version": 4,
-  "brief_date": "2026 · 10 · 18",
-  "last_updated": "2026-10-18 12:04 CEST",
+  "brief_date": "2026 · 10 · 19",
+  "last_updated": "2026-10-19 13:31 CEST",
   "target_daily": 10,
-  "match_score": 80,
+  "match_score": 75,
   "search_state": {
-    "backfill_page": 5
+    "backfill_page": 7
   },
   "papers": [
+    {
+      "id": "W7218352318",
+      "doi": "https://doi.org/10.1021/acssuschemeng.6c09803",
+      "title": "Coordinated Interfacial Electron Transfer and Metabolic Coupling Drive Acetate Electrosynthesis in a Synthetic Microbial Consortium",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "ACS Sustainable Chemistry & Engineering",
+      "journal_issn": [
+        "2168-0485"
+      ],
+      "impact_factor": "7.6",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-10-03",
+      "abstract": "Abstract Microbial consortia in microbial electrosynthesis (MES) can couple cathodic electron utilization with CO2 fixation through interspecies electron transfer and metabolite cross-feeding. However, how defined functional members coordinate interfacial electron input with downstream acetogenic metabolism remains insufficiently understood. Here, we constructed a defined three-member consortium comprising the Shewanella oneidensis MR-1 and the acetogens Clostridium aceticum and Acetobacterium woodii to investigate how functional complementarity supports acetate electrosynthesis. The three-member consortium reached a maximum acetate concentration of 2.33 ± 0.17 g L–1, 2.62-fold that of the A. woodii and C. aceticum binary consortium, accompanied by a higher current density, stronger redox activity, and more pronounced riboflavin-related signals. Phase-resolved fhs abundances, metabolomic profiles, and flavin perturbation experiments further supported spatially differentiated roles within the consortium: S. oneidensis enhanced cathode-associated electron input, while phase-resolved fhs abundances and H2/formate dynamics indicated that acetogenic functions were maintained across both biofilm and planktonic phases and coupled to soluble-intermediate turnover. Despite varying initial inoculation ratios, the consortium consistently converged on similar acetate production and community functions, indicating that steady-state performance of the consortium was not strongly dependent on the precise initial community composition. These results suggest that the enhanced performance of the three-member consortium was associated with coordinated electron transfer and metabolic handoff among functionally complementary members. This study demonstrates that enhanced CO2 electrosynthesis arises from the reorganization of electron-metabolic interactions rather than the simple addition of functional members, providing a mechanistic basis for the rational design of electrically driven synthetic microbial communities.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "Phase-resolved fhs abundances, metabolomic profiles, and flavin perturbation experiments further supported spatially differentiated roles within the consortium: S. oneidensis enhanced cathode-associated electron input, while phase-resolved fhs abundances and H2/formate dynamics indicated that acetogenic functions were maintained across both biofilm and planktonic phases and coupled to soluble-intermediate turnover.",
+      "tags": [
+        "co2 fixation",
+        "co2",
+        "mechanistic",
+        "electron transfer",
+        "intermediate",
+        "redox",
+        "current density"
+      ],
+      "score": 86,
+      "url": "https://doi.org/10.1021/acssuschemeng.6c09803",
+      "archive": false,
+      "pushed_date": "2026-10-19"
+    },
+    {
+      "id": "W4417269654",
+      "doi": "https://doi.org/10.1038/s41929-025-01451-1",
+      "title": "CO2 electroreduction on Cu operates via an alternative chain growth mechanism to form C–C bonds at elevated temperature and pressure",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "Nature Catalysis",
+      "journal_issn": [
+        "2520-1158"
+      ],
+      "impact_factor": "48.3",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2025,
+      "publication_date": "2025-12-12",
+      "abstract": "Abstract Future practical applications of the electrochemical CO 2 reduction reaction will probably involve the use of higher pressures and temperatures. However, most research on the copper-catalysed electrochemical CO 2 reduction reaction—the most widely studied system due to its C–C coupling ability—is typically performed under ambient conditions, and hence the mechanistic conclusions drawn also pertain to those conditions. Using a custom high-pressure, high-temperature electrochemical cell, we show here that on copper electrodes, the C–C coupling mechanism changes from the typical CO dimerization mechanism at low temperatures to a Fischer–Tropsch-like chain growth mechanism at temperatures above 125 °C (also requiring higher pressure). These results show that temperature and pressure are crucial parameters to consider in applied and mechanistic studies of the electrochemical reduction of CO 2 because they can open up alternative reaction pathways and alter known mechanisms.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "Using a custom high-pressure, high-temperature electrochemical cell, we show here that on copper electrodes, the C–C coupling mechanism changes from the typical CO dimerization mechanism at low temperatures to a Fischer–Tropsch-like chain growth mechanism at temperatures above 125 °C (also requiring higher pressure). These results show that temperature and pressure are crucial parameters to consider in applied and mechanistic studies of the electrochemical reduction of CO 2 because they can open up alternative reaction pathways and alter known mechanisms.",
+      "tags": [
+        "co2",
+        "mechanistic",
+        "mechanism",
+        "temperature"
+      ],
+      "score": 75,
+      "url": "https://doi.org/10.1038/s41929-025-01451-1",
+      "archive": false,
+      "pushed_date": "2026-10-19"
+    },
+    {
+      "id": "W7220734835",
+      "doi": "https://doi.org/10.1016/j.mcat.2026.116379",
+      "title": "Mechanistic insights into electrocatalytic methylamine synthesis from N2 and CO2 on tetranuclear vanadium clusters supported by nitrogen-doped graphene: a computational study",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "Molecular Catalysis",
+      "journal_issn": [
+        "2468-8231",
+        "2468-8274"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-10-06",
+      "abstract": "Electrocatalytic synthesis of methylamine (CH 3 NH 2 ) offers an alternative approach to performing artificial nitrogen cycle relevant to that of conventional ammonia and urea molecules. However, the challenge for the methylamine electrosynthesis lies in the low polarization of the N–O bond in the raw materials or intermediates, which causes low selectivity of CH 3 NH 2 and poor energy efficiency, as well as undesired byproducts. In the present paper, we identify that a direct C–N coupling reaction of inert N 2 and CO 2 molecules catalyzed by a novel tetranuclear vanadium (V) cluster anchored on nitrogen‐doped graphene (V 4 /NG) can produce stable *N=NCOO* intermediate, which prevents the presence of N–O bond and effectively governs selectivity of CH 3 NH 2 . Our theoretical studies indicate that after N 2 and CO 2 molecules adsorb onto the surface of the V 4 /NG catalyst, a strong electron transfer process occurs from the V 4 clusters to these two substrate molecules, resulting in the formation of electron-rich and highly activated N 2 and CO 2 ; this enhances the reactivity of these two species, thereby promoting the formation of C–N bonds. We further discover that the tetranuclear V cluster decreases the energy requirement for cleaving N=N bond and protecting the key C–N bond in a series of hydrogenation steps via effective tunable bonding interactions of substrate molecules and catalyst. This work propels the development of metal‐based small cluster catalysts for the conversion of inert N 2 and CO 2 molecules to CH 3 NH 2 through electrochemical processes, providing a feasible and sustainable strategy.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "However, the challenge for the methylamine electrosynthesis lies in the low polarization of the N–O bond in the raw materials or intermediates, which causes low selectivity of CH 3 NH 2 and poor energy efficiency, as well as undesired byproducts. In the present paper, we identify that a direct C–N coupling reaction of inert N 2 and CO 2 molecules catalyzed by a novel tetranuclear vanadium (V) cluster anchored on nitrogen‐doped graphene (V 4 /NG) can produce stable *N=NCOO* intermediate, which prevents the presence of N–O bond and effectively governs selectivity of CH 3 NH 2 .",
+      "tags": [
+        "co2",
+        "mechanistic",
+        "electron transfer",
+        "intermediate",
+        "selectivity"
+      ],
+      "score": 73,
+      "url": "https://doi.org/10.1016/j.mcat.2026.116379",
+      "archive": false,
+      "pushed_date": "2026-10-19"
+    },
+    {
+      "id": "W4417239381",
+      "doi": "https://doi.org/10.1038/s41467-025-66140-w",
+      "title": "σ-π dative bond stabilizing copper active site drives CO2 electrocatalysis to hydrocarbon",
+      "topic": "optimization",
+      "topic_label": "Condition optimization",
+      "journal": "Nature Communications",
+      "journal_issn": [
+        "2041-1723"
+      ],
+      "impact_factor": "18.1",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2025,
+      "publication_date": "2025-12-11",
+      "abstract": "Copper-based catalysts are the premier choice for electrochemical reduction of CO2 (CO2RR) into hydrocarbons or oxygenates. However, the facilely structural reconstruction of copper sites during electrolysis poses significant challenges to the long-life electrolytic efficiency. Herein, we leverage the strong σ-π dative bonding between Cuδ+ and alkyne-based ligands to stabilize copper sites for the prolonged CO2RR. We demonstrate the feasibility of taming the electronic structures of copper sites through the tug of war between σ and π backbonding interactions. The optimal copper organic polymer with methoxy group functionalization (OMe-PhCu) exhibits a moderate charge density of copper sites and an intensified local asymmetric charge distribution of coordinative carbon, enhancing the selectivity of methane with a Faradaic efficiency of 68.8% and a partial current density of 324.5 mA cm−2 in acidic electrolyte. In situ spectra and density functional theory calculations reveal enhanced *CO adsorption and lowered energy barrier for CO2RR into methane over OMe-PhCu. Building upon such stable Cuδ+ sites, we further construct Cuδ+/Cu0 catalytic interfaces for the generally enhanced electrosynthesis of multi-carbons and ammonias. This synthetic chemistry paves the pathway for the design of stable catalytic active sites for renewable conversions. Copper-based catalysts are preferred for electrochemical CO2 reduction to hydrocarbons, which however easily undergo structural reconstruction. Here, the authors report a class of reconstruction-resistant copper sites with tunable electronic structures through σ-π dative bonding interaction.",
+      "methods_summary": "However, the facilely structural reconstruction of copper sites during electrolysis poses significant challenges to the long-life electrolytic efficiency. In situ spectra and density functional theory calculations reveal enhanced *CO adsorption and lowered energy barrier for CO2RR into methane over OMe-PhCu.",
+      "key_findings": "The optimal copper organic polymer with methoxy group functionalization (OMe-PhCu) exhibits a moderate charge density of copper sites and an intensified local asymmetric charge distribution of coordinative carbon, enhancing the selectivity of methane with a Faradaic efficiency of 68.8% and a partial current density of 324.5 mA cm−2 in acidic electrolyte. We demonstrate the feasibility of taming the electronic structures of copper sites through the tug of war between σ and π backbonding interactions.",
+      "tags": [
+        "co2",
+        "density functional theory",
+        "in situ",
+        "electrolyte",
+        "current density",
+        "faradaic efficiency",
+        "selectivity"
+      ],
+      "score": 72,
+      "url": "https://doi.org/10.1038/s41467-025-66140-w",
+      "archive": false,
+      "pushed_date": "2026-10-19"
+    },
+    {
+      "id": "W7166637441",
+      "doi": "https://doi.org/10.1038/s41467-026-74877-1",
+      "title": "Scalable ampere-level CO2 electroreduction to ethylene enabled by descriptor-guided oxygen affinity engineering",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "Nature Communications",
+      "journal_issn": [
+        "2041-1723"
+      ],
+      "impact_factor": "18.1",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-06-30",
+      "abstract": "The electroreduction of CO2 to ethylene using renewable electricity offers a sustainable approach for greenhouse gas mitigation. However, the efficient ethylene production is challenged by sluggish C–C coupling and wide product distribution. Guided the energy changes associated with C–C coupling and C–O cleavage as descriptors for ethylene electrosynthesis, we predict and synthesize unsaturated MgO1-x anchored on Cu via an electrochemical-induced phase separation method. Electrochemical evaluation of this catalyst achieves an ethylene Faradaic efficiency of 78.2% at 300 mA cm−2 in a flow cell. Mechanism studies reveal the bifunctionality of MgO1-x. On one side, chemical interaction of MgO1-x with Cu domain stabilizes Cu+ and gives asymmetric Cu+···Cu0 pairs, facilitating the *CO–CHO coupling. On another side, the MgO1-x with high oxygen affinity strengthens the binding with dual-carbon intermediate and promotes the C–O bond dissociation, accelerating ethylene formation. Ultimately, this catalyst delivers 60.7% ethylene selectivity at 25 A in membrane electrode assembly of 100 cm2, equivalent to a C2H4 production rate of 1.1 L h−1. CO2 electroreduction to C2H4 is limited by slow C–C coupling and poor selectivity. Here, the authors report an MgO1-x modified Cu catalyst by descriptor-guided oxygen affinity engineering that achieves selective C2H4 production in large-scale membrane electrode assemblies.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "Electrochemical evaluation of this catalyst achieves an ethylene Faradaic efficiency of 78.2% at 300 mA cm−2 in a flow cell. Mechanism studies reveal the bifunctionality of MgO1-x.",
+      "tags": [
+        "co2",
+        "mechanism",
+        "intermediate",
+        "faradaic efficiency",
+        "selectivity"
+      ],
+      "score": 71,
+      "url": "https://doi.org/10.1038/s41467-026-74877-1",
+      "archive": false,
+      "pushed_date": "2026-10-19"
+    },
     {
       "id": "W4416897485",
       "doi": "https://doi.org/10.1002/anie.202518160",
@@ -38,7 +192,7 @@
       ],
       "score": 97,
       "url": "https://doi.org/10.1002/anie.202518160",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-18"
     },
     {
@@ -72,7 +226,7 @@
       ],
       "score": 97,
       "url": "https://doi.org/10.1002/ange.202518160",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-18"
     },
     {
@@ -105,7 +259,7 @@
       ],
       "score": 81,
       "url": "https://doi.org/10.1002/adfm.78950",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-18"
     },
     {
@@ -136,7 +290,7 @@
       ],
       "score": 78,
       "url": "https://doi.org/10.1016/j.jcou.2026.103562",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-18"
     },
     {
@@ -166,7 +320,7 @@
       ],
       "score": 75,
       "url": "https://doi.org/10.1021/acscentsci.5c02358",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-18"
     },
     {
@@ -197,7 +351,7 @@
       ],
       "score": 75,
       "url": "https://doi.org/10.1038/s41467-026-68739-z",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-18"
     },
     {
@@ -227,7 +381,7 @@
       ],
       "score": 75,
       "url": "https://doi.org/10.1016/j.nxener.2025.100476",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-18"
     },
     {
@@ -259,7 +413,7 @@
       ],
       "score": 74,
       "url": "https://doi.org/10.1016/j.seppur.2026.138881",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-18"
     },
     {
@@ -290,7 +444,7 @@
       ],
       "score": 73,
       "url": "https://doi.org/10.1021/acscatal.6c05384",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-18"
     },
     {
@@ -319,7 +473,7 @@
       ],
       "score": 73,
       "url": "https://doi.org/10.17615/fb1t-ac74",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-18"
     },
     {
