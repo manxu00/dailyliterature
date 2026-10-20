@@ -1,13 +1,71 @@
 {
   "version": 4,
-  "brief_date": "2026 · 10 · 19",
-  "last_updated": "2026-10-19 13:31 CEST",
+  "brief_date": "2026 · 10 · 20",
+  "last_updated": "2026-10-20 12:37 CEST",
   "target_daily": 10,
-  "match_score": 75,
+  "match_score": 87,
   "search_state": {
-    "backfill_page": 7
+    "backfill_page": 9
   },
   "papers": [
+    {
+      "id": "W7208341922",
+      "doi": "",
+      "title": "Towards Sacrificial Anode-Free Alkyne Electrocarboxylation",
+      "topic": "optimization",
+      "topic_label": "Condition optimization",
+      "journal": "QSpace (Queen's University Library)",
+      "journal_issn": [],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-07-15",
+      "abstract": "The chemical industry's reliance on petroleum feedstocks and hazardous oxidants to produce value-added carboxylic acids (C-acids) necessitates the development of more sustainable manufacturing alternatives. Electrocarboxylation offers a promising pathway to valorize carbon dioxide (CO₂) as a cheap and renewable carbon feedstock. However, current alkyne electrocarboxylation routes rely on sacrificial metal anodes which inhibit their scalability and implementation in continuous flow systems. The aim of this research is to establish a scalable, sacrificial anode-free electrocarboxylation process. This work explores the sacrificial anode-free reductive coupling of phenylacetylene and CO₂ to afford cinnamic acid. Previous literature has shown that the addition of Mg salts as a Mg²⁺ source enabled a scalable sacrificial anode-free alkyl halide electrocarboxylation process. In contrast, this work revealed that Mg-based salts did not enhance the reactivity of sacrificial anode-free alkyne electrocarboxylation in an undivided batch configuration. Optimization of the direct current (DC) system—employing a nickel cathode, graphite anode, and Bu₄NI in MeCN, achieved a Faradaic efficiency (FE) of 44%. This result exceeds the highest FE achieved with sacrificial anodes reported in the literature (37%) to date. However, assessment of the electrolyser stability highlighted the challenges of prolonged batch electrolysis. Operating near theoretical charge requirement for full material conversion caused graphite exfoliation and product degradation. To circumvent this, a single-pass continuous flow configuration was tested. Continuous electrolyte replenishment successfully stabilized the cell potential and enabled an increase in current density from 10 mA/cm² to 20 mA/cm² which was not tolerated in batch electrolysis. Additionally, alternating polarity (AP) electrolysis was evaluated as a promising avenue for sacrificial anode-free electrocarboxylation. 0.5 Hz square-wave AP electrolysis using a symmetric nickel cell facilitated extended operation up to 30 F/mol without passivation and afforded cinnamic acid in 45% yield. AP electrolysis outperformed DC configurations in overall material conversion. To evaluate non-faradaic energy losses attributed to electrical double layer reorganization, the area-specific capacitance of the Ni electrode was determined to be 9.4 µF/cm². Ultimately, this work demonstrates that both continuous flow electrolysis and AP are viable, scalable alternatives to sacrificial anodes, advancing the sustainable electrosynthesis of value-added carboxylic acids.",
+      "methods_summary": "However, assessment of the electrolyser stability highlighted the challenges of prolonged batch electrolysis. Continuous electrolyte replenishment successfully stabilized the cell potential and enabled an increase in current density from 10 mA/cm² to 20 mA/cm² which was not tolerated in batch electrolysis.",
+      "key_findings": "In contrast, this work revealed that Mg-based salts did not enhance the reactivity of sacrificial anode-free alkyne electrocarboxylation in an undivided batch configuration. Optimization of the direct current (DC) system—employing a nickel cathode, graphite anode, and Bu₄NI in MeCN, achieved a Faradaic efficiency (FE) of 44%.",
+      "tags": [
+        "electrocarboxylation",
+        "carbon dioxide",
+        "co2",
+        "optimization",
+        "electrolyte",
+        "current density",
+        "faradaic efficiency"
+      ],
+      "score": 99,
+      "url": "https://hdl.handle.net/1974/36604",
+      "archive": false,
+      "pushed_date": "2026-10-20"
+    },
+    {
+      "id": "W7125920609",
+      "doi": "https://doi.org/10.1055/a-2746-7189",
+      "title": "Electrochemical Carboxylative Cyclization of Benzylpropargylamines Using Et4NI under CO2",
+      "topic": "core",
+      "topic_label": "Organic CO₂ electrosynthesis",
+      "journal": "Synfacts",
+      "journal_issn": [
+        "1861-194X",
+        "1861-1958"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-01-28",
+      "abstract": "Keywords electrochemistry - carboxylative cyclization - benzylpropargylamines - CO 2 - 2-oxazolidinones Publication History Article published online: 28 January 2026 © 2026. Thieme. All rights reserved. Georg Thieme Verlag KG Oswald-Hesse-Straße 50, 70469 Stuttgart, Germany",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "Georg Thieme Verlag KG Oswald-Hesse-Straße 50, 70469 Stuttgart, Germany",
+      "tags": [
+        "carboxylative cyclization",
+        "co2"
+      ],
+      "score": 75,
+      "url": "https://doi.org/10.1055/a-2746-7189",
+      "archive": false,
+      "pushed_date": "2026-10-20"
+    },
     {
       "id": "W7218352318",
       "doi": "https://doi.org/10.1021/acssuschemeng.6c09803",
@@ -37,7 +95,7 @@
       ],
       "score": 86,
       "url": "https://doi.org/10.1021/acssuschemeng.6c09803",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-19"
     },
     {
@@ -66,7 +124,7 @@
       ],
       "score": 75,
       "url": "https://doi.org/10.1038/s41929-025-01451-1",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-19"
     },
     {
@@ -97,7 +155,7 @@
       ],
       "score": 73,
       "url": "https://doi.org/10.1016/j.mcat.2026.116379",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-19"
     },
     {
@@ -129,7 +187,7 @@
       ],
       "score": 72,
       "url": "https://doi.org/10.1038/s41467-025-66140-w",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-19"
     },
     {
@@ -159,7 +217,7 @@
       ],
       "score": 71,
       "url": "https://doi.org/10.1038/s41467-026-74877-1",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-19"
     },
     {
