@@ -1,13 +1,133 @@
 {
   "version": 4,
-  "brief_date": "2026 · 10 · 20",
-  "last_updated": "2026-10-20 12:37 CEST",
+  "brief_date": "2026 · 10 · 21",
+  "last_updated": "2026-10-21 12:48 CEST",
   "target_daily": 10,
-  "match_score": 87,
+  "match_score": 78,
   "search_state": {
-    "backfill_page": 9
+    "backfill_page": 11
   },
   "papers": [
+    {
+      "id": "W7167589352",
+      "doi": "https://doi.org/10.1021/jacsau.6c00527",
+      "title": "Photocatalytic, Scalable Anti-Markovnikov Hydrocarboxylation of Unactivated Alkenes via Amine-Mediated CO2•– Generation from Formate",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "JACS Au",
+      "journal_issn": [
+        "2691-3704"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-07-07",
+      "abstract": "Abstract The use of formate salt as a C1 synthon offers a practical and accessible carboxylating reagent relative to the gaseous alternatives. However, photochemical transient CO2•– generation from formate and its utilization for carboxylation reactions is mostly restricted to the activated alkenes. Herein, we report a general, photocatalytic platform for the selective anti-Markovnikov hydrocarboxylation of unactivated and activated alkenes using formate salt. The scope of the protocol is demonstrated through the selective hydrocarboxylation of a range of alkenes, independent of the chain length. The control experiments and preliminary mechanistic studies indicate synergy between the tertiary aminium radical cation-mediated hydrogen atom abstraction (HAA) and efficient hydrogen atom transfer (HAT) from the silyl hydride underpin the controlled hydrocarboxylation process. Mechanistic studies also indicate that the radical-polar crossover of the carboxylated alkyl radical can be avoided by the judicious choice of the HAT reagent, providing access to unactivated alkenes in the hydrocarboxylation reaction utilizing formate. This strategy using light energy is mild, robust, and effective for the carboxylation of various alkenes under ambient conditions. Our method enables a modular route for the controlled, steady-state release of CO2•– using formate, providing a unique pathway for the carboxylation of organic molecules. The application of this protocol has been demonstrated through the large-scale synthesis, synthetic manipulation, and synthesis of isotopically labeled aliphatic carboxylic acids from unactivated and activated alkenes.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "The application of this protocol has been demonstrated through the large-scale synthesis, synthetic manipulation, and synthesis of isotopically labeled aliphatic carboxylic acids from unactivated and activated alkenes.",
+      "tags": [
+        "hydrocarboxylation",
+        "mechanistic",
+        "radical"
+      ],
+      "score": 82,
+      "url": "https://doi.org/10.1021/jacsau.6c00527",
+      "archive": false,
+      "pushed_date": "2026-10-21"
+    },
+    {
+      "id": "W7167808900",
+      "doi": "https://doi.org/10.1021/acsaem.6c01552",
+      "title": "Solar-Driven Hybrid Electrolysis System for CO2 Reduction and Off-Field H2S Oxidation toward Formate and Sulfur Co-Generation",
+      "topic": "optimization",
+      "topic_label": "Condition optimization",
+      "journal": "ACS Applied Energy Materials",
+      "journal_issn": [
+        "2574-0962"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-07-09",
+      "abstract": "Abstract Solar-driven CO2 conversion via photovoltaic-powered electrolysis offers a sustainable route for carbon utilization and renewable energy storage, yet its current output is still constrained by the low-value yield of the anodic reaction. Herein, we rationally designed a solar-compatible paired electrolysis system by coupling cathodic CO2 reduction reaction (CO2RR) with anodic off-field H2S oxidation reaction (OFSOR) mediated by the I3−/I− redox couple, enabling synchronous production of high-value formate and elemental sulfur with significantly reduced energy input. An acid-tolerant Bi-based metal−organic framework (Bi-MOF) precursor was fabricated and underwent in situ structural reconstruction to form Bi2O2CO3 as an active phase for CO2RR with a formate faradaic efficiency (FE) exceeding 90% over a wide current density range. In situ Raman spectroscopy confirmed the formation of key *HCOO− intermediates over the Bi2O2CO3, accounting for the superior formate selectivity. By coupling with the carbon cloth anode, a two-electrode CO2RR-OFSOR electrolyzer was assembled, delivering a current density of 50 mA/cm2 at a cell voltage of only 2.91 V and reducing cell voltage by 41% under the tested conditions as compared to the conventional CO2RR-OER configuration. Furthermore, a self-driven solar-powered photovoltaic-electrochemical device was established by directly powering the electrolyzer with commercial silicon photovoltaic cells, which steadily operates with formate FE above 90% and achieves a solar-to-chemical conversion efficiency of 4.6%. This work provides a promising and energy-efficient solar-driven integrated strategy for collaborative CO2 conversion and H2S resource utilization, highlighting the potential of hybrid electrolysis systems in sustainable electrosynthesis.",
+      "methods_summary": "Abstract Solar-driven CO2 conversion via photovoltaic-powered electrolysis offers a sustainable route for carbon utilization and renewable energy storage, yet its current output is still constrained by the low-value yield of the anodic reaction. Herein, we rationally designed a solar-compatible paired electrolysis system by coupling cathodic CO2 reduction reaction (CO2RR) with anodic off-field H2S oxidation reaction (OFSOR) mediated by the I3−/I− redox couple, enabling synchronous production of high-value formate and elemental sulfur with significantly reduced energy input.",
+      "key_findings": "Abstract Solar-driven CO2 conversion via photovoltaic-powered electrolysis offers a sustainable route for carbon utilization and renewable energy storage, yet its current output is still constrained by the low-value yield of the anodic reaction. In situ Raman spectroscopy confirmed the formation of key *HCOO− intermediates over the Bi2O2CO3, accounting for the superior formate selectivity.",
+      "tags": [
+        "co2",
+        "intermediate",
+        "in situ",
+        "redox",
+        "current density",
+        "faradaic efficiency",
+        "yield"
+      ],
+      "score": 79,
+      "url": "https://doi.org/10.1021/acsaem.6c01552",
+      "archive": false,
+      "pushed_date": "2026-10-21"
+    },
+    {
+      "id": "W7216224009",
+      "doi": "https://doi.org/10.1039/d6gc03816f",
+      "title": "Electrochemical controlled divergent carboxylation and hydrocarboxylation of α-oxoalkenone dithioacetals with carbon dioxide",
+      "topic": "core",
+      "topic_label": "Organic CO₂ electrosynthesis",
+      "journal": "Green Chemistry",
+      "journal_issn": [
+        "1463-9262",
+        "1463-9270"
+      ],
+      "impact_factor": "10.6",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-01-01",
+      "abstract": "Carboxylation of α-oxoalkenone dithioacetals with CO 2 via paired electrolysis or cathodic reduction, achieving tunable selectivity between direct C(sp 2 )–H carboxylation and CC hydrocarboxylation under mild, metal-free conditions.",
+      "methods_summary": "Carboxylation of α-oxoalkenone dithioacetals with CO 2 via paired electrolysis or cathodic reduction, achieving tunable selectivity between direct C(sp 2 )–H carboxylation and CC hydrocarboxylation under mild, metal-free conditions.",
+      "key_findings": "Carboxylation of α-oxoalkenone dithioacetals with CO 2 via paired electrolysis or cathodic reduction, achieving tunable selectivity between direct C(sp 2 )–H carboxylation and CC hydrocarboxylation under mild, metal-free conditions.",
+      "tags": [
+        "hydrocarboxylation",
+        "carbon dioxide",
+        "selectivity"
+      ],
+      "score": 77,
+      "url": "https://doi.org/10.1039/d6gc03816f",
+      "archive": false,
+      "pushed_date": "2026-10-21"
+    },
+    {
+      "id": "W7135395947",
+      "doi": "https://doi.org/10.1038/s41467-026-70595-w",
+      "title": "Synergistic surface modification of Cu with schiff-base networks for high selectivity and durability in CO2-to-C2H4 electroreduction",
+      "topic": "optimization",
+      "topic_label": "Condition optimization",
+      "journal": "Nature Communications",
+      "journal_issn": [
+        "2041-1723"
+      ],
+      "impact_factor": "18.1",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-03-14",
+      "abstract": "The electrocatalytic CO2 reduction reaction (e-CO2RR) on Cu-based catalysts has been extensively studied; however, achieving high selectivity for C2+ products and long-term durability remains challenging. Here, we introduce a straightforward approach that enhances both C2H4 selectivity and catalyst durability by incorporating a nitrogen-rich Schiff-base Network (SNW), leveraging a synergistic interaction between Cu and SNW. Notably, Cu cubes with SNW, predominantly exposing the Cu(200) facet, achieve a Faradaic Efficiency (FE) of 71.2% for C2H4 at a current density of 265 mA cm−2, which not only exceeds tetrahedral and spherical Cu with or without SNW, but also ranks competitively among state‑of‑the‑art Cu-based catalysts reported to date. Theoretical calculations suggest that the presence of SNW on Cu facilitates the *CO-*CHO coupling and/or the C2H4 desorption, thereby enhancing C2H4 formation. Furthermore, the Cu(200)-SNW surface exhibits optimized Gibbs free energies for the reaction steps compared to bare Cu and other SNW-modified Cu surfaces, which rationalizes the experimental observations. In situ electron microscopy further suggests that SNW confers durability by stabilizing Cu facets and preventing corrosion and dissolution under reaction conditions. Cu catalysts show promise for converting CO2 into valuable products, but achieving high selectivity and long-term stability remains challenging. Here, modifying Cu cubes with a nitrogen-rich organic network enables a Faradaic Efficiency of 71.2% for C2H4 production with greatly enhanced durability.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "The electrocatalytic CO2 reduction reaction (e-CO2RR) on Cu-based catalysts has been extensively studied; however, achieving high selectivity for C2+ products and long-term durability remains challenging. Here, we introduce a straightforward approach that enhances both C2H4 selectivity and catalyst durability by incorporating a nitrogen-rich Schiff-base Network (SNW), leveraging a synergistic interaction between Cu and SNW.",
+      "tags": [
+        "co2",
+        "in situ",
+        "reaction conditions",
+        "current density",
+        "faradaic efficiency",
+        "selectivity"
+      ],
+      "score": 72,
+      "url": "https://doi.org/10.1038/s41467-026-70595-w",
+      "archive": false,
+      "pushed_date": "2026-10-21"
+    },
     {
       "id": "W7208341922",
       "doi": "",
@@ -35,7 +155,7 @@
       ],
       "score": 99,
       "url": "https://hdl.handle.net/1974/36604",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-20"
     },
     {
@@ -63,7 +183,7 @@
       ],
       "score": 75,
       "url": "https://doi.org/10.1055/a-2746-7189",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-20"
     },
     {
