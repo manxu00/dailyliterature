@@ -1,11 +1,11 @@
 {
   "version": 4,
-  "brief_date": "2026 · 10 · 21",
-  "last_updated": "2026-10-21 12:48 CEST",
+  "brief_date": "2026 · 10 · 22",
+  "last_updated": "2026-10-22 12:49 CEST",
   "target_daily": 10,
-  "match_score": 78,
+  "match_score": 0,
   "search_state": {
-    "backfill_page": 11
+    "backfill_page": 13
   },
   "papers": [
     {
@@ -33,7 +33,7 @@
       ],
       "score": 82,
       "url": "https://doi.org/10.1021/jacsau.6c00527",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-21"
     },
     {
@@ -65,7 +65,7 @@
       ],
       "score": 79,
       "url": "https://doi.org/10.1021/acsaem.6c01552",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-21"
     },
     {
@@ -94,7 +94,7 @@
       ],
       "score": 77,
       "url": "https://doi.org/10.1039/d6gc03816f",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-21"
     },
     {
@@ -125,7 +125,7 @@
       ],
       "score": 72,
       "url": "https://doi.org/10.1038/s41467-026-70595-w",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-21"
     },
     {
