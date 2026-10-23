@@ -1,13 +1,46 @@
 {
   "version": 4,
-  "brief_date": "2026 · 10 · 22",
-  "last_updated": "2026-10-22 14:46 CEST",
+  "brief_date": "2026 · 10 · 23",
+  "last_updated": "2026-10-23 12:41 CEST",
   "target_daily": 10,
-  "match_score": 0,
+  "match_score": 71,
   "search_state": {
-    "backfill_page": 15
+    "backfill_page": 17
   },
   "papers": [
+    {
+      "id": "W4415717285",
+      "doi": "https://doi.org/10.1016/j.jcat.2025.116523",
+      "title": "Multi-scale modeling guided electrochemical C–N coupling for urea production in metal-organic frameworks",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "Journal of Catalysis",
+      "journal_issn": [
+        "0021-9517",
+        "1090-2694"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2025,
+      "publication_date": "2025-10-31",
+      "abstract": "Electrochemical C–N coupling via the co-reduction of carbon dioxide (CO 2 ) and nitrate (NO 3 – ) in metal–organic framework (MOF) materials, such as Cu-based boron imidazolate frameworks (BIF-29), presents a promising route for urea production, offering an alternative to energy-intensive industrial processes. However, the reaction mechanisms are not fully understood due to the complexity of competing pathways and the transient nature of key intermediates. To address this, we employed a close-loop framework combining density functional theory (DFT), microkinetic modeling (MKM), and experimental validation. DFT and MKM mapped a comprehensive reaction network, identifying CO* and NH 2 OH as key intermediates in the selective formation of urea over Cu BIF-29. Sensitivity analyses revealed that promoting CO* and NH 2 OH formation are critical to favoring C–N coupling while suppressing its further hydrogenation to ammonia. MKM models indicated that urea production is maximized at low overpotentials, whereas nitrite and ammonia dominate at more negative potentials. These predictions were experimentally validated and further reinforced through systematic reactant substitution studies. CO 2 and NO 3 – were identified as the optimal precursors, outperforming alternatives such as CO, NO 2 – , NH 2 OH, and NH 3 , due to their superior ability to generate and sustain reactive key intermediates. These findings highlight a key design strategy: catalysts should enhance CO 2 reduction to CO* while moderately activating NO 3 – to produce NH 2 OH without favoring competing byproduct pathways. Overall, this multi-scale, closed-loop framework provides mechanistic insights and quantitative guidelines for designing dual-functional MOF catalysts, enabling energy-efficient and selective electrochemical urea synthesis and advancing sustainable nitrogen-carbon utilization.",
+      "methods_summary": "To address this, we employed a close-loop framework combining density functional theory (DFT), microkinetic modeling (MKM), and experimental validation. DFT and MKM mapped a comprehensive reaction network, identifying CO* and NH 2 OH as key intermediates in the selective formation of urea over Cu BIF-29.",
+      "key_findings": "However, the reaction mechanisms are not fully understood due to the complexity of competing pathways and the transient nature of key intermediates. DFT and MKM mapped a comprehensive reaction network, identifying CO* and NH 2 OH as key intermediates in the selective formation of urea over Cu BIF-29.",
+      "tags": [
+        "carbon dioxide",
+        "reaction mechanism",
+        "mechanistic",
+        "mechanism",
+        "kinetic",
+        "intermediate",
+        "density functional theory"
+      ],
+      "score": 71,
+      "url": "https://doi.org/10.1016/j.jcat.2025.116523",
+      "archive": false,
+      "pushed_date": "2026-10-23"
+    },
     {
       "id": "W7167589352",
       "doi": "https://doi.org/10.1021/jacsau.6c00527",
