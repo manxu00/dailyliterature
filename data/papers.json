@@ -1,13 +1,46 @@
 {
   "version": 4,
-  "brief_date": "2026 · 10 · 23",
-  "last_updated": "2026-10-23 12:41 CEST",
+  "brief_date": "2026 · 10 · 24",
+  "last_updated": "2026-10-24 11:58 CEST",
   "target_daily": 10,
-  "match_score": 71,
+  "match_score": 88,
   "search_state": {
-    "backfill_page": 17
+    "backfill_page": 19
   },
   "papers": [
+    {
+      "id": "W7220807024",
+      "doi": "",
+      "title": "Bio-Inspired Photocatalysts for Sustainable Organic Synthesis: Design Principles, Photophysical Mechanisms, Light-Matter Interactions, and Green Catalysis",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "Annual Methodological Archive Research Review",
+      "journal_issn": [
+        "3007-3189",
+        "3007-3197"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-03-31",
+      "abstract": "Photocatalysis provides access to radical, radical ion, and electronically excited intermediates without relying on high temperatures or stoichiometric redox reagents. However, visible light operation alone does not guarantee environmental sustainability, highlighting the need for a structure-photon-function-sustainability framework to evaluate bio-inspired photocatalysts. Productive performance relies on the coordinated management of photon absorption, excitation energy migration, charge separation, interfacial charge transfer, catalytic turnover, and reactor-scale photon transport. Natural photosynthesis supplies the functional design for this coordination through antenna networks, directional electron transfer chains, spatially separated redox sites, proton-coupled processes, compartmentalization, and self-repair. These biological principles are closely connected to molecular and supramolecular photocatalysts, porphyrin-, flavin- and quinone-inspired systems, peptide and protein assemblies, bio-derived carbons, metal-organic and covalent organic frameworks, and biohybrid platforms. Mechanistic pathways are correlated with synthetic applications, including selective oxidation and reduction, C-C and C-heteroatom bond formation, biomass valorization, CO2 incorporation, and cascade reactions. These are further evaluated against critical sustainability metrics catalyst abundance, solvent selection, photon and electrical efficiency, recyclability, process mass intensity, E-factor, and life-cycle boundaries. The central conclusion is that the principal obstruction is not a shortage of photoactive materials, but rather a lack of integration among mechanistic evidence, catalyst durability, photon accounting, reactor engineering, and sustainability assessment. Finally, design rules and reporting priorities are proposed to translate biological inspiration into scalable, environmentally credible organic synthesis.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "Photocatalysis provides access to radical, radical ion, and electronically excited intermediates without relying on high temperatures or stoichiometric redox reagents.",
+      "tags": [
+        "co2 incorporation",
+        "co2",
+        "mechanistic",
+        "mechanism",
+        "electron transfer",
+        "radical",
+        "intermediate"
+      ],
+      "score": 88,
+      "url": "https://www.amresearchjournal.com/index.php/Journal/article/view/2465",
+      "archive": false,
+      "pushed_date": "2026-10-24"
+    },
     {
       "id": "W4415717285",
       "doi": "https://doi.org/10.1016/j.jcat.2025.116523",
@@ -38,7 +71,7 @@
       ],
       "score": 71,
       "url": "https://doi.org/10.1016/j.jcat.2025.116523",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-23"
     },
     {
