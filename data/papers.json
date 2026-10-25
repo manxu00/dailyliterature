@@ -1,13 +1,45 @@
 {
   "version": 4,
-  "brief_date": "2026 · 10 · 24",
-  "last_updated": "2026-10-24 11:58 CEST",
+  "brief_date": "2026 · 10 · 25",
+  "last_updated": "2026-10-25 13:12 CET",
   "target_daily": 10,
-  "match_score": 88,
+  "match_score": 74,
   "search_state": {
-    "backfill_page": 19
+    "backfill_page": 21
   },
   "papers": [
+    {
+      "id": "W7223142762",
+      "doi": "https://doi.org/10.26434/chemrxiv.15010745/v1",
+      "title": "Spectroscopic–Catalytic Onset Decoupling in Energy Electrocatalysis: Evidence, Mechanistic Hypotheses and Research Priorities from 250 Studies",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "ChemRxiv",
+      "journal_issn": [
+        "2573-2293"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-10-20",
+      "abstract": "Spectroelectrochemical methods can be used to reveal the chemistry that governs energy conversion and storage at operating interfaces. The review represents 250 primary studies that employed in situ or operando spectroscopy across carbon dioxide reduction, oxygen evolution, hydrogen evolution, battery interfaces and organic electronics. Three findings stand out. First, only five studies in the entire corpus provide paired surface and bulk onset potentials and these reveal offsets from zero to nearly 300 mV. Second, the magnitude of this offset tracks the binding strength of the catalytic intermediate rather than the prominence of its spectroscopic signature. Third, dynamic surface reconstruction creates active phases that differ from the as-prepared material in 147 of 250 systems. The central construct that emerges is onset decoupling: spectroscopic detection of an intermediate does not guarantee catalytic turnover, because binding energetics and site density govern whether accumulated species convert to products. This construct predicts that catalysts with strong intermediate binding will show large offsets and poor activity, while weak binding will produce coupled onsets and high activity.",
+      "methods_summary": "The review represents 250 primary studies that employed in situ or operando spectroscopy across carbon dioxide reduction, oxygen evolution, hydrogen evolution, battery interfaces and organic electronics. Spectroelectrochemical methods can be used to reveal the chemistry that governs energy conversion and storage at operating interfaces.",
+      "key_findings": "Spectroelectrochemical methods can be used to reveal the chemistry that governs energy conversion and storage at operating interfaces. Second, the magnitude of this offset tracks the binding strength of the catalytic intermediate rather than the prominence of its spectroscopic signature.",
+      "tags": [
+        "carbon dioxide",
+        "mechanistic",
+        "intermediate",
+        "epr",
+        "in situ",
+        "operando",
+        "spectroelectrochem"
+      ],
+      "score": 74,
+      "url": "https://doi.org/10.26434/chemrxiv.15010745/v1",
+      "archive": false,
+      "pushed_date": "2026-10-25"
+    },
     {
       "id": "W7220807024",
       "doi": "",
@@ -38,7 +70,7 @@
       ],
       "score": 88,
       "url": "https://www.amresearchjournal.com/index.php/Journal/article/view/2465",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-24"
     },
     {
