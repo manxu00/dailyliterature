@@ -1,11 +1,11 @@
 {
   "version": 4,
-  "brief_date": "2026 · 10 · 25",
-  "last_updated": "2026-10-25 13:12 CET",
+  "brief_date": "2026 · 10 · 26",
+  "last_updated": "2026-10-26 14:43 CET",
   "target_daily": 10,
-  "match_score": 74,
+  "match_score": 0,
   "search_state": {
-    "backfill_page": 21
+    "backfill_page": 23
   },
   "papers": [
     {
@@ -37,7 +37,7 @@
       ],
       "score": 74,
       "url": "https://doi.org/10.26434/chemrxiv.15010745/v1",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-25"
     },
     {
