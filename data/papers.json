@@ -1,13 +1,42 @@
 {
   "version": 4,
-  "brief_date": "2026 · 10 · 28",
-  "last_updated": "2026-10-28 14:40 CET",
+  "brief_date": "2026 · 10 · 29",
+  "last_updated": "2026-10-29 14:50 CET",
   "target_daily": 10,
-  "match_score": 0,
+  "match_score": 78,
   "search_state": {
-    "backfill_page": 29
+    "backfill_page": 31
   },
   "papers": [
+    {
+      "id": "W7163018841",
+      "doi": "https://doi.org/10.26434/chemrxiv.15004105/v1",
+      "title": "Data-Driven Discovery of Structure–Reactivity Relationships in Oxidative Addition at Zerovalent Nickel Centers",
+      "topic": "core",
+      "topic_label": "Organic CO₂ electrosynthesis",
+      "journal": "ChemRxiv",
+      "journal_issn": [
+        "2573-2293"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-06-01",
+      "abstract": "Understanding the factors that control CO2 insertion into Ni–alkyne complexes is essential for improving the regioselectivity of Ni-catalyzed reductive carboxylation reactions. Here, we combine highperformance computing, experimental validation, and interpretable machine learning to identify structurereactivity relationships governing oxidative cyclization of CO2 at zerovalent bipyridine–Ni–alkyne complexes. The MACE machine-learning interatomic potential (MLIP) was used to generate a large thermochemical dataset of optimized Ni–alkyne reactants and Type I/Type II nickelacycle products, enabling systematic analysis of reaction Gibbs free energies and regioisomer stability across a broad ligandsubstrate space. Experimental IR spectra of representative Ni–alkyne complexes confirmed key structural assignments but also revealed that MACE-optimized geometries underestimate Ni-to-alkyne πbackbonding, leading to systematically blue-shifted alkyne stretching frequencies relative to experiment and DFT. Despite this limitation, MACE-derived relative free energies provided useful thermodynamic descriptors for product regioselectivity when CO2 insertion was experimentally observed. Equivariant graph neural networks predicted reaction free energies directly from reactant geometries with high accuracy, while GNNExplainer localized the dominant structural information to the Ni–alkyne fragment and nearby alkyne substituents. Complementary random-forest models showed that overall CO2-insertion thermodynamics are governed primarily by alkyne sterics, Ni-center accessibility, and product nickelacycle stabilization, whereas regioselectivity is controlled mainly by product-side descriptors associated with the relative stability of the Type I and Type II nickelacycles. These results establish a scalable, experimentally anchored workflow for using MLIP-generated datasets and interpretable machine learning to discover chemically meaningful design rules in organometallic CO2-functionalization chemistry.",
+      "methods_summary": "Experimental IR spectra of representative Ni–alkyne complexes confirmed key structural assignments but also revealed that MACE-optimized geometries underestimate Ni-to-alkyne πbackbonding, leading to systematically blue-shifted alkyne stretching frequencies relative to experiment and DFT.",
+      "key_findings": "Experimental IR spectra of representative Ni–alkyne complexes confirmed key structural assignments but also revealed that MACE-optimized geometries underestimate Ni-to-alkyne πbackbonding, leading to systematically blue-shifted alkyne stretching frequencies relative to experiment and DFT. Understanding the factors that control CO2 insertion into Ni–alkyne complexes is essential for improving the regioselectivity of Ni-catalyzed reductive carboxylation reactions.",
+      "tags": [
+        "reductive carboxylation",
+        "co2",
+        "epr",
+        "selectivity"
+      ],
+      "score": 78,
+      "url": "https://doi.org/10.26434/chemrxiv.15004105/v1",
+      "archive": false,
+      "pushed_date": "2026-10-29"
+    },
     {
       "id": "W7223142762",
       "doi": "https://doi.org/10.26434/chemrxiv.15010745/v1",
