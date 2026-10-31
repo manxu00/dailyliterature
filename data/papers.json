@@ -1,13 +1,110 @@
 {
   "version": 4,
-  "brief_date": "2026 · 10 · 30",
-  "last_updated": "2026-10-30 14:42 CET",
+  "brief_date": "2026 · 10 · 31",
+  "last_updated": "2026-10-31 14:11 CET",
   "target_daily": 10,
-  "match_score": 0,
+  "match_score": 72,
   "search_state": {
-    "backfill_page": 33
+    "backfill_page": 35
   },
   "papers": [
+    {
+      "id": "W7171635881",
+      "doi": "https://doi.org/10.26434/chemrxiv.15006687/v1",
+      "title": "The CO2 Concentration Inversion Effect: Definition, Quantitative Mechanistic Basis, and Design Rules for Dilute CO2 Electroreduction",
+      "topic": "optimization",
+      "topic_label": "Condition optimization",
+      "journal": "ChemRxiv",
+      "journal_issn": [
+        "2573-2293"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-07-29",
+      "abstract": "Reducing CO2 partial pressure in electrocatalytic CO2 reduction (CO2RR) to multicarbon (C2+) products has traditionally been considered detrimental due to mass transfer limitations and competitive hydrogen evolution. However, our systematic investigations from 2023 to 2026 reveal a counter-intuitive paradigm: under dilute CO2 feed ranging from 25% to pure CO2, with peak intensity at 25–50%, the C2+ selectivity of copper-based catalysts not only matches but can surpass the pure CO2 baseline. We define this phenomenon as the CO2 Concentration Inversion Effect, characterized by two inseparable features: (1) a concentration inversion where C2+ Faradaic efficiency under dilute CO2 (25% to pure CO2) exceeds the pure CO2 baseline for a given catalyst, with maximum enhancement typically observed at 25–50% CO2; and (2) a compositional inversion where catalysts optimal for pure CO2 (e.g., Cu2O-rich Ag@(Cu2O)3.0) drastically underperform in dilute CO2, while Ag-rich Ag@(Cu2O)0.75 becomes the optimal candidate. Quantitative mechanistic studies demonstrate that the rate-determining step (RDS) shifts from C–C coupling (pure CO2 regime) to *CO supply (dilute CO2 regime), with the *CO C–C coupling efficiency reaching up to 79.3% under 25% CO2. We further establish a design rule for dilute CO2 electrocatalysis: balancing *CO generation capacity with C–C coupling site availability, distinct from the optimization logic for pure CO2 systems. This concept redefines catalyst design for direct conversion of industrial flue gas to high-value C2+ products. The full boundary conditions of this effect remain an active area of investigation. Confined to copper-based catalysts capable of C–C coupling, we propose that it operates within a kinetic window governed by the balance between *CO generation and C–C coupling capacity. While effective from ~25% CO2 up to pure CO2, the precise concentration boundaries are intrinsically linked to the specific catalyst compositionpreliminary unpublished results from our laboratory on CuTCPP-derived Cu catalysts indicate that the optimal inversion concentration can extend to ~75% CO2, further corroborating the catalyst-tunable nature of the kinetic window.",
+      "methods_summary": "Confined to copper-based catalysts capable of C–C coupling, we propose that it operates within a kinetic window governed by the balance between *CO generation and C–C coupling capacity. While effective from ~25% CO2 up to pure CO2, the precise concentration boundaries are intrinsically linked to the specific catalyst compositionpreliminary unpublished results from our laboratory on CuTCPP-derived Cu catalysts indicate that the optimal inversion concentration can extend to ~75% CO2, further corroborating the catalyst-tunable nature of the kinetic window.",
+      "key_findings": "However, our systematic investigations from 2023 to 2026 reveal a counter-intuitive paradigm: under dilute CO2 feed ranging from 25% to pure CO2, with peak intensity at 25–50%, the C2+ selectivity of copper-based catalysts not only matches but can surpass the pure CO2 baseline. We define this phenomenon as the CO2 Concentration Inversion Effect, characterized by two inseparable features: (1) a concentration inversion where C2+ Faradaic efficiency under dilute CO2 (25% to pure CO2) exceeds the pure CO2 baseline for a given catalyst, with maximum enhancement typically observed at 25–50% CO2; and (2) a compositional inversion where catalysts optimal for pure CO2 (e.g., Cu2O-rich Ag@(Cu2O)3.0) drastically underperform in dilute CO2, while Ag-rich Ag@(Cu2O)0.75 becomes the optimal candidate.",
+      "tags": [
+        "co2",
+        "mechanistic",
+        "kinetic",
+        "optimization",
+        "concentration",
+        "faradaic efficiency",
+        "selectivity"
+      ],
+      "score": 74,
+      "url": "https://doi.org/10.26434/chemrxiv.15006687/v1",
+      "archive": false,
+      "pushed_date": "2026-10-31"
+    },
+    {
+      "id": "W7223373393",
+      "doi": "https://doi.org/10.1002/ange.8790413",
+      "title": "Electrosynthesis of p ‐Hydroxybenzoic Acid From Phenol and CO 2",
+      "topic": "optimization",
+      "topic_label": "Condition optimization",
+      "journal": "Angewandte Chemie",
+      "journal_issn": [
+        "0044-8249",
+        "0932-2140",
+        "1521-3757"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-10-23",
+      "abstract": "ABSTRACT P ‐hydroxybenzoic acid ( p ‐HBA), with wide applications in food preservatives, pesticides, pharmaceuticals, and liquid crystalline polyether, is currently synthesized via the Kolbe–Schmitt reaction using anhydrous phenolate (PhO − ) and carbon dioxide (CO 2 ). However, this reaction typically suffers from poor selectivity, and requires high temperature/pressure, strongly base, and metal/organic cations for selectivity control. Herein, we report a new method for the electrosynthesis of p ‐HBA from phenol (PhOH) and CO 2 by iodine mediation, achieving 61% yield and 90% selectivity without strong bases and metal cations under ambient temperature and pressure conditions. Mechanism studies indicated that PhOH was first selectively iodinated by iodine cations (I + ) generated at the anode to form p ‐iodophenol (HOPh‐I). Subsequently, HOPh‐I and CO 2 were respectively activated on Ag catalyst with abundant grain boundaries (GB‐Ag) through single‐electron reduction, and then underwent radical coupling processes to produce p ‐HBA. Notably, this electrochemical method also successfully converted various oxygen‐containing and nitrogen‐containing aromatic compounds, including the typical structural units of lignin and its derivatives, into valuable carboxylic acids. This innovative electrochemical approach overcomes the inherent limitations of the traditional Kolbe–Schmitt reaction, offering a promising strategy for the sustainable utilization of CO 2 and biomass resources.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "Herein, we report a new method for the electrosynthesis of p ‐HBA from phenol (PhOH) and CO 2 by iodine mediation, achieving 61% yield and 90% selectivity without strong bases and metal cations under ambient temperature and pressure conditions. However, this reaction typically suffers from poor selectivity, and requires high temperature/pressure, strongly base, and metal/organic cations for selectivity control.",
+      "tags": [
+        "carbon dioxide",
+        "mechanism",
+        "radical",
+        "temperature",
+        "yield",
+        "selectivity"
+      ],
+      "score": 71,
+      "url": "https://doi.org/10.1002/ange.8790413",
+      "archive": false,
+      "pushed_date": "2026-10-31"
+    },
+    {
+      "id": "W7223274379",
+      "doi": "https://doi.org/10.1002/anie.8790413",
+      "title": "Electrosynthesis of p ‐Hydroxybenzoic Acid From Phenol and CO 2",
+      "topic": "optimization",
+      "topic_label": "Condition optimization",
+      "journal": "Angewandte Chemie International Edition",
+      "journal_issn": [
+        "1433-7851",
+        "1521-3773"
+      ],
+      "impact_factor": "17.6",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-10-22",
+      "abstract": "ABSTRACT P ‐hydroxybenzoic acid ( p ‐HBA), with wide applications in food preservatives, pesticides, pharmaceuticals, and liquid crystalline polyether, is currently synthesized via the Kolbe–Schmitt reaction using anhydrous phenolate (PhO − ) and carbon dioxide (CO 2 ). However, this reaction typically suffers from poor selectivity, and requires high temperature/pressure, strongly base, and metal/organic cations for selectivity control. Herein, we report a new method for the electrosynthesis of p ‐HBA from phenol (PhOH) and CO 2 by iodine mediation, achieving 61% yield and 90% selectivity without strong bases and metal cations under ambient temperature and pressure conditions. Mechanism studies indicated that PhOH was first selectively iodinated by iodine cations (I + ) generated at the anode to form p ‐iodophenol (HOPh‐I). Subsequently, HOPh‐I and CO 2 were respectively activated on Ag catalyst with abundant grain boundaries (GB‐Ag) through single‐electron reduction, and then underwent radical coupling processes to produce p ‐HBA. Notably, this electrochemical method also successfully converted various oxygen‐containing and nitrogen‐containing aromatic compounds, including the typical structural units of lignin and its derivatives, into valuable carboxylic acids. This innovative electrochemical approach overcomes the inherent limitations of the traditional Kolbe–Schmitt reaction, offering a promising strategy for the sustainable utilization of CO 2 and biomass resources.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "Herein, we report a new method for the electrosynthesis of p ‐HBA from phenol (PhOH) and CO 2 by iodine mediation, achieving 61% yield and 90% selectivity without strong bases and metal cations under ambient temperature and pressure conditions. However, this reaction typically suffers from poor selectivity, and requires high temperature/pressure, strongly base, and metal/organic cations for selectivity control.",
+      "tags": [
+        "carbon dioxide",
+        "mechanism",
+        "radical",
+        "temperature",
+        "yield",
+        "selectivity"
+      ],
+      "score": 71,
+      "url": "https://doi.org/10.1002/anie.8790413",
+      "archive": false,
+      "pushed_date": "2026-10-31"
+    },
     {
       "id": "W7163018841",
       "doi": "https://doi.org/10.26434/chemrxiv.15004105/v1",
