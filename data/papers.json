@@ -1,13 +1,42 @@
 {
   "version": 4,
-  "brief_date": "2026 · 10 · 31",
-  "last_updated": "2026-10-31 14:11 CET",
+  "brief_date": "2026 · 11 · 01",
+  "last_updated": "2026-11-01 14:54 CET",
   "target_daily": 10,
-  "match_score": 72,
+  "match_score": 79,
   "search_state": {
-    "backfill_page": 35
+    "backfill_page": 37
   },
   "papers": [
+    {
+      "id": "W7224113306",
+      "doi": "https://doi.org/10.1016/j.crgsc.2026.100541",
+      "title": "Sequential catalytic activation of CO and CO2: synthesis of oxazolone and oxazolidinone derivatives from propargylamines",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "Current Research in Green and Sustainable Chemistry",
+      "journal_issn": [
+        "2666-0865"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-10-01",
+      "abstract": "A novel, multicomponent catalytic approach to the synthesis of high value added oxazolone and oxazolidinone derivatives [ N , N -dialkyl-2-(2-oxo-2,3-dihydrooxazol-5-yl)acetamides and ( Z )-2-(4,4-dialkyl-2-oxooxazolidin-5-ylidene)- N , N -dialkylacetamides] has been achieved, which employs both carbon oxides (CO and CO 2 ) as key C-1 building blocks in conjunction with readily available organic substrates (propargylamines and secondary amines). The process is promoted by a very simple catalytic system (PdI 2 in conjunction with KI) under oxidative conditions, with aerobic oxygen as the simplest and most available external oxidant, and allows the sequential and ordered formation of four new bonds in a single synthetic transformation with only water as ecofriendly coproduct. The structures of two representative products have been confirmed by XRD analysis, and the independent incorporation of both carbon oxides has been confirmed by both MS and 13 C NMR analyses of the products obtained from experiments employing a CO/ 13 CO 2 gaseous mixture. The reaction takes place through the sequential concatenation of PdI 2 -catalyzed oxidative aminocarbonylation of the terminal triple bond of the propargylamine to give a 2-ynamide intermediate followed by amine-promoted carboxylative cyclization. The involvement of 2-ynamides as key intermediates has been confirmed by independently synthesizing a particular 2-ynamide derivative and allowing it to react under the reaction conditions, with the successful formation of the desired heterocyclic product. Our method represents one of the very rare examples of simultaneous catalytic activation of both carbon oxides leading to their efficient and selective incorporation into and organic substrate to give particularly valuable heterocyclic derivatives, known for possessing very important bioactivities including antifungal, antimicrobial, and anticancer activity.",
+      "methods_summary": "The structures of two representative products have been confirmed by XRD analysis, and the independent incorporation of both carbon oxides has been confirmed by both MS and 13 C NMR analyses of the products obtained from experiments employing a CO/ 13 CO 2 gaseous mixture. Our method represents one of the very rare examples of simultaneous catalytic activation of both carbon oxides leading to their efficient and selective incorporation into and organic substrate to give particularly valuable heterocyclic derivatives, known for possessing very important bioactivities including antifungal, antimicrobial, and anticancer activity.",
+      "key_findings": "The reaction takes place through the sequential concatenation of PdI 2 -catalyzed oxidative aminocarbonylation of the terminal triple bond of the propargylamine to give a 2-ynamide intermediate followed by amine-promoted carboxylative cyclization. The involvement of 2-ynamides as key intermediates has been confirmed by independently synthesizing a particular 2-ynamide derivative and allowing it to react under the reaction conditions, with the successful formation of the desired heterocyclic product.",
+      "tags": [
+        "carboxylative cyclization",
+        "intermediate",
+        "epr",
+        "reaction conditions"
+      ],
+      "score": 79,
+      "url": "https://doi.org/10.1016/j.crgsc.2026.100541",
+      "archive": false,
+      "pushed_date": "2026-11-01"
+    },
     {
       "id": "W7171635881",
       "doi": "https://doi.org/10.26434/chemrxiv.15006687/v1",
@@ -37,7 +66,7 @@
       ],
       "score": 74,
       "url": "https://doi.org/10.26434/chemrxiv.15006687/v1",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-31"
     },
     {
@@ -70,7 +99,7 @@
       ],
       "score": 71,
       "url": "https://doi.org/10.1002/ange.8790413",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-31"
     },
     {
@@ -102,7 +131,7 @@
       ],
       "score": 71,
       "url": "https://doi.org/10.1002/anie.8790413",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-10-31"
     },
     {
