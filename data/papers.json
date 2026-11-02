@@ -1,11 +1,11 @@
 {
   "version": 4,
-  "brief_date": "2026 · 11 · 01",
-  "last_updated": "2026-11-01 14:54 CET",
+  "brief_date": "2026 · 11 · 02",
+  "last_updated": "2026-11-02 17:40 CET",
   "target_daily": 10,
-  "match_score": 79,
+  "match_score": 0,
   "search_state": {
-    "backfill_page": 37
+    "backfill_page": 39
   },
   "papers": [
     {
@@ -34,7 +34,7 @@
       ],
       "score": 79,
       "url": "https://doi.org/10.1016/j.crgsc.2026.100541",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-01"
     },
     {
