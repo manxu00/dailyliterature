@@ -1,13 +1,43 @@
 {
   "version": 4,
-  "brief_date": "2026 · 11 · 06",
-  "last_updated": "2026-11-06 16:52 CET",
+  "brief_date": "2026 · 11 · 07",
+  "last_updated": "2026-11-07 14:39 CET",
   "target_daily": 10,
-  "match_score": 0,
+  "match_score": 71,
   "search_state": {
-    "backfill_page": 47
+    "backfill_page": 49
   },
   "papers": [
+    {
+      "id": "W7212845287",
+      "doi": "https://doi.org/10.1016/j.esen.2026.100150",
+      "title": "Porous Cu2O–CuAg ternary nanowires with engineered heterometallic interfaces for tandem electrochemical CO2 reduction to C2H4",
+      "topic": "optimization",
+      "topic_label": "Condition optimization",
+      "journal": "eScience Energy",
+      "journal_issn": [
+        "3050-9955"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-09-01",
+      "abstract": "Electrochemical reduction of CO 2 (CO 2 RR) to multicarbon products, particularly ethylene (C 2 H 4 ), offers a sustainable pathway toward carbon-neutral energy storage. Herein, we report a series of Cu 2 O–CuAg porous nanowires (PNWs) with engineered heterometallic interfaces, synthesized via a galvanic replacement reaction between preformed Cu nanowires and AgNO 3 . The replacement process spontaneously generates a discontinuous Ag-rich coating on the nanowire surface along with a porous interior, creating abundant Cu–Ag interfacial sites. Notably, residual Cu 2 O species are preserved within the nanowires, which under reaction conditions generate Cu δ+ sites that further facilitate C–C coupling. The optimal catalyst, Cu 2 O–CuAg-II PNWs, delivers a C 2 H 4 Faradaic efficiency (FE) of 56.8% and a partial current density of 379.1 mA cm −2 at −0.95 V vs. RHE in a flow cell reactor with 1.0 M KOH, along with a total C 2+ FE of 78.6% and stable operation over 20 h. The incorporation of an optimal amount of Ag synergistically modifies the d‐band center and enhances the charge polarization at the Cu 2 O/CuAg interface, minimizing the rate-determining barrier of CO 2 RR and thereby substantially improving the C 2 H 4 selectivity and activity. This work demonstrates that galvanic replacement-derived porosity, combined with residual Cu 2 O species and heterometallic interfaces, provides a powerful strategy to steer CO 2 RR toward C 2+ products with high efficiency and durability.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "The incorporation of an optimal amount of Ag synergistically modifies the d‐band center and enhances the charge polarization at the Cu 2 O/CuAg interface, minimizing the rate-determining barrier of CO 2 RR and thereby substantially improving the C 2 H 4 selectivity and activity. The optimal catalyst, Cu 2 O–CuAg-II PNWs, delivers a C 2 H 4 Faradaic efficiency (FE) of 56.8% and a partial current density of 379.1 mA cm −2 at −0.95 V vs.",
+      "tags": [
+        "co2",
+        "reaction conditions",
+        "current density",
+        "faradaic efficiency",
+        "selectivity"
+      ],
+      "score": 71,
+      "url": "https://doi.org/10.1016/j.esen.2026.100150",
+      "archive": false,
+      "pushed_date": "2026-11-07"
+    },
     {
       "id": "W7224113306",
       "doi": "https://doi.org/10.1016/j.crgsc.2026.100541",
