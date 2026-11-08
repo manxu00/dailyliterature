@@ -1,13 +1,44 @@
 {
   "version": 4,
-  "brief_date": "2026 · 11 · 07",
-  "last_updated": "2026-11-07 14:39 CET",
+  "brief_date": "2026 · 11 · 08",
+  "last_updated": "2026-11-08 14:57 CET",
   "target_daily": 10,
-  "match_score": 71,
+  "match_score": 99,
   "search_state": {
-    "backfill_page": 49
+    "backfill_page": 51
   },
   "papers": [
+    {
+      "id": "W7225452958",
+      "doi": "https://doi.org/10.1002/aic.70701",
+      "title": "Donor number determined solvent‐mediated electron transfer for electrocarboxylation of C–Br bonds with carbon dioxide",
+      "topic": "core",
+      "topic_label": "Organic CO₂ electrosynthesis",
+      "journal": "AIChE Journal",
+      "journal_issn": [
+        "0001-1541",
+        "1547-5905"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-11-06",
+      "abstract": "Abstract The electrochemical conversion of organic bromides with carbon dioxide (CO 2 ) to valuable carboxylic acids is highly desirable in chemical industries. Researches mainly focused on catalysts, with little attention to the equally important solvents. The donor number (DN) characterizes a solvent's tendency to donate electrons and is closely associated with electron transfer. However, few research studies can reveal its impact on electrocarboxylation reactions. As a step toward more rational solvent selection, this work investigates how DNs impact such reactions. For the model benzyl bromide substrate, optimal performance was achieved at medium DNs, with doubled yields compared to either high‐DN or low‐DN solvents. A quantitative relationship based on DNs was shown to correlate strongly with carboxylation yields. Electrochemical characterization elucidated that medium‐DN solvents determine the dynamic solvation layer construction, enhancing solvent‐mediated electron transfer efficiency. The strategy was further extended to other organic bromides, demonstrating broad applicability for C–Br bond carboxylation with CO 2 .",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "Abstract The electrochemical conversion of organic bromides with carbon dioxide (CO 2 ) to valuable carboxylic acids is highly desirable in chemical industries. For the model benzyl bromide substrate, optimal performance was achieved at medium DNs, with doubled yields compared to either high‐DN or low‐DN solvents.",
+      "tags": [
+        "electrocarboxylation",
+        "carbon dioxide",
+        "electron transfer",
+        "solvent",
+        "yield"
+      ],
+      "score": 99,
+      "url": "https://doi.org/10.1002/aic.70701",
+      "archive": false,
+      "pushed_date": "2026-11-08"
+    },
     {
       "id": "W7212845287",
       "doi": "https://doi.org/10.1016/j.esen.2026.100150",
@@ -35,7 +66,7 @@
       ],
       "score": 71,
       "url": "https://doi.org/10.1016/j.esen.2026.100150",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-07"
     },
     {
