@@ -1,13 +1,76 @@
 {
   "version": 4,
-  "brief_date": "2026 · 11 · 08",
-  "last_updated": "2026-11-08 14:57 CET",
+  "brief_date": "2026 · 11 · 09",
+  "last_updated": "2026-11-09 17:58 CET",
   "target_daily": 10,
-  "match_score": 99,
+  "match_score": 82,
   "search_state": {
-    "backfill_page": 51
+    "backfill_page": 53
   },
   "papers": [
+    {
+      "id": "W7225422285",
+      "doi": "https://doi.org/10.1002/anie.4892943",
+      "title": "Quantum Dot Visible‐Light Photocatalysis Programs CO 2 for Hydrocarboxylation and Carbonylation Reactions",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "Angewandte Chemie International Edition",
+      "journal_issn": [
+        "1433-7851",
+        "1521-3773"
+      ],
+      "impact_factor": "17.6",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-11-05",
+      "abstract": "ABSTRACT Homogeneous photocatalysis has greatly expanded the use of CO 2 as a renewable one‐carbon (C1) feedstock in organic synthesis, yet, controlling sequential proton/electron transfer kinetics and recovering the photocatalyst remain challenging. Here, we report that semiconductor quantum dots (QDs) provide a visible‐light‐driven heterogeneous platform that directs CO 2 activation toward either one‐electron radical anion (CO 2 •– ) or carbon monoxide (CO). Regulating interfacial proton transfer kinetics governs the fates of surface‐bound CO 2 •– intermediate. Slowing the first proton transfer prolongs CO 2 •– lifetime, enabling its in situ interception by aromatic and aliphatic alkenes to afford carboxylic acids with exclusive β‐selectivity. Meanwhile, the remaining CO is used as an ex situ C1 feedstock in carbonylation reaction. Moreover, facilitating sequential proton transfer promotes the transformation of CO 2 •– intermediate to CO, the diverse carbonylation reactions proceed with good to excellent yields. This strategy can also enable 13 C‐labeled product and gram‐scale synthesis. This work establishes QDs as a versatile and tunable heterogeneous platform for CO 2 valorization in organic synthesis, offering complementary advantages over homogeneous systems for divergent C─C bond formation.",
+      "methods_summary": "ABSTRACT Homogeneous photocatalysis has greatly expanded the use of CO 2 as a renewable one‐carbon (C1) feedstock in organic synthesis, yet, controlling sequential proton/electron transfer kinetics and recovering the photocatalyst remain challenging. Regulating interfacial proton transfer kinetics governs the fates of surface‐bound CO 2 •– intermediate.",
+      "key_findings": "Moreover, facilitating sequential proton transfer promotes the transformation of CO 2 •– intermediate to CO, the diverse carbonylation reactions proceed with good to excellent yields. Regulating interfacial proton transfer kinetics governs the fates of surface‐bound CO 2 •– intermediate.",
+      "tags": [
+        "hydrocarboxylation",
+        "kinetic",
+        "electron transfer",
+        "radical",
+        "intermediate",
+        "in situ",
+        "yield"
+      ],
+      "score": 91,
+      "url": "https://doi.org/10.1002/anie.4892943",
+      "archive": false,
+      "pushed_date": "2026-11-09"
+    },
+    {
+      "id": "W7225379171",
+      "doi": "https://doi.org/10.1021/acsomega.6c08389",
+      "title": "Outward and Inward Electron Transfer Occur through Distinct Interfacial Electron Transfer Mechanisms for Anaerobic Shewanella oneidensis",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "ACS Omega",
+      "journal_issn": [
+        "2470-1343"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-11-06",
+      "abstract": "Abstract Microbial electrosynthesis (MES) is an emerging biotechnology with the potential to mitigate climate change by recycling carbon dioxide into organic compounds using sustainably generated electricity as the energy source. MES utilizes bacteria as catalysts to transfer electrons from a cathode to a target electron acceptor, such as CO2. For MES to decrease net carbon emissions on a meaningful scale, the rate of inward electron transfer (ET) from the cathode to bacteria must increase. In this work, we investigate this challenge using Shewanella oneidensis, a model metal-reducing bacterium with an extensively studied extracellular electron transfer pathway. The primary ET mechanism for S. oneidensis is the Mtr pathway, a cytochrome c-rich pathway that connects the respiratory electron transport chain to the outer surface of the cell. While the Mtr pathway in S. oneidensis is bidirectional, the magnitude of outward ET (its native respiratory direction) consistently exceeds inward ET, the direction required for MES applications. Here, we present the first direct comparison of ET for both directions using potentiometric techniques. Through chronoamperometry and turnover cyclic voltammetry, we demonstrate that the ET mechanism is direction-dependent. Specifically, we observed distinct roles for supplemental riboflavin, where inward ET from a cathode was dependent on supplemental riboflavin, but outward ET to an anode was not.",
+      "methods_summary": "Through chronoamperometry and turnover cyclic voltammetry, we demonstrate that the ET mechanism is direction-dependent.",
+      "key_findings": "Through chronoamperometry and turnover cyclic voltammetry, we demonstrate that the ET mechanism is direction-dependent. The primary ET mechanism for S. oneidensis is the Mtr pathway, a cytochrome c-rich pathway that connects the respiratory electron transport chain to the outer surface of the cell.",
+      "tags": [
+        "carbon dioxide",
+        "mechanism",
+        "cyclic voltammetry",
+        "voltammetry",
+        "electron transfer"
+      ],
+      "score": 74,
+      "url": "https://doi.org/10.1021/acsomega.6c08389",
+      "archive": false,
+      "pushed_date": "2026-11-09"
+    },
     {
       "id": "W7225452958",
       "doi": "https://doi.org/10.1002/aic.70701",
@@ -36,7 +99,7 @@
       ],
       "score": 99,
       "url": "https://doi.org/10.1002/aic.70701",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-08"
     },
     {
