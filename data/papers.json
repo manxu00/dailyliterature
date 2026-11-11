@@ -1,13 +1,108 @@
 {
   "version": 4,
-  "brief_date": "2026 · 11 · 10",
-  "last_updated": "2026-11-10 16:18 CET",
+  "brief_date": "2026 · 11 · 11",
+  "last_updated": "2026-11-11 15:48 CET",
   "target_daily": 10,
-  "match_score": 0,
+  "match_score": 74,
   "search_state": {
-    "backfill_page": 55
+    "backfill_page": 57
   },
   "papers": [
+    {
+      "id": "W7162805182",
+      "doi": "https://doi.org/10.1126/sciadv.aeg9844",
+      "title": "Promoting direct C─N coupling via NO intermediate modulation for highly selective electrochemical urea synthesis",
+      "topic": "optimization",
+      "topic_label": "Condition optimization",
+      "journal": "Science Advances",
+      "journal_issn": [
+        "2375-2548"
+      ],
+      "impact_factor": "13.9",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-05-29",
+      "abstract": "The electrochemical synthesis of urea from carbon dioxide (CO 2 ) and nitrate (NO 3 − ) is a sustainable route yet remains challenging, primarily due to slow carbon-nitrogen (C─N) coupling and competing ammonia (NH 3 ) formation. Here, we demonstrate highly selective synthesis by modulating nitric oxide (NO) intermediate behavior on molybdenum-manganese (Mo─Mn) diatomic sites. The high NO surface coverage and strong binding energy promote a NO dimerization pathway to form N─N, which subsequently allows for efficient carbon monoxide (CO) insertion to form urea. This mechanism achieves 93.3% N selectivity toward urea, with a high yield rate of 35.16 millimoles per hour per gram and a faradaic efficiency of 48.1% at −0.6 volts versus reversible hydrogen electrode, while effectively suppressing NH 3 by-product formation. Conversely, dual sites like copper-manganese (Cu─Mn) exhibit weak NO adsorption and low coverage, which suppress dimerization and favor the conventional pathway via NHCO intermediates, leading to predominant NH 3 formation (86.2% N selectivity). This work establishes a NO-mediated strategy for efficient urea synthesis with minimized competing reactions.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "This mechanism achieves 93.3% N selectivity toward urea, with a high yield rate of 35.16 millimoles per hour per gram and a faradaic efficiency of 48.1% at −0.6 volts versus reversible hydrogen electrode, while effectively suppressing NH 3 by-product formation. Here, we demonstrate highly selective synthesis by modulating nitric oxide (NO) intermediate behavior on molybdenum-manganese (Mo─Mn) diatomic sites.",
+      "tags": [
+        "electrochemical synthesis",
+        "carbon dioxide",
+        "mechanism",
+        "intermediate",
+        "faradaic efficiency",
+        "yield",
+        "selectivity"
+      ],
+      "score": 76,
+      "url": "https://doi.org/10.1126/sciadv.aeg9844",
+      "archive": false,
+      "pushed_date": "2026-11-11"
+    },
+    {
+      "id": "W7213983862",
+      "doi": "https://doi.org/10.3390/ma19194039",
+      "title": "Engineering Organic Molecule–Copper Interfaces for Selective C2+ Production in CO2 Electroreduction",
+      "topic": "optimization",
+      "topic_label": "Condition optimization",
+      "journal": "Materials",
+      "journal_issn": [
+        "1996-1944"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-09-22",
+      "abstract": "The electrochemical carbon dioxide reduction reaction (CO2RR) serves as a crucial bridge linking CO2 utilization, renewable electricity, and chemical production. Driven by intermittent clean energy sources such as wind and solar power, it can convert CO2 into high-value chemicals and fuels under ambient temperature and pressure and is therefore regarded as a promising route for artificial carbon recycling and sustainable manufacturing of chemicals. Copper (Cu) is currently the only metal capable of deep CO2 reduction to multicarbon (C2+) products in aqueous electrolytes. However, the product selectivity and catalytic stability of Cu-based catalysts still demand further improvement. In recent years, organic molecule modification strategies have emerged as an effective approach to optimizing Cu-based CO2RR catalysts and have attracted increasing attention. Organic molecules can form favorable organic-inorganic interfaces with the Cu surface through various interactions, promoting the formation of C2+ products via multiple mechanisms. This review summarizes the recent advances in constructing efficient Cu-based catalysts for CO2RR through organic molecule modification strategy. By reviewing the fundamentals for C2+ formation over Cu-based catalysts, this paper first sorts out the interfacial structures and interactions between the organic molecules and Cu surfaces. Then, the underlying mechanisms of the well-defined organic molecule–Cu interfaces for enhanced CO2RR performance are discussed, including the modulation of surface charge and oxidation state of Cu, the tuning of the local microenvironments, and the synergies for activating CO2 or stabilizing key intermediates. Furthermore, current research challenges and future prospects associated with the engineering of organic molecule–Cu interfaces are outlined, aiming to provide insights for the rational design of Cu-based catalysts for CO2RR.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "Then, the underlying mechanisms of the well-defined organic molecule–Cu interfaces for enhanced CO2RR performance are discussed, including the modulation of surface charge and oxidation state of Cu, the tuning of the local microenvironments, and the synergies for activating CO2 or stabilizing key intermediates. However, the product selectivity and catalytic stability of Cu-based catalysts still demand further improvement.",
+      "tags": [
+        "carbon dioxide",
+        "co2",
+        "mechanism",
+        "intermediate",
+        "electrolyte",
+        "temperature",
+        "selectivity"
+      ],
+      "score": 75,
+      "url": "https://doi.org/10.3390/ma19194039",
+      "archive": false,
+      "pushed_date": "2026-11-11"
+    },
+    {
+      "id": "W7117300822",
+      "doi": "https://doi.org/10.1038/s41467-025-67741-1",
+      "title": "Nano-confinement engineering boosts C–N coupling for urea electrosynthesis",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "Nature Communications",
+      "journal_issn": [
+        "2041-1723"
+      ],
+      "impact_factor": "18.1",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2025,
+      "publication_date": "2025-12-26",
+      "abstract": "The electrochemical co-reduction of CO2 and nitrate provides a sustainable route for urea synthesis via C–N coupling, yet kinetic limitations and poor intermediate interactions hinder urea yields. Here, we engineer a nano-confined CuRu bimetallic catalyst within mesoporous carbon hollow spheres (MCHS) to overcome these barriers. By spatially confining reactants and intermediates, the catalyst achieves a urea yield of 12.51 g h–1 gcat–1 at 250 mA cm–2, with 125-hour stability. In situ spectroscopy and computational analyses reveal that nano-confinement switches the C–N coupling pathway from the thermodynamically favored *COOH–*NH2 to kinetically driven *OCO–*NO intermediates, bypassing energy barriers. Precise pore-size engineering (4–11 nm) demonstrates that optimal confinement simultaneously enhances reactant transport and intermediate retention, boosting selectivity. This work establishes nano-confinement as a versatile approach for controlling multi-step electrocatalytic processes, enabling sustainable chemical synthesis. This study introduces a nano-confined CuRu catalyst that leverages confinement effects to enhance CO2–nitrate C–N coupling by improving reactant transport and strengthening the stabilization of key reaction intermediates, thereby achieving high urea yield and long-term operational stability.",
+      "methods_summary": "In situ spectroscopy and computational analyses reveal that nano-confinement switches the C–N coupling pathway from the thermodynamically favored *COOH–*NH2 to kinetically driven *OCO–*NO intermediates, bypassing energy barriers. The electrochemical co-reduction of CO2 and nitrate provides a sustainable route for urea synthesis via C–N coupling, yet kinetic limitations and poor intermediate interactions hinder urea yields.",
+      "key_findings": "The electrochemical co-reduction of CO2 and nitrate provides a sustainable route for urea synthesis via C–N coupling, yet kinetic limitations and poor intermediate interactions hinder urea yields. By spatially confining reactants and intermediates, the catalyst achieves a urea yield of 12.51 g h–1 gcat–1 at 250 mA cm–2, with 125-hour stability.",
+      "tags": [
+        "co2",
+        "kinetic",
+        "intermediate",
+        "in situ",
+        "yield",
+        "selectivity"
+      ],
+      "score": 72,
+      "url": "https://doi.org/10.1038/s41467-025-67741-1",
+      "archive": false,
+      "pushed_date": "2026-11-11"
+    },
     {
       "id": "W7225422285",
       "doi": "https://doi.org/10.1002/anie.4892943",
