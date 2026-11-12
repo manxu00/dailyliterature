@@ -1,13 +1,75 @@
 {
   "version": 4,
-  "brief_date": "2026 · 11 · 11",
-  "last_updated": "2026-11-11 15:48 CET",
+  "brief_date": "2026 · 11 · 12",
+  "last_updated": "2026-11-12 16:40 CET",
   "target_daily": 10,
   "match_score": 74,
   "search_state": {
-    "backfill_page": 57
+    "backfill_page": 59
   },
   "papers": [
+    {
+      "id": "W7225694585",
+      "doi": "https://doi.org/10.1002/adfm.79178",
+      "title": "Advancing CO 2 Electroreduction Toward Multicarbon Products via Catalyst Engineering and Integrated Paired Electrolysis",
+      "topic": "optimization",
+      "topic_label": "Condition optimization",
+      "journal": "Advanced Functional Materials",
+      "journal_issn": [
+        "1616-301X",
+        "1616-3028"
+      ],
+      "impact_factor": "19.9",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-11-10",
+      "abstract": "ABSTRACT Electrochemical carbon dioxide reduction (CO 2 RR) provides a compelling pathway for converting CO 2 into value‐added multicarbon (C 2+ ) products using renewable electricity, yet its technological translation remains limited by coupled challenges spanning catalyst chemistry, reaction microenvironments, reactor architecture, and cathode‐anode integration. This review develops a multiscale framework that connects molecular‐level C‐C coupling with device‐ and process‐level performance. Fundamental CO 2 activation, reaction pathways, electrochemical metrics, and structure–activity relationships are critically examined, with particular emphasis on Cu‐based catalysts and emerging catalyst‐engineering strategies for selective C 2+ synthesis. These catalytic principles are then linked to operando surface states, intermediate coverage, local microenvironments, mass transport, membrane behavior, and electrolyzer configuration under technologically relevant conditions. Beyond cathodic optimization, oxygen evolution and alternative anodic chemistries, including biomass‐derived alcohol oxidation and plastic‐derived stream valorization, are assessed within integrated paired‐electrolysis architectures. Their practical significance is benchmarked through matched current density, full‐cell voltage, carbon and electron efficiency, product concentration, crossover, separation, durability, and realistic feed compatibility. This framework exposes critical catalyst‐reactor‐process trade‐offs and defines design principles for scalable, durable, and economically credible CO 2 ‐to‐C 2+ electrosynthesis.",
+      "methods_summary": "Beyond cathodic optimization, oxygen evolution and alternative anodic chemistries, including biomass‐derived alcohol oxidation and plastic‐derived stream valorization, are assessed within integrated paired‐electrolysis architectures.",
+      "key_findings": "These catalytic principles are then linked to operando surface states, intermediate coverage, local microenvironments, mass transport, membrane behavior, and electrolyzer configuration under technologically relevant conditions.",
+      "tags": [
+        "carbon dioxide",
+        "intermediate",
+        "operando",
+        "optimization",
+        "current density",
+        "concentration"
+      ],
+      "score": 75,
+      "url": "https://doi.org/10.1002/adfm.79178",
+      "archive": false,
+      "pushed_date": "2026-11-12"
+    },
+    {
+      "id": "W7172429903",
+      "doi": "https://doi.org/10.31274/td-20260804-91",
+      "title": "Innovative paired electrolysis for chlorine remediation, captured CO2 reduction, and biomass upgrading",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "Unknown journal",
+      "journal_issn": [],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-01-01",
+      "abstract": "Clean energy, sustainable chemical manufacturing, and environmental remediation are among the most pressing global challenges. Electrochemical systems offer a promising pathway to convert waste or renewable carbon feedstock into value-added chemicals powered by renewable electricity, enabling decarbonization and distributed chemical production. In particular, paired electrolysis, which couples desirable anodic and cathodic reactions while suppressing hydrogen and oxygen evolutions, provides an effective strategy to improve energy efficiency and process economics.This dissertation develops a paired electrolyzer platform that integrates chlorine evolution reaction (ClER), captured carbon dioxide reduction reaction (CO2RR), and biomass upgrading. At the anode, a MOF-derived Co3O4/nitrogen-doped carbon catalyst was developed for chlorine-assisted ethylene oxide production, achieving remarkable activity comparable to commercial RuO2 with improved cost and stability. At the cathode, MOF-derived bismuth nanosheets with large surface areas enabled high-current-density electroreduction of captured CO2 to formate. Through combined experimental and modeling studies, key parameters governing reactor performance were identified and optimized, achieving 300 mA cm⁻2 with high selectivity and maintaining over 50% faradaic efficiency at 500 mA cm⁻2. To further understand the reaction environment in captured CO2 electrolysis, the mechanism of local CO2 generation in NH4HCO3 electrolytes was investigated. By decoupling thermal decomposition and proton-mediated pathways, this work demonstrates that thermally generated CO2 is the dominant source under operating conditions, while proton-mediated conversion provides a secondary but synergistic contribution. These findings reveal a distinct reaction environment compared to conventional KHCO3 systems, and guide rational system design. Beyond CO2 reduction, the cathodic reaction platform was extended to biomass upgrading through electrochemical hydrogenation of cis,cis-Muconic acid (containing two C=C bonds) using defect-engineered carbon cloth. Selective hydrogenation for t3HDA production was achieved under ambient conditions with metal-free catalysts, demonstrating the potential of surface-engineered carbon materials for sustainable organic electrosynthesis. Overall, this work establishes a unified framework for paired electrolysis by integrating catalyst design, reactor engineering, and mechanistic understanding. The results highlight the great potential of replacing oxygen evolution with value-added anodic reactions while enabling direct utilization of captured CO2 and biomass-derived feedstocks for sustainable chemical production.",
+      "methods_summary": "In particular, paired electrolysis, which couples desirable anodic and cathodic reactions while suppressing hydrogen and oxygen evolutions, provides an effective strategy to improve energy efficiency and process economics.This dissertation develops a paired electrolyzer platform that integrates chlorine evolution reaction (ClER), captured carbon dioxide reduction reaction (CO2RR), and biomass upgrading. To further understand the reaction environment in captured CO2 electrolysis, the mechanism of local CO2 generation in NH4HCO3 electrolytes was investigated.",
+      "key_findings": "Through combined experimental and modeling studies, key parameters governing reactor performance were identified and optimized, achieving 300 mA cm⁻2 with high selectivity and maintaining over 50% faradaic efficiency at 500 mA cm⁻2. At the anode, a MOF-derived Co3O4/nitrogen-doped carbon catalyst was developed for chlorine-assisted ethylene oxide production, achieving remarkable activity comparable to commercial RuO2 with improved cost and stability.",
+      "tags": [
+        "organic electrosynthesis",
+        "carbon dioxide",
+        "co2",
+        "mechanistic",
+        "mechanism",
+        "electrolyte",
+        "faradaic efficiency"
+      ],
+      "score": 74,
+      "url": "https://doi.org/10.31274/td-20260804-91",
+      "archive": false,
+      "pushed_date": "2026-11-12"
+    },
     {
       "id": "W7162805182",
       "doi": "https://doi.org/10.1126/sciadv.aeg9844",
@@ -37,7 +99,7 @@
       ],
       "score": 76,
       "url": "https://doi.org/10.1126/sciadv.aeg9844",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-11"
     },
     {
@@ -69,7 +131,7 @@
       ],
       "score": 75,
       "url": "https://doi.org/10.3390/ma19194039",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-11"
     },
     {
@@ -100,7 +162,7 @@
       ],
       "score": 72,
       "url": "https://doi.org/10.1038/s41467-025-67741-1",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-11"
     },
     {
