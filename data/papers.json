@@ -1,11 +1,11 @@
 {
   "version": 4,
-  "brief_date": "2026 · 11 · 12",
-  "last_updated": "2026-11-12 16:40 CET",
+  "brief_date": "2026 · 11 · 13",
+  "last_updated": "2026-11-13 15:58 CET",
   "target_daily": 10,
-  "match_score": 74,
+  "match_score": 0,
   "search_state": {
-    "backfill_page": 59
+    "backfill_page": 61
   },
   "papers": [
     {
@@ -37,7 +37,7 @@
       ],
       "score": 75,
       "url": "https://doi.org/10.1002/adfm.79178",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-12"
     },
     {
@@ -67,7 +67,7 @@
       ],
       "score": 74,
       "url": "https://doi.org/10.31274/td-20260804-91",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-12"
     },
     {
