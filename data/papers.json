@@ -1,13 +1,77 @@
 {
   "version": 4,
-  "brief_date": "2026 · 11 · 14",
-  "last_updated": "2026-11-14 14:51 CET",
+  "brief_date": "2026 · 11 · 15",
+  "last_updated": "2026-11-15 15:25 CET",
   "target_daily": 10,
-  "match_score": 77,
+  "match_score": 94,
   "search_state": {
-    "backfill_page": 63
+    "backfill_page": 65
   },
   "papers": [
+    {
+      "id": "W7225982929",
+      "doi": "https://doi.org/10.2174/0113852728500247261027050558",
+      "title": "Electrochemical CO2 Carboxylation: Recent Advances, Mechanisms, and Future Perspectives",
+      "topic": "core",
+      "topic_label": "Organic CO₂ electrosynthesis",
+      "journal": "Current Organic Chemistry",
+      "journal_issn": [
+        "1385-2728",
+        "1875-5348"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-11-04",
+      "abstract": "Abstract: Driven by long-term fossil fuel combustion, excessive carbon dioxide (CO2) emissions have aggravated global warming, posing huge challenges to ecological balance and sustainable social development. To meet the global carbon neutrality target, developing feasible routes for CO2 recycling and upgrading into highvalue fine chemicals has become a vital research direction. Among diverse carbon conversion technologies, organic electrochemical carboxylation stands out for its mild operating conditions and eco-friendly characteristics, which enable efficient CO2 fixation to synthesize functional carboxylic acid derivatives. Such chemicals serve as critical building blocks for non-steroidal anti-inflammatory drugs, polymer monomers, and fine chemical intermediates, possessing great industrial application potential. This review systematically summarizes the research progress of electrochemical carboxylation, elaborates on core reaction mechanisms and technical limitations, and prospects future development trends. It aims to provide solid theoretical support for the technological optimization and large-scale industrial application of CO2 electrocarboxylation.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "Among diverse carbon conversion technologies, organic electrochemical carboxylation stands out for its mild operating conditions and eco-friendly characteristics, which enable efficient CO2 fixation to synthesize functional carboxylic acid derivatives. Such chemicals serve as critical building blocks for non-steroidal anti-inflammatory drugs, polymer monomers, and fine chemical intermediates, possessing great industrial application potential.",
+      "tags": [
+        "electrocarboxylation",
+        "electrochemical carboxylation",
+        "co2 fixation",
+        "carbon dioxide",
+        "co2",
+        "reaction mechanism",
+        "mechanism"
+      ],
+      "score": 99,
+      "url": "https://doi.org/10.2174/0113852728500247261027050558",
+      "archive": false,
+      "pushed_date": "2026-11-15"
+    },
+    {
+      "id": "W7156669909",
+      "doi": "https://doi.org/10.1186/s13036-026-00687-0",
+      "title": "Metabolic rewiring for enhanced itaconate yield through heterotrophic CO2 fixation in Escherichia coli",
+      "topic": "core",
+      "topic_label": "Organic CO₂ electrosynthesis",
+      "journal": "Journal of Biological Engineering",
+      "journal_issn": [
+        "1754-1611"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-04-28",
+      "abstract": "BACKGROUND: It is crucial to obtain high production yields in the microbial production of diverse biochemicals to maximize economic viability. However, microorganisms, particularly heterotrophs, release carbon dioxide (CO2) during the oxidation of organic compounds for energy and building blocks. This metabolism limits the theoretical maximum carbon yield and constrains the development of efficient microbial cell factories. Specifically, metabolite production from tricarboxylic acid (TCA)-cycle intermediates involves major CO2 emission steps, leading to unavoidable carbon loss. RESULTS: Central carbon metabolism in Escherichia coli, a model heterotroph, was synthetically rewired to facilitate CO2 fixation and escalate carbon yields. Specifically, we blocked multiple routes to prevent pyruvate oxidation to acetyl-CoA, which was identified as a major CO2 emission step, and promoted CO2 incorporation into TCA cycle intermediates by reengineering endogenous pathways for co-utilization of glucose and acetate. This strategy was applied to produce itaconate, a promising bioplastic precursor, achieving a yield of 0.81 C mol/C substrate mol, a value near the theoretical maximum yield obtainable from glucose (0.83 C mol/C mol). CONCLUSIONS: This heterotrophic CO2 fixation strategy can be used to produce TCA-derived chemicals and enhance the economic viability of microbial production. This study demonstrates that synthetically rewiring central carbon metabolism enables direct incorporation of CO₂ into the product, thereby increasing carbon yields approaching the conventional maximum value. This heterotrophic CO2 fixation strategy not only provides a breakthrough for efficient itaconate production but also serves as a versatile platform for engineering microbial cell factories to produce various TCA-derived chemicals with amplified carbon yield.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "BACKGROUND: It is crucial to obtain high production yields in the microbial production of diverse biochemicals to maximize economic viability. This metabolism limits the theoretical maximum carbon yield and constrains the development of efficient microbial cell factories.",
+      "tags": [
+        "co2 incorporation",
+        "co2 fixation",
+        "carbon dioxide",
+        "co2",
+        "intermediate",
+        "yield"
+      ],
+      "score": 88,
+      "url": "https://doi.org/10.1186/s13036-026-00687-0",
+      "archive": false,
+      "pushed_date": "2026-11-15"
+    },
     {
       "id": "W7225824586",
       "doi": "https://doi.org/10.1021/acselectrochem.6c00426",
@@ -36,7 +100,7 @@
       ],
       "score": 77,
       "url": "https://doi.org/10.1021/acselectrochem.6c00426",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-14"
     },
     {
