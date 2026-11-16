@@ -1,13 +1,104 @@
 {
   "version": 4,
-  "brief_date": "2026 · 11 · 15",
-  "last_updated": "2026-11-15 15:25 CET",
+  "brief_date": "2026 · 11 · 16",
+  "last_updated": "2026-11-16 17:36 CET",
   "target_daily": 10,
-  "match_score": 94,
+  "match_score": 84,
   "search_state": {
-    "backfill_page": 65
+    "backfill_page": 67
   },
   "papers": [
+    {
+      "id": "W7230749095",
+      "doi": "https://doi.org/10.1002/anie.1949347",
+      "title": "Electrochemical Hydrocarboxylation of Unactivated Alkyl Alkenes",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "Angewandte Chemie International Edition",
+      "journal_issn": [
+        "1433-7851",
+        "1521-3773"
+      ],
+      "impact_factor": "17.6",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-11-13",
+      "abstract": "ABSTRACT Alkyl carboxylic acids are fundamental building blocks in pharmaceuticals and functional materials. The direct electrochemical hydrocarboxylation of unactivated alkyl alkenes with CO 2 offers an atom‐economical route to these valuable compounds, avoiding prefunctionalized substrates and harsh reaction conditions. However, the inherently negative reduction potentials of both unactivated alkenes and CO 2 pose substantial barriers to their direct transformation. To date, most electrochemical hydrocarboxylation methods are restricted to activated alkenes, as these substrates can form stabilized intermediates that facilitate the reaction. In sharp contrast, the hydrocarboxylation of unactivated alkyl alkenes remains a formidable challenge, largely due to their electronic neutrality and the lack of efficient pathways to stabilize the key intermediates. Herein, we report a direct electrochemical hydrocarboxylation of unactivated alkyl alkenes under transition metal‐ and base‐free conditions. This protocol not only maximizes atom utilization, but also accommodates a broad range of substrates, including sensitive halides, esters, N ‐heterocycles, and even synthetically challenging 1,1‐disubstituted unactivated alkyl alkenes. The synthetic utility is further demonstrated by the preparation of value‐added products, such as monomethyl adipate and undecanoic acid. Mechanistic studies, including EPR spectroscopy and radical ring‐opening experiments, support the generation of the CO 2 radical anion and its subsequent selective radical addition to the unactivated C═C bond.",
+      "methods_summary": "Mechanistic studies, including EPR spectroscopy and radical ring‐opening experiments, support the generation of the CO 2 radical anion and its subsequent selective radical addition to the unactivated C═C bond.",
+      "key_findings": "To date, most electrochemical hydrocarboxylation methods are restricted to activated alkenes, as these substrates can form stabilized intermediates that facilitate the reaction. In sharp contrast, the hydrocarboxylation of unactivated alkyl alkenes remains a formidable challenge, largely due to their electronic neutrality and the lack of efficient pathways to stabilize the key intermediates.",
+      "tags": [
+        "hydrocarboxylation",
+        "mechanistic",
+        "radical",
+        "intermediate",
+        "epr",
+        "reaction conditions"
+      ],
+      "score": 91,
+      "url": "https://doi.org/10.1002/anie.1949347",
+      "archive": false,
+      "pushed_date": "2026-11-16"
+    },
+    {
+      "id": "W7129013124",
+      "doi": "https://doi.org/10.1016/j.apsusc.2026.166357",
+      "title": "L-cysteine-modified Ag-based nanomaterials for asymmetric electrocarboxylation of aromatic ketones",
+      "topic": "core",
+      "topic_label": "Organic CO₂ electrosynthesis",
+      "journal": "Applied Surface Science",
+      "journal_issn": [
+        "0169-4332",
+        "1873-5584"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-02-16",
+      "abstract": "",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "No reliable conclusion could be extracted from the available abstract.",
+      "tags": [
+        "electrocarboxylation"
+      ],
+      "score": 83,
+      "url": "https://doi.org/10.1016/j.apsusc.2026.166357",
+      "archive": false,
+      "pushed_date": "2026-11-16"
+    },
+    {
+      "id": "W7203630520",
+      "doi": "https://doi.org/10.1021/prechem.6c00062",
+      "title": "Electrochemistry of Urea Synthesis via Carbon Dioxide Reduction: Mechanisms and Material Insights",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "Precision Chemistry",
+      "journal_issn": [
+        "2771-9316"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-08-17",
+      "abstract": "Abstract Electrocatalytic urea synthesis offers a sustainable, carbon- and energy-efficient alternative to the Haber-Bosch process under ambient conditions. It is a sustainable strategy in which simultaneous reduction of carbon dioxide (CO2) and nitrogen molecules (nitrogen, nitrate, nitrite, nitric oxide, etc.) lead to form urea. However, electrochemical urea synthesis faces multiple challenges including activation of CO2 and nitrogen molecules (nitrogen, nitrate, nitrite, nitric oxide, etc.), low production and selectivity toward urea production. The C–N coupling reaction is considered the most challenging part for urea synthesis. With respect to all this, this review focuses on fundamental reaction mechanisms followed by recent progress for electrochemical urea production. Recent advances highlight the rational design of heterogeneous catalysts─ranging from transition-metal-based systems (Cu, Ni, Fe, Co) to single-atom catalysts─that enable simultaneous activation of CO2 and nitrogen molecules. This review summarizes proposed reaction pathways by correlating catalyst active centers with mechanistic insights into CO2/N-containing species activation and coupling. The critical challenges related to low yield and Faradaic efficiency are outlined, providing perspectives for translating laboratory breakthroughs into practical urea electrosynthesis technologies. Collectively, these advances establish electrocatalytic urea synthesis as a frontier in sustainable chemistry, bridging carbon capture with nitrogen cycle management, and paving the way toward scalable green urea production.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "The critical challenges related to low yield and Faradaic efficiency are outlined, providing perspectives for translating laboratory breakthroughs into practical urea electrosynthesis technologies. However, electrochemical urea synthesis faces multiple challenges including activation of CO2 and nitrogen molecules (nitrogen, nitrate, nitrite, nitric oxide, etc.), low production and selectivity toward urea production.",
+      "tags": [
+        "carbon dioxide",
+        "co2",
+        "reaction mechanism",
+        "mechanistic",
+        "mechanism",
+        "faradaic efficiency",
+        "yield"
+      ],
+      "score": 79,
+      "url": "https://doi.org/10.1021/prechem.6c00062",
+      "archive": false,
+      "pushed_date": "2026-11-16"
+    },
     {
       "id": "W7225982929",
       "doi": "https://doi.org/10.2174/0113852728500247261027050558",
@@ -38,7 +129,7 @@
       ],
       "score": 99,
       "url": "https://doi.org/10.2174/0113852728500247261027050558",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-15"
     },
     {
@@ -69,7 +160,7 @@
       ],
       "score": 88,
       "url": "https://doi.org/10.1186/s13036-026-00687-0",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-15"
     },
     {
