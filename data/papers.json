@@ -1,13 +1,109 @@
 {
   "version": 4,
-  "brief_date": "2026 · 11 · 16",
-  "last_updated": "2026-11-16 17:36 CET",
+  "brief_date": "2026 · 11 · 17",
+  "last_updated": "2026-11-17 17:34 CET",
   "target_daily": 10,
-  "match_score": 84,
+  "match_score": 91,
   "search_state": {
-    "backfill_page": 67
+    "backfill_page": 69
   },
   "papers": [
+    {
+      "id": "W4416498034",
+      "doi": "https://doi.org/10.1039/d5ra07885g",
+      "title": "Synthesis of aliphatic α-hydroxy carboxylic acids via electrocarboxylation of aldehydes",
+      "topic": "core",
+      "topic_label": "Organic CO₂ electrosynthesis",
+      "journal": "RSC Advances",
+      "journal_issn": [
+        "2046-2069"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2025,
+      "publication_date": "2025-11-18",
+      "abstract": "Herein, we describe electrocarboxylation of aliphatic aldehydes in an undivided cell for the synthesis of aliphatic α-hydroxy acids (AHA). The electrosynthesis utilizes stable carbon-based electrodes providing safe and simple access to AHAs. Yields between 20 to 45% are acheived with seven substrates, some up to three times higher than with previous electrosynthesis protocols.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "Yields between 20 to 45% are acheived with seven substrates, some up to three times higher than with previous electrosynthesis protocols.",
+      "tags": [
+        "electrocarboxylation",
+        "divided cell",
+        "undivided cell",
+        "yield"
+      ],
+      "score": 92,
+      "url": "https://doi.org/10.1039/d5ra07885g",
+      "archive": false,
+      "pushed_date": "2026-11-17"
+    },
+    {
+      "id": "W4416272423",
+      "doi": "https://doi.org/10.1002/anie.202520335",
+      "title": "Electrochemical Controllable Divergent Carboxylation and Hydrocarboxylation of Alkynes with CO 2",
+      "topic": "optimization",
+      "topic_label": "Condition optimization",
+      "journal": "Angewandte Chemie International Edition",
+      "journal_issn": [
+        "1433-7851",
+        "1521-3773"
+      ],
+      "impact_factor": "17.6",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2025,
+      "publication_date": "2025-11-17",
+      "abstract": "Abstract Carboxylation and hydrocarboxylation of alkynes with CO 2 for the synthesis of value‐added and versatile carboxylic acids are of great importance. However, harsh reaction conditions, poor selectivity, practicability, and sustainability have always restricted its application. Electrochemical synthesis has been considered as a practical and environmentally friendly organic synthesis strategy via a tunable redox process. Hence, herein, an efficient electrochemical controllable divergent carboxylation and hydrocarboxylation of alkynes with CO 2 was achieved to overcome the limitation of traditional methods. Four kinds of arylpropiolic acid, cinnamic acid, fumaric acid, succinic acid, and their derivatives can be obtained with good selectivity by regulating substrates, solvents, and electrolytes. The method features broad substrate scope, divergent transformation with good selectivity, scalability, additional reducing agent‐, hydrogen donor‐, metal‐, and ligand‐free conditions, which offer novel insights into electrochemically driven CO 2 fixation and alkyne functionalization.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "However, harsh reaction conditions, poor selectivity, practicability, and sustainability have always restricted its application. Four kinds of arylpropiolic acid, cinnamic acid, fumaric acid, succinic acid, and their derivatives can be obtained with good selectivity by regulating substrates, solvents, and electrolytes.",
+      "tags": [
+        "hydrocarboxylation",
+        "electrochemical synthesis",
+        "redox",
+        "reaction conditions",
+        "electrolyte",
+        "solvent",
+        "selectivity"
+      ],
+      "score": 90,
+      "url": "https://doi.org/10.1002/anie.202520335",
+      "archive": false,
+      "pushed_date": "2026-11-17"
+    },
+    {
+      "id": "W4416299714",
+      "doi": "https://doi.org/10.1002/ange.202520335",
+      "title": "Electrochemical Controllable Divergent Carboxylation and Hydrocarboxylation of Alkynes with CO 2",
+      "topic": "optimization",
+      "topic_label": "Condition optimization",
+      "journal": "Angewandte Chemie",
+      "journal_issn": [
+        "0044-8249",
+        "0932-2140",
+        "1521-3757"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2025,
+      "publication_date": "2025-11-17",
+      "abstract": "Abstract Carboxylation and hydrocarboxylation of alkynes with CO 2 for the synthesis of value‐added and versatile carboxylic acids are of great importance. However, harsh reaction conditions, poor selectivity, practicability, and sustainability have always restricted its application. Electrochemical synthesis has been considered as a practical and environmentally friendly organic synthesis strategy via a tunable redox process. Hence, herein, an efficient electrochemical controllable divergent carboxylation and hydrocarboxylation of alkynes with CO 2 was achieved to overcome the limitation of traditional methods. Four kinds of arylpropiolic acid, cinnamic acid, fumaric acid, succinic acid, and their derivatives can be obtained with good selectivity by regulating substrates, solvents, and electrolytes. The method features broad substrate scope, divergent transformation with good selectivity, scalability, additional reducing agent‐, hydrogen donor‐, metal‐, and ligand‐free conditions, which offer novel insights into electrochemically driven CO 2 fixation and alkyne functionalization.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "However, harsh reaction conditions, poor selectivity, practicability, and sustainability have always restricted its application. Four kinds of arylpropiolic acid, cinnamic acid, fumaric acid, succinic acid, and their derivatives can be obtained with good selectivity by regulating substrates, solvents, and electrolytes.",
+      "tags": [
+        "hydrocarboxylation",
+        "electrochemical synthesis",
+        "redox",
+        "reaction conditions",
+        "electrolyte",
+        "solvent",
+        "selectivity"
+      ],
+      "score": 90,
+      "url": "https://doi.org/10.1002/ange.202520335",
+      "archive": false,
+      "pushed_date": "2026-11-17"
+    },
     {
       "id": "W7230749095",
       "doi": "https://doi.org/10.1002/anie.1949347",
@@ -37,7 +133,7 @@
       ],
       "score": 91,
       "url": "https://doi.org/10.1002/anie.1949347",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-16"
     },
     {
@@ -64,7 +160,7 @@
       ],
       "score": 83,
       "url": "https://doi.org/10.1016/j.apsusc.2026.166357",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-16"
     },
     {
@@ -96,7 +192,7 @@
       ],
       "score": 79,
       "url": "https://doi.org/10.1021/prechem.6c00062",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-16"
     },
     {
