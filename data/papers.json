@@ -1,9 +1,9 @@
 {
   "version": 4,
-  "brief_date": "2026 · 11 · 17",
-  "last_updated": "2026-11-17 17:34 CET",
+  "brief_date": "2026 · 11 · 18",
+  "last_updated": "2026-11-18 17:02 CET",
   "target_daily": 10,
-  "match_score": 91,
+  "match_score": 0,
   "search_state": {
     "backfill_page": 69
   },
@@ -34,7 +34,7 @@
       ],
       "score": 92,
       "url": "https://doi.org/10.1039/d5ra07885g",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-17"
     },
     {
@@ -67,7 +67,7 @@
       ],
       "score": 90,
       "url": "https://doi.org/10.1002/anie.202520335",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-17"
     },
     {
@@ -101,7 +101,7 @@
       ],
       "score": 90,
       "url": "https://doi.org/10.1002/ange.202520335",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-17"
     },
     {
