@@ -1,13 +1,44 @@
 {
   "version": 4,
-  "brief_date": "2026 · 11 · 20",
-  "last_updated": "2026-11-20 16:49 CET",
+  "brief_date": "2026 · 11 · 21",
+  "last_updated": "2026-11-21 15:59 CET",
   "target_daily": 10,
-  "match_score": 0,
+  "match_score": 99,
   "search_state": {
-    "backfill_page": 71
+    "backfill_page": 73
   },
   "papers": [
+    {
+      "id": "W7236818942",
+      "doi": "https://doi.org/10.1021/acs.orglett.6c04341",
+      "title": "Electrocarboxylation of Benzylic C–N and C–O Bonds with CO2 via a Radical/Radical Coupling Pathway",
+      "topic": "core",
+      "topic_label": "Organic CO₂ electrosynthesis",
+      "journal": "Organic Letters",
+      "journal_issn": [
+        "1523-7052",
+        "1523-7060"
+      ],
+      "impact_factor": "4.7",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-11-19",
+      "abstract": "A CO2 radical anion-enabled electrocarboxylation of benzylic C(sp3)–N and C(sp3)–O bonds is reported. This mild protocol converts readily available benzylamine derivatives or benzyl ethers and CO2 into arylacetic acids in yields of up to 99%, facilitating gram-scale and concise synthesis of NSAID-related products. Mechanistic studies support a dual role of the CO2 radical anion as a SET mediator for C–N or C–O bond cleavage and a coupling partner in an unusual radical/radical carboxylation pathway.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "This mild protocol converts readily available benzylamine derivatives or benzyl ethers and CO2 into arylacetic acids in yields of up to 99%, facilitating gram-scale and concise synthesis of NSAID-related products.",
+      "tags": [
+        "electrocarboxylation",
+        "co2",
+        "mechanistic",
+        "radical",
+        "yield"
+      ],
+      "score": 99,
+      "url": "https://doi.org/10.1021/acs.orglett.6c04341",
+      "archive": false,
+      "pushed_date": "2026-11-21"
+    },
     {
       "id": "W4416498034",
       "doi": "https://doi.org/10.1039/d5ra07885g",
