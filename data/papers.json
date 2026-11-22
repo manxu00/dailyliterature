@@ -1,13 +1,138 @@
 {
   "version": 4,
-  "brief_date": "2026 · 11 · 21",
-  "last_updated": "2026-11-21 15:59 CET",
+  "brief_date": "2026 · 11 · 22",
+  "last_updated": "2026-11-22 15:57 CET",
   "target_daily": 10,
-  "match_score": 99,
+  "match_score": 85,
   "search_state": {
-    "backfill_page": 73
+    "backfill_page": 75
   },
   "papers": [
+    {
+      "id": "W7229457658",
+      "doi": "https://doi.org/10.1002/ange.1949347",
+      "title": "Electrochemical Hydrocarboxylation of Unactivated Alkyl Alkenes",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "Angewandte Chemie",
+      "journal_issn": [
+        "0044-8249",
+        "0932-2140",
+        "1521-3757"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-11-14",
+      "abstract": "Alkyl carboxylic acids are fundamental building blocks in pharmaceuticals and functional materials. The direct electrochemical hydrocarboxylation of unactivated alkyl alkenes with CO 2 offers an atom‐economical route to these valuable compounds, avoiding prefunctionalized substrates and harsh reaction conditions. However, the inherently negative reduction potentials of both unactivated alkenes and CO 2 pose substantial barriers to their direct transformation. To date, most electrochemical hydrocarboxylation methods are restricted to activated alkenes, as these substrates can form stabilized intermediates that facilitate the reaction. In sharp contrast, the hydrocarboxylation of unactivated alkyl alkenes remains a formidable challenge, largely due to their electronic neutrality and the lack of efficient pathways to stabilize the key intermediates. Herein, we report a direct electrochemical hydrocarboxylation of unactivated alkyl alkenes under transition metal‐ and base‐free conditions. This protocol not only maximizes atom utilization, but also accommodates a broad range of substrates, including sensitive halides, esters, N ‐heterocycles, and even synthetically challenging 1,1‐disubstituted unactivated alkyl alkenes. The synthetic utility is further demonstrated by the preparation of value‐added products, such as monomethyl adipate and undecanoic acid. Mechanistic studies, including EPR spectroscopy and radical ring‐opening experiments, support the generation of the CO 2 radical anion and its subsequent selective radical addition to the unactivated C═C bond.",
+      "methods_summary": "Mechanistic studies, including EPR spectroscopy and radical ring‐opening experiments, support the generation of the CO 2 radical anion and its subsequent selective radical addition to the unactivated C═C bond.",
+      "key_findings": "To date, most electrochemical hydrocarboxylation methods are restricted to activated alkenes, as these substrates can form stabilized intermediates that facilitate the reaction. In sharp contrast, the hydrocarboxylation of unactivated alkyl alkenes remains a formidable challenge, largely due to their electronic neutrality and the lack of efficient pathways to stabilize the key intermediates.",
+      "tags": [
+        "hydrocarboxylation",
+        "mechanistic",
+        "radical",
+        "intermediate",
+        "epr",
+        "reaction conditions"
+      ],
+      "score": 91,
+      "url": "https://doi.org/10.1002/ange.1949347",
+      "archive": false,
+      "pushed_date": "2026-11-22"
+    },
+    {
+      "id": "W7151609387",
+      "doi": "https://doi.org/10.1021/acs.orglett.6c00550",
+      "title": "Electrochemically Enabled Synthesis of Carboxylated Allenes via Carbon Dioxide Reduction",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "Organic Letters",
+      "journal_issn": [
+        "1523-7052",
+        "1523-7060"
+      ],
+      "impact_factor": "4.7",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-04-07",
+      "abstract": "A transition-metal-free and reductant-free electrochemical strategy for the regioselective 1,4-hydrocarboxylation of 1,3-enynes with CO 2 and H 2 O is reported. This method facilitates the synthesis of carboxyl-functionalized disubstituted 3,4-dienoic acids under mild conditions. Subsequent treatment with TMSCH 2 N 2 allows for the construction of disubstituted 3,4-allenoate. Mechanistic studies, including cyclic voltammetry and control experiments, support the generation of CO 2 radical anions via electroreduction, with the electronic properties of the aromatic rings playing a key role in this process.",
+      "methods_summary": "Mechanistic studies, including cyclic voltammetry and control experiments, support the generation of CO 2 radical anions via electroreduction, with the electronic properties of the aromatic rings playing a key role in this process.",
+      "key_findings": "Mechanistic studies, including cyclic voltammetry and control experiments, support the generation of CO 2 radical anions via electroreduction, with the electronic properties of the aromatic rings playing a key role in this process.",
+      "tags": [
+        "hydrocarboxylation",
+        "carbon dioxide",
+        "mechanistic",
+        "cyclic voltammetry",
+        "voltammetry",
+        "radical"
+      ],
+      "score": 86,
+      "url": "https://doi.org/10.1021/acs.orglett.6c00550",
+      "archive": false,
+      "pushed_date": "2026-11-22"
+    },
+    {
+      "id": "W7162654783",
+      "doi": "https://doi.org/10.1002/adsc.70559",
+      "title": "Selective Electrochemical Hydrocarboxylation of Vinyl Phosphonates with CO 2 Enabled by Alternating Polarity",
+      "topic": "optimization",
+      "topic_label": "Condition optimization",
+      "journal": "Advanced Synthesis & Catalysis",
+      "journal_issn": [
+        "1615-4150",
+        "1615-4169"
+      ],
+      "impact_factor": "3.7",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-05-28",
+      "abstract": "Electrochemical hydrocarboxylation of vinyl phosphonates with CO 2 to form carboxylic‐substituted phosphonates is developed. The alternating polarity affords a boost in Faraday efficiency and enables generalizable catalytic control to provide high product yields over a broad substrate scope by maintaining electrode activity through the regeneration of its surface. The disclosed method provides high selectivity of the target hydrocarboxylation without side transformations of vinyl phosphonates in an undivided cell affording a short way to valuable carboxylic acids featuring a phosphonate fragment. The high selectivity of hydrocarboxylation is achieved through the integration of an alternating polarity strategy with an efficient sequence of one‐electron reduction, followed by CC bond formation, subsequent second one‐electron reduction, and protonation. These results establish the utility of the alternating polarity technique and provide a foundation for its adaptation to other electrochemical reactions.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "The alternating polarity affords a boost in Faraday efficiency and enables generalizable catalytic control to provide high product yields over a broad substrate scope by maintaining electrode activity through the regeneration of its surface. The disclosed method provides high selectivity of the target hydrocarboxylation without side transformations of vinyl phosphonates in an undivided cell affording a short way to valuable carboxylic acids featuring a phosphonate fragment.",
+      "tags": [
+        "hydrocarboxylation",
+        "divided cell",
+        "undivided cell",
+        "yield",
+        "selectivity",
+        "substrate scope"
+      ],
+      "score": 84,
+      "url": "https://doi.org/10.1002/adsc.70559",
+      "archive": false,
+      "pushed_date": "2026-11-22"
+    },
+    {
+      "id": "W7143292197",
+      "doi": "https://doi.org/10.1016/j.chempr.2026.103002",
+      "title": "Electrochemical reductive carboxylation with carbon dioxide using water as the reductant",
+      "topic": "core",
+      "topic_label": "Organic CO₂ electrosynthesis",
+      "journal": "Chem",
+      "journal_issn": [
+        "2451-9294",
+        "2451-9308"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-03-30",
+      "abstract": "",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "No reliable conclusion could be extracted from the available abstract.",
+      "tags": [
+        "reductive carboxylation",
+        "carbon dioxide"
+      ],
+      "score": 78,
+      "url": "https://doi.org/10.1016/j.chempr.2026.103002",
+      "archive": false,
+      "pushed_date": "2026-11-22"
+    },
     {
       "id": "W7236818942",
       "doi": "https://doi.org/10.1021/acs.orglett.6c04341",
@@ -36,7 +161,7 @@
       ],
       "score": 99,
       "url": "https://doi.org/10.1021/acs.orglett.6c04341",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-21"
     },
     {
