@@ -1,13 +1,43 @@
 {
   "version": 4,
-  "brief_date": "2026 · 11 · 22",
-  "last_updated": "2026-11-22 15:57 CET",
+  "brief_date": "2026 · 11 · 23",
+  "last_updated": "2026-11-23 19:51 CET",
   "target_daily": 10,
-  "match_score": 85,
+  "match_score": 99,
   "search_state": {
-    "backfill_page": 75
+    "backfill_page": 77
   },
   "papers": [
+    {
+      "id": "W7154567060",
+      "doi": "https://doi.org/10.29363/nanoge.matsusspring.2026.502",
+      "title": "Electrochemical Dicarboxylation of 1,3-Butadiene with CO2: A Pathway to Adipic Acid Precursors Using Non-Sacrificial Anodes",
+      "topic": "core",
+      "topic_label": "Organic CO₂ electrosynthesis",
+      "journal": "MATSUS Spring Conference",
+      "journal_issn": [],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2025,
+      "publication_date": "2025-12-15",
+      "abstract": "The traditional chemical industry relies on thermal catalytic processes, using fossil fuels as both raw materials and energy sources, to produce valuable chemicals. However, there's a growing interest in electrochemical conversion of waste CO2 using renewable energy.1 This shift is driven by two key factors: first, the rapidly decreasing cost of renewable energy suggests that electrochemical processes will soon become commercially viable.2 This economic advantage is further enhanced by using freely available CO2 as a raw material, contrasting with the energy-intensive and polluting extraction of fossil fuels. Second, achieving carbon neutrality in large-scale chemical processes is crucial for meeting climate goals by 2050.3 Electrocatalytic CO2 conversion offers a promising strategy to efficiently transform CO2 into valuable products, characterized by high activity, stability, and selectivity. Especially, the fixation of CO2 via electrochemical carboxylation is a green and promising approach in the synthesis of a variety of organic compounds especially carboxylic acid derivatives.4 This electrocarboxylation processes are of high scientific and commercial interest as only one or two electrons is required per CO2 molecule. However, electrochemical carboxylation processes are currently limited by some serious drawbacks that hinder the development of these technologies towards industrial scale deployment.4 One of the main drawbacks is the use of sacrificial anodes, which necessitate batch mode operation with periodic complex and labour intensive anode replacement procedures.5 In this context, here we demonstrate the electrochemical dicarboxylation of 1,3-butadiene with CO2 for the production of 3-hexenedioic acid (3-HDA), a key precursor for adipic acid. The current industrial synthesis of adipic acid relies heavily on nitric acid oxidation of cyclohexanol or cyclohexanone, generating significant nitrous oxide emissions, a potent greenhouse gas.6 Our approach offers a potentially greener alternative by integrating carbon fixation with C–C bond formation, eliminating the need for harsh oxidants and operating under milder conditions. The electrochemical carboxylation is carried out using nickel (Ni) cathode and by replacing typical aluminium (Al, sacrificial anode) with platinum (Pt, non-sacrificial anode) in the presence of organic electrolyte acetonitrile (ACN). We study how operating parameters such as applied potential, electrode materials, and supporting electrolyte and substrate concentration affect the overall process and the reaction product distribution. Beyond the synthesis of 3-hexenedioic acid, this methodology serves as a platform for the broader application of electrochemical carboxylation strategies to other conjugated dienes and unsaturated hydrocarbons.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "Second, achieving carbon neutrality in large-scale chemical processes is crucial for meeting climate goals by 2050.3 Electrocatalytic CO2 conversion offers a promising strategy to efficiently transform CO2 into valuable products, characterized by high activity, stability, and selectivity. However, there's a growing interest in electrochemical conversion of waste CO2 using renewable energy.1 This shift is driven by two key factors: first, the rapidly decreasing cost of renewable energy suggests that electrochemical processes will soon become commercially viable.2 This economic advantage is further enhanced by using freely available CO2 as a raw material, contrasting with the energy-intensive and polluting extraction of fossil fuels.",
+      "tags": [
+        "electrocarboxylation",
+        "electrochemical carboxylation",
+        "co2",
+        "supporting electrolyte",
+        "electrolyte",
+        "applied potential",
+        "concentration"
+      ],
+      "score": 99,
+      "url": "https://doi.org/10.29363/nanoge.matsusspring.2026.502",
+      "archive": false,
+      "pushed_date": "2026-11-23"
+    },
     {
       "id": "W7229457658",
       "doi": "https://doi.org/10.1002/ange.1949347",
@@ -38,7 +68,7 @@
       ],
       "score": 91,
       "url": "https://doi.org/10.1002/ange.1949347",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-22"
     },
     {
@@ -70,7 +100,7 @@
       ],
       "score": 86,
       "url": "https://doi.org/10.1021/acs.orglett.6c00550",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-22"
     },
     {
@@ -102,7 +132,7 @@
       ],
       "score": 84,
       "url": "https://doi.org/10.1002/adsc.70559",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-22"
     },
     {
@@ -130,7 +160,7 @@
       ],
       "score": 78,
       "url": "https://doi.org/10.1016/j.chempr.2026.103002",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-22"
     },
     {
