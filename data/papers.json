@@ -1,11 +1,11 @@
 {
   "version": 4,
-  "brief_date": "2026 · 11 · 23",
-  "last_updated": "2026-11-23 19:51 CET",
+  "brief_date": "2026 · 11 · 24",
+  "last_updated": "2026-11-24 19:27 CET",
   "target_daily": 10,
-  "match_score": 99,
+  "match_score": 0,
   "search_state": {
-    "backfill_page": 77
+    "backfill_page": 79
   },
   "papers": [
     {
@@ -35,7 +35,7 @@
       ],
       "score": 99,
       "url": "https://doi.org/10.29363/nanoge.matsusspring.2026.502",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-23"
     },
     {
