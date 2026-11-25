@@ -1,13 +1,106 @@
 {
   "version": 4,
-  "brief_date": "2026 · 11 · 24",
-  "last_updated": "2026-11-24 19:27 CET",
+  "brief_date": "2026 · 11 · 25",
+  "last_updated": "2026-11-25 18:41 CET",
   "target_daily": 10,
-  "match_score": 0,
+  "match_score": 84,
   "search_state": {
-    "backfill_page": 79
+    "backfill_page": 1
   },
   "papers": [
+    {
+      "id": "W7225156192",
+      "doi": "https://doi.org/10.29363/nanoge.matsusfall.2026.254",
+      "title": "MOF-Based Materials at Work: Electrocatalytic CO₂ Conversion",
+      "topic": "core",
+      "topic_label": "Organic CO₂ electrosynthesis",
+      "journal": "MATSUS Fall Conference (MATSUS)",
+      "journal_issn": [],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-07-22",
+      "abstract": "The electrocatalytic conversion of CO₂ into value-added fuels and chemicals is a sustainable route to recycle carbon emissions and store renewable energy.[1] Metal–organic frameworks (MOFs) are appealing for this reaction owing to their porosity, tuneable chemistry, and high density of accessible metal sites, which can be tailored across a wide range of metals and linkers.[2] Here we explore a diverse set of MOFs as electrode materials for CO₂ conversion, including MOF-74 (M = Ni, Mg, Co, Cu), UiO-66, HKUST-1 and Cu-adenine, covering different metals, linkers and stabilities. Depending on the framework, the MOFs are used either in their pristine form or as composites incorporating conductive components to improve charge transport and stability. In all cases, the materials are deposited on carbon matrices by electrophoretic deposition and spin coating, and characterised by PXRD, N₂ adsorption, FTIR-ATR, SEM and cyclic voltammetry. The electrodes are evaluated for two reaction pathways: the direct electroreduction of CO₂ to value-added products and the electrocarboxylation of organic substrates to carboxylic acids. Performance is assessed by controlled-potential/current electrolysis, with products quantified by gas chromatography with thermal conductivity detector and 1H NMR to determine activity, selectivity, Faradaic efficiency and stability. This comparative study links MOF composition and electrode design to catalytic behaviour, guiding the development of efficient materials for CO₂ valorisation.",
+      "methods_summary": "Performance is assessed by controlled-potential/current electrolysis, with products quantified by gas chromatography with thermal conductivity detector and 1H NMR to determine activity, selectivity, Faradaic efficiency and stability. In all cases, the materials are deposited on carbon matrices by electrophoretic deposition and spin coating, and characterised by PXRD, N₂ adsorption, FTIR-ATR, SEM and cyclic voltammetry.",
+      "key_findings": "Performance is assessed by controlled-potential/current electrolysis, with products quantified by gas chromatography with thermal conductivity detector and 1H NMR to determine activity, selectivity, Faradaic efficiency and stability. The electrocatalytic conversion of CO₂ into value-added fuels and chemicals is a sustainable route to recycle carbon emissions and store renewable energy.[1] Metal–organic frameworks (MOFs) are appealing for this reaction owing to their porosity, tuneable chemistry, and high density of accessible metal sites, which can be tailored across a wide range of metals and linkers.[2] Here we explore a diverse set of MOFs as electrode materials for CO₂ conversion, including MOF-74 (M = Ni, Mg, Co, Cu), UiO-66, HKUST-1 and Cu-adenine, covering different metals, linkers and stabilities.",
+      "tags": [
+        "electrocarboxylation",
+        "co2",
+        "cyclic voltammetry",
+        "voltammetry",
+        "faradaic efficiency",
+        "selectivity"
+      ],
+      "score": 96,
+      "url": "https://doi.org/10.29363/nanoge.matsusfall.2026.254",
+      "archive": false,
+      "pushed_date": "2026-11-25"
+    },
+    {
+      "id": "W7155082805",
+      "doi": "https://doi.org/10.31635/ccschem.026.202607889",
+      "title": "Visible-Light-Driven Divergent Carboxylation of Alkenes with CO 2 via a Single Photocatalyst",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "CCS Chemistry",
+      "journal_issn": [
+        "2096-5745"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-04-21",
+      "abstract": "Photoredox carboxylation of alkenes with ambient CO 2 has been largely confined to reductive carboxylation, whereas keeping C=C double bond remains elusive. Herein we report the first visible-light-driven formal C(sp 2 )-H carboxylation of alkenes under atmospheric CO 2 conditions. Key to success is that a single binaphthol photocatalyst not only serves as a strong reductant to form an alkene radical anion, a nucleophile to activate CO 2 , but also forms an O-centred radical that couples with the generated C-centred radical in situ. This radicalradical coupling/ E 2 elimination sequence (RCEs) furnishes the E -cinnamate with exclusive stereoselectivity. Further introduction of B 2 pin 2 switches the manifold to 1,2-dicarboxylation, accomplishing succinates with good to excellent yields. This divergent platform establishes a reliable route for π-conserving CO 2 fixation, providing modular access to two distinct carboxylic acid architectures from a single photocatalytic system.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "This radicalradical coupling/ E 2 elimination sequence (RCEs) furnishes the E -cinnamate with exclusive stereoselectivity. Further introduction of B 2 pin 2 switches the manifold to 1,2-dicarboxylation, accomplishing succinates with good to excellent yields.",
+      "tags": [
+        "reductive carboxylation",
+        "radical",
+        "in situ",
+        "redox",
+        "yield",
+        "selectivity"
+      ],
+      "score": 83,
+      "url": "https://doi.org/10.31635/ccschem.026.202607889",
+      "archive": false,
+      "pushed_date": "2026-11-25"
+    },
+    {
+      "id": "W7224883524",
+      "doi": "https://doi.org/10.1039/d6sc06501e",
+      "title": "Metal–organic framework-stabilized organic anion radicals that electrocatalytically convert CO 2 into multi-carbon products",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "Chemical Science",
+      "journal_issn": [
+        "2041-6520",
+        "2041-6539"
+      ],
+      "impact_factor": "8.1",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-10-30",
+      "abstract": "The electrochemical reduction of CO2 to multi-carbon (C2+) products remains a major challenge due to the high activation barrier associated with C-C bond formation and the limited availability of selective electrocatalytic platforms. Herein, we demonstrate that Metal-Organic Frameworks (MOFs) can stabilize electrochemically generated organic anion radicals that drive heterogeneous CO2 conversion through single-electron transfer pathways. Specifically, benzonitrile-functionalized UiO-66 (UiO-66-CN) was employed as a porous scaffold that spatially isolates redox-active organic sites, enabling the heterogeneous electrochemical formation of benzonitrile anion radicals. These MOF-tethered radicals activate CO2 to form CO2 -˙ intermediates, which subsequently undergo C-C coupling to yield a C2 product, oxalate, with faradaic efficiencies reaching 85%. Operando scanning electrochemical microscopy (SECM) directly detected CO2 -˙ during catalysis, while operando infrared reflection absorption spectroscopy measurements revealed catalyst-CO2 interactions consistent with an inner-sphere electron-transfer mechanism. Beyond oxalate formation, the generated CO2 -˙ species were harnessed for electrocatalytic styrene carboxylation, affording phenylsuccinic acid and 3-phenylpropanoic acid with total faradaic efficiencies exceeding 50%. These findings establish MOF-stabilized organic anion radicals as a versatile metal-free heterogeneous catalytic platform for promoting selective CO2 activation and complex carbon-carbon bond-forming reactions, to generate value-added multi-carbon products.",
+      "methods_summary": "Operando scanning electrochemical microscopy (SECM) directly detected CO2 -˙ during catalysis, while operando infrared reflection absorption spectroscopy measurements revealed catalyst-CO2 interactions consistent with an inner-sphere electron-transfer mechanism.",
+      "key_findings": "Herein, we demonstrate that Metal-Organic Frameworks (MOFs) can stabilize electrochemically generated organic anion radicals that drive heterogeneous CO2 conversion through single-electron transfer pathways. These MOF-tethered radicals activate CO2 to form CO2 -˙ intermediates, which subsequently undergo C-C coupling to yield a C2 product, oxalate, with faradaic efficiencies reaching 85%.",
+      "tags": [
+        "co2",
+        "mechanism",
+        "electron transfer",
+        "radical",
+        "intermediate",
+        "operando",
+        "redox"
+      ],
+      "score": 74,
+      "url": "https://doi.org/10.1039/d6sc06501e",
+      "archive": false,
+      "pushed_date": "2026-11-25"
+    },
     {
       "id": "W7154567060",
       "doi": "https://doi.org/10.29363/nanoge.matsusspring.2026.502",
