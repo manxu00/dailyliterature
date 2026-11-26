@@ -1,13 +1,333 @@
 {
   "version": 4,
-  "brief_date": "2026 · 11 · 25",
-  "last_updated": "2026-11-25 18:41 CET",
+  "brief_date": "2026 · 11 · 26",
+  "last_updated": "2026-11-26 18:25 CET",
   "target_daily": 10,
-  "match_score": 84,
+  "match_score": 96,
   "search_state": {
-    "backfill_page": 1
+    "backfill_page": 3
   },
   "papers": [
+    {
+      "id": "W4403572803",
+      "doi": "https://doi.org/10.1021/acsorginorgau.4c00051",
+      "title": "Repurposing First-Row Transition Metal Carbon Dioxide Reduction Electrocatalysts for Electrochemical Carboxylation of Benzyl Chloride",
+      "topic": "core",
+      "topic_label": "Organic CO₂ electrosynthesis",
+      "journal": "ACS Organic & Inorganic Au",
+      "journal_issn": [
+        "2694-247X"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2024,
+      "publication_date": "2024-10-20",
+      "abstract": "Carbon dioxide (CO2) is an abundant and useful C1 feedstock for electrocarboxylation, a process that incorporates a carboxyl moiety into an organic molecule. In this work, three first-row transition metal CO2 reduction electrocatalysts, NiPDIiPr (1), NiTPA (2), and Fe(salenCl4) (3), were explored as electrocarboxylation catalysts with benzyl chloride as a substrate. The cyclic voltammograms of all three catalysts showed current enhancements in the presence of benzyl chloride under a CO2 atmosphere. Introduction of DMAP as additives showed further current enhancement. Electrolyses with one-compartment cell generated a moderate yield of phenylacetic acid. Addition of MgBr2 was proven to be crucial to the formation of the carboxylate product. While the yield of carboxylation was moderate, this work showed an example of electrocarboxylation of benzyl chloride without using a metal electrode or sacrificial anode, which could lead to a more sustainable carboxylation methodology.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "Electrolyses with one-compartment cell generated a moderate yield of phenylacetic acid. While the yield of carboxylation was moderate, this work showed an example of electrocarboxylation of benzyl chloride without using a metal electrode or sacrificial anode, which could lead to a more sustainable carboxylation methodology.",
+      "tags": [
+        "electrocarboxylation",
+        "electrochemical carboxylation",
+        "carbon dioxide",
+        "co2",
+        "yield"
+      ],
+      "score": 99,
+      "url": "https://doi.org/10.1021/acsorginorgau.4c00051",
+      "archive": false,
+      "pushed_date": "2026-11-26"
+    },
+    {
+      "id": "W4392470099",
+      "doi": "https://doi.org/10.1016/j.greenca.2024.02.001",
+      "title": "Advances in electrocarboxylation reactions with CO2",
+      "topic": "core",
+      "topic_label": "Organic CO₂ electrosynthesis",
+      "journal": "Green Carbon",
+      "journal_issn": [
+        "2950-1555"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2024,
+      "publication_date": "2024-03-01",
+      "abstract": "Recently, significant research has been conducted on the conversion of carbon dioxide (CO2) into value-added chemicals. With the decreasing cost of clean electricity, electrochemical methods have emerged as potential approaches for converting and fixing CO2. Organic electrochemical synthesis is a promising method for utilizing CO2 because it transforms CO2 into higher-value chemicals. This review introduces the research aspects of CO2 conversion and the mechanisms of CO2 organic electrocarboxylation reactions. Recent progress in electrocarboxylation with CO2 is discussed, considering organic substrates and cathode types under different reaction mechanisms. Finally, the challenges and prospects in this field are highlighted with the aim of further promoting the fundamental understanding of CO2 organic electrocarboxylation.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "This review introduces the research aspects of CO2 conversion and the mechanisms of CO2 organic electrocarboxylation reactions. Recently, significant research has been conducted on the conversion of carbon dioxide (CO2) into value-added chemicals.",
+      "tags": [
+        "electrocarboxylation",
+        "electrochemical synthesis",
+        "carbon dioxide",
+        "co2",
+        "reaction mechanism",
+        "mechanism"
+      ],
+      "score": 99,
+      "url": "https://doi.org/10.1016/j.greenca.2024.02.001",
+      "archive": false,
+      "pushed_date": "2026-11-26"
+    },
+    {
+      "id": "W4386884976",
+      "doi": "https://doi.org/10.3390/molecules28186704",
+      "title": "Synthesis of α-Chloroarylacetic Acid via Electrochemical Carboxylation of α,α-Dichloroarylmethane Derivatives",
+      "topic": "core",
+      "topic_label": "Organic CO₂ electrosynthesis",
+      "journal": "Molecules",
+      "journal_issn": [
+        "1420-3049",
+        "1433-1373"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2023,
+      "publication_date": "2023-09-20",
+      "abstract": "The electrocarboxylation of α,α-dichloroarylmethane derivatives in the presence of CO2 was achieved, providing several α-chloroarylacetic acid derivatives with modest yields but high selectivity (chlorinated vs. non-chlorinated or dicarboxylic acid products). The obtained products were then involved in several chemical transformations, underlining their potential as versatile intermediates in synthetic chemistry. A mechanism was also proposed based upon a control experiment and cyclic voltammetry (CV) study.",
+      "methods_summary": "A mechanism was also proposed based upon a control experiment and cyclic voltammetry (CV) study.",
+      "key_findings": "The electrocarboxylation of α,α-dichloroarylmethane derivatives in the presence of CO2 was achieved, providing several α-chloroarylacetic acid derivatives with modest yields but high selectivity (chlorinated vs. non-chlorinated or dicarboxylic acid products). The obtained products were then involved in several chemical transformations, underlining their potential as versatile intermediates in synthetic chemistry.",
+      "tags": [
+        "electrocarboxylation",
+        "electrochemical carboxylation",
+        "co2",
+        "mechanism",
+        "cyclic voltammetry",
+        "voltammetry",
+        "intermediate"
+      ],
+      "score": 99,
+      "url": "https://doi.org/10.3390/molecules28186704",
+      "archive": false,
+      "pushed_date": "2026-11-26"
+    },
+    {
+      "id": "W4386617505",
+      "doi": "https://doi.org/10.26434/chemrxiv-2023-bczdm",
+      "title": "Room Temperature Electroreductive Carboxylation of Unactivated Alkyl Chlorides with CO2 Using a Ni(II) NNN-Pincer Complex. Towards Polyvinyl chloride (PVC) Upgrading",
+      "topic": "core",
+      "topic_label": "Organic CO₂ electrosynthesis",
+      "journal": "ChemRxiv",
+      "journal_issn": [
+        "2573-2293"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2023,
+      "publication_date": "2023-09-10",
+      "abstract": "In organic synthesis, direct carboxylation of organohalides with carbon dioxide is a highly desirable transformation because it uses feedstock chemicals and produces carboxylic acids, which are among the most widely used classes of organic compounds. Alkyl carboxylic acids are favored motifs in many medicines and physiologically active substances. Carbon dioxide (CO2) is an ideal C1 source for organic synthesis because of its high abundance, low cost, nontoxicity, and recyclability. This article describes a nickel-catalyzed electrochemical method for producing alkyl carboxylic acids via carboxylation of unactivated alkyl chlorides with CO2. The development of a Ni pincer complex (complex 1) with a redox-active ligand as an electrocatalyst to convert unactivated alkyl chlorides to the corresponding acids over less desirable homocoupling products is presented. Electronic structure calculations revealed that CO2 binding occurs in a resting state to yield an 2-CO2 adduct and that the C-Cl bond activation step is the TOF-determining transition state, which has an activation energy of 19.3 kcal/mol. A combination of electroanalytical methods, control experiments, and computational studies revealed the mechanism of the electrocarboxylation reaction. In addition, complex 1 has been demonstrated as an efficient catalyst to upgrade polyvinyl chloride to polyacrylate in 95% yield.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "Electronic structure calculations revealed that CO2 binding occurs in a resting state to yield an 2-CO2 adduct and that the C-Cl bond activation step is the TOF-determining transition state, which has an activation energy of 19.3 kcal/mol. A combination of electroanalytical methods, control experiments, and computational studies revealed the mechanism of the electrocarboxylation reaction.",
+      "tags": [
+        "electrocarboxylation",
+        "reductive carboxylation",
+        "carbon dioxide",
+        "co2",
+        "mechanism",
+        "redox",
+        "temperature"
+      ],
+      "score": 99,
+      "url": "https://doi.org/10.26434/chemrxiv-2023-bczdm",
+      "archive": false,
+      "pushed_date": "2026-11-26"
+    },
+    {
+      "id": "W4382181340",
+      "doi": "https://doi.org/10.1002/cssc.202300807",
+      "title": "Pairing Electrocarboxylation of Unsaturated Bonds with Oxidative Transformation of Alcohol and Amine",
+      "topic": "core",
+      "topic_label": "Organic CO₂ electrosynthesis",
+      "journal": "ChemSusChem",
+      "journal_issn": [
+        "1864-5631",
+        "1864-564X"
+      ],
+      "impact_factor": "5.9",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2023,
+      "publication_date": "2023-08-01",
+      "abstract": "A parallel paired electrosynthetic method, coupling electrocarboxylation incorporating CO2 into ketone, imine, and alkene with alcohol oxidation or oxidative cyanation of amine, was developed for the first time. Various carboxylic acids as well as aldehyde/ketone or α-nitrile amine were prepared at the cathode and anode respectively in a divided cell. Its utility and merits on simultaneously achieving high atom-economic CO2 utilization, elevated faradaic efficiency (FE, total FE of up to 166 %), and broad substrate scope were demonstrated. The preparation of pharmaceutical intermediates for Naproxen and Ibuprofen via this approach proved its potential application in green organic electrosynthesis.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "Its utility and merits on simultaneously achieving high atom-economic CO2 utilization, elevated faradaic efficiency (FE, total FE of up to 166 %), and broad substrate scope were demonstrated. The preparation of pharmaceutical intermediates for Naproxen and Ibuprofen via this approach proved its potential application in green organic electrosynthesis.",
+      "tags": [
+        "electrocarboxylation",
+        "organic electrosynthesis",
+        "co2",
+        "intermediate",
+        "divided cell",
+        "faradaic efficiency",
+        "substrate scope"
+      ],
+      "score": 99,
+      "url": "https://doi.org/10.1002/cssc.202300807",
+      "archive": false,
+      "pushed_date": "2026-11-26"
+    },
+    {
+      "id": "W3157769897",
+      "doi": "https://doi.org/10.1002/celc.202100329",
+      "title": "Electrochemical Reduction of 4‐Nitrobenzyl Phenyl Thioether for Activation and Capture of CO2",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "ChemElectroChem",
+      "journal_issn": [
+        "2196-0216"
+      ],
+      "impact_factor": "5.2",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2021,
+      "publication_date": "2021-05-19",
+      "abstract": "In this work, a new simple molecule, 4‐nitrobenzyl phenyl thioether (1), is prepared and used for controlling and tuning CO2 reactivity in function of the electrode potential. The first part of the study is devoted to determining the electrochemical reduction mechanism of 1 in N,N‐dimethylformamide under nitrogen. The compound shows a first reversible one‐electron transfer process, whereas the reaction cleavage of the C−S bond takes place after a second electron transfer process through a stepwise mechanism (thermodynamic and kinetic parameters are conveniently determined). In the second part of the study, the inert atmosphere was replaced by a CO2 atmosphere. At low potential values, compound 1 acts as a redox mediator that allows the reduction of CO2 at ca. −1.2 V vs. SCE. The electrochemical generation of 12− at more negative potential values leads to a C−S bond cleavage reaction that yields the corresponding nitrobenzyl and thiosulfate anions, which react with CO2. The nitro aromatic anion derivative makes it possible to obtain electrocarboxylated derivatives, whereas the thiophenolate anion captures CO2 reversibly. Hence, this research opens a new way of tuning and controlling the reaction processes associated with CO2 from homogenous catalysis at low negative potentials, to electrocarboxylation processes passing to CO2 reversible electrochemically triggered adsorption processes.",
+      "methods_summary": "The compound shows a first reversible one‐electron transfer process, whereas the reaction cleavage of the C−S bond takes place after a second electron transfer process through a stepwise mechanism (thermodynamic and kinetic parameters are conveniently determined).",
+      "key_findings": "The first part of the study is devoted to determining the electrochemical reduction mechanism of 1 in N,N‐dimethylformamide under nitrogen. The compound shows a first reversible one‐electron transfer process, whereas the reaction cleavage of the C−S bond takes place after a second electron transfer process through a stepwise mechanism (thermodynamic and kinetic parameters are conveniently determined).",
+      "tags": [
+        "electrocarboxylation",
+        "co2",
+        "mechanism",
+        "kinetic",
+        "electron transfer",
+        "redox",
+        "electrode potential"
+      ],
+      "score": 99,
+      "url": "https://doi.org/10.1002/celc.202100329",
+      "archive": false,
+      "pushed_date": "2026-11-26"
+    },
+    {
+      "id": "W3160577742",
+      "doi": "https://doi.org/10.1016/j.ica.2021.120442",
+      "title": "Electrocarboxylation of chloroacetonitrile mediated by a Ni(I) terpyridine complex: Voltammetric and spectroscopic studies",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "Inorganica Chimica Acta",
+      "journal_issn": [
+        "0020-1693",
+        "1873-3255"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2021,
+      "publication_date": "2021-05-10",
+      "abstract": "Cyclic voltammetry and spectroelectrochemistry (e.p.r.) were used to investigate the mechanisms implied in the electrocarboxylation of chloroacetonitrile (Cl-CH2-CN, noted RCl) mediated by [Ni(II)(terpy)2]2+. The oxidative addition of chloroacetonitrile on the electrogenerated [Ni(I)(terpy)]+ yields an alkyl-nickel R-Ni(III) complex which is reduced into an alkyl-nickel(II). E.p.r study shows that the homolytic nickel-carbon bond cleavage seems to be the more probable pathway to form the organic radical R-which is reduced to R−. Under carbon dioxide atmosphere, cyclic voltammetry studies show that CO2 was added on the alkyl-Ni(III) complex giving probably a CO2 adduct which is reduced to RCO2-Ni(II) complex allowing to release the carboxylate RCO2− and the active [Ni(I)(terpy)]+ complex. Controlled potential electrolyses showed that good carboxylated and faradic yields were obtained.",
+      "methods_summary": "Cyclic voltammetry and spectroelectrochemistry (e.p.r.) were used to investigate the mechanisms implied in the electrocarboxylation of chloroacetonitrile (Cl-CH2-CN, noted RCl) mediated by [Ni(II)(terpy)2]2+. Under carbon dioxide atmosphere, cyclic voltammetry studies show that CO2 was added on the alkyl-Ni(III) complex giving probably a CO2 adduct which is reduced to RCO2-Ni(II) complex allowing to release the carboxylate RCO2− and the active [Ni(I)(terpy)]+ complex.",
+      "key_findings": "Cyclic voltammetry and spectroelectrochemistry (e.p.r.) were used to investigate the mechanisms implied in the electrocarboxylation of chloroacetonitrile (Cl-CH2-CN, noted RCl) mediated by [Ni(II)(terpy)2]2+. The oxidative addition of chloroacetonitrile on the electrogenerated [Ni(I)(terpy)]+ yields an alkyl-nickel R-Ni(III) complex which is reduced into an alkyl-nickel(II).",
+      "tags": [
+        "electrocarboxylation",
+        "carbon dioxide",
+        "co2",
+        "mechanism",
+        "cyclic voltammetry",
+        "voltammetry",
+        "radical"
+      ],
+      "score": 99,
+      "url": "https://doi.org/10.1016/j.ica.2021.120442",
+      "archive": false,
+      "pushed_date": "2026-11-26"
+    },
+    {
+      "id": "W4313418775",
+      "doi": "https://doi.org/10.1021/acssuschemeng.2c06046",
+      "title": "Electrochemical CO2 Utilization for the Synthesis of α-Hydroxy Acids",
+      "topic": "optimization",
+      "topic_label": "Condition optimization",
+      "journal": "ACS Sustainable Chemistry & Engineering",
+      "journal_issn": [
+        "2168-0485"
+      ],
+      "impact_factor": "7.6",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2022,
+      "publication_date": "2022-12-28",
+      "abstract": "The electrocarboxylation of organic compounds provides a green alternative to the conventional use of cyanides or organometallics. Via a simple electrochemical approach, CO 2 can be directly incorporated into aldehydes or ketones to form α-hydroxy acids using electrical energy as a driving force. In this study, propylene carbonate was used as a “green” solvent. Importantly, the use of sacrificial anodes was avoided; instead, cost-efficient and stable graphite anodes were applied. Voltammetric studies on benzaldehyde carboxylation revealed that the presence of CO 2 significantly changes the reduction behavior of benzaldehyde at potentials more negative than the potential of the ketyl radical formation. Bulk electrolysis was performed in various solvents and supporting electrolyte systems, leading to more than 55% mandelic acid yield in propylene carbonate. Among the tested solvents (acetonitrile, N, N -dimethylformamide, dimethyl sulfoxide, and propylene carbonate), propylene carbonate resulted in the highest carboxylate yield. Numerous cathode materials were tested. High carboxylate yields were achieved using graphite, glassy carbon, and lead cathodes. The reaction was successfully carried out for various aromatic aldehydes and ketones as substrates, providing yields of up to 63%.",
+      "methods_summary": "Bulk electrolysis was performed in various solvents and supporting electrolyte systems, leading to more than 55% mandelic acid yield in propylene carbonate.",
+      "key_findings": "Voltammetric studies on benzaldehyde carboxylation revealed that the presence of CO 2 significantly changes the reduction behavior of benzaldehyde at potentials more negative than the potential of the ketyl radical formation. Bulk electrolysis was performed in various solvents and supporting electrolyte systems, leading to more than 55% mandelic acid yield in propylene carbonate.",
+      "tags": [
+        "electrocarboxylation",
+        "co2",
+        "radical",
+        "supporting electrolyte",
+        "electrolyte",
+        "solvent",
+        "yield"
+      ],
+      "score": 94,
+      "url": "https://doi.org/10.1021/acssuschemeng.2c06046",
+      "archive": false,
+      "pushed_date": "2026-11-26"
+    },
+    {
+      "id": "W4416573235",
+      "doi": "https://doi.org/10.1039/d5sc06119a",
+      "title": "Inverting polarity in a cobalt MHAT reaction via reductive catalytic turnover",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "Chemical Science",
+      "journal_issn": [
+        "2041-6520",
+        "2041-6539"
+      ],
+      "impact_factor": "8.1",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-01-14",
+      "abstract": "Metal hydride hydrogen-atom-transfer (MHAT) catalysis proceeds via selective hydrogen atom transfer to olefins and is a key strategy in modern organic synthesis. The resulting carbon-centred radicals can engage in classical one-electron, radical transformations. Alternatively, following cage-collapse with the metalloradical and oxidation, an electrophilic alkyl-metal intermediate is formed which reacts as a carbocation equivalent. While this oxidative pathway is well-established, strategies to reverse the inherent polarity of the olefin, such that the internal carbon atom is nucleophilic, remain unexplored. The scarcity of this approach arises from challenges in integrating the classic oxidative MHAT catalytic cycle with single electron reduction of a radical reaction intermediate. Here we demonstrate that a reductive MHAT cycle enables the merger of this field for the first time with reductive radical-polar-crossover. This yields a reaction platform with inverted polarity unlocking the possibility of hydrofunctionalization with electrophiles. We have applied this approach to Markovnikov-selective hydrocarboxylation, using atmospheric carbon dioxide. Notably, this mild method proceeds via a mechanistically distinct pathway when compared to other metals such as nickel and can be applied in the synthesis and late-stage-functionalisation of drug-like molecules.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "Alternatively, following cage-collapse with the metalloradical and oxidation, an electrophilic alkyl-metal intermediate is formed which reacts as a carbocation equivalent. The scarcity of this approach arises from challenges in integrating the classic oxidative MHAT catalytic cycle with single electron reduction of a radical reaction intermediate.",
+      "tags": [
+        "hydrocarboxylation",
+        "carbon dioxide",
+        "mechanistic",
+        "radical",
+        "intermediate",
+        "yield"
+      ],
+      "score": 85,
+      "url": "https://doi.org/10.1039/d5sc06119a",
+      "archive": false,
+      "pushed_date": "2026-11-26"
+    },
+    {
+      "id": "W4409916042",
+      "doi": "https://doi.org/10.1007/s42114-025-01266-5",
+      "title": "Ag/Zn-Ta2C MXene composite as an efficient electrocatalyst for aqueous and non-aqueous CO2 reduction reactions",
+      "topic": "optimization",
+      "topic_label": "Condition optimization",
+      "journal": "Advanced Composites and Hybrid Materials",
+      "journal_issn": [
+        "2522-0128",
+        "2522-0136"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2025,
+      "publication_date": "2025-04-29",
+      "abstract": "This study reports the preparation of an Ag and Zn-based Ta2CTx MXene composite and its electrocatalytic application towards the electrochemical CO2RR in aqueous and non-aqueous (organic) solvents. In aqueous 0.1 M KHCO3, Ag and Zn-based Ta2CTx MXene cathode enables efficient conversion of CO2 to valuable products such as syngas (CO:H2) and formic acid. Ag/Ta2CTx MXene-modified electrode, exhibiting the best CO and H2 (1:1) selectivity at an applied potential of − 0.65 V vs. RHE syngas, was collectively found to be ~ 80%, whereas at the same potential, some formate (20%) was formed. Similar to Zn/Ta2CTx, MXene showed the highest selectivity for CO of 83%. By employing a divided cell setup, CO2RR occurs at lower reduction potentials, enhancing the feasibility of the process. In non-aqueous media, styrene was electrocarboxylated to phenylsuccinic acid (PSA) and phenylpropanoic acid (PPA) using the same cathode, and the selectivity varies Ag/Ta2CTx MXene (45% of PSA) and Zn/Ta2CTx (41% of PPA) with respect to the metal ion present in the composite. Mono- and di-carboxylic acids were produced in quantifiable amounts using the MXene-modified electrodes as the cathode and sacrificial aluminum as the anode. This work highlights the potential of MXene-based electrocatalysts for aqueous CO2RR and selective electrocarboxylation, offering promising pathways for sustainable fuel production and chemical synthesis.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "In aqueous 0.1 M KHCO3, Ag and Zn-based Ta2CTx MXene cathode enables efficient conversion of CO2 to valuable products such as syngas (CO:H2) and formic acid. Ag/Ta2CTx MXene-modified electrode, exhibiting the best CO and H2 (1:1) selectivity at an applied potential of − 0.65 V vs.",
+      "tags": [
+        "electrocarboxylation",
+        "co2",
+        "solvent",
+        "applied potential",
+        "divided cell",
+        "selectivity"
+      ],
+      "score": 84,
+      "url": "https://doi.org/10.1007/s42114-025-01266-5",
+      "archive": false,
+      "pushed_date": "2026-11-26"
+    },
     {
       "id": "W7225156192",
       "doi": "https://doi.org/10.29363/nanoge.matsusfall.2026.254",
@@ -34,7 +354,7 @@
       ],
       "score": 96,
       "url": "https://doi.org/10.29363/nanoge.matsusfall.2026.254",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-25"
     },
     {
@@ -65,7 +385,7 @@
       ],
       "score": 83,
       "url": "https://doi.org/10.31635/ccschem.026.202607889",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-25"
     },
     {
@@ -98,7 +418,7 @@
       ],
       "score": 74,
       "url": "https://doi.org/10.1039/d6sc06501e",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-25"
     },
     {
