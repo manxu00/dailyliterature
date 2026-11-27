@@ -1,13 +1,326 @@
 {
   "version": 4,
-  "brief_date": "2026 · 11 · 26",
-  "last_updated": "2026-11-26 18:25 CET",
+  "brief_date": "2026 · 11 · 27",
+  "last_updated": "2026-11-27 18:03 CET",
   "target_daily": 10,
-  "match_score": 96,
+  "match_score": 91,
   "search_state": {
-    "backfill_page": 3
+    "backfill_page": 5
   },
   "papers": [
+    {
+      "id": "W7162585119",
+      "doi": "https://doi.org/10.7907/5f9j-mn04",
+      "title": "Electrochemical Carboxylation of Aldehydes with CO₂: Mechanistic Insights and Enantioselective Synthesis",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "Caltech Library",
+      "journal_issn": [],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-05-27",
+      "abstract": "The electrochemical carboxylation of organic substrates with CO₂ is a promising strategy for the sustainable synthesis of value-added carboxylic acids, offering mild operating conditions and avoiding the need for highly reactive organometallic reagents. As the electrical grid transitions toward renewable energy sources, electrochemical activation of CO₂ is poised to become an increasingly carbon-negative process, further improving the sustainability of chemical manufacturing. Despite these advantages, the scope of electrochemical carboxylation remains limited, and a deeper mechanistic understanding is needed to guide rational improvements in selectivity and efficiency. This thesis addresses these gaps by investigating the electrochemical carboxylation of aldehydes, an underexplored but industrially relevant substrate class, and demonstrating for the first time that this transformation can be performed enantioselectively. For aromatic aldehydes, electroanalytical and spectroscopic studies support a mechanism in which a substrate-derived ketyl radical couples with CO₂ to form the α-hydroxy carboxylic acid product. EPR spectroscopy provided direct evidence for formation of the ketyl radical intermediate under electrolytic conditions, and kinetic studies identified the coupling step as the rate-determining step. Lewis acidic additives such as MgCl2 were found to play a key role in promoting ketyl radical formation. Extending this chemistry to aliphatic aldehydes revealed that their more negative reduction potentials open an alternative CO₂ reduction pathway towards electrochemical carboxylation. However, it was also found that polymerization of the substrate under reductive conditions limits carboxylation selectivity, prompting future works to understand and develop strategies towards mitigating the polymerization pathway. Building on this mechanistic foundation, the first enantioselective electrochemical carboxylation of an aldehyde was demonstrated using chiral metal salen complexes as homogeneous catalysts, affording optically active mandelic acid with up to 43% enantiomeric excess. Both the applied potential and metal center identity were found to strongly influence enantioselectivity, pointing to an electronic basis for stereocontrol. Cyclic voltammetry studies further suggest that the most effective catalysts readily undergo reductive activation under the applied conditions, enabling coordination with CO₂ to initiate the enantioselective pathway. Taken together, the insights developed in this thesis provide a foundation for the rational design of more selective, efficient, and enantiocontrolled electrochemical CO₂ incorporation strategies.",
+      "methods_summary": "EPR spectroscopy provided direct evidence for formation of the ketyl radical intermediate under electrolytic conditions, and kinetic studies identified the coupling step as the rate-determining step. Cyclic voltammetry studies further suggest that the most effective catalysts readily undergo reductive activation under the applied conditions, enabling coordination with CO₂ to initiate the enantioselective pathway.",
+      "key_findings": "EPR spectroscopy provided direct evidence for formation of the ketyl radical intermediate under electrolytic conditions, and kinetic studies identified the coupling step as the rate-determining step. Despite these advantages, the scope of electrochemical carboxylation remains limited, and a deeper mechanistic understanding is needed to guide rational improvements in selectivity and efficiency.",
+      "tags": [
+        "electrochemical carboxylation",
+        "co2 incorporation",
+        "co2",
+        "mechanistic",
+        "mechanism",
+        "cyclic voltammetry",
+        "voltammetry"
+      ],
+      "score": 99,
+      "url": "https://doi.org/10.7907/5f9j-mn04",
+      "archive": false,
+      "pushed_date": "2026-11-27"
+    },
+    {
+      "id": "W4411987079",
+      "doi": "https://doi.org/10.1021/acselectrochem.5c00078",
+      "title": "Vinylogous Electrochemical Carboxylation of Dienones",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "ACS electrochemistry.",
+      "journal_issn": [
+        "2997-0571"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2025,
+      "publication_date": "2025-07-03",
+      "abstract": "Among the reconversion strategies of carbon dioxide, its electrochemical fixation as a C1 synthon onto organic scaffolds (electrochemical carboxylation) displays an enormous synthetic potential and is thus receiving increasing attention. Examples of electrochemical carboxylation are reported via the activation of C-X (X = halide or pseudo-halide), C-H, or C-C bonds, or of unsaturated systems comprising CC, CN, and CO bonds. In this work, we report the electrochemical carboxylation of dienones, achieving the synthesis of 6-oxo-carboxylic acid derivatives in useful yields up to 56%. We show that electrochemical reduction of dienones drives their umpolung reactivity as nucleophiles toward carbon dioxide, promoting a δ-selective electrochemical carboxylation. The electrochemical reactivity was expanded to polyconjugated carboxylic derivatives such as α,β,γ,δ-unsaturated esters, thioesters, and amides. This work provides to the best of our knowledge the first example of vinylogous electrochemical reactivity in extended conjugated carbonyls involving carbon dioxide as the partner reactant. The reactivity and regioselectivity are rationalized through a mechanistic investigation that integrates cyclic voltammetry analysis and DFT calculations: this supports the reactivity with the CO2 electrophile of nucleophilic doubly reduced species of the parent compound, preferentially occurring at the vinylogous position. The role of CO2 in this process is also discussed. Considering the large synthetic versatility of carboxylic acids, our new protocol may become a useful tool for accessing novel synthons in drug design and general scientific development. We believe that these results will provide a guide for future studies on CO2 fixation.",
+      "methods_summary": "The reactivity and regioselectivity are rationalized through a mechanistic investigation that integrates cyclic voltammetry analysis and DFT calculations: this supports the reactivity with the CO2 electrophile of nucleophilic doubly reduced species of the parent compound, preferentially occurring at the vinylogous position.",
+      "key_findings": "Among the reconversion strategies of carbon dioxide, its electrochemical fixation as a C1 synthon onto organic scaffolds (electrochemical carboxylation) displays an enormous synthetic potential and is thus receiving increasing attention. In this work, we report the electrochemical carboxylation of dienones, achieving the synthesis of 6-oxo-carboxylic acid derivatives in useful yields up to 56%.",
+      "tags": [
+        "electrochemical carboxylation",
+        "co2 fixation",
+        "carbon dioxide",
+        "co2",
+        "mechanistic",
+        "cyclic voltammetry",
+        "voltammetry"
+      ],
+      "score": 99,
+      "url": "https://doi.org/10.1021/acselectrochem.5c00078",
+      "archive": false,
+      "pushed_date": "2026-11-27"
+    },
+    {
+      "id": "W4387232207",
+      "doi": "https://doi.org/10.1016/j.crgsc.2023.100377",
+      "title": "Site-selective electrochemical carboxylation of aromatic C(sp2)–H bonds with CO2",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "Current Research in Green and Sustainable Chemistry",
+      "journal_issn": [
+        "2666-0865"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2023,
+      "publication_date": "2023-01-01",
+      "abstract": "We present a facile and economical method for synthesizing aromatic carboxylic acid derivatives through direct electrochemical C(sp2)–H carboxylation of (hetero)arenes with CO2. The reaction is carried out using a graphite felt anode and a nickel foam cathode in a user-friendly undivided cell setup under constant current conditions. Corresponding methyl carboxylates are obtained smoothly with good site-selectivity without the need of harsh chemical reductants or toxic transition metal catalysts. A cyclic voltammetry study was conducted, to distinguish between two potential mechanistic pathways. Additionally, nBu4NI was identified to serve as both electrolyte and anodic mediator. Notably, the methodology allows direct access to the desired product in a scale up manner.",
+      "methods_summary": "A cyclic voltammetry study was conducted, to distinguish between two potential mechanistic pathways. The reaction is carried out using a graphite felt anode and a nickel foam cathode in a user-friendly undivided cell setup under constant current conditions.",
+      "key_findings": "Corresponding methyl carboxylates are obtained smoothly with good site-selectivity without the need of harsh chemical reductants or toxic transition metal catalysts.",
+      "tags": [
+        "electrochemical carboxylation",
+        "co2",
+        "mechanistic",
+        "cyclic voltammetry",
+        "voltammetry",
+        "electrolyte",
+        "constant current"
+      ],
+      "score": 99,
+      "url": "https://doi.org/10.1016/j.crgsc.2023.100377",
+      "archive": false,
+      "pushed_date": "2026-11-27"
+    },
+    {
+      "id": "W4378977429",
+      "doi": "https://doi.org/10.1021/acs.organomet.3c00076",
+      "title": "Electrogenerated Sm(II)-Catalyzed Carbon Dioxide Reduction for β-Hydrocarboxylation of Styrenes",
+      "topic": "core",
+      "topic_label": "Organic CO₂ electrosynthesis",
+      "journal": "Organometallics",
+      "journal_issn": [
+        "0276-7333",
+        "1520-6041"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2023,
+      "publication_date": "2023-06-01",
+      "abstract": "The synthesis of carboxylic acids from low-value materials such as alkenes using CO 2 as a C 1 -building block remains a real challenge for synthetic chemists from both reactivity and selectivity perspectives. Electrochemical carboxylations have been examined but they remain limited, still suffering from a crucial lack of selectivity. Herein we report a catalytic protocol based on an electrogenerated Sm(II) catalyst as a powerful CO 2 reductant, able to perform exclusively anti -Markovnikov hydrocarboxylation of alkenes. This electrochemical approach overcomes several current limitations and allows direct β-hydrocarboxylation of styrene derivatives, in a regioselective manner.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "The synthesis of carboxylic acids from low-value materials such as alkenes using CO 2 as a C 1 -building block remains a real challenge for synthetic chemists from both reactivity and selectivity perspectives. Electrochemical carboxylations have been examined but they remain limited, still suffering from a crucial lack of selectivity.",
+      "tags": [
+        "electrochemical carboxylation",
+        "hydrocarboxylation",
+        "carbon dioxide",
+        "selectivity"
+      ],
+      "score": 97,
+      "url": "https://doi.org/10.1021/acs.organomet.3c00076",
+      "archive": false,
+      "pushed_date": "2026-11-27"
+    },
+    {
+      "id": "W3217215608",
+      "doi": "https://doi.org/10.3389/fchem.2021.783993",
+      "title": "Basicity as a Thermodynamic Descriptor of Carbanions Reactivity with Carbon Dioxide: Application to the Carboxylation of α,β-Unsaturated Ketones",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "Frontiers in Chemistry",
+      "journal_issn": [
+        "2296-2646"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2021,
+      "publication_date": "2021-11-24",
+      "abstract": "The utilization of carbon dioxide as a raw material represents nowadays an appealing strategy in the renewable energy, organic synthesis, and green chemistry fields. Besides reduction strategies, carbon dioxide can be exploited as a single-carbon-atom building block through its fixation into organic scaffolds with the formation of new C-C bonds (carboxylation processes). In this case, activation of the organic substrate is commonly required, upon formation of a carbanion C-, being sufficiently reactive toward the addition of CO2. However, the prediction of the reactivity of C- with CO2 is often problematic with the process being possibly associated with unfavorable thermodynamics. In this contribution, we present a thermodynamic analysis combined with density functional theory calculations on 50 organic molecules enabling the achievement of a linear correlation of the standard free energy (ΔG0) of the carboxylation reaction with the basicity of the carbanion C-, expressed as the pKa of the CH/C- couple. The analysis identifies a threshold pKa of ca 36 (in CH3CN) for the CH/C- couple, above which the ΔG0 of the carboxylation reaction is negative and indicative of a favorable process. We then apply the model to a real case involving electrochemical carboxylation of flavone and chalcone as model compounds of α,β-unsaturated ketones. Carboxylation occurs in the β-position from the doubly reduced dianion intermediates of flavone and chalcone (calculated ΔG0 of carboxylation in β = -12.8 and -20.0 Kcalmol-1 for flavone and chalcone, respectively, associated with pKa values for the conjugate acids of 50.6 and 51.8, respectively). Conversely, the one-electron reduced radical anions are not reactive toward carboxylation (ΔG0 > +20 Kcalmol-1 for both substrates, in either α or β position, consistent with pKa of the conjugate acids < 18.5). For all the possible intermediates, the plot of calculated ΔG0 of carboxylation vs. pKa is consistent with the linear correlation model developed. The application of the ΔG0 vs. pKa correlation is finally discussed for alternative reaction mechanisms and for carboxylation of other C=C and C=O double bonds. These results offer a new mechanistic tool for the interpretation of the reactivity of CO2 with organic intermediates.",
+      "methods_summary": "The utilization of carbon dioxide as a raw material represents nowadays an appealing strategy in the renewable energy, organic synthesis, and green chemistry fields. In this contribution, we present a thermodynamic analysis combined with density functional theory calculations on 50 organic molecules enabling the achievement of a linear correlation of the standard free energy (ΔG0) of the carboxylation reaction with the basicity of the carbanion C-, expressed as the pKa of the CH/C- couple.",
+      "key_findings": "Carboxylation occurs in the β-position from the doubly reduced dianion intermediates of flavone and chalcone (calculated ΔG0 of carboxylation in β = -12.8 and -20.0 Kcalmol-1 for flavone and chalcone, respectively, associated with pKa values for the conjugate acids of 50.6 and 51.8, respectively). For all the possible intermediates, the plot of calculated ΔG0 of carboxylation vs. pKa is consistent with the linear correlation model developed.",
+      "tags": [
+        "electrochemical carboxylation",
+        "carbon dioxide",
+        "co2",
+        "reaction mechanism",
+        "mechanistic",
+        "mechanism",
+        "radical"
+      ],
+      "score": 94,
+      "url": "https://doi.org/10.3389/fchem.2021.783993",
+      "archive": false,
+      "pushed_date": "2026-11-27"
+    },
+    {
+      "id": "W4316021050",
+      "doi": "https://doi.org/10.1055/a-2012-5317",
+      "title": "Recent Advances on the Carboxylations of C(sp3)–H Bonds Using CO2 as the Carbon Source",
+      "topic": "core",
+      "topic_label": "Organic CO₂ electrosynthesis",
+      "journal": "Synlett",
+      "journal_issn": [
+        "0936-5214",
+        "1437-2096"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2023,
+      "publication_date": "2023-01-13",
+      "abstract": "Carbon dioxide (CO2) is widely known as being a sustainable C1 synthon for the synthesis of various carboxylic acid derivatives, including essential natural and unnatural amino acids. While it is sustainable, the high thermodynamic stability and kinetic inertness of the CO2 molecule is a major drawback to its wider use in organic synthesis. However, the reduction of this inert and highly stable CO2 molecule has been carried out successfully over the past few years using various stoichiometric as well as catalytic approaches. Initially, chemists employed transition-metal/transition-metal-free thermochemical methods for the incorporation of CO2 into organic compounds, however, gradually, the introduction of greener approaches such as visible-light-induced photoredox catalysis and electrocatalysis became revolutionary for the synthesis of carboxylic acids under mild reaction conditions. In this short review, we discuss the recent advances in carboxylation reactions via functionalization of the (sp3)C–H bonds of various organic molecules with CO2 using thermochemical, photochemical and electrochemical methods. 1 Introduction 2 Transition-Metal/Transition-Metal-Free Thermochemical Carbox ylations of C(sp3)–H Bonds 2.1 C(sp3)–H Bond Carboxylation of Carbonyls 2.2 Allylic, Benzylic and Alkyl C(sp3)–H Bond Carboxylation 3 Photochemical C(sp3)–H Bond Carboxylation 3.1 Allylic C(sp3)–H Bond Carboxylation 3.2 Benzylic C(sp3)–H Bond Carboxylation 4 Electrochemical Carboxylation of C(sp3)–H Bonds 5 Conclusion and Outlook",
+      "methods_summary": "While it is sustainable, the high thermodynamic stability and kinetic inertness of the CO2 molecule is a major drawback to its wider use in organic synthesis.",
+      "key_findings": "1 Introduction 2 Transition-Metal/Transition-Metal-Free Thermochemical Carbox ylations of C(sp3)–H Bonds 2.1 C(sp3)–H Bond Carboxylation of Carbonyls 2.2 Allylic, Benzylic and Alkyl C(sp3)–H Bond Carboxylation 3 Photochemical C(sp3)–H Bond Carboxylation 3.1 Allylic C(sp3)–H Bond Carboxylation 3.2 Benzylic C(sp3)–H Bond Carboxylation 4 Electrochemical Carboxylation of C(sp3)–H Bonds 5 Conclusion and Outlook",
+      "tags": [
+        "electrochemical carboxylation",
+        "carbon dioxide",
+        "co2",
+        "kinetic",
+        "redox",
+        "reaction conditions"
+      ],
+      "score": 92,
+      "url": "https://doi.org/10.1055/a-2012-5317",
+      "archive": false,
+      "pushed_date": "2026-11-27"
+    },
+    {
+      "id": "W4409442797",
+      "doi": "https://doi.org/10.26434/chemrxiv-2025-5qlx0",
+      "title": "Markovnikov Hydrocarboxylation Enabled by Reductive Cobalt Catalyzed Hydrogen-Atom-Transfer",
+      "topic": "core",
+      "topic_label": "Organic CO₂ electrosynthesis",
+      "journal": "ChemRxiv",
+      "journal_issn": [
+        "2573-2293"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2025,
+      "publication_date": "2025-04-15",
+      "abstract": "Carbon dioxide is a promising feedstock for fine chemical synthesis, yet its inherent stability necessitates innovative catalytic strategies for its use as a reagent under mild conditions. A valuable transformation that can directly use CO2 is olefin hydrocarboxylation. While recent photocatalytic methods enable anti-Markovnikov selective hydrocarboxylation via CO2•− addition to alkenes, Markovnikov-selective approaches remain scarce and often rely on noble metals or stoichiometric organometallic reagents. Here, we present a radical-based Markovnikov hydrocarboxylation strategy leveraging metal-catalyzed hydrogen atom transfer (MHAT). Our approach employs a reductively generated Co(III)–H species to initiate HAT, and reductive radical-polar crossover of the carbon-centered radical that is formed to yield a carbanion which reacts with CO2. The successful implementation of this strategy represents a new dimension for MHAT catalysis, delivering a functional-group-tolerant hydrocarboxylation platform that provides complementary regioselectivity to existing photocatalytic approaches whilst avoiding precious metals and stoichiometric organometallics.",
+      "methods_summary": "The successful implementation of this strategy represents a new dimension for MHAT catalysis, delivering a functional-group-tolerant hydrocarboxylation platform that provides complementary regioselectivity to existing photocatalytic approaches whilst avoiding precious metals and stoichiometric organometallics.",
+      "key_findings": "Our approach employs a reductively generated Co(III)–H species to initiate HAT, and reductive radical-polar crossover of the carbon-centered radical that is formed to yield a carbanion which reacts with CO2. The successful implementation of this strategy represents a new dimension for MHAT catalysis, delivering a functional-group-tolerant hydrocarboxylation platform that provides complementary regioselectivity to existing photocatalytic approaches whilst avoiding precious metals and stoichiometric organometallics.",
+      "tags": [
+        "hydrocarboxylation",
+        "carbon dioxide",
+        "co2",
+        "radical",
+        "epr",
+        "yield",
+        "selectivity"
+      ],
+      "score": 88,
+      "url": "https://doi.org/10.26434/chemrxiv-2025-5qlx0",
+      "archive": false,
+      "pushed_date": "2026-11-27"
+    },
+    {
+      "id": "W3085022108",
+      "doi": "https://doi.org/10.1039/d0sc04091f",
+      "title": "Direct electrochemical defluorinative carboxylation of α-CF 3 alkenes with carbon dioxide",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "Chemical Science",
+      "journal_issn": [
+        "2041-6520",
+        "2041-6539"
+      ],
+      "impact_factor": "8.1",
+      "quartile": "JCR Q1",
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2020,
+      "publication_date": "2020-09-11",
+      "abstract": "An unprecedented γ-carboxylation of α-CF3 alkenes with CO2 is reported. This approach constitutes a rare example of using electrochemical methods to achieve regioselectivity complementary to conventional metal catalysis. Accordingly, using platinum plate as both a working cathode and a nonsacrificial anode in a user-friendly undivided cell under constant current conditions, the γ-carboxylation provides efficient access to vinylacetic acids bearing a gem-difluoroalkene moiety from a broad range of substrates. The synthetic utility is further demonstrated by gram-scale synthesis and elaboration to several value-added products. Cyclic voltammetry and density functional theory calculations were performed to provide mechanistic insights into the reaction.",
+      "methods_summary": "Cyclic voltammetry and density functional theory calculations were performed to provide mechanistic insights into the reaction. Accordingly, using platinum plate as both a working cathode and a nonsacrificial anode in a user-friendly undivided cell under constant current conditions, the γ-carboxylation provides efficient access to vinylacetic acids bearing a gem-difluoroalkene moiety from a broad range of substrates.",
+      "key_findings": "This approach constitutes a rare example of using electrochemical methods to achieve regioselectivity complementary to conventional metal catalysis.",
+      "tags": [
+        "carbon dioxide",
+        "co2",
+        "mechanistic",
+        "cyclic voltammetry",
+        "voltammetry",
+        "density functional theory",
+        "constant current"
+      ],
+      "score": 86,
+      "url": "https://doi.org/10.1039/d0sc04091f",
+      "archive": false,
+      "pushed_date": "2026-11-27"
+    },
+    {
+      "id": "W4399765241",
+      "doi": "https://doi.org/10.1021/acs.organomet.4c00218",
+      "title": "Nickel-Catalyzed Hydrocarboxylation of Terminal Unactivated Alkenes: Formation of Branched Carboxylic Acids and Competing Catalyst Deactivation from CO2 Reduction to CO",
+      "topic": "core",
+      "topic_label": "Organic CO₂ electrosynthesis",
+      "journal": "Organometallics",
+      "journal_issn": [
+        "0276-7333",
+        "1520-6041"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2024,
+      "publication_date": "2024-06-18",
+      "abstract": "The reductive coupling of CO2 and alkenes represents a compelling strategy for the synthesis of carboxylic acids. In this study, we show that Ni(OAc)2 and 6,6'-Me2bpy (dmbpy) catalyzes hydrocarboxylation of terminal unactivated alkenes to afford the branched 2-methyl-substituted carboxylic acids. The nickel/dmbpy speciation in solution is elucidated through electrochemical and UV-visible and NMR spectroscopic methods. A catalyst deactivation process is identified, involving competitive reduction of CO2 to CO resulting in formation of an inactive Ni-CO complex. The Ni catalyst may be reactivated by oxidative treatment of the Ni-CO complex to release CO; however, the results highlight an important complication that can arise in Ni-catalyzed reductive coupling reactions with CO2.",
+      "methods_summary": "The reductive coupling of CO2 and alkenes represents a compelling strategy for the synthesis of carboxylic acids. The nickel/dmbpy speciation in solution is elucidated through electrochemical and UV-visible and NMR spectroscopic methods.",
+      "key_findings": "In this study, we show that Ni(OAc)2 and 6,6'-Me2bpy (dmbpy) catalyzes hydrocarboxylation of terminal unactivated alkenes to afford the branched 2-methyl-substituted carboxylic acids.",
+      "tags": [
+        "hydrocarboxylation",
+        "co2",
+        "epr"
+      ],
+      "score": 79,
+      "url": "https://doi.org/10.1021/acs.organomet.4c00218",
+      "archive": false,
+      "pushed_date": "2026-11-27"
+    },
+    {
+      "id": "W7170186673",
+      "doi": "https://doi.org/10.1016/j.nxmate.2026.102864",
+      "title": "Next-generation carbon-negative composites: A paradigm shift in materials science through CO₂–derived carbon fiber synthesis",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "Next Materials",
+      "journal_issn": [
+        "2949-8228"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-07-23",
+      "abstract": "A critical strategy in mitigating climate change is the conversion of captured CO₂ into durable, high-value materials. This perspective focuses on an emerging carbon capture and utilization pathway: the electrochemical synthesis of high-performance carbon fibers. This technology offers a dual benefit by simultaneously sequestering a greenhouse gas and producing a superior lightweight material. However, as detailed in this work, the net carbon balance is highly dependent on the energy source and system boundaries; carbon-negative operation is only achieved when renewable electricity is used. A quantitative LCA framework is provided. It examines the key technologies involved, from point-source capture and direct air capture methods that supply the CO₂ feedstock, to molten salt electrochemical and tandem catalytic processes that convert gaseous CO₂ into solid carbon nanofibers and carbon nanotubes. This pathway represents a frontier in next-generation materials engineering, where the source molecule dictates a novel microstructure and enables strong sustainability credentials. The perspective details the core reaction mechanisms and analyzes the exceptional mechanical properties of the resulting carbon composites, which may contribute to advancements in lightweighting in the automotive and aerospace industries. Recent advances in CO₂ electroreduction have demonstrated tunable CNT synthesis via fluoride-assisted carbonate conversion at temperatures as low as 500°C, achieving Faradaic efficiencies up to 93.6% with CNT diameters as small as 18.7 nm, suggesting that electrochemical synthesis conditions can be optimized for specific nanomaterial morphologies. It further explores the integration of these materials into advanced manufacturing techniques such as 3D printing and automated fiber placement to improve production efficiency. Crucially, when powered by renewable energy, this approach offers a route to carbon-negative manufacturing by embedding atmospheric carbon into long-lived products. The perspective concludes by assessing current technological readiness, addressing challenges in energy consumption and scalability, and outlining the research and policy frameworks required to advance this technology toward industrial viability. Unlike prior reviews that focus either on capture or on conventional fiber manufacturing, the present work integrates both fields with critical analysis of trade-offs, literature bias, and end-of-life scenarios. This perspective provides the first quantitative cradle-to-grave LCA framework for CO₂-derived carbon fibers, including uncertainty ranges, sensitivity to electricity carbon intensity, and stage-wise contribution analysis, as well as a techno-economic assessment with CAPEX/OPEX estimates and a commercialization roadmap.",
+      "methods_summary": "This pathway represents a frontier in next-generation materials engineering, where the source molecule dictates a novel microstructure and enables strong sustainability credentials.",
+      "key_findings": "Recent advances in CO₂ electroreduction have demonstrated tunable CNT synthesis via fluoride-assisted carbonate conversion at temperatures as low as 500°C, achieving Faradaic efficiencies up to 93.6% with CNT diameters as small as 18.7 nm, suggesting that electrochemical synthesis conditions can be optimized for specific nanomaterial morphologies. A critical strategy in mitigating climate change is the conversion of captured CO₂ into durable, high-value materials.",
+      "tags": [
+        "electrochemical synthesis",
+        "co2",
+        "reaction mechanism",
+        "mechanism",
+        "epr",
+        "temperature"
+      ],
+      "score": 77,
+      "url": "https://doi.org/10.1016/j.nxmate.2026.102864",
+      "archive": false,
+      "pushed_date": "2026-11-27"
+    },
     {
       "id": "W4403572803",
       "doi": "https://doi.org/10.1021/acsorginorgau.4c00051",
@@ -35,7 +348,7 @@
       ],
       "score": 99,
       "url": "https://doi.org/10.1021/acsorginorgau.4c00051",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-26"
     },
     {
@@ -66,7 +379,7 @@
       ],
       "score": 99,
       "url": "https://doi.org/10.1016/j.greenca.2024.02.001",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-26"
     },
     {
@@ -99,7 +412,7 @@
       ],
       "score": 99,
       "url": "https://doi.org/10.3390/molecules28186704",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-26"
     },
     {
@@ -131,7 +444,7 @@
       ],
       "score": 99,
       "url": "https://doi.org/10.26434/chemrxiv-2023-bczdm",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-26"
     },
     {
@@ -164,7 +477,7 @@
       ],
       "score": 99,
       "url": "https://doi.org/10.1002/cssc.202300807",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-26"
     },
     {
@@ -196,7 +509,7 @@
       ],
       "score": 99,
       "url": "https://doi.org/10.1002/celc.202100329",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-26"
     },
     {
@@ -229,7 +542,7 @@
       ],
       "score": 99,
       "url": "https://doi.org/10.1016/j.ica.2021.120442",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-26"
     },
     {
@@ -261,7 +574,7 @@
       ],
       "score": 94,
       "url": "https://doi.org/10.1021/acssuschemeng.2c06046",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-26"
     },
     {
@@ -293,7 +606,7 @@
       ],
       "score": 85,
       "url": "https://doi.org/10.1039/d5sc06119a",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-26"
     },
     {
@@ -325,7 +638,7 @@
       ],
       "score": 84,
       "url": "https://doi.org/10.1007/s42114-025-01266-5",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-26"
     },
     {
