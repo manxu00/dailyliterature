@@ -1,13 +1,74 @@
 {
   "version": 4,
-  "brief_date": "2026 · 11 · 27",
-  "last_updated": "2026-11-27 18:03 CET",
+  "brief_date": "2026 · 11 · 28",
+  "last_updated": "2026-11-28 16:53 CET",
   "target_daily": 10,
-  "match_score": 91,
+  "match_score": 78,
   "search_state": {
-    "backfill_page": 5
+    "backfill_page": 7
   },
   "papers": [
+    {
+      "id": "W7240267477",
+      "doi": "https://doi.org/10.26599/nr.2026.94909348",
+      "title": "Tailoring mono/di-carboxylation selectivity in heterogeneous electrocatalytic C(sp 2)-H activation and CO 2 carboxylation: effect of LDH modulation and solvent intercalation",
+      "topic": "core",
+      "topic_label": "Organic CO₂ electrosynthesis",
+      "journal": "Nano Research",
+      "journal_issn": [
+        "1998-0000",
+        "1998-0124"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-11-21",
+      "abstract": "Renewable electricity-driven electrocarboxylation of C(sp2)–H bonds using CO2 as a feedstock offers a sustainable, atom-economic route to high-value carboxylic acids, while simultaneously advancing carbon circularity and mitigating greenhouse gas emissions. However, two long-standing critical challenges hinder its practical development: efficient C(sp2)–H activation under heterogeneous electrocatalytic conditions, and precise, switchable chemoselectivity between mono-/dicarboxylation. Herein, we report a layered double hydroxide (LDH)-based heterogeneous electrocatalytic system that enabled highly efficient C(sp2)–H activation and CO2 electrocarboxylation. We systematically demonstrated that the metal constituents and interlayer microenvironment of LDHs exerted a dominant influence on mono/di-carboxylation performance. Most notably, we achieved for the first time on-demand switching between mono- and dicarboxylation of phenyl substrates through a facile solvent intercalation strategy. Specifically, pristine CoFe-Mo LDH delivered excellent conversion and near-exclusive selectivity toward monocarboxylic acid products, while acetonitrile-intercalated CoFe-Mo LDH achieved remarkable conversion and outstanding selectivity for dicarboxylic acids. DFT calculations further revealed potential electronic and structural factors for the switchable chemoselectivity. This work provides a robust, versatile strategy for chemoselectivity control in electrocarboxylation reactions, and opens a promising new avenue for the green and sustainable synthesis of high-value carboxylic acids.",
+      "methods_summary": "DFT calculations further revealed potential electronic and structural factors for the switchable chemoselectivity.",
+      "key_findings": "Specifically, pristine CoFe-Mo LDH delivered excellent conversion and near-exclusive selectivity toward monocarboxylic acid products, while acetonitrile-intercalated CoFe-Mo LDH achieved remarkable conversion and outstanding selectivity for dicarboxylic acids. DFT calculations further revealed potential electronic and structural factors for the switchable chemoselectivity.",
+      "tags": [
+        "electrocarboxylation",
+        "co2",
+        "dft",
+        "solvent",
+        "selectivity"
+      ],
+      "score": 85,
+      "url": "https://doi.org/10.26599/nr.2026.94909348",
+      "archive": false,
+      "pushed_date": "2026-11-28"
+    },
+    {
+      "id": "W7204116590",
+      "doi": "https://doi.org/10.3389/fbioe.2026.1888370",
+      "title": "Innovative bioreactor designs for enhancing electron transfer, mass transfer, and product yields in microbial electrosynthesis",
+      "topic": "mechanism",
+      "topic_label": "Electroanalysis & mechanism",
+      "journal": "Frontiers in Bioengineering and Biotechnology",
+      "journal_issn": [
+        "2296-4185"
+      ],
+      "impact_factor": null,
+      "quartile": null,
+      "metric_year": "Current 2-year JIF / 2025 metrics snapshot",
+      "year": 2026,
+      "publication_date": "2026-08-24",
+      "abstract": "Microbial electrosynthesis (MES), a form of bioelectrochemical system (BES) is an emerging versatile platform for the electrobioconversion of CO2 and diverse array of organic wastes into fuels and chemicals. However, its practical deployment suffers from certain drawbacks, including poor extracellular electron transfer (EET), mass transfer, high internal resistance, and product inhibition. Engineered bioreactor designs can help overcome these limitations. Novel bioreactor designs, such as zero-gap flow reactors, plate reactors, gas diffusion cathodes, porous flow-through, packed-bed electrodes, rotating membrane-less bioreactors, and electrodialysis-integrated devices, have improved current density, electron flux, hydrogen retention, ionic transport, Coulombic efficiency (CE), substrate utilization, and in situ product recovery. This mini review presents recent advances in the design of microbial electrosynthesis bioreactors, with an emphasis on the engineering strategies that enhance electron and mass transport, product titers, and volumetric productivity. Future progress in MES will rely on integrated reactor architectures and separation strategies for carbon-neutral biomanufacturing.",
+      "methods_summary": "The available abstract does not describe the experimental or electroanalytical methods in enough detail.",
+      "key_findings": "Microbial electrosynthesis (MES), a form of bioelectrochemical system (BES) is an emerging versatile platform for the electrobioconversion of CO2 and diverse array of organic wastes into fuels and chemicals. Novel bioreactor designs, such as zero-gap flow reactors, plate reactors, gas diffusion cathodes, porous flow-through, packed-bed electrodes, rotating membrane-less bioreactors, and electrodialysis-integrated devices, have improved current density, electron flux, hydrogen retention, ionic transport, Coulombic efficiency (CE), substrate utilization, and in situ product recovery.",
+      "tags": [
+        "co2",
+        "electron transfer",
+        "in situ",
+        "current density",
+        "yield"
+      ],
+      "score": 71,
+      "url": "https://doi.org/10.3389/fbioe.2026.1888370",
+      "archive": false,
+      "pushed_date": "2026-11-28"
+    },
     {
       "id": "W7162585119",
       "doi": "https://doi.org/10.7907/5f9j-mn04",
@@ -35,7 +96,7 @@
       ],
       "score": 99,
       "url": "https://doi.org/10.7907/5f9j-mn04",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-27"
     },
     {
@@ -67,7 +128,7 @@
       ],
       "score": 99,
       "url": "https://doi.org/10.1021/acselectrochem.5c00078",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-27"
     },
     {
@@ -99,7 +160,7 @@
       ],
       "score": 99,
       "url": "https://doi.org/10.1016/j.crgsc.2023.100377",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-27"
     },
     {
@@ -129,7 +190,7 @@
       ],
       "score": 97,
       "url": "https://doi.org/10.1021/acs.organomet.3c00076",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-27"
     },
     {
@@ -161,7 +222,7 @@
       ],
       "score": 94,
       "url": "https://doi.org/10.3389/fchem.2021.783993",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-27"
     },
     {
@@ -193,7 +254,7 @@
       ],
       "score": 92,
       "url": "https://doi.org/10.1055/a-2012-5317",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-27"
     },
     {
@@ -225,7 +286,7 @@
       ],
       "score": 88,
       "url": "https://doi.org/10.26434/chemrxiv-2025-5qlx0",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-27"
     },
     {
@@ -258,7 +319,7 @@
       ],
       "score": 86,
       "url": "https://doi.org/10.1039/d0sc04091f",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-27"
     },
     {
@@ -287,7 +348,7 @@
       ],
       "score": 79,
       "url": "https://doi.org/10.1021/acs.organomet.4c00218",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-27"
     },
     {
@@ -318,7 +379,7 @@
       ],
       "score": 77,
       "url": "https://doi.org/10.1016/j.nxmate.2026.102864",
-      "archive": false,
+      "archive": true,
       "pushed_date": "2026-11-27"
     },
     {
